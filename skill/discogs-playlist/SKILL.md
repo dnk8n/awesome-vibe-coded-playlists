@@ -18,6 +18,7 @@ The value of this workflow is *trust*: every row is anchored to a real release p
 - **A Discogs personal access token** (required — the `/database/search` endpoint refuses unauthenticated calls, and the token raises the rate limit to 60 req/min). Ask the user for one if not provided ([discogs.com/settings/developers](https://www.discogs.com/settings/developers)).
 - **A YouTube Data API key** (needed for Phase 2 validation; cheap — see quota economics below).
 - Store both in files in your scratchpad (e.g. `.discogs_token`, `.yt_key`), not in the user's project or in committed files. When the project wraps, remind the user to rotate any token they pasted into chat.
+- **Credential flexibility (matters for maintenance sessions):** the YouTube scripts accept an OAuth access token wherever a key is expected (detected by its `ya29.` prefix, sent as a Bearer header) — so a single OAuth Playground token can drive validation, metadata reads *and* playlist writes for its ~1-hour life. And `maintain_playlist.py` falls back to **anonymous Discogs release reads** (25 req/min) when no Discogs token is present — the maintenance loop stays runnable after the build token is rotated. Only curation-phase *search* strictly needs a Discogs token.
 - **Pin down the brief**: theme, era span, picks per year (or total), *hard constraints* (must-hold, e.g. artist identity, genre) vs *bonuses* (nice-to-have, e.g. geography, gender), and where the output file goes. If the brief is ambiguous on something that changes the whole table (e.g. "when does the genre start?"), decide from research and state your definition in the document header rather than blocking.
 
 ## Phase 1 — Curate and verify on Discogs
@@ -37,7 +38,7 @@ Use `scripts/discogs.py` (rate-limited, backoff built in) for all API access. Ru
 - **Released date** — used for sorting; full dates only exist for digital-era releases, older ones sort by year.
 - Prefer the *original pressing* over reissues/remix-EPs unless the reissue is the point (then say so in Notes).
 
-**Track statuses honestly.** Use the Status column: `✅ Verified` (release fetched, credits copied), `✅ Verified · 🎧` (release verified but your choice of cut off an EP/LP deserves an ear-check), `🔎 Open` (slot unfilled — say what the leading candidates are). An honest open slot beats a padded row. Keep an "alternates bench" section of verified near-misses — users often swap picks, and this session's users did.
+**Track statuses honestly.** Use the Status column: `✅ Verified` (release fetched, credits copied), `✅ Verified · 🎧` (release verified but your choice of cut off an EP/LP deserves an ear-check), `🔎 Open` (slot unfilled — say what the leading candidates are). An honest open slot beats a padded row. Keep an "alternates bench" section of verified near-misses — users swap picks, and a bench swap costs seconds instead of a re-research. Bench entries carry hard links too: the Discogs release link **and** a YouTube link chosen by the same page-video ladder — near-misses stay listenable without being playlist members.
 
 ## Phase 2 — YouTube links from the Discogs pages
 
@@ -72,6 +73,8 @@ An API key cannot create playlists — `playlists.insert` requires OAuth user co
 
 The script is **idempotent**: it diffs the items file against the live playlist and only inserts/removes deltas, so re-runs are cheap (~5 units when nothing changed) and interrupted runs just re-run. It creates the playlist **private** by default — let the user opt into public. If the user can't/won't do OAuth, offer anonymous playlist URLs: `https://www.youtube.com/watch_videos?video_ids=ID1,ID2,...` (≤50 ids each) — instant, no login.
 
+**Adoption and the durable record:** users sometimes build the playlist by hand on YouTube from the items file — adopt it with `--playlist-id <ID>` instead of creating a duplicate; a `--dry-run` reporting `add: 0 | stale: 0` is the proof that live and file are identical. Once a live playlist exists (created or adopted), record `playlist_id` and `url` in the items file's `playlist` block: the script uses it as the sync target on later runs (resolution: `--playlist-id` > items-file metadata > local progress file), and it's the record that survives machines — the `*_progress.json` the script writes is local resume state and belongs in `.gitignore`.
+
 ## Phase 4 — Maintenance & the community-contribution loop
 
 The playlist is a living object; `scripts/maintain_playlist.py` (copy it next to the items file) drives the loop:
@@ -88,6 +91,7 @@ Header: the brief restated, your working definition of scope/genre boundaries, a
 
 - Never fabricate a row. If Discogs doesn't have it, it goes in the research queue (Bandcamp-only releases are real but un-anchorable — note them; a mix/compilation page sometimes carries the video and can serve as the anchor if you say so explicitly).
 - Report deviations, don't bury them: alternate cuts, non-page videos, reissues standing in for originals — all get a visible Note.
-- Generate the table with a script from structured data (picks + fetched credits), not by hand — 100+ hand-written rows will drift. Keep the data (`results.json`-style) so later edits regenerate cleanly.
+- Generate the table with a script from structured data (picks + fetched credits), not by hand — 100+ hand-written rows will drift. Keep the data (`results.json`-style) so later edits regenerate cleanly. When the document mixes a generated table with hand-written analysis, regenerate everything above a `<!-- hand-curated -->` marker and have the generator preserve what's below it.
+- When a canon is rebuilt or revised, picks that drop out get benched **with a written reason** (and their links) — explicit treatment, not silent disappearance. Curators care about their original picks; a reasoned bench also invites picks to argue their way back in.
 
 For detailed recipes, pitfalls, and worked examples (credit reconstruction, split-release handling, scan strategies, dead-video triage, quota math), read `references/workflow-notes.md` — do this before your first Discogs call on a big job.

@@ -41,6 +41,16 @@ maintain_playlist.py: `--rescrape` re-matches items rated <5 stars against
 their Discogs pages first (picking up newly contributed videos), then the
 sync applies the changes to the existing playlist.
 
+Adopting an existing playlist (e.g. one the user built by hand on YouTube):
+pass --playlist-id once, or record it in the items file as
+playlist.playlist_id. Resolution order: --playlist-id, then the items file's
+playlist.playlist_id, then the local *_progress.json. A --dry-run reporting
+"add: 0 | stale: 0" proves live and file are identical — adoption complete.
+Record playlist_id (and url) in the items file's playlist block as the
+durable record; the *_progress.json this script writes is local resume state
+(gitignore it). Adoption never rewrites the live playlist's title or
+description — change those via the playlists.update endpoint if needed.
+
 Quota: playlists.insert = 50 units, each insert/delete = 50 units, listing ~1
 per 50. A no-change re-run costs ~5 units; interrupted runs just re-run —
 the live diff resumes naturally.
@@ -189,7 +199,7 @@ def main():
 
     progress_path = items_path.with_name(items_path.stem + "_progress.json")
     prog = json.load(open(progress_path)) if progress_path.exists() else {}
-    playlist_id = args.playlist_id or prog.get("playlist_id")
+    playlist_id = args.playlist_id or meta.get("playlist_id") or prog.get("playlist_id")
 
     if not playlist_id:
         if args.dry_run:

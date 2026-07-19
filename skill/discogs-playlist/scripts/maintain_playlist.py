@@ -26,8 +26,14 @@ Usage:
   maintain_playlist.py report   [--items f.json] [--json report.json]
   maintain_playlist.py rescrape [--items f.json] [--all] [--dry-run]
 
-Tokens: Discogs from $DISCOGS_TOKEN / .discogs_token, YouTube key from
+Tokens: Discogs from $DISCOGS_TOKEN / .discogs_token, YouTube from
 $YOUTUBE_API_KEY / .yt_key (also checked in the home directory).
+- The Discogs token is OPTIONAL here: without one, release reads run
+  anonymously at slower pacing (the anonymous limit is 25 req/min) — search
+  is the auth-only Discogs endpoint, and these modes never search.
+- The YouTube slot accepts either an API key or an OAuth access token
+  (detected by its "ya29." prefix, sent as a Bearer header) — so the one
+  Playground token used for playlist creation covers this loop too.
 Quota: ~1 Discogs call + ~1 YouTube unit per examined item.
 """
 import argparse
@@ -47,7 +53,7 @@ TIER = {"exact": 5, "close": 4, "search": 4, "alternate": 3, "none": 1, "skipped
 RANK = {"exact": 50, "search": 40, "close": 39, "alternate": 30, "none": 10}
 
 
-def find_secret(env, fname, cli=None):
+def find_secret(env, fname, cli=None, required=True):
     if cli:
         return cli
     if os.environ.get(env):
@@ -55,18 +61,21 @@ def find_secret(env, fname, cli=None):
     for p in (pathlib.Path(fname), pathlib.Path.home() / fname):
         if p.exists():
             return p.read_text().strip()
-    sys.exit(f"Missing credential: set {env} or write {fname}")
+    if required:
+        sys.exit(f"Missing credential: set {env} or write {fname}")
+    return None
 
 
 def discogs_release(rid, token):
-    url = f"https://api.discogs.com/releases/{rid}?token={token}"
+    """token=None runs anonymously (works for /releases; paced for 25 req/min)."""
+    url = f"https://api.discogs.com/releases/{rid}" + (f"?token={token}" if token else "")
     delay = 5
     for _ in range(5):
         try:
             req = urllib.request.Request(url, headers={"User-Agent": "DiscogsPlaylistMaintain/1.0"})
             with urllib.request.urlopen(req, timeout=30) as r:
                 d = json.load(r)
-            time.sleep(1.3)  # stay under 60 req/min
+            time.sleep(1.3 if token else 2.6)  # 60 vs 25 req/min limits
             return d
         except urllib.error.HTTPError as e:
             if e.code == 404:
@@ -89,14 +98,20 @@ def yt_id(uri):
 
 
 def yt_meta(ids, key):
-    """id -> {public: bool, seconds: int, title: str} for existing videos."""
+    """id -> {public: bool, seconds: int, title: str} for existing videos.
+    `key` may be an API key or an OAuth access token (ya29... -> Bearer)."""
     out = {}
     ids = [i for i in dict.fromkeys(ids) if i]
+    oauth = key.startswith("ya29.")
     for i in range(0, len(ids), 50):
-        url = "https://www.googleapis.com/youtube/v3/videos?" + urllib.parse.urlencode({
-            "part": "status,contentDetails,snippet", "id": ",".join(ids[i:i + 50]),
-            "key": key, "maxResults": 50})
-        d = json.load(urllib.request.urlopen(url, timeout=30))
+        params = {"part": "status,contentDetails,snippet",
+                  "id": ",".join(ids[i:i + 50]), "maxResults": 50}
+        if not oauth:
+            params["key"] = key
+        url = "https://www.googleapis.com/youtube/v3/videos?" + urllib.parse.urlencode(params)
+        req = urllib.request.Request(
+            url, headers={"Authorization": f"Bearer {key}"} if oauth else {})
+        d = json.load(urllib.request.urlopen(req, timeout=30))
         for it in d.get("items", []):
             m = re.match(r"PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?", it["contentDetails"].get("duration", ""))
             secs = (int(m.group(1) or 0) * 3600 + int(m.group(2) or 0) * 60 + int(m.group(3) or 0)) if m else 0
@@ -197,7 +212,9 @@ def load(items_path):
 
 
 def cmd_report(args):
-    dtoken = find_secret("DISCOGS_TOKEN", ".discogs_token")
+    dtoken = find_secret("DISCOGS_TOKEN", ".discogs_token", required=False)
+    if not dtoken:
+        print("No Discogs token found — using anonymous release reads (slower pacing).")
     ykey = find_secret("YOUTUBE_API_KEY", ".yt_key")
     doc = load(args.items)
     report = []
@@ -251,7 +268,9 @@ def cmd_report(args):
 
 
 def cmd_rescrape(args):
-    dtoken = find_secret("DISCOGS_TOKEN", ".discogs_token")
+    dtoken = find_secret("DISCOGS_TOKEN", ".discogs_token", required=False)
+    if not dtoken:
+        print("No Discogs token found — using anonymous release reads (slower pacing).")
     ykey = find_secret("YOUTUBE_API_KEY", ".yt_key")
     doc = load(args.items)
     changed = 0

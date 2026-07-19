@@ -5,6 +5,9 @@ Discogs release pages routinely carry dead/private video embeds, so every id
 you plan to put in a playlist must pass through this before you trust it.
 
 Key resolution order: --key, $YOUTUBE_API_KEY, ./.yt_key, ~/.yt_key
+The credential may be a YouTube API key or an OAuth access token (detected by
+its "ya29." prefix, sent as a Bearer header) — one Playground token covers
+validation and playlist creation alike.
 
 Usage:
   yt_verify.py ID [ID ...]
@@ -70,11 +73,16 @@ def main():
             ordered.append(i)
 
     info = {}
+    oauth = key.startswith("ya29.")
     for i in range(0, len(ordered), 50):
-        url = "https://www.googleapis.com/youtube/v3/videos?" + urllib.parse.urlencode({
-            "part": "snippet,contentDetails,status", "id": ",".join(ordered[i:i + 50]),
-            "key": key, "maxResults": 50})
-        d = json.load(urllib.request.urlopen(url, timeout=30))
+        params = {"part": "snippet,contentDetails,status",
+                  "id": ",".join(ordered[i:i + 50]), "maxResults": 50}
+        if not oauth:
+            params["key"] = key
+        url = "https://www.googleapis.com/youtube/v3/videos?" + urllib.parse.urlencode(params)
+        req = urllib.request.Request(
+            url, headers={"Authorization": f"Bearer {key}"} if oauth else {})
+        d = json.load(urllib.request.urlopen(req, timeout=30))
         for it in d.get("items", []):
             blocked = (it["contentDetails"].get("regionRestriction", {}).get("blocked") or [])
             info[it["id"]] = {

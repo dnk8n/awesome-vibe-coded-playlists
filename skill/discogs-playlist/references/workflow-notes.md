@@ -20,6 +20,9 @@ sizeable job; skim the section headers on small ones.
 
 - **Auth is required for `/database/search`** — an unauthenticated helper will
   simply not work for search. Token also raises rate limit 25 → 60 req/min.
+- **`/releases/{id}` and `/masters/{id}` serve anonymous requests** (verified
+  empirically) at the 25 req/min anonymous limit — enough for maintenance-loop
+  reads after the build token has been rotated. Search is the auth-only wall.
 - Pace at ~1.3 s/request (≈46/min) and back off exponentially on 429/5xx. A
   120-pick job costs roughly 300–700 calls (leads + release fetches) ≈ 10–15
   min of API time; run long batches with `nohup ... &` and poll the log.
@@ -113,7 +116,9 @@ re-parse markdown. User feedback explicitly asked for this richness.
   "playlist": {
     "title": "ACID — A Black-Heritage Canon (1986–2026)",
     "description": "Three notable acid tracks per year ...",
-    "privacy": "private"
+    "privacy": "private",
+    "playlist_id": "PLNXi-Q1Sb-_E",
+    "url": "https://www.youtube.com/playlist?list=PLNXi-Q1Sb-_E"
   },
   "source_of_truth": "discogs.com release pages (videos[]); deviations noted per item",
   "order": "chronological by Discogs release date; year-only dates sort by year",
@@ -167,6 +172,11 @@ Field rules:
   left OUT of this file, since it feeds the playlist).
 - `release_label` is the label + catalog number as displayed on the doc's link
   text (free-form string; don't fragile-split it).
+- `playlist.playlist_id` / `playlist.url`: recorded once the live playlist
+  exists (created by the script or adopted by hand). `create_playlist.py`
+  uses `playlist_id` as its sync target when `--playlist-id` isn't passed;
+  the metadata is the durable record, while the `*_progress.json` the script
+  writes is local resume state (gitignore it).
 - Consumers must stay tolerant: the bundled `create_playlist.py` and
   `yt_verify.py` also accept bare id lists and legacy key spellings
   (`videoId`, `id`, `url`), but always *write* the v1 schema.
@@ -202,6 +212,11 @@ typo). When tokens fail, eyeball the page's video list before declaring rung 3.
   "full-EP stream (includes the cut)".
 - **Expect dead embeds.** ~4% of page videos were dead/private in a real run.
   Validate everything with `yt_verify.py`; on failure walk back up the ladder.
+- **Zero-credential liveness check:** `youtube.com/oembed?url=https://youtu.be/{id}`
+  — HTTP 200 means live and embeddable, 401 means live but embed-disabled
+  (still fine as a watch link), 400/404 means dead. Handy for auditing
+  document links (e.g. bench links) when no API credential is at hand;
+  48 checks in a real run flagged zero false positives.
 - If open YouTube search is needed (rung 4), scrape the public results page
   (`youtube.com/results?search_query=...`, parse `ytInitialData`, consent
   cookie `SOCS=CAI`) — **never** `search.list` (see quota). Score candidates:
@@ -234,6 +249,24 @@ mid-run anyway, the bundled script saves progress and resumes next day.
   URL) gives instant anonymous playlists — offer when OAuth is friction.
 - Token hygiene: keys/tokens pasted into chat should be rotated after the
   project; keep them in scratchpad dot-files, never in project files or git.
+  Playground access tokens self-expire in ~1 h — verify one immediately on
+  receipt (`oauth2/v3/tokeninfo?access_token=...`) before building work on it;
+  a token pasted even slightly late is often already dead.
+- **One OAuth token covers everything YouTube-side:** the bundled scripts
+  detect an access token (`ya29.` prefix) wherever a key is expected and send
+  it as a Bearer header — validation, metadata reads, playlist writes, all on
+  the same short-lived credential. Do the YouTube work first in a session; the
+  clock is ~1 h.
+- **Adopting a hand-made playlist:** if the user built the playlist on YouTube
+  themselves from the items file, don't create a duplicate — sync with
+  `--playlist-id <ID>` once, and record `playlist_id`/`url` in the items
+  file's `playlist` block (the script reads it thereafter). A `--dry-run`
+  showing `add: 0 | stale: 0` proves live and file are identical: adoption
+  done, zero mutations, ~5 quota units.
+- Adoption never touches the live title/description. To change those, call
+  `playlists.update` (PUT, `part=snippet`) — the body must include `title`
+  (required) and `description` (omitting it CLEARS the live description);
+  leaving `status` out preserves privacy.
 
 ### 7a. Making the Discogs contributions (browser only — the API cannot)
 
@@ -290,7 +323,18 @@ Discogs pages improve over time (and rot: ~4% dead embeds per run). The loop:
   from the page, reissue standing in for an original, definition stretches
   ("acid-adjacent — the notes say so").
 - An **alternates bench** of verified near-misses: users swap picks, and a
-  bench swap costs seconds instead of a re-research.
+  bench swap costs seconds instead of a re-research. Bench entries carry
+  hard links too — the Discogs release plus a YouTube link chosen by the
+  same page-video ladder — so near-misses stay listenable without joining
+  the playlist (a real user asked for exactly this).
+- **Bench-with-reasons on revisions:** when a rebuild drops previously
+  published picks, list every dropped pick with a written why-not and its
+  links — explicit treatment, not silent disappearance. It honors the
+  curator's original choices and lets strong cases argue their way back in.
+- **Generated table + hand-written analysis in one document:** regenerate
+  everything above a `<!-- hand-curated -->` marker comment; the generator
+  preserves what's below. Keeps "never hand-edit the table" compatible with
+  curated prose sections (provenance, accounting, reasons).
 - A **research queue**: ear-checks pending, Bandcamp-only leads, the current
   year marked in-progress.
 - Method note in the doc footer (what was verified, how, when) — it makes the
