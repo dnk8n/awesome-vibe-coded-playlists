@@ -15,9 +15,15 @@ locked by brief · [V2] adopted from the pre-skill v2 on authority attestation (
 Sound Top 100 / Brewster's Mixmag 20 / Humphries' own compilations) — see the
 [deviation analysis](deviation-analysis.md) · 🎧 pick needs ear-check
 
-**Central-track note:** the brief locks *Climax 1*; the pre-skill v2 argued the crown
-belongs to Intense – *Let The Rain Come Down* (Top 100 #1, Humphries' own mix, Movin'
-Records). Both hold their year-slots; the designation awaits the curator's call.
+**The center of this canon is not a record — it is Tony Humphries.** The Zanzibar
+resident (1982–early '90s), the KISS-FM Mastermix, the mix credits threaded through the
+decades: his own *Master Mix Medley* (1982), the Joubert Singers (1985), *Ma Foom Bey*
+(1986), Intense (1990), *Feel The Light* (1996), *Hostile Takeover* on his own TR Records
+(2013), his Nina Simone dub (2019), and the 2026 *Running Back Mastermix* cut from his
+own DAT archive. The [TH] tag marks his hand; the two records earlier drafts crowned —
+*Climax 1* (the brief's anchor) and *Let The Rain Come Down* (the scene's own Top 100 #1,
+mixed by Humphries) — hold their years as era-peaks in his orbit. (Curatorial decision:
+Dean Kayton, 2026-07-19.)
 
 | Release Date | Artist | Track | Link | YouTube | Notes | Status/Progress |
 |---|---|---|---|---|---|---|

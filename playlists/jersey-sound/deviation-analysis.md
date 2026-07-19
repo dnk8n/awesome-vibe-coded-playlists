@@ -83,8 +83,12 @@ v2 — with authority backing — moved the crown to **Intense "Let The Rain Com
 Pour Mix)"** (Movin' MR008, Feb 1990): Top 100 **#1**, "Mixed By – Tony Humphries" on the
 pressing, Abigail Adams as executive producer — the scene's institutions in one artifact.
 Both records hold their year-slots in v3 either way; the "central" designation is
-editorial. **v3 currently keeps the brief's anchor (Climax 1) pending the curator's
-decision** — v2's argument is documented above and frankly strong.
+editorial. **Resolved by the curator (2026-07-19): neither.** The canon centers the
+*artist* — Tony Humphries himself — which dissolves the contention: v2's case for Intense
+was always really a case about Humphries' hand on the record, and the brief's case for
+Climax 1 was about his club's lineage. Centering the man makes both era-peaks in one
+orbit, alongside his own 1982 *Master Mix Medley*, his 1996/2013/2019 productions, and
+the 2026 archive release that bookends the document.
 
 ## 5 · Deliberate non-adoptions
 
