@@ -1,0 +1,41 @@
+{
+ "skill_name": "discogs-playlist",
+ "evals": [
+  {
+   "id": 0,
+   "name": "detroit-mini-canon",
+   "prompt": "I want a small research-grade playlist doc: 2 notable Detroit techno tracks per year for 1991-1993 (6 total), and every track must have core involvement from a Black Detroit artist. Use discogs.com as the source of truth. Deliver a markdown table sorted by release date with: Artist and Track EXACTLY as credited on the Discogs release page, a hard link to that release page, a YouTube link taken from the videos embedded on that same Discogs page (validated as live), notes on why each track is notable, and a status column. Also produce a playlist_items.json with the YouTube video ids in chronological order. My Discogs token is in TOKENS_DIR/.discogs_token and my YouTube API key is in TOKENS_DIR/.yt_key. Write outputs to OUTPUT_DIR.",
+   "expected_output": "detroit-mini.md (or similar) with 6 verified rows + playlist_items.json with validated video ids",
+   "files": [],
+   "assertions": [
+    "Markdown table has 6 rows with Discogs release links",
+    "Every Discogs link resolves to a real release via the API",
+    "Artist cell matches the release-page credit exactly (join phrases included)",
+    "Track cell matches a title on the release's tracklist verbatim",
+    "Every YouTube pick comes from the release page's videos, or the deviation/skip is noted in the row",
+    "playlist_items.json exists and every video id is live and public",
+    "Rows are sorted ascending by release date",
+    "All six tracks credibly involve Black Detroit artists (grader judgment)"
+   ]
+  },
+  {
+   "id": 1,
+   "name": "dance-mania-label-retro",
+   "prompt": "Make me a mini label retrospective: 5 essential Dance Mania (the Chicago label) releases from 1994-1996, max one per artist. Source of truth is discogs.com \u2014 I want a markdown table sorted by release date: artist + track exactly as credited on the Discogs release page, hard Discogs release link, a YouTube link picked from the videos on that Discogs release page (skip an entry's video if the page has none, note it), why-it-matters notes, and per-row status. Plus a playlist_items.json of the validated YouTube ids in order. Discogs token: TOKENS_DIR/.discogs_token; YouTube key: TOKENS_DIR/.yt_key. Put everything in OUTPUT_DIR.",
+   "expected_output": "5-row verified table + playlist_items.json; YouTube picks traceable to Discogs page videos or honestly skipped",
+   "files": [],
+   "assertions": [
+    "Markdown table has 5 rows with Discogs release links",
+    "Every Discogs link resolves to a real release via the API",
+    "Artist cell matches the release-page credit exactly (join phrases included)",
+    "Track cell matches a title on the release's tracklist verbatim",
+    "Every YouTube pick comes from the release page's videos, or the deviation/skip is noted in the row",
+    "playlist_items.json exists and every video id is live and public",
+    "Rows are sorted ascending by release date",
+    "Every release is on the required label (Dance Mania)",
+    "Every release year within 1994-1996",
+    "Max one release per artist (all artists distinct)"
+   ]
+  }
+ ]
+}

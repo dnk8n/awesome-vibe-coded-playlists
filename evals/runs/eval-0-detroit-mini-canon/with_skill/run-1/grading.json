@@ -1,0 +1,50 @@
+{
+ "expectations": [
+  {
+   "text": "Markdown table has 6 rows with Discogs release links",
+   "passed": true,
+   "evidence": "found 6 rows in detroit-mini-canon.md"
+  },
+  {
+   "text": "Every Discogs link resolves to a real release via the API",
+   "passed": true,
+   "evidence": "6/6 resolved"
+  },
+  {
+   "text": "Artist cell matches the release-page credit exactly (join phrases included)",
+   "passed": true,
+   "evidence": "all match"
+  },
+  {
+   "text": "Track cell matches a title on the release's tracklist verbatim",
+   "passed": true,
+   "evidence": "all match"
+  },
+  {
+   "text": "Every YouTube pick comes from the release page's videos, or the deviation/skip is noted in the row",
+   "passed": true,
+   "evidence": "all traceable or noted"
+  },
+  {
+   "text": "playlist_items.json exists and every video id is live and public",
+   "passed": true,
+   "evidence": "6 ids, dead/non-public: none"
+  },
+  {
+   "text": "Rows are sorted ascending by release date",
+   "passed": true,
+   "evidence": "years: [1991, 1991, 1992, 1992, 1993, 1993]"
+  },
+  {
+   "text": "All six tracks credibly involve Black Detroit artists (grader judgment)",
+   "passed": true,
+   "evidence": "cited web sources for X-101/69/Drexciya identities"
+  }
+ ],
+ "summary": {
+  "passed": 8,
+  "failed": 0,
+  "total": 8,
+  "pass_rate": 1.0
+ }
+}

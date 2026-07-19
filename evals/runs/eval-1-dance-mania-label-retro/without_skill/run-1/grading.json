@@ -1,0 +1,60 @@
+{
+ "expectations": [
+  {
+   "text": "Markdown table has 5 rows with Discogs release links",
+   "passed": true,
+   "evidence": "found 5 rows in dance-mania-retrospective.md"
+  },
+  {
+   "text": "Every Discogs link resolves to a real release via the API",
+   "passed": true,
+   "evidence": "5/5 resolved"
+  },
+  {
+   "text": "Artist cell matches the release-page credit exactly (join phrases included)",
+   "passed": true,
+   "evidence": "all match"
+  },
+  {
+   "text": "Track cell matches a title on the release's tracklist verbatim",
+   "passed": true,
+   "evidence": "all match"
+  },
+  {
+   "text": "Every YouTube pick comes from the release page's videos, or the deviation/skip is noted in the row",
+   "passed": true,
+   "evidence": "all traceable or noted"
+  },
+  {
+   "text": "playlist_items.json exists and every video id is live and public",
+   "passed": true,
+   "evidence": "5 ids, dead/non-public: none"
+  },
+  {
+   "text": "Rows are sorted ascending by release date",
+   "passed": true,
+   "evidence": "years: [1994, 1994, 1995, 1995, 1996]"
+  },
+  {
+   "text": "Every release is on the required label (Dance Mania)",
+   "passed": true,
+   "evidence": "all on label"
+  },
+  {
+   "text": "Every release year within 1994-1996",
+   "passed": true,
+   "evidence": "all in range"
+  },
+  {
+   "text": "Max one release per artist (all artists distinct)",
+   "passed": true,
+   "evidence": "['d j deeon', 'd j funk 1', 'parris mitchell', 'paul johnson', 'wax master and dj rated x']"
+  }
+ ],
+ "summary": {
+  "passed": 10,
+  "failed": 0,
+  "total": 10,
+  "pass_rate": 1.0
+ }
+}

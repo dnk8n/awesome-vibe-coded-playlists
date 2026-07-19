@@ -1,0 +1,118 @@
+{
+  "playlist": "Detroit Techno Mini-Canon 1991-1993",
+  "description": "Two notable Detroit techno tracks per year, 1991-1993, each with core involvement from a Black Detroit artist. Credits and YouTube links sourced from Discogs release pages; videos validated live via YouTube Data API v3.",
+  "generated": "2026-07-17",
+  "order": "chronological by Discogs release date (year; within-year ties broken by Discogs release ID)",
+  "items": [
+    {
+      "position": 1,
+      "video_id": "rq6ZcR5qgaY",
+      "youtube_url": "https://www.youtube.com/watch?v=rq6ZcR5qgaY",
+      "artist": "Underground Resistance",
+      "track": "Nation 2 Nation",
+      "release_date": "1991",
+      "discogs_release_id": 2113,
+      "discogs_url": "https://www.discogs.com/release/2113-Underground-Resistance-Nation-2-Nation",
+      "validation": {
+        "checked": "2026-07-17",
+        "upload_status": "processed",
+        "privacy_status": "public",
+        "embeddable": true,
+        "duration": "PT5M13S"
+      }
+    },
+    {
+      "position": 2,
+      "video_id": "VtqJdISUEtE",
+      "youtube_url": "https://www.youtube.com/watch?v=VtqJdISUEtE",
+      "artist": "X-101",
+      "track": "Sonic Destroyer",
+      "release_date": "1991-09-01",
+      "discogs_release_id": 23455,
+      "discogs_url": "https://www.discogs.com/release/23455-X-101-X-101",
+      "validation": {
+        "checked": "2026-07-17",
+        "upload_status": "processed",
+        "privacy_status": "public",
+        "embeddable": true,
+        "duration": "PT5M1S"
+      }
+    },
+    {
+      "position": 3,
+      "video_id": "bE_GYsbzVXw",
+      "youtube_url": "https://www.youtube.com/watch?v=bE_GYsbzVXw",
+      "artist": "Underground Resistance",
+      "track": "Jupiter Jazz",
+      "release_date": "1992",
+      "discogs_release_id": 2123,
+      "discogs_url": "https://www.discogs.com/release/2123-Underground-Resistance-World-2-World",
+      "validation": {
+        "checked": "2026-07-17",
+        "upload_status": "processed",
+        "privacy_status": "public",
+        "embeddable": true,
+        "duration": "PT4M30S"
+      }
+    },
+    {
+      "position": 4,
+      "video_id": "BWrSpGzbWNc",
+      "youtube_url": "https://www.youtube.com/watch?v=BWrSpGzbWNc",
+      "artist": "Drexciya",
+      "track": "Sea Quake",
+      "release_date": "1992",
+      "discogs_release_id": 12769,
+      "discogs_url": "https://www.discogs.com/release/12769-Drexciya-Deep-Sea-Dweller",
+      "validation": {
+        "checked": "2026-07-17",
+        "upload_status": "processed",
+        "privacy_status": "public",
+        "embeddable": true,
+        "duration": "PT4M34S"
+      }
+    },
+    {
+      "position": 5,
+      "video_id": "355tosXrZBg",
+      "youtube_url": "https://www.youtube.com/watch?v=355tosXrZBg",
+      "artist": "Galaxy 2 Galaxy",
+      "track": "Hi-Tech Jazz (The Science)",
+      "release_date": "1993",
+      "discogs_release_id": 4276,
+      "discogs_url": "https://www.discogs.com/release/4276-Galaxy-2-Galaxy-Galaxy-2-Galaxy",
+      "validation": {
+        "checked": "2026-07-17",
+        "upload_status": "processed",
+        "privacy_status": "public",
+        "embeddable": true,
+        "duration": "PT8M8S"
+      }
+    },
+    {
+      "position": 6,
+      "video_id": "MkZ3gPWYxc8",
+      "youtube_url": "https://www.youtube.com/watch?v=MkZ3gPWYxc8",
+      "artist": "Jeff Mills",
+      "track": "Phase 4",
+      "release_date": "1993",
+      "discogs_release_id": 17518,
+      "discogs_url": "https://www.discogs.com/release/17518-Jeff-Mills-Waveform-Transmission-Vol-1",
+      "validation": {
+        "checked": "2026-07-17",
+        "upload_status": "processed",
+        "privacy_status": "public",
+        "embeddable": true,
+        "duration": "PT4M48S"
+      }
+    }
+  ],
+  "video_ids_chronological": [
+    "rq6ZcR5qgaY",
+    "VtqJdISUEtE",
+    "bE_GYsbzVXw",
+    "BWrSpGzbWNc",
+    "355tosXrZBg",
+    "MkZ3gPWYxc8"
+  ]
+}

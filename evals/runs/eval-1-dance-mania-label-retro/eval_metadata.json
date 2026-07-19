@@ -1,0 +1,17 @@
+{
+ "eval_id": 1,
+ "eval_name": "dance-mania-label-retro",
+ "prompt": "5 essential Dance Mania releases 1994-1996, max one per artist; Discogs-verified table + validated playlist_items.json",
+ "assertions": [
+  "Markdown table has 5 rows with Discogs release links",
+  "Every Discogs link resolves to a real release via the API",
+  "Artist cell matches the release-page credit exactly (join phrases included)",
+  "Track cell matches a title on the release's tracklist verbatim",
+  "Every YouTube pick comes from the release page's videos, or the deviation/skip is noted in the row",
+  "playlist_items.json exists and every video id is live and public",
+  "Rows are sorted ascending by release date",
+  "Every release is on the required label (Dance Mania)",
+  "Every release year within 1994-1996",
+  "Max one release per artist (all artists distinct)"
+ ]
+}

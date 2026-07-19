@@ -1,0 +1,25 @@
+{
+  "reviews": [
+    {
+      "run_id": "eval-0-detroit-mini-canon-with_skill-run-1",
+      "feedback": "LGTM",
+      "timestamp": "2026-07-17T12:35:50.651Z"
+    },
+    {
+      "run_id": "eval-0-detroit-mini-canon-without_skill-run-1",
+      "feedback": "LGTM. I prefer this richer json format, more options going forward for scripting.",
+      "timestamp": "2026-07-17T12:35:50.651Z"
+    },
+    {
+      "run_id": "eval-1-dance-mania-label-retro-without_skill-run-1",
+      "feedback": "LGTM. I prefer this richer json format, more options going forward for scripting. Try merge the keys / schema used for the playlist json file to be most rich for ongoing scripting.",
+      "timestamp": "2026-07-17T12:35:50.651Z"
+    },
+    {
+      "run_id": "eval-1-dance-mania-label-retro-with_skill-run-1",
+      "feedback": "LGTM",
+      "timestamp": "2026-07-17T12:35:50.651Z"
+    }
+  ],
+  "status": "in_progress"
+}

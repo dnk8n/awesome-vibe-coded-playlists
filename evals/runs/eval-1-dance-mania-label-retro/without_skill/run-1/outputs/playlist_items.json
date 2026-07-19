@@ -1,0 +1,74 @@
+{
+  "playlist": "Dance Mania 1994-1996: Mini Label Retrospective",
+  "source_of_truth": "discogs.com (label 314, Dance Mania)",
+  "validated_at": "2026-07-17",
+  "validation": "YouTube Data API v3 videos.list (status + contentDetails): all items public and embeddable",
+  "note": "No YouTube playlist created (no OAuth). IDs are in table/playback order.",
+  "items": [
+    {
+      "position": 1,
+      "videoId": "4YzbtBRk4cI",
+      "url": "https://www.youtube.com/watch?v=4YzbtBRk4cI",
+      "artist": "D.J. Deeon*",
+      "track": "House-O-Matic",
+      "release": "Funk City",
+      "catno": "DM 067",
+      "year": 1994,
+      "discogs_release_id": 46380,
+      "discogs_url": "https://www.discogs.com/release/46380-DJ-Deeon-Funk-City",
+      "status": "public, embeddable, no region restrictions"
+    },
+    {
+      "position": 2,
+      "videoId": "xHPGne-uSms",
+      "url": "https://www.youtube.com/watch?v=xHPGne-uSms",
+      "artist": "D.J. Funk #1*",
+      "track": "Work That Body",
+      "release": "Street Traxx II",
+      "catno": "DM 070",
+      "year": 1994,
+      "discogs_release_id": 1642,
+      "discogs_url": "https://www.discogs.com/release/1642-DJ-Funk-1-Street-Traxx-II",
+      "status": "public, embeddable, no region restrictions"
+    },
+    {
+      "position": 3,
+      "videoId": "AgbT9jvhAq8",
+      "url": "https://www.youtube.com/watch?v=AgbT9jvhAq8",
+      "artist": "Parris Mitchell",
+      "track": "All Night Long (Featuring - Reggie Hall)",
+      "release": "Project",
+      "catno": "DM 113",
+      "year": 1995,
+      "discogs_release_id": 228004,
+      "discogs_url": "https://www.discogs.com/release/228004-Parris-Mitchell-Project",
+      "status": "public, embeddable, no region restrictions (page's first-listed video for this track is deleted; this is the page's other upload)"
+    },
+    {
+      "position": 4,
+      "videoId": "718DLvoHLFk",
+      "url": "https://www.youtube.com/watch?v=718DLvoHLFk",
+      "artist": "Paul Johnson",
+      "track": "Don't Stop Movin That Ass",
+      "release": "11 P.M. Music / 2 A.M. Music",
+      "catno": "DM 124",
+      "year": 1995,
+      "discogs_release_id": 1649,
+      "discogs_url": "https://www.discogs.com/release/1649-Paul-Johnson-11-PM-Music-2-AM-Music",
+      "status": "public, embeddable, no region restrictions"
+    },
+    {
+      "position": 5,
+      "videoId": "I9P0apUCjt8",
+      "url": "https://www.youtube.com/watch?v=I9P0apUCjt8",
+      "artist": "Wax Master* & DJ Rated-X",
+      "track": "Foot Work",
+      "release": "Footwork",
+      "catno": "DM 153",
+      "year": 1996,
+      "discogs_release_id": 35017,
+      "discogs_url": "https://www.discogs.com/release/35017-Wax-Master-DJ-Rated-X-Footwork",
+      "status": "public, embeddable, region-restricted to 123 allowed countries (US/GB/DE/ZA included)"
+    }
+  ]
+}

@@ -1,0 +1,316 @@
+{
+  "metadata": {
+    "skill_name": "discogs-playlist",
+    "skill_path": "<path/to/skill>",
+    "executor_model": "<model-name>",
+    "analyzer_model": "<model-name>",
+    "timestamp": "2026-07-17T11:42:31Z",
+    "evals_run": [
+      0,
+      1
+    ],
+    "runs_per_configuration": 3
+  },
+  "runs": [
+    {
+      "eval_id": 0,
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 8,
+        "failed": 0,
+        "total": 8,
+        "time_seconds": 4765.6,
+        "tokens": 82875,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Markdown table has 6 rows with Discogs release links",
+          "passed": true,
+          "evidence": "found 6 rows in detroit-mini-canon.md"
+        },
+        {
+          "text": "Every Discogs link resolves to a real release via the API",
+          "passed": true,
+          "evidence": "6/6 resolved"
+        },
+        {
+          "text": "Artist cell matches the release-page credit exactly (join phrases included)",
+          "passed": true,
+          "evidence": "all match"
+        },
+        {
+          "text": "Track cell matches a title on the release's tracklist verbatim",
+          "passed": true,
+          "evidence": "all match"
+        },
+        {
+          "text": "Every YouTube pick comes from the release page's videos, or the deviation/skip is noted in the row",
+          "passed": true,
+          "evidence": "all traceable or noted"
+        },
+        {
+          "text": "playlist_items.json exists and every video id is live and public",
+          "passed": true,
+          "evidence": "6 ids, dead/non-public: none"
+        },
+        {
+          "text": "Rows are sorted ascending by release date",
+          "passed": true,
+          "evidence": "years: [1991, 1991, 1992, 1992, 1993, 1993]"
+        },
+        {
+          "text": "All six tracks credibly involve Black Detroit artists (grader judgment)",
+          "passed": true,
+          "evidence": "cited web sources for X-101/69/Drexciya identities"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 1,
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 10,
+        "failed": 0,
+        "total": 10,
+        "time_seconds": 4679.2,
+        "tokens": 80069,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Markdown table has 5 rows with Discogs release links",
+          "passed": true,
+          "evidence": "found 5 rows in dance-mania-94-96.md"
+        },
+        {
+          "text": "Every Discogs link resolves to a real release via the API",
+          "passed": true,
+          "evidence": "5/5 resolved"
+        },
+        {
+          "text": "Artist cell matches the release-page credit exactly (join phrases included)",
+          "passed": true,
+          "evidence": "all match"
+        },
+        {
+          "text": "Track cell matches a title on the release's tracklist verbatim",
+          "passed": true,
+          "evidence": "all match"
+        },
+        {
+          "text": "Every YouTube pick comes from the release page's videos, or the deviation/skip is noted in the row",
+          "passed": true,
+          "evidence": "all traceable or noted"
+        },
+        {
+          "text": "playlist_items.json exists and every video id is live and public",
+          "passed": true,
+          "evidence": "5 ids, dead/non-public: none"
+        },
+        {
+          "text": "Rows are sorted ascending by release date",
+          "passed": true,
+          "evidence": "years: [1994, 1994, 1994, 1995, 1996]"
+        },
+        {
+          "text": "Every release is on the required label (Dance Mania)",
+          "passed": true,
+          "evidence": "all on label"
+        },
+        {
+          "text": "Every release year within 1994-1996",
+          "passed": true,
+          "evidence": "all in range"
+        },
+        {
+          "text": "Max one release per artist (all artists distinct)",
+          "passed": true,
+          "evidence": "['d j deeon', 'paul johnson', 'd j funk 1', 'parris mitchell', 'd j slugo']"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 0,
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 8,
+        "failed": 0,
+        "total": 8,
+        "time_seconds": 0.0,
+        "tokens": 0,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Markdown table has 6 rows with Discogs release links",
+          "passed": true,
+          "evidence": "found 6 rows in detroit-mini-canon.md"
+        },
+        {
+          "text": "Every Discogs link resolves to a real release via the API",
+          "passed": true,
+          "evidence": "6/6 resolved"
+        },
+        {
+          "text": "Artist cell matches the release-page credit exactly (join phrases included)",
+          "passed": true,
+          "evidence": "all match"
+        },
+        {
+          "text": "Track cell matches a title on the release's tracklist verbatim",
+          "passed": true,
+          "evidence": "all match"
+        },
+        {
+          "text": "Every YouTube pick comes from the release page's videos, or the deviation/skip is noted in the row",
+          "passed": true,
+          "evidence": "all traceable or noted"
+        },
+        {
+          "text": "playlist_items.json exists and every video id is live and public",
+          "passed": true,
+          "evidence": "6 ids, dead/non-public: none"
+        },
+        {
+          "text": "Rows are sorted ascending by release date",
+          "passed": true,
+          "evidence": "years: [1991, 1991, 1992, 1992, 1993, 1993]"
+        },
+        {
+          "text": "All six tracks credibly involve Black Detroit artists (grader judgment)",
+          "passed": true,
+          "evidence": "picks are UR/X-101/Drexciya/G2G/Mills \u2014 all verifiably Black Detroit"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 1,
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 10,
+        "failed": 0,
+        "total": 10,
+        "time_seconds": 4515.9,
+        "tokens": 57711,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Markdown table has 5 rows with Discogs release links",
+          "passed": true,
+          "evidence": "found 5 rows in dance-mania-retrospective.md"
+        },
+        {
+          "text": "Every Discogs link resolves to a real release via the API",
+          "passed": true,
+          "evidence": "5/5 resolved"
+        },
+        {
+          "text": "Artist cell matches the release-page credit exactly (join phrases included)",
+          "passed": true,
+          "evidence": "all match"
+        },
+        {
+          "text": "Track cell matches a title on the release's tracklist verbatim",
+          "passed": true,
+          "evidence": "all match"
+        },
+        {
+          "text": "Every YouTube pick comes from the release page's videos, or the deviation/skip is noted in the row",
+          "passed": true,
+          "evidence": "all traceable or noted"
+        },
+        {
+          "text": "playlist_items.json exists and every video id is live and public",
+          "passed": true,
+          "evidence": "5 ids, dead/non-public: none"
+        },
+        {
+          "text": "Rows are sorted ascending by release date",
+          "passed": true,
+          "evidence": "years: [1994, 1994, 1995, 1995, 1996]"
+        },
+        {
+          "text": "Every release is on the required label (Dance Mania)",
+          "passed": true,
+          "evidence": "all on label"
+        },
+        {
+          "text": "Every release year within 1994-1996",
+          "passed": true,
+          "evidence": "all in range"
+        },
+        {
+          "text": "Max one release per artist (all artists distinct)",
+          "passed": true,
+          "evidence": "['d j deeon', 'd j funk 1', 'parris mitchell', 'paul johnson', 'wax master and dj rated x']"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "run_summary": {
+    "with_skill": {
+      "pass_rate": {
+        "mean": 1.0,
+        "stddev": 0.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "time_seconds": {
+        "mean": 4722.4,
+        "stddev": 61.094,
+        "min": 4679.2,
+        "max": 4765.6
+      },
+      "tokens": {
+        "mean": 81472.0,
+        "stddev": 1984.1416,
+        "min": 80069,
+        "max": 82875
+      }
+    },
+    "without_skill": {
+      "pass_rate": {
+        "mean": 1.0,
+        "stddev": 0.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "time_seconds": {
+        "mean": 2257.95,
+        "stddev": 3193.2235,
+        "min": 0.0,
+        "max": 4515.9
+      },
+      "tokens": {
+        "mean": 28855.5,
+        "stddev": 40807.8394,
+        "min": 0,
+        "max": 57711
+      }
+    },
+    "delta": {
+      "pass_rate": "+0.00",
+      "time_seconds": "+2464.4",
+      "tokens": "+52616"
+    }
+  },
+  "notes": []
+}

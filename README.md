@@ -13,6 +13,8 @@ No hallucinated tracklists. Every row survives being clicked.
 skill/discogs-playlist/     the reusable agent skill (workflow + scripts)
 playlists/acid/             example: built WITH the skill (co-evolved with it)
 playlists/jersey-sound/     example: built BEFORE the skill, then re-run through it
+evals/                      how the skill was tested: 2 briefs x with/without skill,
+                            API-backed assertions, benchmark + analyst notes
 ```
 
 ## The skill
