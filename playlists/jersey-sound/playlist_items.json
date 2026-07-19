@@ -990,8 +990,8 @@
   },
   {
    "position": 55,
-   "video_id": "Af8EZH4INyc",
-   "youtube_url": "https://www.youtube.com/watch?v=Af8EZH4INyc",
+   "video_id": "c3vtOEiO6TY",
+   "youtube_url": "https://www.youtube.com/watch?v=c3vtOEiO6TY",
    "label": "1978 · Sylvester – You Make Me Feel (Mighty Real) ",
    "artist": "Sylvester",
    "track": "You Make Me Feel (Mighty Real) ",
@@ -1001,10 +1001,12 @@
    "year": 1978,
    "discogs_release_id": 2057318,
    "discogs_url": "https://www.discogs.com/release/2057318-Sylvester-You-Make-Me-Feel-Mighty-Real",
-   "video_title": "Sylvester – You Make Me Feel (Mighty Real) (Sounds Of Excellence Mix)",
-   "match": "exact",
+   "video_title": "Sylvester - You Make Me Feel (Mighty Real) (Official Audio)",
+   "match": "search",
    "rating": 5,
-   "duration_seconds": 443
+   "duration_seconds": 400,
+   "previous_video_id": "Af8EZH4INyc",
+   "rating_notes": "hand-set: curator verified the 1978 original by ear; the page’s title-matching videos are later versions — contribute this upload to the Discogs page"
   },
   {
    "position": 56,

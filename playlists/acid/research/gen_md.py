@@ -87,16 +87,16 @@ tail = """
 
 ## Alternates bench (verified, ready to swap in)
 
-- **1988:** Fast Eddie – *Acid Thunder* ([D.J. International](https://www.discogs.com/release/2752)) · Phuture – *We Are Phuture* ([Trax](https://www.discogs.com/release/1165)) · Mike Dunn – *So Let It Be Houze!* ([Westbrook](https://www.discogs.com/release/4519)) · Gherkin Jerks – *Stomp The Beat* ([Gherkin](https://www.discogs.com/release/37438)) · D Mob – *We Call It Acieed* (Danny D = Daniel Kojo Poku, Black British; UK #3)
-- **1991:** Robert Armani – *Ambulance* ([Dance Mania](https://www.discogs.com/release/1520))
-- **1992:** Mike Dunn – *Magic Feet (The Remixes)* ([Djax-Up-Beats](https://www.discogs.com/release/1597)) · Bam Bam – *I Get A Rush* (Westbrook)
-- **1993:** Phuture – *Inside Out* ([Strictly Rhythm](https://www.discogs.com/release/4515)) · Robert Armani – *Circus Bells (Rmx)* on *Beat Trax* ([ACV](https://www.discogs.com/release/3391))
-- **1996:** Robert Armani – *Circus Bells* ([Djax-Up-Beats](https://www.discogs.com/release/600))
-- **1997:** K. Hand – *Project 5 EP* ([Acacia](https://www.discogs.com/release/156003))
-- **2016:** Steven Julien – *Fallen* LP ([Apron](https://www.discogs.com/release/8617423)) · Josh Caffe + The Subs – *Revolution* (Batty Bass)
-- **2020:** Hieroglyphic Being – *Black Hands Vol 2* ([+ + +](https://www.discogs.com/release/14956367), Techno/Acid-tagged — swapped out for BadSista's ACID APERTO)
-- **2018:** Russell E.L. Butler – *The Home I'd Build For Myself And All My Friends* ([Left Hand Path](https://www.discogs.com/release/12816572))
-- **2025:** Mike Dunn – *Tracks From The Beginning Vol 1* ([Dance Mutha](https://www.discogs.com/release/32867616), archival originals)
+- **1988:** Fast Eddie – *Acid Thunder* ([D.J. International](https://www.discogs.com/release/2752) · [▶ Watch](https://youtu.be/EYiFSjpXwMs)) · Phuture – *We Are Phuture* ([Trax](https://www.discogs.com/release/1165) · [▶ Watch](https://youtu.be/iQWKxPPk7gg)) · Mike Dunn – *So Let It Be Houze!* ([Westbrook](https://www.discogs.com/release/4519) · [▶ Watch](https://youtu.be/EngjCkNIZ5I)) · Gherkin Jerks – *Stomp The Beat* ([Gherkin](https://www.discogs.com/release/37438) · [▶ page video (other cut)](https://youtu.be/9YEOFOk1sbw)) · D Mob – *We Call It Acieed* (Danny D = Daniel Kojo Poku, Black British; UK #3)
+- **1991:** Robert Armani – *Ambulance* ([Dance Mania](https://www.discogs.com/release/1520) · [▶ Watch](https://youtu.be/Yxq-c2gNqxQ))
+- **1992:** Mike Dunn – *Magic Feet (The Remixes)* ([Djax-Up-Beats](https://www.discogs.com/release/1597) · [▶ Watch](https://youtu.be/eOrV_XmsDv8)) · Bam Bam – *I Get A Rush* (Westbrook)
+- **1993:** Phuture – *Inside Out* ([Strictly Rhythm](https://www.discogs.com/release/4515) · [▶ Watch](https://youtu.be/VflithCY7vo)) · Robert Armani – *Circus Bells (Rmx)* on *Beat Trax* ([ACV](https://www.discogs.com/release/3391) · [▶ Watch](https://youtu.be/apaa_0PZdDk))
+- **1996:** Robert Armani – *Circus Bells* ([Djax-Up-Beats](https://www.discogs.com/release/600) · [▶ Watch](https://youtu.be/iltiOvejHKs))
+- **1997:** K. Hand – *Project 5 EP* ([Acacia](https://www.discogs.com/release/156003) · [▶ Watch](https://youtu.be/ajNH4fle3rU))
+- **2016:** Steven Julien – *Fallen* LP ([Apron](https://www.discogs.com/release/8617423) · [▶ Watch](https://youtu.be/cRLFhzWXF_0)) · Josh Caffe + The Subs – *Revolution* (Batty Bass)
+- **2020:** Hieroglyphic Being – *Black Hands Vol 2* ([+ + +](https://www.discogs.com/release/14956367), Techno/Acid-tagged — swapped out for BadSista's ACID APERTO · [▶ Watch](https://youtu.be/TMdBHe5_log))
+- **2018:** Russell E.L. Butler – *The Home I'd Build For Myself And All My Friends* ([Left Hand Path](https://www.discogs.com/release/12816572) · [▶ Watch](https://youtu.be/l-jGbWsIfUw))
+- **2025:** Mike Dunn – *Tracks From The Beginning Vol 1* ([Dance Mutha](https://www.discogs.com/release/32867616), archival originals · [▶ Watch](https://youtu.be/pdV0Q2sAy8A))
 
 ## Research queue
 

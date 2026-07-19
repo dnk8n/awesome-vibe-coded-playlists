@@ -48,6 +48,13 @@ TRACK_PICK = {  # release-level rows -> the cut
  "2023|Demuir Featuring Bluey Robinson / DJ Sneak|Organized Kaoz EP 3": "Lusting U",
  "1992|Kerri Chandler|Panic E.P.": "Panic",
 }
+VIDEO_PICK = {  # curator-verified video overrides: release_id -> the video
+ # 2057318: page's title-matching videos are later versions; curator verified
+ # the 1978 original by ear (search-found — contribute it to the page)
+ 2057318: {"id": "c3vtOEiO6TY", "match": "search", "rating": 5, "dur": 400,
+           "title": "Sylvester - You Make Me Feel (Mighty Real) (Official Audio)",
+           "why": "hand-set: curator verified the 1978 original by ear; the page’s title-matching videos are later versions — contribute this upload to the Discogs page"},
+}
 STOP = {"mix","remix","original","version","edit","extended","the","a","feat","featuring"}
 def ntok(s):
     s = unicodedata.normalize("NFKD", s or "").encode("ascii","ignore").decode().lower()
@@ -124,7 +131,10 @@ items, mdrows = [], []
 for r in sorted(picks, key=lambda x: (x.get("rel_year") or x["year"], x.get("released") or "")):
     track, tmatched = choose_track(r)
     v, match = yt_pick(r, track)
-    rating = TIER[match]
+    ov = VIDEO_PICK.get(r.get("release_id"))
+    if ov:
+        v, match = {"id": ov["id"], "title": ov["title"], "dur": ov["dur"]}, ov["match"]
+    rating = ov["rating"] if ov else TIER[match]
     y = r.get("rel_year") or r["year"]
     tagnote = []
     if "NJ" in r.get("tags",""): tagnote.append("NJ")
@@ -145,6 +155,8 @@ for r in sorted(picks, key=lambda x: (x.get("rel_year") or x["year"], x.get("rel
             "discogs_release_id": r["release_id"], "discogs_url": r["url"],
             "video_title": v["title"] if v else None, "match": match,
             "rating": rating, "duration_seconds": (v.get("dur") if v else None)}
+    if ov:
+        item["rating_notes"] = ov["why"]
     items.append(item)
 
 doc = {"schema": "discogs-playlist/v1",
