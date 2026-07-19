@@ -2,7 +2,7 @@
  "schema": "discogs-playlist/v1",
  "playlist": {
   "title": "Jersey Sound — A 67-Year Lineage (1960–2026)",
-  "description": "The Jersey Sound, centered on Tony Humphries — Club Zanzibar resident, KISS-FM Mastermix — traced from soul/gospel/disco roots (1960) to today. 3 tracks per year, Discogs-verified; his mix credits thread the decades. Built with the discogs-playlist skill; v3 of the Jersey Sound project.",
+  "description": "The Jersey Sound, centered on Tony Humphries — Club Zanzibar resident, KISS-FM Mastermix — traced from soul/gospel/disco roots (1960) to today. 3 tracks per year, Discogs-verified; his mix credits thread the decades. Built with the discogs-playlist skill.",
   "privacy": "private"
  },
  "source_of_truth": "discogs.com release pages (videos[]); per-item match notes deviations",

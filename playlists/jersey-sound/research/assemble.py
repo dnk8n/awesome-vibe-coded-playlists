@@ -1,12 +1,17 @@
 #!/usr/bin/env python3
-"""Assemble jersey-sound v3: slot verified rows by true year, rank, pick 3/year,
-YouTube ladder from stored page videos, emit md + items json."""
+"""Assemble the Jersey Sound playlist: slot verified rows by true year, rank, pick
+3/year, YouTube ladder from stored page videos, emit md + items json.
+Regenerates everything ABOVE the hand-curated marker in jersey-sound.md; the
+Provenance / accounting sections below the marker are preserved verbatim."""
 import json, pathlib, re, sys, unicodedata
-sys.path.insert(0, str(pathlib.Path.home() / ".claude/skills/discogs-playlist/scripts"))
+HERE = pathlib.Path(__file__).parent
+for _p in (HERE / "../../../skill/discogs-playlist/scripts",
+           pathlib.Path.home() / ".claude/skills/discogs-playlist/scripts"):
+    if _p.exists():
+        sys.path.insert(0, str(_p.resolve())); break
 import discogs
 discogs.TOKEN = discogs.find_token()
-HERE = pathlib.Path(__file__).parent
-REPO = pathlib.Path("/Users/dean/dj/vibes/awesome-vibe-coded-playlists/playlists/jersey-sound")
+REPO = HERE.parent
 
 rows = json.load(open(HERE / "verified_final.json"))
 # late additions fetched inline
@@ -143,7 +148,7 @@ for r in sorted(picks, key=lambda x: (x.get("rel_year") or x["year"], x.get("rel
 
 doc = {"schema": "discogs-playlist/v1",
        "playlist": {"title": "Jersey Sound — A 67-Year Lineage (1960–2026)",
-                    "description": "Club Zanzibar, Newark NJ, Tony Humphries — traced back through soul/gospel/disco roots and forward to today. 3 tracks per year, Discogs-verified. Built with the discogs-playlist skill; v3 of the Jersey Sound project.",
+                    "description": "The Jersey Sound, centered on Tony Humphries — Club Zanzibar resident, KISS-FM Mastermix — traced from soul/gospel/disco roots (1960) to today. 3 tracks per year, Discogs-verified; his mix credits thread the decades. Built with the discogs-playlist skill.",
                     "privacy": "private"},
        "source_of_truth": "discogs.com release pages (videos[]); per-item match notes deviations",
        "order": "chronological by verified Discogs release year",
@@ -153,20 +158,32 @@ doc = {"schema": "discogs-playlist/v1",
 REPO.mkdir(parents=True, exist_ok=True)
 (REPO / "playlist_items.json").write_text(json.dumps(doc, indent=1, ensure_ascii=False))
 
-hdr = """# Jersey Sound — A 67-Year Lineage (1960–2026) · v3
+hdr = """# Jersey Sound — A 67-Year Lineage (1960–2026)
 
 Three tracks per year tracing the **Jersey Sound** — Club Zanzibar, Newark NJ, resident DJ
 Tony Humphries — back through its soul/gospel/disco roots (proto years favour the
-Zanzibar/garage songbook; NJ-native artists tagged) and forward to today. Central track,
-locked by the original brief: **Kerri Chandler – Climax 1** (Atmosphere E.P. Vol. 1,
-Shelter, 1993); podium silver: **Hardrive – Deep Inside**. Jersey Club (the 2000s Newark
-genre) is excluded per the brief. Every row verified against the Discogs API; YouTube
-links come from each release page's own videos. Built independently with the
-[discogs-playlist skill](../../skill/discogs-playlist/) — the pre-skill v1/v2 and the
-deviation analysis live alongside this file.
+Zanzibar/garage songbook; New Jersey-native artists tagged) and forward to today. The
+brief locked **Kerri Chandler – Climax 1** (Atmosphere E.P. Vol. 1, Shelter, 1993) as its
+anchor, with **Hardrive – Deep Inside** as podium silver. Jersey Club (the 2000s Newark
+genre — same city, different music) is excluded. Every row was verified against the
+Discogs API; YouTube links come from each release page's own community-added videos.
+Built with the [discogs-playlist skill](../../skill/discogs-playlist/) — and built
+**twice, independently**: see [Provenance](#provenance--this-canon-was-built-twice) at
+the end of this document for how the two builds converged, and
+[the full accounting](#the-original-lineup--a-full-accounting) of every original pick.
 
 **Legend:** [NJ] New Jersey artist/label · [TH] Tony Humphries association · [ANCHOR]
-locked by brief · 🎧 pick needs ear-check
+locked by the brief · 🎧 release verified, but the cut picked off it deserves an ear-check
+
+**The center of this canon is not a record — it is Tony Humphries.** The Zanzibar
+resident (1982–early '90s), the KISS-FM Mastermix, the mix credits threaded through the
+decades: his own *Master Mix Medley* (1982), the Joubert Singers (1985), *Ma Foom Bey*
+(1986), Intense (1990), *Feel The Light* (1996), *Hostile Takeover* on his own TR Records
+(2013), his Nina Simone dub (2019), and the 2026 *Running Back Mastermix* cut from his
+own DAT archive. The [TH] tag marks his hand; the two records most often argued as THE
+central track — *Climax 1* (the brief's anchor) and *Let The Rain Come Down* (the scene's
+own Top 100 #1, mixed by Humphries) — hold their years as era-peaks in his orbit.
+(Curator's call: Dean Kayton, July 2026.)
 
 | Release Date | Artist | Track | Link | YouTube | Notes | Status/Progress |
 |---|---|---|---|---|---|---|
@@ -175,6 +192,11 @@ tail = "\n\n## Open slots\n\n" + "\n".join(f"- **{y}**: {n} slot(s) unfilled" fo
 tail += "\n\n## Bench (verified near-misses)\n\n" + "\n".join(
     f"- {b.get('rel_year')} · {b.get('credit')} – {b.get('title')} ([Discogs]({b.get('url')}))"
     for b in sorted(bench, key=lambda x: x.get("rel_year") or 0) if b.get("release_id"))[:6000]
-(REPO / "jersey-sound-v3.md").write_text(hdr + "\n".join(mdrows) + tail + "\n")
+MARKER = "<!-- hand-curated: everything below this line is preserved by research/assemble.py -->"
+out = REPO / "jersey-sound.md"
+curated = ""
+if out.exists() and MARKER in (prev := out.read_text()):
+    curated = "\n\n" + MARKER + prev.split(MARKER, 1)[1].rstrip() + "\n"
+out.write_text(hdr + "\n".join(mdrows) + tail + (curated or "\n"))
 print(f"main picks: {len(picks)} | bench: {len(bench)} | gap years: {len(gaps)}")
 print("gaps:", gaps)

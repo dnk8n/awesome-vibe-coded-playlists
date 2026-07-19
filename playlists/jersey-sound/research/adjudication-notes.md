@@ -1,4 +1,4 @@
-# Jersey v3 adjudication decisions (working notes)
+# Jersey Sound adjudication decisions (working notes)
 
 ## Year corrections accepted from Discogs (re-slotting)
 - Ecstasy Passion & Pain "Touch And Go" -> 1976 confirmed; 1975 third becomes Gwen McCrae "Rockin' Chair" (verify)

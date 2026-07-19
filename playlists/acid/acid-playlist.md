@@ -156,7 +156,7 @@ Every link goes to the exact Discogs release page; artist and track are copied a
 
 ## Phase 2 (planned): before acid
 
-Tracing backwards from 1985 — TB-303, modular and synth records that made acid sounds before the word existed (e.g. Charanjit Singh's *Ten Ragas to a Disco Beat*, 1982 🌍; early 303 experiments in boogie, Italo and Chicago proto-house; Black modular/synth pioneers). To be built next session.
+Tracing backwards from 1985 — TB-303, modular and synth records that made acid sounds before the word existed (e.g. Charanjit Singh's *Ten Ragas to a Disco Beat*, 1982 🌍; early 303 experiments in boogie, Italo and Chicago proto-house; Black modular/synth pioneers). Planned as the next phase; seed notes in [research/ideas-for-pre-acid.md](research/ideas-for-pre-acid.md).
 
 ---
 *Method: candidates curated from acid history + Discogs style scans, then every pick verified against the Discogs API (release page, credited artist name, tracklist, release date). Sorted by release date; Discogs gives day-level dates only for the digital era, so older entries sort by year.*

@@ -1,56 +1,34 @@
-# Roadmap — next session
+# Open items
 
-Working notes for the next work session (and a window into how this repo is built —
-each session hands off to the next, the way the original Jersey handoff brief did).
+What's genuinely unfinished, in plain terms. Contributions and arguments welcome.
 
-## 1 · Consolidate on the FINAL Jersey Sound playlist
+## Jersey Sound
 
-The curator has **manually created the v3 YouTube playlist** from
-`playlists/jersey-sound/playlist_items.json`. Next session:
+- **Adopt the live YouTube playlist into the sync loop.** The playlist was created
+  manually on YouTube from `playlists/jersey-sound/playlist_items.json`. Once its
+  playlist ID is recorded in that file's metadata, `create_playlist.py
+  --playlist-id <ID> --prune` lets the idempotent sync own it going forward, and older
+  partial playlists can be retired.
+- **Two open slots.** 2008 and 2009 are each one pick short — honest gaps, candidates
+  welcome. Related: the document's
+  ["One anchor worth revisiting"](playlists/jersey-sound/jersey-sound.md#one-anchor-worth-revisiting)
+  note — moving "Hey Hey" to its original 2009 Objektivity pressing fills 2009 and
+  re-opens a 2010 seat with named contenders.
+- **First maintenance pass.** Ratings exist for all 199 items;
+  `maintain_playlist.py report` will surface Discogs contribution opportunities (empty
+  pages, dead embeds, missing cuts) the way it did for the acid playlist.
+- **Bench arguments.** The
+  [full accounting](playlists/jersey-sound/jersey-sound.md#the-original-lineup--a-full-accounting)
+  lists every benched pick with its reason. Cases like Jomanda's "Don't You Want My
+  Love" (double-attested) and the Michael Watford tribute are open invitations to argue
+  a pick back in.
 
-- Get its playlist ID (list playlists via OAuth, or ask), then adopt it with
-  `create_playlist.py --playlist-id <ID> --prune --dry-run` → sync so the idempotent
-  loop owns it going forward. Record the ID in `playlist_items.json`'s metadata.
-- Retire older playlist generations: the 77-item "Jersey Sound (including Proto Jersey)"
-  (`PLI93n9RIoHm8`) is superseded — curator decides delete vs archive.
-- One document of record: `jersey-sound-v3.md` becomes THE Jersey document; consider
-  renaming (drop the "v3").
+## ACID
 
-## 2 · Restructure the repo for final presentation
-
-The curator keeps history copies elsewhere — **lean into the final presentation**:
-
-- Fold/remove superseded files: `jersey-sound-setlist-DRAFT-v1.md`, possibly
-  `jersey-sound-setlist-v2.md` (the deviation analysis quotes what matters — but see
-  task 3 first: v2 is the source of the original-picks sweep), `CLAUDE_CODE_HANDOFF.md`
-  (historic; its lessons now live in the skill's workflow-notes).
-- Same lens on acid: `video_gaps_report.json`, `playlist-report-prompt.md`,
-  `tunemyplaylist-reconciliation.md` — keep what tells the story, fold the rest.
-- `research/` dirs (added this session) hold the regeneration datasets:
-  `verified_final.json` + `assemble.py` (jersey), `results.json`/`yt_final.json`/
-  `overrides.json` + `gen_md.py` (acid). **Never hand-edit the tables — regenerate.**
-  Decide final placement/naming; scripts may need path tweaks after any move.
-
-## 3 · Honor the ORIGINAL Jersey picks — bench-with-reasons sweep
-
-Principle from the curator: tracks that were present from the beginning deserve explicit
-treatment, not silent disappearance. **Example: Sam Cooke "Chain Gang" (1960) — v1/v2's
-opening pick — is absent from v3** (which chose Shirelles/Drifters/James Cleveland for
-1960) with no stated reason.
-
-- Sweep EVERY v1/v2 pick: if in v3 → fine; if not → add to the bench with a
-  written "why not" (the deviation analysis §5 covers categories; this sweep is
-  per-pick). Known cases: Chain Gang, Mary Wells, Supremes, Four Tops, My Girl,
-  Betty Wright, Back Stabbers, Delfonics, George McCrae, Loleatta "Cry To Me",
-  Cher "Take Me Home" (Humphries-attested — strongest bench case), Aly-Us-era
-  alternates. Some may argue their way back INTO slots.
-
-## Also open
-
-- Jersey 2008 + 2009: one slot short each (honest gaps — candidates welcome).
-- Jersey maintenance loop not yet run (ratings exist; `maintain_playlist.py report`
-  will surface Discogs contribution gaps like it did for acid).
-- Acid Phase 2: the pre-acid lineage (1960s–1985 proto-303/modular; see
-  `playlists/acid/ideas-for-pre-acid.md`).
-- Curator should rotate the Discogs token + YouTube API key used during the build.
-- Push this repo to a public remote.
+- **Phase 2 — before acid.** Trace the lineage backwards from 1985: TB-303 precursors,
+  modular squelch, records that sounded acid before the word existed. Seed notes in
+  [`playlists/acid/research/ideas-for-pre-acid.md`](playlists/acid/research/ideas-for-pre-acid.md).
+- **Open contribution shortlist.** The
+  [reconciliation report](playlists/acid/tunemyplaylist-reconciliation.md) lists videos
+  ready to contribute to Discogs pages; each one contributed lets the playlist heal
+  itself on the next rescrape + sync.

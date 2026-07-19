@@ -32,7 +32,7 @@ Each line: open the Discogs page → "Contribute" → Videos → paste the YouTu
 | 1992 · K-Alexi – Drugtest (4/5, our upload not on page) | https://youtu.be/3zQjXa4kOTU "K-Alexi - Drugtest (1992)" (5:10) — or ours: https://youtu.be/xLKYpcWismk | [3 Men And A Loft](https://www.discogs.com/release/8596-K-Alexi-3-Men-And-A-Loft) |
 | 2026 · Mike Dunn – So Let It Be House (3/5, alternate cut) | https://youtu.be/EngjCkNIZ5I "So Let It Be Houze! [MD-WB-106]" (title-spelling drift hid it from auto-match) | [So Let It Be House (Clone)](https://www.discogs.com/release/37273977-Mike-Dunn-So-Let-It-Be-House) |
 
-### Also still open from the earlier gaps report ([video_gaps_report.json](video_gaps_report.json))
+### Also still open from the earlier gaps report ([video_gaps_report.json](research/video_gaps_report.json))
 
 Our verified uploads the pages lack: Batman 6.02 (`QwgIG6ecebg`), Heart Pound (`LzfEXQhjq-M`),
 Solely Supported (`yX8n_UgpO5s`), Species (`9bRYskd4baE`), Without Fear (`riMr07afA_0`),

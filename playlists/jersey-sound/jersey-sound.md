@@ -1,29 +1,29 @@
-# Jersey Sound — A 67-Year Lineage (1960–2026) · v3
+# Jersey Sound — A 67-Year Lineage (1960–2026)
 
 Three tracks per year tracing the **Jersey Sound** — Club Zanzibar, Newark NJ, resident DJ
 Tony Humphries — back through its soul/gospel/disco roots (proto years favour the
-Zanzibar/garage songbook; NJ-native artists tagged) and forward to today. Central track,
-locked by the original brief: **Kerri Chandler – Climax 1** (Atmosphere E.P. Vol. 1,
-Shelter, 1993); podium silver: **Hardrive – Deep Inside**. Jersey Club (the 2000s Newark
-genre) is excluded per the brief. Every row verified against the Discogs API; YouTube
-links come from each release page's own videos. Built independently with the
-[discogs-playlist skill](../../skill/discogs-playlist/) — the pre-skill v1/v2 and the
-deviation analysis live alongside this file.
+Zanzibar/garage songbook; New Jersey-native artists tagged) and forward to today. The
+brief locked **Kerri Chandler – Climax 1** (Atmosphere E.P. Vol. 1, Shelter, 1993) as its
+anchor, with **Hardrive – Deep Inside** as podium silver. Jersey Club (the 2000s Newark
+genre — same city, different music) is excluded. Every row was verified against the
+Discogs API; YouTube links come from each release page's own community-added videos.
+Built with the [discogs-playlist skill](../../skill/discogs-playlist/) — and built
+**twice, independently**: see [Provenance](#provenance--this-canon-was-built-twice) at
+the end of this document for how the two builds converged, and
+[the full accounting](#the-original-lineup--a-full-accounting) of every original pick.
 
 **Legend:** [NJ] New Jersey artist/label · [TH] Tony Humphries association · [ANCHOR]
-locked by brief · [V2] adopted from the pre-skill v2 on authority attestation (Jersey
-Sound Top 100 / Brewster's Mixmag 20 / Humphries' own compilations) — see the
-[deviation analysis](deviation-analysis.md) · 🎧 pick needs ear-check
+locked by the brief · 🎧 release verified, but the cut picked off it deserves an ear-check
 
 **The center of this canon is not a record — it is Tony Humphries.** The Zanzibar
 resident (1982–early '90s), the KISS-FM Mastermix, the mix credits threaded through the
 decades: his own *Master Mix Medley* (1982), the Joubert Singers (1985), *Ma Foom Bey*
 (1986), Intense (1990), *Feel The Light* (1996), *Hostile Takeover* on his own TR Records
 (2013), his Nina Simone dub (2019), and the 2026 *Running Back Mastermix* cut from his
-own DAT archive. The [TH] tag marks his hand; the two records earlier drafts crowned —
-*Climax 1* (the brief's anchor) and *Let The Rain Come Down* (the scene's own Top 100 #1,
-mixed by Humphries) — hold their years as era-peaks in his orbit. (Curatorial decision:
-Dean Kayton, 2026-07-19.)
+own DAT archive. The [TH] tag marks his hand; the two records most often argued as THE
+central track — *Climax 1* (the brief's anchor) and *Let The Rain Come Down* (the scene's
+own Top 100 #1, mixed by Humphries) — hold their years as era-peaks in his orbit.
+(Curator's call: Dean Kayton, July 2026.)
 
 | Release Date | Artist | Track | Link | YouTube | Notes | Status/Progress |
 |---|---|---|---|---|---|---|
@@ -129,7 +129,7 @@ Dean Kayton, 2026-07-19.)
 | 1993 | Hardrive | Deep Inside (Heavy Weather Mix) | [UMM UMM 117](https://www.discogs.com/release/25368-Hardrive-Deep-Inside-Remix) | [▶ Watch](https://youtu.be/HDfaY7lpFfk) | [ANCHOR] podium silver - locked by brief | ✅ Verified |
 | 1993 | Jomanda | Never (Sasha Remix) | [Big Beat SAM 1256](https://www.discogs.com/release/260252-Jomanda-Never) | [▶ Watch](https://youtu.be/x6oBFZMrREk) | [NJ] verify year + TH mixes | ✅ Verified |
 | 1993 | Kerri Chandler | Climax 1 | [Shelter Records SHL - 1004](https://www.discogs.com/release/7345-Kerri-Chandler-Atmosphere-EP-Vol-1) | [▶ Watch](https://youtu.be/lV5to7pyN-w) | [NJ/ANCHOR] CENTRAL TRACK - Atmosphere E.P. Vol. 1 SHL-1004 - locked by brief | ✅ Verified |
-| 1994 | Michael Watford | So Into You (Inner City Club Mix) | [EastWest Records America 0-95950](https://www.discogs.com/release/96320-Michael-Watford-So-Into-You) | [▶ Watch](https://youtu.be/oEmlO8Dar-s) | [NJ] commercial 12" (EastWest) — v2: 1993 items are promos | ✅ Verified |
+| 1994 | Michael Watford | So Into You (Inner City Club Mix) | [EastWest Records America 0-95950](https://www.discogs.com/release/96320-Michael-Watford-So-Into-You) | [▶ Watch](https://youtu.be/oEmlO8Dar-s) | [NJ] commercial 12" (EastWest) — the 1993 pressings are promos | ✅ Verified |
 | 1994 | River Ocean Feat. India | Love & Happiness (Yemaya Y Ochùn) (Radio Edit) | [Feel The Rhythm FTR 3831-1](https://www.discogs.com/release/5558071-River-Ocean-Feat-India-Love-Happiness-Yemaya-Y-Ochùn) | [▶ Watch](https://youtu.be/dGn3VeAGOZk) | verify year | ✅ Verified |
 | 1994 | Barbara Tucker | Beautiful People (Radio Edit) | [Strictly Rhythm SRB015CD](https://www.discogs.com/release/127740-Barbara-Tucker-Beautiful-People) | [▶ Watch](https://youtu.be/oNDaholHRpE) | garage diva era | ✅ Verified |
 | 1995 | Blaze Presents Alexander Hope | Fly Away (Klub Head Voc) | [157 Shelter Records SHL-1012](https://www.discogs.com/release/6945-Blaze-Presents-Alexander-Hope-Fly-Away) | [▶ Watch](https://youtu.be/Z8j-L-8oLjg) | [NJ] Shelter 1995 canonical | ✅ Verified |
@@ -271,3 +271,141 @@ Dean Kayton, 2026-07-19.)
 - 2023 · Demuir Featuring Bluey Robinson / DJ Sneak – Organized Kaoz EP 3 ([Discogs](https://www.discogs.com/release/28904104-Demuir-Featuring-Bluey-Robinson-DJ-Sneak-Organized-Kaoz-EP-3))
 - 2024 · Dreamer G & Kerri Chandler – I Got That Feelin' (Demuir & Kerri Chandler Edits) ([Discogs](https://www.discogs.com/release/31808441-Dreamer-G-Kerri-Chandler-I-Got-That-Feelin-Demuir-Kerri-Chandler-Edits))
 - 2026 · Louie Vega Featuring Tony Momrelle – Touch The Sky (Remixes) ([Discogs](https://www.discogs.com/release/37633188-Louie-Vega-Featuring-Tony-Momrelle-Touch-The-Sky-Remixes))
+
+<!-- hand-curated: everything below this line is preserved by research/assemble.py -->
+
+## Provenance — this canon was built twice
+
+The table above exists because the list was built **twice, independently**, and the two
+builds were then reconciled:
+
+- **Build one** (completed 2026-07-13): many rounds of hand-guided web research, then a
+  full Discogs API verification pass — 78 tracks, one per year with podium seconds and
+  thirds only where the scene's own authorities showed genuine contention. Its strength
+  was scene-specific sources: the [Jersey Sound Top 100](https://www.myhouseradio.fm/2019/12/18/the-jersey-sound-top-100-tunes-30-years-later-and-the-music-lives-on/)
+  (the scene's own 30-years-later reckoning, FIDA/ThinkSoul Committee, 2019),
+  [Bill Brewster's Mixmag 20](https://mixmag.net/feature/best-new-jersey-house-records),
+  and above all Tony Humphries' own selections — his 2003 *Choice* compilation and the
+  2026 *Running Back Mastermix* cut from his KISS-FM DAT archive.
+- **Build two** (2026-07-19 — the table above): built with the
+  [discogs-playlist skill](../../skill/discogs-playlist/) under a 3-per-year mandate,
+  deliberately without looking at build one's pick tables until all 199 slots were
+  assembled and validated. Only then were the two lists compared.
+
+What the reconciliation showed:
+
+- **Roughly 45 picks landed identically** — several down to the *same Discogs pressing
+  chosen independently* (Sly's *Dance To The Music* LP, Serious Intention's Easy Street
+  12", Phase II's Movin' original). Two independent methods, one canon: agreement like
+  this is the strongest signal a pick belongs.
+- **Date corrections cross-validated.** Both builds independently caught **Adeva
+  "Respect" = 1988** (the 1989 chart year is what every fan list propagates) and
+  **Kimara "When Can Our Love Begin" = 1998**. Fan-list dates rot; pressings don't.
+- **22 picks were adopted from build one on authority attestation** — records the Top
+  100, Brewster, or Humphries' own compilations lock in that a broader songbook frame
+  had missed: K-Yze's "Stomp" (video filmed *at* Zanzibar), Aly-Us "Follow Me", De'Lacy's
+  Deep Dish 12", Kenny Bobien's "Why We Sing", the Timmy Regisford thread, Jovonn,
+  "Stand On The Word" re-sung in 2020, and the Dee Dee Brave dub that bookends 2026.
+- **Build two added what build one lacked**: the New Jersey-native proto layer (the
+  Shirelles of Passaic, Dionne Warwick of East Orange, Newark's Linda Jones and Savoy
+  gospel, Plainfield's Parliaments, Englewood's All Platinum), Humphries' own 1982
+  *Master Mix Medley*, Cultural Vibe's *Ma Foom Bey*, full three-per-year coverage with
+  2020s depth, and the whole YouTube/ratings maintenance layer.
+- **The central-track contention dissolved.** Build one, following the scene's own
+  authorities, crowned Intense "Let The Rain Come Down" (Top 100 #1, mixed by Humphries,
+  on Abigail Adams' Movin' Records); the brief had locked Kerri Chandler's "Climax 1".
+  The resolution: center the *artist*, not a record — build one's case for Intense was
+  always really a case about Humphries' hand on it, and the brief's case for Climax 1
+  was about his club's lineage. Both records hold their years as era-peaks in his orbit.
+
+## The original lineup — a full accounting
+
+A principle of this project: **picks that were present from the beginning deserve
+explicit treatment, not silent disappearance.** Every one of build one's 78 picks was
+swept against the final table. The result: **50 carried** (a few re-anchored to truer
+pressings or corrected years — MFSB to its 1974 pressing, First Choice to the 1983 club
+12"), **4 carried at the release level** with a different cut chosen (listed below),
+**6 already sit on the verified bench** above (D-Train, Jomanda "Got A Love For You",
+Kim English "Nite Life", Kimara "When Can Our Love Begin", "Son Of Raw", *25 Years Of
+Madhouse*), **17 benched here with written reasons**, and **1 year-anchor question**
+flagged at the end.
+
+### Benched, with reasons
+
+The 1960s–70s entries share one story: build one's proto years were canonical national
+pop-soul, and the final canon spends those slots on gospel roots and New Jersey-native
+lineage instead. Great records, no Jersey or club-lineage specificity:
+
+- **1960 · Sam Cooke – Chain Gang** (RCA Victor) — build one's opening pick. Its year
+  went to the NJ vocal-group root (the Shirelles), Newark gospel on Savoy (James
+  Cleveland) and uptown soul (the Drifters). Cooke holds 1964 in the canon with
+  "A Change Is Gonna Come".
+- **1961 · The Impressions – Gypsy Woman** — the Impressions enter at 1965 with "People
+  Get Ready" instead: the gospel-soul Mayfield that feeds this canon's throughline.
+- **1962 · Mary Wells – You Beat Me To The Punch** — Motown gold; 1962 went to East
+  Orange's Dionne Warwick (answered by Sybil's 1989 cover), the Isley Brothers (later of
+  Teaneck's T-Neck), and Booker T.
+- **1964 · The Supremes – Where Did Our Love Go** — 1964 carries Sam Cooke, Martha & The
+  Vandellas and Marvin Gaye.
+- **1965 · The Temptations – My Girl** — 1965 went to Jersey City's Manhattans on
+  Newark's Carnival label, the Impressions, and Fontella Bass.
+- **1966 · Four Tops – Reach Out I'll Be There** — 1966 went to deep-soul and dance-craze
+  records closer to the club lineage (Darrell Banks, the Capitols, Eddie Floyd).
+- **1970 · The Delfonics – Didn't I (Blow Your Mind This Time)** — Philly sweetness, but
+  1970 carries James Brown's groove engine, All Platinum's Moments (Englewood NJ), and
+  Curtis Mayfield's "Move On Up", a garage songbook staple.
+- **1971 · Betty Wright – Clean Up Woman** — 1971 went to Jersey City's Kool & The Gang,
+  Marvin Gaye, and the Undisputed Truth.
+- **1972 · The O'Jays – Back Stabbers** — the O'Jays hold 1972 with "Love Train"; the
+  year's other seats went to Eddie Kendricks and Manu Dibango, both Loft-to-garage canon.
+- **1974 · George McCrae – Rock Your Baby** — proto-disco landmark, but 1974 carries
+  Newark's Gloria Gaynor (the first side-long disco mix), MFSB's "Love Is The Message"
+  (THE Zanzibar anthem), and B.T. Express.
+- **1975 · Loleatta Holloway – Cry To Me** — Loleatta enters the canon where her club
+  legend does: "Hit And Run" (1977, Walter Gibbons 12") and "Love Sensation" (1980). The
+  Aware-era soul LP yields to the Gold Mind club artifacts.
+- **1979 · Cher – Take Me Home** — genuinely Humphries-attested: it appears on his own
+  2003 *Choice: A Collection Of Club Zanzibar Classics*. The strongest bench case of the
+  proto years. 1979 holds Machine, McFadden & Whitehead and Kool & The Gang on
+  songbook-plus-NJ grounds — but this one sits one authority argument away from a seat.
+- **1989 · Jomanda – Don't You Want My Love (Street Style)** — Top 100 #20 **and** the
+  exact mix Humphries chose for his 2026 Mastermix: double attestation. Lost a brutal
+  1989 to K-Yze (video filmed at Zanzibar), Sybil covering Dionne Warwick (the canon's
+  NJ echo pattern), and Adeva's "Warning". A strong candidate to argue its way back in.
+- **2012 · Nick Curly – Underground (Dennis Ferrer Remix)** — Ferrer's hand on a German
+  tech-house record; scene-peripheral. 2012 went to the Josh Milan / Louie Vega axis.
+- **2017 · Kerri Chandler – Stop Wasting My Time** — an exclusive made for the DJ-Kicks
+  mix CD; the canon prefers standalone releases. 2017 carries the *Six Pianos* 2017
+  vinyl, Paris Cesvette's Josh Milan feature, and DJ Deep's Kaoz tribute.
+- **2024 · Kerri Chandler feat. AbbieLee – Let It (Give Me Back My Love)** (*Lost &
+  Found EP Vol. 3*) — lost its seat to Elements Of Life's "Let Us Shine", "Fluff Rehab
+  (Kerri's Dark Room)" and "Caged Bird".
+- **2025 · Kerri Chandler feat. Michael Watford – Since I Met You** (*Lost & Found EP
+  Vol. 4*) — the tribute to the late Michael Watford, closing a loop with his 1994 entry.
+  The strongest narrative pick the final table dropped; any future 2025 change should be
+  weighed against it first.
+
+### Same release, different cut
+
+Four picks carried at the release level with a different track chosen off the same
+record. Build one's cut choices were deliberate, and remain the ear-check candidates for
+the current 🎧 picks:
+
+- **2011 · *Honeycomb Music Volume 1*** — build one picked "GOD" (the gospel-house
+  thesis in one title); the table has "Introduction" 🎧.
+- **2014 · *The Watergate Files*** — build one picked "Think Of Something" (Chandler's
+  exclusive production for the Watergate mix); the table has "Mama" 🎧.
+- **2015 · *Kaoz Theory KT001*** — build one picked "Turn Off The Lights (Who's Afraid
+  Of The Dark)"; the table has "Tubby" 🎧. The song itself holds seats at 2016 (Satoshi
+  Tomiie remix) and 2023 (original).
+- **2020 · *Stand On The Word (Remixes)*** — build one picked the DJ Spen & Gary Hudgins
+  Remix (the gospel-house side of the 12"); the table has the Lost Souls Of Saturn mix.
+
+### One anchor worth revisiting
+
+- **Dennis Ferrer – Hey Hey** sits in the table on the 2010 Defected radio edit, but the
+  original pressing is the **2009 Objektivity 12" (OBJ 014)** — and 2009 has an open
+  slot while 2010 is full. Moving the pick to its original pressing (this project's own
+  preference) fills 2009 and re-opens a 2010 seat, where Ferrer's "The Red Room"
+  (Objektivity, 2010) and Kerri Chandler's 2010 EP were already noted as genuine
+  contenders.

@@ -11,11 +11,17 @@ No hallucinated tracklists. Every row survives being clicked.
 
 ```
 skill/discogs-playlist/     the reusable agent skill (workflow + scripts)
-playlists/acid/             example: built WITH the skill (co-evolved with it)
-playlists/jersey-sound/     example: built BEFORE the skill, then re-run through it
+playlists/acid/             ACID — a Black-heritage canon of acid, 1986–2026
+playlists/jersey-sound/     Jersey Sound — a 67-year lineage, 1960–2026
 evals/                      how the skill was tested: 2 briefs x with/without skill,
                             API-backed assertions, benchmark + analyst notes
 ```
+
+Each playlist folder holds the human-readable table (`*.md`), the machine-readable items
+file (`playlist_items.json` — the `discogs-playlist/v1` schema: full research trail plus
+per-track ratings), and a `research/` directory with the verified datasets, working notes
+and scripts that **regenerate** the table. The tables are never hand-edited; they are
+rebuilt from verified data.
 
 ## The skill
 
@@ -70,36 +76,35 @@ finds from its 36 wrong-version false positives).
 
 📄 [The table](playlists/acid/acid-playlist.md) ·
 🎵 [The playlist](https://www.youtube.com/playlist?list=PLNXi-Q1Sb-_E) ·
-🔧 [Machine-readable items](playlists/acid/playlist_items.json) (the `discogs-playlist/v1`
-schema: full research trail + per-track ratings)
+🔧 [Machine-readable items](playlists/acid/playlist_items.json)
 
 ### Jersey Sound (1960–2026)
 
 > *A 67-year lineage of the "Jersey Sound" — Club Zanzibar, Newark, Tony Humphries — traced
 > back through its soul/gospel/disco roots and forward to today.*
 
-This one exists in two generations: the **pre-skill** versions
-([draft v1](playlists/jersey-sound/jersey-sound-setlist-DRAFT-v1.md),
-[v2](playlists/jersey-sound/jersey-sound-setlist-v2.md), plus the
-[hand-written verification brief](playlists/jersey-sound/CLAUDE_CODE_HANDOFF.md) whose
-hard-won gotchas — unreliable fan-list dates, two different artists named Tony Humphries —
-foreshadow half the skill's rules), and the **skill-built v3**: 199 picks across all 67
-years (3 per year, two honest open slots), 177 with live release-page videos, plus a
-[deviation analysis](playlists/jersey-sound/deviation-analysis.md) comparing the two
-generations — ~45 identical picks chosen independently, date corrections cross-validated,
-22 authority-attested v2 picks adopted, and the NJ-native proto layer + 2020s depth that
-only the skill run surfaced.
+199 picks across all 67 years (three per year, two honest open slots), 177 with live
+release-page videos. The canon centers **Tony Humphries himself** — Zanzibar resident,
+KISS-FM Mastermix — with his mix credits threaded from his own 1982 *Master Mix Medley*
+to the 2026 archive release cut from his own DAT tapes.
 
-📄 [The v3 table](playlists/jersey-sound/jersey-sound-v3.md) ·
+This canon was **built twice, independently** — once by hand-guided web research
+against the scene's own authorities, once with the skill — and then reconciled: about 45
+picks landed identically (several to the very same pressing), wrong fan-list dates were
+caught twice over, 22 picks were adopted on scene-authority attestation, and every
+original pick that didn't make the final table sits on a bench **with a written reason**.
+The [Provenance and full-accounting sections](playlists/jersey-sound/jersey-sound.md#provenance--this-canon-was-built-twice)
+at the end of the document tell that story; nothing disappeared silently.
+
+📄 [The table](playlists/jersey-sound/jersey-sound.md) ·
 🔧 [Machine-readable items](playlists/jersey-sound/playlist_items.json)
 
 ## Why "vibe-coded"?
 
 Each playlist started as a conversational brief — a vibe — and became a verifiable
-document through agent + API + community data. The prompts are part of the artifact
-(see [playlists/acid/playlist-report-prompt.md](playlists/acid/playlist-report-prompt.md)
-for one mid-project prompt, verbatim). The failures are part of it too: the reports in
-this repo document every dead link found, wrong mix dodged, and date corrected.
+document through agent + API + community data. The briefs are quoted at the top of each
+playlist document, and the failures are part of the artifact too: the reports in this
+repo document every dead link found, wrong mix dodged, and date corrected.
 
 ## License
 
