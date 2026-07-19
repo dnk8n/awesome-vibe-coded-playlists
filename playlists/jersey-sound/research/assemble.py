@@ -192,9 +192,13 @@ own Top 100 #1, mixed by Humphries) — hold their years as era-peaks in his orb
 |---|---|---|---|---|---|---|
 """
 tail = "\n\n## Open slots\n\n" + "\n".join(f"- **{y}**: {n} slot(s) unfilled" for y, n in gaps) if gaps else ""
+def bench_line(b):
+    track, _ = choose_track(b)
+    v, _m = yt_pick(b, track)
+    yt = f" · [▶ Watch](https://youtu.be/{v['id']})" if v else ""
+    return f"- {b.get('rel_year')} · {b.get('credit')} – {b.get('title')} ([Discogs]({b.get('url')}){yt})"
 tail += "\n\n## Bench (verified near-misses)\n\n" + "\n".join(
-    f"- {b.get('rel_year')} · {b.get('credit')} – {b.get('title')} ([Discogs]({b.get('url')}))"
-    for b in sorted(bench, key=lambda x: x.get("rel_year") or 0) if b.get("release_id"))[:6000]
+    bench_line(b) for b in sorted(bench, key=lambda x: x.get("rel_year") or 0) if b.get("release_id"))
 MARKER = "<!-- hand-curated: everything below this line is preserved by research/assemble.py -->"
 out = REPO / "jersey-sound.md"
 curated = ""

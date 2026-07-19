@@ -234,43 +234,43 @@ own Top 100 #1, mixed by Humphries) — hold their years as era-peaks in his orb
 
 ## Bench (verified near-misses)
 
-- 1965 · Jr. Walker & The All Stars – Shake And Finger Pop / Cleo's Back ([Discogs](https://www.discogs.com/release/5834275-Jr-Walker-The-All-Stars-Shake-And-Finger-Pop-Cleos-Back))
+- 1965 · Jr. Walker & The All Stars – Shake And Finger Pop / Cleo's Back ([Discogs](https://www.discogs.com/release/5834275-Jr-Walker-The-All-Stars-Shake-And-Finger-Pop-Cleos-Back) · [▶ Watch](https://youtu.be/UYqNuAZ2U2U))
 - 1976 · Vicki Sue Robinson – Turn The Beat Around ([Discogs](https://www.discogs.com/release/28487059-Vicki-Sue-Robinson-Turn-The-Beat-Around))
-- 1980 · Geraldine Hunt – Can't Fake The Feeling ([Discogs](https://www.discogs.com/release/114413-Geraldine-Hunt-Cant-Fake-The-Feeling))
-- 1980 · Unlimited Touch – I Hear Music In The Streets ([Discogs](https://www.discogs.com/release/4264825-Unlimited-Touch-I-Hear-Music-In-The-Streets))
-- 1982 · "D" Train – You're The One For Me ([Discogs](https://www.discogs.com/release/222334-D-Train-Youre-The-One-For-Me))
-- 1988 · Kechia Jenkins – I Need Somebody ([Discogs](https://www.discogs.com/release/2867623-Kechia-Jenkins-I-Need-Somebody))
-- 1989 · Phase II – Reachin' / It's A Mystery ([Discogs](https://www.discogs.com/release/38804-Phase-II-Reachin-Its-A-Mystery))
-- 1989 · Chanelle – One Man (Remix) ([Discogs](https://www.discogs.com/release/50664-Chanelle-One-Man-Remix))
-- 1990 · Jomanda – Got A Love For You ([Discogs](https://www.discogs.com/release/12401899-Jomanda-Got-A-Love-For-You))
-- 1990 · Blaze – So Special ([Discogs](https://www.discogs.com/release/57299-Blaze-So-Special))
-- 1990 · Kerri Chandler – Super Lover ([Discogs](https://www.discogs.com/release/1653470-Kerri-Chandler-Super-Lover))
-- 1992 · Cheryl Howard – If I Can't Have You ([Discogs](https://www.discogs.com/release/680117-Cheryl-Howard-If-I-Cant-Have-You))
-- 1993 · Loni Clark – Rushing ([Discogs](https://www.discogs.com/release/3334-Loni-Clark-Rushing))
-- 1994 · Kim English – Nite Life ([Discogs](https://www.discogs.com/release/1217483-Kim-English-Nite-Life))
-- 1994 · Kimara – Good Feelin ([Discogs](https://www.discogs.com/release/37982-Kimara-Good-Feelin))
-- 1995 · Kerri "Kaoz 6:23" Chandler – Finger Printz EP ([Discogs](https://www.discogs.com/release/36423-Kerri-Kaoz-623-Chandler-Finger-Printz-EP))
-- 1996 · Mood II Swing – Do It Your Way ([Discogs](https://www.discogs.com/release/2151355-Mood-II-Swing-Do-It-Your-Way))
-- 1997 · Big Moses Feat. Kenny Bobien – Brighter Days (Remix) ([Discogs](https://www.discogs.com/release/69749-Big-Moses-Feat-Kenny-Bobien-Brighter-Days-Remix))
-- 1997 · Byron Stingily – Get Up (Everybody) ([Discogs](https://www.discogs.com/release/55762-Byron-Stingily-Get-Up-Everybody))
-- 1997 · Kimara Lovelace – Only You (Remixes) ([Discogs](https://www.discogs.com/release/3198846-Kimara-Lovelace-Only-You-Remixes))
-- 1998 · Kimara Lovelace – When Can Our Love Begin ([Discogs](https://www.discogs.com/release/14896-Kimara-Lovelace-When-Can-Our-Love-Begin))
-- 1998 · Urban Soul – My Urban Soul ([Discogs](https://www.discogs.com/release/202903-Urban-Soul-My-Urban-Soul))
-- 2000 · GTS – What Goes Around Comes Around ([Discogs](https://www.discogs.com/release/2742267-GTS-What-Goes-Around-Comes-Around))
-- 2000 · Kimara Lovelace – Misery ([Discogs](https://www.discogs.com/release/14878-Kimara-Lovelace-Misery))
-- 2000 · "Little Louie" Vega Feat. Blaze – Elements Of Life ([Discogs](https://www.discogs.com/release/3015-Little-Louie-Vega-Feat-Blaze-Elements-Of-Life))
-- 2001 · Stephanie Cooke – Here With My Best Friend ([Discogs](https://www.discogs.com/release/2499904-Stephanie-Cooke-Here-With-My-Best-Friend))
-- 2005 · Dennis Ferrer – Son Of Raw ([Discogs](https://www.discogs.com/release/9980049-Dennis-Ferrer-Son-Of-Raw))
-- 2007 · Dennis Ferrer – The World As I See It ([Discogs](https://www.discogs.com/release/1164285-Dennis-Ferrer-The-World-As-I-See-It))
+- 1980 · Geraldine Hunt – Can't Fake The Feeling ([Discogs](https://www.discogs.com/release/114413-Geraldine-Hunt-Cant-Fake-The-Feeling) · [▶ Watch](https://youtu.be/5aB1IBb5TlU))
+- 1980 · Unlimited Touch – I Hear Music In The Streets ([Discogs](https://www.discogs.com/release/4264825-Unlimited-Touch-I-Hear-Music-In-The-Streets) · [▶ Watch](https://youtu.be/ctJ1ROrRIXU))
+- 1982 · "D" Train – You're The One For Me ([Discogs](https://www.discogs.com/release/222334-D-Train-Youre-The-One-For-Me) · [▶ Watch](https://youtu.be/nST519gbvYM))
+- 1988 · Kechia Jenkins – I Need Somebody ([Discogs](https://www.discogs.com/release/2867623-Kechia-Jenkins-I-Need-Somebody) · [▶ Watch](https://youtu.be/YM8LoCvk_h8))
+- 1989 · Phase II – Reachin' / It's A Mystery ([Discogs](https://www.discogs.com/release/38804-Phase-II-Reachin-Its-A-Mystery) · [▶ Watch](https://youtu.be/1Gobukd4y5s))
+- 1989 · Chanelle – One Man (Remix) ([Discogs](https://www.discogs.com/release/50664-Chanelle-One-Man-Remix) · [▶ Watch](https://youtu.be/tFAdkFqUqWY))
+- 1990 · Jomanda – Got A Love For You ([Discogs](https://www.discogs.com/release/12401899-Jomanda-Got-A-Love-For-You) · [▶ Watch](https://youtu.be/3EdAjxemJwc))
+- 1990 · Blaze – So Special ([Discogs](https://www.discogs.com/release/57299-Blaze-So-Special) · [▶ Watch](https://youtu.be/0viQOwtzXJM))
+- 1990 · Kerri Chandler – Super Lover ([Discogs](https://www.discogs.com/release/1653470-Kerri-Chandler-Super-Lover) · [▶ Watch](https://youtu.be/iU5IA1-E6n0))
+- 1992 · Cheryl Howard – If I Can't Have You ([Discogs](https://www.discogs.com/release/680117-Cheryl-Howard-If-I-Cant-Have-You) · [▶ Watch](https://youtu.be/KlvN8RjpkgM))
+- 1993 · Loni Clark – Rushing ([Discogs](https://www.discogs.com/release/3334-Loni-Clark-Rushing) · [▶ Watch](https://youtu.be/wAnAWLbvWSU))
+- 1994 · Kim English – Nite Life ([Discogs](https://www.discogs.com/release/1217483-Kim-English-Nite-Life) · [▶ Watch](https://youtu.be/2Y7rEiXVlnk))
+- 1994 · Kimara – Good Feelin ([Discogs](https://www.discogs.com/release/37982-Kimara-Good-Feelin) · [▶ Watch](https://youtu.be/0CEmMgKrQe4))
+- 1995 · Kerri "Kaoz 6:23" Chandler – Finger Printz EP ([Discogs](https://www.discogs.com/release/36423-Kerri-Kaoz-623-Chandler-Finger-Printz-EP) · [▶ Watch](https://youtu.be/pu7tYFVP3Ao))
+- 1996 · Mood II Swing – Do It Your Way ([Discogs](https://www.discogs.com/release/2151355-Mood-II-Swing-Do-It-Your-Way) · [▶ Watch](https://youtu.be/fF2Cfq8RitA))
+- 1997 · Big Moses Feat. Kenny Bobien – Brighter Days (Remix) ([Discogs](https://www.discogs.com/release/69749-Big-Moses-Feat-Kenny-Bobien-Brighter-Days-Remix) · [▶ Watch](https://youtu.be/MphhavQuWKs))
+- 1997 · Byron Stingily – Get Up (Everybody) ([Discogs](https://www.discogs.com/release/55762-Byron-Stingily-Get-Up-Everybody) · [▶ Watch](https://youtu.be/H4jjZxXkLpE))
+- 1997 · Kimara Lovelace – Only You (Remixes) ([Discogs](https://www.discogs.com/release/3198846-Kimara-Lovelace-Only-You-Remixes) · [▶ Watch](https://youtu.be/fowbUsPHsUQ))
+- 1998 · Kimara Lovelace – When Can Our Love Begin ([Discogs](https://www.discogs.com/release/14896-Kimara-Lovelace-When-Can-Our-Love-Begin) · [▶ Watch](https://youtu.be/oJf34W9Of0A))
+- 1998 · Urban Soul – My Urban Soul ([Discogs](https://www.discogs.com/release/202903-Urban-Soul-My-Urban-Soul) · [▶ Watch](https://youtu.be/8Z3HuTiNQ5I))
+- 2000 · GTS – What Goes Around Comes Around ([Discogs](https://www.discogs.com/release/2742267-GTS-What-Goes-Around-Comes-Around) · [▶ Watch](https://youtu.be/wQCS2gdzArE))
+- 2000 · Kimara Lovelace – Misery ([Discogs](https://www.discogs.com/release/14878-Kimara-Lovelace-Misery) · [▶ Watch](https://youtu.be/BO5L6eWe2q0))
+- 2000 · "Little Louie" Vega Feat. Blaze – Elements Of Life ([Discogs](https://www.discogs.com/release/3015-Little-Louie-Vega-Feat-Blaze-Elements-Of-Life) · [▶ Watch](https://youtu.be/LW-ah0zxGR4))
+- 2001 · Stephanie Cooke – Here With My Best Friend ([Discogs](https://www.discogs.com/release/2499904-Stephanie-Cooke-Here-With-My-Best-Friend) · [▶ Watch](https://youtu.be/fUQsLotiBXs))
+- 2005 · Dennis Ferrer – Son Of Raw ([Discogs](https://www.discogs.com/release/9980049-Dennis-Ferrer-Son-Of-Raw) · [▶ Watch](https://youtu.be/Qmx7H9IAVkE))
+- 2007 · Dennis Ferrer – The World As I See It ([Discogs](https://www.discogs.com/release/1164285-Dennis-Ferrer-The-World-As-I-See-It) · [▶ Watch](https://youtu.be/fCNfh3jY1Iw))
 - 2013 · Elements Of Life & Josh Milan Featuring Cindy Mizelle – Christmas Time is Here ([Discogs](https://www.discogs.com/release/7509918-Elements-Of-Life-3-Josh-Milan-Featuring-Cindy-Mizelle-Christmas-Time-is-Here))
 - 2018 · Antonio Ocasio Feat. Josh Milan – Soulmate ([Discogs](https://www.discogs.com/release/23328836-Antonio-Ocasio-Feat-Josh-Milan-Soulmate))
-- 2018 · Kerri Chandler – 25 Years Of Madhouse Sampler ([Discogs](https://www.discogs.com/release/12535831-Kerri-Chandler-25-Years-Of-Madhouse-Sampler))
+- 2018 · Kerri Chandler – 25 Years Of Madhouse Sampler ([Discogs](https://www.discogs.com/release/12535831-Kerri-Chandler-25-Years-Of-Madhouse-Sampler) · [▶ Watch](https://youtu.be/Oy-gTrM2OJI))
 - 2019 · Klement Bonelli – Quattrocentro EP ([Discogs](https://www.discogs.com/release/13487864-Klement-Bonelli-Quattrocentro-EP))
-- 2020 · Patrick Gibin & Kaidi Tatham Feat. Josh Milan – Love To The World ([Discogs](https://www.discogs.com/release/15489969-Patrick-Gibin-Kaidi-Tatham-Feat-Josh-Milan-Love-To-The-World))
-- 2021 · Josh Milan – Shapes & Colors Vol. 2 ([Discogs](https://www.discogs.com/release/17919019-Josh-Milan-Shapes-Colors-Vol-2))
-- 2023 · Demuir Featuring Bluey Robinson / DJ Sneak – Organized Kaoz EP 3 ([Discogs](https://www.discogs.com/release/28904104-Demuir-Featuring-Bluey-Robinson-DJ-Sneak-Organized-Kaoz-EP-3))
-- 2024 · Dreamer G & Kerri Chandler – I Got That Feelin' (Demuir & Kerri Chandler Edits) ([Discogs](https://www.discogs.com/release/31808441-Dreamer-G-Kerri-Chandler-I-Got-That-Feelin-Demuir-Kerri-Chandler-Edits))
-- 2026 · Louie Vega Featuring Tony Momrelle – Touch The Sky (Remixes) ([Discogs](https://www.discogs.com/release/37633188-Louie-Vega-Featuring-Tony-Momrelle-Touch-The-Sky-Remixes))
+- 2020 · Patrick Gibin & Kaidi Tatham Feat. Josh Milan – Love To The World ([Discogs](https://www.discogs.com/release/15489969-Patrick-Gibin-Kaidi-Tatham-Feat-Josh-Milan-Love-To-The-World) · [▶ Watch](https://youtu.be/BoYD0DD2_tA))
+- 2021 · Josh Milan – Shapes & Colors Vol. 2 ([Discogs](https://www.discogs.com/release/17919019-Josh-Milan-Shapes-Colors-Vol-2) · [▶ Watch](https://youtu.be/JPor1zqHqhg))
+- 2023 · Demuir Featuring Bluey Robinson / DJ Sneak – Organized Kaoz EP 3 ([Discogs](https://www.discogs.com/release/28904104-Demuir-Featuring-Bluey-Robinson-DJ-Sneak-Organized-Kaoz-EP-3) · [▶ Watch](https://youtu.be/vVhosgYmcE4))
+- 2024 · Dreamer G & Kerri Chandler – I Got That Feelin' (Demuir & Kerri Chandler Edits) ([Discogs](https://www.discogs.com/release/31808441-Dreamer-G-Kerri-Chandler-I-Got-That-Feelin-Demuir-Kerri-Chandler-Edits) · [▶ Watch](https://youtu.be/uURkbdtdpac))
+- 2026 · Louie Vega Featuring Tony Momrelle – Touch The Sky (Remixes) ([Discogs](https://www.discogs.com/release/37633188-Louie-Vega-Featuring-Tony-Momrelle-Touch-The-Sky-Remixes) · [▶ Watch](https://youtu.be/986PAFqdbn8))
 
 <!-- hand-curated: everything below this line is preserved by research/assemble.py -->
 
@@ -336,52 +336,50 @@ The 1960s–70s entries share one story: build one's proto years were canonical 
 pop-soul, and the final canon spends those slots on gospel roots and New Jersey-native
 lineage instead. Great records, no Jersey or club-lineage specificity:
 
-- **1960 · Sam Cooke – Chain Gang** (RCA Victor) — build one's opening pick. Its year
+- **1960 · Sam Cooke – Chain Gang** ([Discogs](https://www.discogs.com/release/1525313) · [▶ Watch](https://youtu.be/zBn5aIfZElE)) — build one's opening pick. Its year
   went to the NJ vocal-group root (the Shirelles), Newark gospel on Savoy (James
   Cleveland) and uptown soul (the Drifters). Cooke holds 1964 in the canon with
   "A Change Is Gonna Come".
-- **1961 · The Impressions – Gypsy Woman** — the Impressions enter at 1965 with "People
+- **1961 · The Impressions – Gypsy Woman** ([Discogs](https://www.discogs.com/release/2198815) · [▶ Watch](https://youtu.be/TB7uL_ALmNI)) — the Impressions enter at 1965 with "People
   Get Ready" instead: the gospel-soul Mayfield that feeds this canon's throughline.
-- **1962 · Mary Wells – You Beat Me To The Punch** — Motown gold; 1962 went to East
+- **1962 · Mary Wells – You Beat Me To The Punch** ([Discogs](https://www.discogs.com/release/10522080) · [▶ Watch](https://youtu.be/09oEr7KS2Xw)) — Motown gold; 1962 went to East
   Orange's Dionne Warwick (answered by Sybil's 1989 cover), the Isley Brothers (later of
   Teaneck's T-Neck), and Booker T.
-- **1964 · The Supremes – Where Did Our Love Go** — 1964 carries Sam Cooke, Martha & The
+- **1964 · The Supremes – Where Did Our Love Go** ([Discogs](https://www.discogs.com/release/9113617) · [▶ Watch](https://youtu.be/qTBmgAOO0Nw)) — 1964 carries Sam Cooke, Martha & The
   Vandellas and Marvin Gaye.
-- **1965 · The Temptations – My Girl** — 1965 went to Jersey City's Manhattans on
+- **1965 · The Temptations – My Girl** ([Discogs](https://www.discogs.com/release/26088607) · [▶ Watch](https://youtu.be/zlCT2VZf7ag)) — 1965 went to Jersey City's Manhattans on
   Newark's Carnival label, the Impressions, and Fontella Bass.
-- **1966 · Four Tops – Reach Out I'll Be There** — 1966 went to deep-soul and dance-craze
+- **1966 · Four Tops – Reach Out I'll Be There** ([Discogs](https://www.discogs.com/release/12458633) · [▶ Watch](https://youtu.be/e5Lbe9TchvI)) — 1966 went to deep-soul and dance-craze
   records closer to the club lineage (Darrell Banks, the Capitols, Eddie Floyd).
-- **1970 · The Delfonics – Didn't I (Blow Your Mind This Time)** — Philly sweetness, but
+- **1970 · The Delfonics – Didn't I (Blow Your Mind This Time)** ([Discogs](https://www.discogs.com/release/9074006) · [▶ Watch](https://youtu.be/gM6kZabHf4w)) — Philly sweetness, but
   1970 carries James Brown's groove engine, All Platinum's Moments (Englewood NJ), and
   Curtis Mayfield's "Move On Up", a garage songbook staple.
-- **1971 · Betty Wright – Clean Up Woman** — 1971 went to Jersey City's Kool & The Gang,
+- **1971 · Betty Wright – Clean Up Woman** ([Discogs](https://www.discogs.com/release/557124) · [▶ Watch](https://youtu.be/N_Od9OC9iQ4)) — 1971 went to Jersey City's Kool & The Gang,
   Marvin Gaye, and the Undisputed Truth.
-- **1972 · The O'Jays – Back Stabbers** — the O'Jays hold 1972 with "Love Train"; the
+- **1972 · The O'Jays – Back Stabbers** ([Discogs](https://www.discogs.com/release/2417729) · [▶ Watch](https://youtu.be/bs5r76AWA4E)) — the O'Jays hold 1972 with "Love Train"; the
   year's other seats went to Eddie Kendricks and Manu Dibango, both Loft-to-garage canon.
-- **1974 · George McCrae – Rock Your Baby** — proto-disco landmark, but 1974 carries
+- **1974 · George McCrae – Rock Your Baby** ([Discogs](https://www.discogs.com/release/3185984) · [▶ Watch](https://youtu.be/Wdo-ZiHqbls)) — proto-disco landmark, but 1974 carries
   Newark's Gloria Gaynor (the first side-long disco mix), MFSB's "Love Is The Message"
   (THE Zanzibar anthem), and B.T. Express.
-- **1975 · Loleatta Holloway – Cry To Me** — Loleatta enters the canon where her club
+- **1975 · Loleatta Holloway – Cry To Me** ([Discogs](https://www.discogs.com/release/1964503)) — Loleatta enters the canon where her club
   legend does: "Hit And Run" (1977, Walter Gibbons 12") and "Love Sensation" (1980). The
   Aware-era soul LP yields to the Gold Mind club artifacts.
-- **1979 · Cher – Take Me Home** — genuinely Humphries-attested: it appears on his own
+- **1979 · Cher – Take Me Home** ([Discogs](https://www.discogs.com/release/23413781) · [▶ Watch](https://youtu.be/1Vh_WZ6_Qeg)) — genuinely Humphries-attested: it appears on his own
   2003 *Choice: A Collection Of Club Zanzibar Classics*. The strongest bench case of the
   proto years. 1979 holds Machine, McFadden & Whitehead and Kool & The Gang on
   songbook-plus-NJ grounds — but this one sits one authority argument away from a seat.
-- **1989 · Jomanda – Don't You Want My Love (Street Style)** — Top 100 #20 **and** the
+- **1989 · Jomanda – Don't You Want My Love (Street Style)** ([Discogs](https://www.discogs.com/release/58693) · [▶ Watch](https://youtu.be/xt7Ffx9IuTY)) — Top 100 #20 **and** the
   exact mix Humphries chose for his 2026 Mastermix: double attestation. Lost a brutal
   1989 to K-Yze (video filmed at Zanzibar), Sybil covering Dionne Warwick (the canon's
   NJ echo pattern), and Adeva's "Warning". A strong candidate to argue its way back in.
-- **2012 · Nick Curly – Underground (Dennis Ferrer Remix)** — Ferrer's hand on a German
+- **2012 · Nick Curly – Underground (Dennis Ferrer Remix)** ([Discogs](https://www.discogs.com/release/3941466) · [▶ Watch](https://youtu.be/jpd_Hdm2CTs)) — Ferrer's hand on a German
   tech-house record; scene-peripheral. 2012 went to the Josh Milan / Louie Vega axis.
-- **2017 · Kerri Chandler – Stop Wasting My Time** — an exclusive made for the DJ-Kicks
+- **2017 · Kerri Chandler – Stop Wasting My Time** ([Discogs](https://www.discogs.com/release/11027576)) — an exclusive made for the DJ-Kicks
   mix CD; the canon prefers standalone releases. 2017 carries the *Six Pianos* 2017
   vinyl, Paris Cesvette's Josh Milan feature, and DJ Deep's Kaoz tribute.
-- **2024 · Kerri Chandler feat. AbbieLee – Let It (Give Me Back My Love)** (*Lost &
-  Found EP Vol. 3*) — lost its seat to Elements Of Life's "Let Us Shine", "Fluff Rehab
+- **2024 · Kerri Chandler feat. AbbieLee – Let It (Give Me Back My Love)** (*Lost & Found EP Vol. 3* · [Discogs](https://www.discogs.com/release/30361340) · [▶ Watch](https://youtu.be/Ssk9g3yVXXw)) — lost its seat to Elements Of Life's "Let Us Shine", "Fluff Rehab
   (Kerri's Dark Room)" and "Caged Bird".
-- **2025 · Kerri Chandler feat. Michael Watford – Since I Met You** (*Lost & Found EP
-  Vol. 4*) — the tribute to the late Michael Watford, closing a loop with his 1994 entry.
+- **2025 · Kerri Chandler feat. Michael Watford – Since I Met You** (*Lost & Found EP Vol. 4* · [Discogs](https://www.discogs.com/release/33707625) · [▶ Watch](https://youtu.be/_lucaoMWo5w)) — the tribute to the late Michael Watford, closing a loop with his 1994 entry.
   The strongest narrative pick the final table dropped; any future 2025 change should be
   weighed against it first.
 
