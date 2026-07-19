@@ -69,10 +69,10 @@ economics, credit traps, dead-embed triage, Discogs contribution etiquette.
 122 tracks, every one anchored to a Discogs release page, from Sleezy D's *I've Lost
 Control* (Trax, 1986) to releases from the current year. Highlights of the method:
 identity claims verified via sources rather than names; a >15-min EP rip demoted with its
-rating docked per the rules; 12 Discogs pages improved as contributions along the way;
-and a reconciliation against a third-party tool's attempt at the same playlist
-([the report](playlists/acid/tunemyplaylist-reconciliation.md) separates its 6 genuine
-finds from its 36 wrong-version false positives).
+rating docked per the rules; a reconciliation against a third-party tool's attempt at
+the same playlist that separated its 6 genuine finds from 36 wrong-version false
+positives; and Discogs itself improved along the way — pages fixed and verified videos
+contributed, which the maintenance loop then feeds back into the playlist.
 
 📄 [The table](playlists/acid/acid-playlist.md) ·
 🎵 [The playlist](https://www.youtube.com/playlist?list=PLNXi-Q1Sb-_E) ·
@@ -97,6 +97,7 @@ The [Provenance and full-accounting sections](playlists/jersey-sound/jersey-soun
 at the end of the document tell that story; nothing disappeared silently.
 
 📄 [The table](playlists/jersey-sound/jersey-sound.md) ·
+🎵 [The playlist](https://www.youtube.com/playlist?list=PLWrSMxL0SS2E) ·
 🔧 [Machine-readable items](playlists/jersey-sound/playlist_items.json)
 
 ## Why "vibe-coded"?

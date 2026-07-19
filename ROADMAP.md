@@ -4,11 +4,12 @@ What's genuinely unfinished, in plain terms. Contributions and arguments welcome
 
 ## Jersey Sound
 
-- **Adopt the live YouTube playlist into the sync loop.** The playlist was created
-  manually on YouTube from `playlists/jersey-sound/playlist_items.json`. Once its
-  playlist ID is recorded in that file's metadata, `create_playlist.py
-  --playlist-id <ID> --prune` lets the idempotent sync own it going forward, and older
-  partial playlists can be retired.
+- **First idempotent sync of the live playlist.** The playlist
+  ([PLWrSMxL0SS2E](https://www.youtube.com/playlist?list=PLWrSMxL0SS2E), created
+  manually from `playlists/jersey-sound/playlist_items.json`; its ID is recorded in
+  that file's metadata) still needs one `create_playlist.py --playlist-id PLWrSMxL0SS2E
+  --prune` run so the sync loop owns it going forward. Older partial playlists can be
+  retired after that.
 - **Two open slots.** 2008 and 2009 are each one pick short — honest gaps, candidates
   welcome. Related: the document's
   ["One anchor worth revisiting"](playlists/jersey-sound/jersey-sound.md#one-anchor-worth-revisiting)
@@ -28,7 +29,7 @@ What's genuinely unfinished, in plain terms. Contributions and arguments welcome
 - **Phase 2 — before acid.** Trace the lineage backwards from 1985: TB-303 precursors,
   modular squelch, records that sounded acid before the word existed. Seed notes in
   [`playlists/acid/research/ideas-for-pre-acid.md`](playlists/acid/research/ideas-for-pre-acid.md).
-- **Open contribution shortlist.** The
-  [reconciliation report](playlists/acid/tunemyplaylist-reconciliation.md) lists videos
-  ready to contribute to Discogs pages; each one contributed lets the playlist heal
-  itself on the next rescrape + sync.
+- **Pick up the July 2026 Discogs contributions.** Verified videos were contributed to
+  the Discogs pages of the below-5-star slots; `create_playlist.py --rescrape --prune`
+  re-matches those items against their pages, upgrades ratings toward 5/5, and updates
+  the live playlist in place.
