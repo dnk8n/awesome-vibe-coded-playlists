@@ -35,7 +35,8 @@ for key, rid, tags, note in [
                                 if discogs.yt_id(v.get("uri"))][:15],
                      "year_match": True})
 
-V2_TRACKS = {43497:"Stomp (Move Jump Jack Your Body)",61323:"Love So Special",199959:"Get It Off",
+# releases adopted on scene-authority attestation (tagged ATT) -> the attested cut
+ATTESTED_TRACKS = {43497:"Stomp (Move Jump Jack Your Body)",61323:"Love So Special",199959:"Get It Off",
  22684:"Follow Me",43801:"Hideaway",237678:"Why We Sing",4434845:"Love Sensation",7469110:"Waterfall",
  2535620:"At The Club",35924557:"Inside The Shelter",9145353:"Body 'N Deep",9604326:"Hostile Takeover",
  13507589:"Turn Me On",37716645:"My My Lover",14786745:"Stand On The Word",980171:"Church Lady",
@@ -60,7 +61,7 @@ def base(t):
     b = re.sub(r"\s*\(.*?\)\s*"," ",t or "").strip(" -"); return b or (t or "")
 
 def choose_track(r):
-    forced = TRACK_PICK.get(r["key"]) or V2_TRACKS.get(r.get("release_id"))
+    forced = TRACK_PICK.get(r["key"]) or ATTESTED_TRACKS.get(r.get("release_id"))
     tl = r.get("tracklist") or []
     if forced:
         for t in tl:
@@ -90,7 +91,7 @@ def rank(r):
     tags = r.get("tags","")
     s = 0
     if "ANCHOR" in tags: s -= 1000
-    if "V2" in tags: s -= 50
+    if "ATT" in tags: s -= 50
     if not r.get("release_id"): s += 500
     if r.get("rel_year") != r["year"] and r.get("rel_year"): s += 0  # year already reslotted
     if "NJ" in tags: s -= 30
@@ -148,7 +149,7 @@ for r in sorted(picks, key=lambda x: (x.get("rel_year") or x["year"], x.get("rel
 
 doc = {"schema": "discogs-playlist/v1",
        "playlist": {"title": "Jersey Sound (1982-2026) — A 67-Year Lineage (including proto-era, 1960-1982)",
-                    "description": "The Jersey Sound, centered on Tony Humphries — Club Zanzibar resident, KISS-FM Mastermix — traced from soul/gospel/disco roots (1960) to today. 3 tracks per year, Discogs-verified; his mix credits thread the decades. Built with the discogs-playlist skill (see https://github.com/dnk8n/awesome-vibe-coded-playlists/tree/main/playlists/jersey-sound); v3 of the Jersey Sound project.",
+                    "description": "The Jersey Sound, centered on Tony Humphries — Club Zanzibar resident, KISS-FM Mastermix — traced from soul/gospel/disco roots (1960) to today. 3 tracks per year, Discogs-verified; his mix credits thread the decades. Built with the discogs-playlist skill (see https://github.com/dnk8n/awesome-vibe-coded-playlists/tree/main/playlists/jersey-sound).",
                     "privacy": "public",
                     "playlist_id": "PLWrSMxL0SS2E",
                     "url": "https://www.youtube.com/playlist?list=PLWrSMxL0SS2E"},

@@ -4,12 +4,11 @@ What's genuinely unfinished, in plain terms. Contributions and arguments welcome
 
 ## Jersey Sound
 
-- **First idempotent sync of the live playlist.** The playlist
-  ([PLWrSMxL0SS2E](https://www.youtube.com/playlist?list=PLWrSMxL0SS2E), created
-  manually from `playlists/jersey-sound/playlist_items.json`; its ID is recorded in
-  that file's metadata) still needs one `create_playlist.py --playlist-id PLWrSMxL0SS2E
-  --prune` run so the sync loop owns it going forward. Older partial playlists can be
-  retired after that.
+- **Retire the superseded partial playlists on YouTube.** The
+  [live playlist](https://www.youtube.com/playlist?list=PLWrSMxL0SS2E) is now owned by
+  the idempotent sync loop (ID recorded in the items file's metadata; live and file
+  verified identical). Earlier partial playlists on the channel can be deleted or
+  archived — curator's call.
 - **Two open slots.** 2008 and 2009 are each one pick short — honest gaps, candidates
   welcome. Related: the document's
   ["One anchor worth revisiting"](playlists/jersey-sound/jersey-sound.md#one-anchor-worth-revisiting)
@@ -29,7 +28,7 @@ What's genuinely unfinished, in plain terms. Contributions and arguments welcome
 - **Phase 2 — before acid.** Trace the lineage backwards from 1985: TB-303 precursors,
   modular squelch, records that sounded acid before the word existed. Seed notes in
   [`playlists/acid/research/ideas-for-pre-acid.md`](playlists/acid/research/ideas-for-pre-acid.md).
-- **Pick up the July 2026 Discogs contributions.** Verified videos were contributed to
-  the Discogs pages of the below-5-star slots; `create_playlist.py --rescrape --prune`
-  re-matches those items against their pages, upgrades ratings toward 5/5, and updates
-  the live playlist in place.
+- **Chase the remaining sub-5-star slots.** Eleven acid rows still lack an exact
+  release-page video (their pages have no short exact cut yet); contributing verified
+  uploads to those Discogs pages, then `create_playlist.py --rescrape --prune`, upgrades
+  them toward 5/5 and heals the live playlist in place.

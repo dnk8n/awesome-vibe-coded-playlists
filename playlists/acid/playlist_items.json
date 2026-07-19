@@ -9,7 +9,7 @@
  },
  "source_of_truth": "discogs.com release pages (videos[]); per-item 'match' notes any deviation (search-found upload, alternate cut)",
  "order": "chronological by Discogs release date; year-only dates sort by year",
- "generated_at": "2026-07-18",
+ "generated_at": "2026-07-19",
  "validation": {
   "method": "YouTube Data API v3 videos.list (status)",
   "validated_at": "2026-07-17",
