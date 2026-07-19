@@ -81,8 +81,15 @@ This one exists in two generations: the **pre-skill** versions
 [v2](playlists/jersey-sound/jersey-sound-setlist-v2.md), plus the
 [hand-written verification brief](playlists/jersey-sound/CLAUDE_CODE_HANDOFF.md) whose
 hard-won gotchas — unreliable fan-list dates, two different artists named Tony Humphries —
-foreshadow half the skill's rules), and a **skill-built** re-run at 3 tracks per year with
-a deviation analysis. *(Re-run in progress.)*
+foreshadow half the skill's rules), and the **skill-built v3**: 199 picks across all 67
+years (3 per year, two honest open slots), 177 with live release-page videos, plus a
+[deviation analysis](playlists/jersey-sound/deviation-analysis.md) comparing the two
+generations — ~45 identical picks chosen independently, date corrections cross-validated,
+22 authority-attested v2 picks adopted, and the NJ-native proto layer + 2020s depth that
+only the skill run surfaced.
+
+📄 [The v3 table](playlists/jersey-sound/jersey-sound-v3.md) ·
+🔧 [Machine-readable items](playlists/jersey-sound/playlist_items.json)
 
 ## Why "vibe-coded"?
 
