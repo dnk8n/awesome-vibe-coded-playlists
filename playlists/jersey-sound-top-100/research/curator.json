@@ -1,5 +1,9 @@
 {
-  "_about": "Curator hand-overrides applied on top of the automatic selection. track_pick forces an exact Discogs tracklist title (token-matched; enrich.py); video_pick forces a specific YouTube id (assemble.py, highest precedence); video_note adds a factual note.",
+  "_about": "Curator hand-overrides applied on top of the automatic selection. track_pick forces an exact Discogs tracklist title (token-matched; enrich.py); video_pick forces a specific YouTube id (assemble.py, highest precedence); video_note adds a factual note; row_note appends a free-form markdown note (may contain links) to a row's Notes.",
+  "row_note": {
+    "21": "Adeva's own master: [Adeva – Adeva](https://www.discogs.com/master/97780-Adeva-Adeva); crediting release: [Paul Simpson Featuring Adeva – Musical Freedom (Free At Last)](https://www.discogs.com/release/187738-Paul-Simpson-Featuring-Adeva-Musical-Freedom-Free-At-Last)",
+    "98": "Followed by [Precious – Definition Of A Track / In Motion](https://www.discogs.com/master/168490-Precious-Definition-Of-A-Track-In-Motion) — the same cut given its own 12\", subtitled 'From \"Back To Basics\"'."
+  },
   "track_pick": {
     "17": "Deeper (Kaoz 6:23 House Mix)",
     "50": "Problem #13 (Baseball Bat)",
@@ -12,5 +16,14 @@
     "43": "TkfKXiRnOGY",
     "64": "a5szMcarP9Y"
   },
-  "video_note": {}
+  "video_note": {
+    "40": "linked video is titled according to the album title 'Flightt - Lets Get Jazzy (Dope Dub Mix)'"
+  },
+  "rating_override": {
+    "40": 5,
+    "58": 5,
+    "72": 5,
+    "83": 5,
+    "88": 4
+  }
 }

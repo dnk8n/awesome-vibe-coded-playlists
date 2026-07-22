@@ -207,33 +207,34 @@ def cmd_batch(args):
 
 
 def cmd_find(args):
-    """Fuzzy lead-generation across several angles at once, ranked by token overlap.
-    Handles the mechanical misses automatically — spacing (JoAnn/Jo Ann), punctuation
-    (D'Bonneau), text-speak (4 Da/4 Tha, U/You, &/And), and a *title-only* pass that
-    surfaces records credited to a different or featured lead (Ann Robinson demo ->
-    Cookie Watkins release; Charvoni -> Nu Phonic Featuring Charvoni). Pure spelling
-    variants (Grandpa/Grampa) still need a human retry — see the stderr hint."""
+    """Fuzzy lead-generation. `artist=`+`track=` is brittle on Discogs (it misses even
+    correct spellings), so this leans on what actually works: free-text `q=` with an
+    auto **spacing variant** (JoAnn -> Jo Ann) and a text-speak variant (4 Da -> 4 Tha),
+    plus a **`release_title=` title-only** pass that surfaces a record credited to a
+    different or featured lead (Ann Robinson demo -> Cookie Watkins; Charvoni -> Nu Phonic
+    Featuring Charvoni). Results are ranked by token overlap + year/label hints. Pure
+    spelling variants (Grandpa/Grampa) and comp-only tracks still need a human retry —
+    see the stderr hint."""
     params, _ = parse_kv(args)
     artist, track = params.get("artist", ""), params.get("track", "")
     year, label = params.get("year", ""), params.get("label", "")
 
     def toks(s):
         return set(re.findall(r"[a-z0-9]+", (s or "").lower()))
-    loose = f"{artist} {track}".lower()
-    for pat, rep in ((r"\bda\b", "the"), (r"\btha\b", "the"), (r"\bu\b", "you"),
-                     (r"\bn\b", "and"), (r"&", "and"), (r"\b4\b", "for"), (r"\b2\b", "to")):
+    def base(t):
+        return re.sub(r"\s*\([^)]*\)\s*", " ", t or "").strip()
+    def spacevar(s):                                   # JoAnn -> Jo Ann, D'Bonneau kept
+        return re.sub(r"(?<=[a-z])(?=[A-Z])", " ", s)
+    combo = f"{artist} {track}".strip()
+    loose = combo.lower()
+    for pat, rep in ((r"\bda\b", "tha"), (r"\bu\b", "you"), (r"&", "and"), (r"\b2\b", "to")):
         loose = re.sub(pat, rep, loose)
-    loose = re.sub(r"[^\w\s]", " ", loose)
+    qvars = list(dict.fromkeys(q for q in (combo, spacevar(combo), loose) if q.strip()))
 
-    tries = []
-    if artist and track:
-        tries += [{"artist": artist, "track": track}, {"artist": artist, "release_title": track}]
-    if track:
-        tries += [{"track": track}]          # title-only: catches a different/featured lead
-    if artist:
-        tries += [{"artist": artist}]        # discography
-    tries += [{"q": f"{artist} {track}".strip()}, {"q": loose.strip()}]
-
+    tries = [{"q": q} for q in qvars]
+    if base(track):
+        tries += [{"release_title": base(track)},                       # title-only: any artist
+                  {"release_title": base(track), "artist": spacevar(artist)}]
     seen, out = set(), []
     for pr in tries:
         for r in (call("/database/search", {**pr, "type": "release", "per_page": "20"}) or {}).get("results", []):
@@ -241,7 +242,7 @@ def cmd_find(args):
                 continue
             seen.add(r["id"])
             out.append(r)
-    want = toks(artist) | toks(track)
+    want = toks(artist) | toks(base(track))
     yr = int(year) if year.isdigit() else None
     lt = [w for w in toks(label) if len(w) > 3 and w not in ("records", "record")]
     for r in out:
@@ -261,8 +262,9 @@ def cmd_find(args):
     if not out:
         print("NO RESULTS")
     print("# still missing? retry by hand: spelling/phonetic variants (doubled letters, homophones "
-          "— Grandpa/Grampa, Saybrynaah/Sabrynaah), the track title alone, a distinctive substring, "
-          "or a Various-artists compilation/EP (read its per-track credits).", file=sys.stderr)
+          "— Grandpa/Grampa, Saybrynaah/Sabrynaah), the bare track title as q=, a distinctive "
+          "substring, or a Various-artists compilation/EP (search the comp, read its per-track "
+          "credits).", file=sys.stderr)
 
 
 def main():

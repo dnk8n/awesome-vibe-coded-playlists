@@ -36,7 +36,7 @@
    "year": 1985,
    "video_title": "Paul Scott - Off The Wall - Radio Version '85 (?)",
    "match": "exact",
-   "rating": 3,
+   "rating": 5,
    "duration_seconds": 373,
    "fill": false
   },
@@ -84,7 +84,7 @@
    "year": 1986,
    "video_title": "Blaze - Whatcha Gonna Do ( Vocal )",
    "match": "exact",
-   "rating": 4,
+   "rating": 5,
    "duration_seconds": 358,
    "fill": true
   },
@@ -156,7 +156,7 @@
    "year": 1987,
    "video_title": "Flightt - Lets Get Jazzy (Dope Dub Mix)",
    "match": "alternate",
-   "rating": 3,
+   "rating": 5,
    "duration_seconds": 346,
    "fill": false
   },
@@ -2028,7 +2028,7 @@
    "year": 1994,
    "video_title": "Cookie - Choose Me (Extended Mix)",
    "match": "exact",
-   "rating": 5,
+   "rating": 4,
    "duration_seconds": 399,
    "fill": false
   },
@@ -2196,7 +2196,7 @@
    "year": 1996,
    "video_title": "Mama's Children featuring Lee Truesdale - Let Us All Be Friends (Original Version Mix)",
    "match": "exact",
-   "rating": 4,
+   "rating": 5,
    "duration_seconds": 339,
    "fill": false
   },

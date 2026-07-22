@@ -74,12 +74,12 @@ the list named, or, where none was named, an **extended/long** cut, else a **clu
 first A-side (a radio/edit only as a last resort). When a named mix isn't on the master the row
 **stays on the master** with its best cut — users can click **"See all versions"** there to reach
 a specific pressing. The source list's own wording only drove the search; extra track detail and a
-★ quality rating ride in the Notes/Status. Several entries the source listed only as **acetates or
+★ quality rating ride in the Notes/Confidence. Several entries the source listed only as **acetates or
 demos** (#23, #49, #64, #87) proved to have catalogued Discogs masters after all and were included
 rather than faked. All 100 ranked slots are filled with verified Discogs releases.
 YouTube links follow the skill's matching ladder and 15-minute rule; any deviation is marked ▶.
 When no mix was named, the pick favours the **club version** (an extended/long club if present),
-else the first A-side cut. The Status column carries a **★ rating**: ★★★★★ means the ideal cut
+else the first A-side cut. The Confidence column carries a **★ rating**: ★★★★★ means the ideal cut
 (a club/extended or the prompt's named mix) paired with an exact video; anything lower flags a slot
 worth revisiting for a better cut or upload (e.g. releases that only offered a radio edit).
 

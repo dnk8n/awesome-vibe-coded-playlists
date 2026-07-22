@@ -6739,7 +6739,8 @@
   "track_tier": 5,
   "link_text": "FFRR 869 636-4 · master",
   "enrich_notes": [
-   "curator-selected cut"
+   "curator-selected cut",
+   "source credits the artist as \"Susan Clark\""
   ],
   "videos_src": [
    {
@@ -9398,7 +9399,10 @@
   "released2": "1988",
   "track_tier": 4,
   "link_text": "Cooltempo COOLX 182 · master",
-  "enrich_notes": [],
+  "enrich_notes": [
+   "source credits the artist as \"Adeva/Carmen Brown\"",
+   "Adeva's own master: [Adeva – Adeva](https://www.discogs.com/master/97780-Adeva-Adeva); crediting release: [Paul Simpson Featuring Adeva – Musical Freedom (Free At Last)](https://www.discogs.com/release/187738-Paul-Simpson-Featuring-Adeva-Musical-Freedom-Free-At-Last)"
+  ],
   "videos_src": [
    {
     "id": "n8g3NAqCbog",
@@ -9693,7 +9697,9 @@
   "released2": "1989",
   "track_tier": 5,
   "link_text": "Champion CHAMPX 12-220 · master",
-  "enrich_notes": [],
+  "enrich_notes": [
+   "source credits the artist as \"JoAnn Jones\""
+  ],
   "videos_src": [
    {
     "id": "n_KUZyKiwBk",
@@ -9873,7 +9879,10 @@
   "released2": "1991",
   "track_tier": 4,
   "link_text": "Smash Records 867 745-1 · master",
-  "enrich_notes": [],
+  "enrich_notes": [
+   "source credits the artist as \"Ann Robinson\"",
+   "source specifies \"Demo Version\""
+  ],
   "videos_src": [
    {
     "id": "7WEZCOK-aTM",
@@ -10272,7 +10281,9 @@
   "released2": "1988",
   "track_tier": 4,
   "link_text": "Sweat SWHX 030 · master",
-  "enrich_notes": [],
+  "enrich_notes": [
+   "source credits the artist as \"Vicki Martin\""
+  ],
   "videos_src": [
    {
     "id": "W3_94dQKXJ0",
@@ -10813,7 +10824,9 @@
   "released2": "1987",
   "track_tier": 4,
   "link_text": "City Beat CBE 722 · master",
-  "enrich_notes": [],
+  "enrich_notes": [
+   "source credits the artist as \"Keshia Jenkins\""
+  ],
   "videos_src": [
    {
     "id": "RiREhMyGqXs",
@@ -15035,7 +15048,9 @@
   "released2": "1987",
   "track_tier": 5,
   "link_text": "TMT Records TMT 001 · master",
-  "enrich_notes": [],
+  "enrich_notes": [
+   "source titles it \"Let's Get Jazzy\""
+  ],
   "videos_src": [
    {
     "id": "hm902L_9LAM",
@@ -15803,7 +15818,9 @@
   "released2": "1991",
   "track_tier": 5,
   "link_text": "Ace Beat Records ACE 0004",
-  "enrich_notes": [],
+  "enrich_notes": [
+   "source credits the artist as \"The CRJ Project\""
+  ],
   "videos_src": [
    {
     "id": "GBx9sK658lI",
@@ -17525,7 +17542,9 @@
   "released2": "1990",
   "track_tier": 5,
   "link_text": "SBK One V-19718 · master",
-  "enrich_notes": [],
+  "enrich_notes": [
+   "source credits the artist as \"D'borah\""
+  ],
   "videos_src": [
    {
     "id": "XEx1TIFNGhM",
@@ -17815,7 +17834,9 @@
   "released2": "1991",
   "track_tier": 4,
   "link_text": "Columbia 44 73734 · master",
-  "enrich_notes": [],
+  "enrich_notes": [
+   "source specifies \"Demo Version\""
+  ],
   "videos_src": [
    {
     "id": "J0VpPaCAMro",
@@ -18040,7 +18061,8 @@
   "track_tier": 5,
   "link_text": "Hourglass Recordings HGR-001 · master",
   "enrich_notes": [
-   "curator-selected cut"
+   "curator-selected cut",
+   "source credits the artist as \"Johnny Dangerous\""
   ],
   "videos_src": [
    {
@@ -18442,7 +18464,9 @@
   "released2": "1997",
   "track_tier": 4,
   "link_text": "BPM King Street Sounds KSS 1056 · master",
-  "enrich_notes": [],
+  "enrich_notes": [
+   "source credits the artist as \"Big Moses & Kenny Bobien\""
+  ],
   "videos_src": [
    {
     "id": "EuZ7gxF_sEw",
@@ -18619,7 +18643,8 @@
   "track_tier": 4,
   "link_text": "Jellybean Soul JSL3527 · master",
   "enrich_notes": [
-   "'Original Mix' not on the master — using Say You're Gonna Stay (Smack Mix)"
+   "'Original Mix' not on the master — using Say You're Gonna Stay (Smack Mix)",
+   "source credits the artist as \"Darryl D' Bonneau\""
   ],
   "videos_src": [
    {
@@ -18755,7 +18780,9 @@
   "track_tier": 3,
   "link_text": "Ace Beat Records AN 92565 · master",
   "enrich_notes": [
-   "no club/extended cut — radio/edit is the best the release offers"
+   "no club/extended cut — radio/edit is the safest choice",
+   "source credits the artist as \"Charvoni\"",
+   "source titles it \"I Just Can't Quit Lovin' You\""
   ],
   "videos_src": [
    {
@@ -20505,7 +20532,9 @@
   "released2": "1990",
   "track_tier": 4,
   "link_text": "Big Beat 7599-24414-1 · master",
-  "enrich_notes": [],
+  "enrich_notes": [
+   "source specifies \"Demo Version\""
+  ],
   "videos_src": [
    {
     "id": "1MjW68sAw0M",
@@ -21082,7 +21111,9 @@
   "released2": "1993",
   "track_tier": 5,
   "link_text": "BPM King Street Sounds KSS-1003 · master",
-  "enrich_notes": [],
+  "enrich_notes": [
+   "source credits the artist as \"Saybrynaah Pope\""
+  ],
   "videos_src": [
    {
     "id": "yPlPT24lgAk",
@@ -21866,7 +21897,9 @@
   "released2": "1991",
   "track_tier": 5,
   "link_text": "Big Beat BB-0029",
-  "enrich_notes": [],
+  "enrich_notes": [
+   "source credits the artist as \"B.O.P\""
+  ],
   "videos_src": [
    {
     "id": "Xaj0dNgldBU",
@@ -23247,7 +23280,7 @@
   "track_tier": 3,
   "link_text": "Ace Beat Records AB 91113 · master",
   "enrich_notes": [
-   "no club/extended cut — radio/edit is the best the release offers"
+   "no club/extended cut — radio/edit is the safest choice"
   ],
   "videos_src": [
    {
@@ -23379,7 +23412,9 @@
   "released2": "1993",
   "track_tier": 4,
   "link_text": "Movin' Records MR020 · master",
-  "enrich_notes": [],
+  "enrich_notes": [
+   "source credits the artist as \"Grandpa\""
+  ],
   "videos_src": [
    {
     "id": "WEgIbJ66Puc",
@@ -24040,7 +24075,9 @@
   "released2": "1995",
   "track_tier": 4,
   "link_text": "Smack Music smk-1013 · master",
-  "enrich_notes": [],
+  "enrich_notes": [
+   "source titles it \"4 Da Love Of U\""
+  ],
   "videos_src": [
    {
     "id": "Bx9SGddkzWA",
@@ -24346,7 +24383,9 @@
   "released2": "1994",
   "track_tier": 4,
   "link_text": "Shelter Records SHL-1008 · master",
-  "enrich_notes": [],
+  "enrich_notes": [
+   "source credits the artist as \"Cassio feat. Sajadah\""
+  ],
   "videos_src": [
    {
     "id": "WZvFUyTdFFc",
@@ -24784,7 +24823,10 @@
   "released2": "1992",
   "track_tier": 5,
   "link_text": "Hourglass Recordings HGR-201 · master",
-  "enrich_notes": [],
+  "enrich_notes": [
+   "source credits the artist as \"Johnny Dangerous feat. Jazmina/Pzaz\"",
+   "source titles it \"Good Time\""
+  ],
   "videos_src": [
    {
     "id": "FJw0k-TMp4c",
@@ -25448,7 +25490,9 @@
   "released2": "1994",
   "track_tier": 4,
   "link_text": "Nite Grooves KNG-18 · master",
-  "enrich_notes": [],
+  "enrich_notes": [
+   "source titles it \"Back To Zanzibar\""
+  ],
   "videos_src": [
    {
     "id": "iy0JbaC4Duo",
@@ -25943,7 +25987,9 @@
   "released2": "1995",
   "track_tier": 5,
   "link_text": "Choice Records DIGCH-01 · master",
-  "enrich_notes": [],
+  "enrich_notes": [
+   "source titles it \"Reach Out For Me\""
+  ],
   "videos_src": [
    {
     "id": "Sq8eRa-Dpzg",
@@ -27019,7 +27065,9 @@
   "released2": "1992",
   "track_tier": 4,
   "link_text": "New Generation Records NGR 011 · master",
-  "enrich_notes": [],
+  "enrich_notes": [
+   "source credits the artist as \"Darryl D' Bonneau\""
+  ],
   "videos_src": [
    {
     "id": "VdhGx2TMPhA",
@@ -27278,7 +27326,9 @@
   "released2": "1994",
   "track_tier": 4,
   "link_text": "Grassroots Records GR-004 · master",
-  "enrich_notes": [],
+  "enrich_notes": [
+   "source titles it \"I Love You\""
+  ],
   "videos_src": [
    {
     "id": "gN6ujqD7lbU",
@@ -27520,7 +27570,10 @@
   "released2": "1993",
   "track_tier": 5,
   "link_text": "BPM King Street Sounds KSS-1009 · master",
-  "enrich_notes": [],
+  "enrich_notes": [
+   "source credits the artist as \"Charvoni\"",
+   "source specifies \"Demo Version\""
+  ],
   "videos_src": [
    {
     "id": "7Bu5PKoLC8s",
@@ -29120,7 +29173,7 @@
   "track_listed": "Definition Of A Track",
   "label_hint": "",
   "year_hint": "1988",
-  "annotation": "Credited to Backroom Productions on the 'Back To Basics' comp (New York Underground, 1988) — the track's original home (Precious cut a full 12\" of it in 1989).",
+  "annotation": "Credited to Backroom Productions on the 'Back To Basics' comp (New York Underground, 1988) — kept as the definitive original home of the cut, even though it's a compilation (they rarely are).",
   "release_id": 194790,
   "resolved_by": "override",
   "credit": "Various",
@@ -29236,7 +29289,9 @@
   "released2": "1988",
   "track_tier": 4,
   "link_text": "New York Underground Records NU002 · master",
-  "enrich_notes": [],
+  "enrich_notes": [
+   "Followed by [Precious – Definition Of A Track / In Motion](https://www.discogs.com/master/168490-Precious-Definition-Of-A-Track-In-Motion) — the same cut given its own 12\", subtitled 'From \"Back To Basics\"'."
+  ],
   "videos_src": [
    {
     "id": "Pexr_Y6SZiI",
@@ -29666,7 +29721,9 @@
   "released2": "1987",
   "track_tier": 4,
   "link_text": "Movin' Records MR002 · master",
-  "enrich_notes": [],
+  "enrich_notes": [
+   "source credits the artist as \"Park Avenue\""
+  ],
   "videos_src": [
    {
     "id": "-OzhpubCabs",

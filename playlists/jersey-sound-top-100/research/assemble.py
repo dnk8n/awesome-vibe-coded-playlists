@@ -44,6 +44,7 @@ if _fx.exists():
 _cur = json.load(open(HERE / "curator.json")) if (HERE / "curator.json").exists() else {}
 CURATOR_VIDEO = {int(k): v for k, v in _cur.get("video_pick", {}).items()}
 VIDEO_NOTE = _cur.get("video_note", {})
+RATING_OVERRIDE = {int(k): int(v) for k, v in _cur.get("rating_override", {}).items()}  # hand-set after listening
 
 def yt_pick(videos, track):
     vids = [v for v in (videos or []) if v.get("id") and v["id"] not in DEAD_VIDEOS]
@@ -102,6 +103,7 @@ for row in rows:
         if ov: v, match = ov, ("exact" if tin(track, ov["title"]) else "close")
     vtier = 5 if curator_vid else TIER[match]
     rating = min(vtier, ttier)                        # <5 flags a slot to hunt alternatives for
+    rating = RATING_OVERRIDE.get(rank, rating)         # curator's hand-set rating wins
     y = sort_year(row)
     rel = rel_str(row)
     url = row.get("chosen_url"); link_text = row.get("link_text") or "Discogs"
@@ -112,7 +114,8 @@ for row in rows:
     for eb in row.get("enrich_notes", []): n.append(eb)
     if str(rank) in VIDEO_NOTE: n.append("▶ " + VIDEO_NOTE[str(rank)])
     if not curator_vid:
-        if match == "alternate" and v: n.append(f"▶ page video is '{v['title'][:38]}'")
+        if match == "alternate" and v and str(rank) not in VIDEO_NOTE:  # a curator video_note supersedes it
+            n.append(f"▶ page video is '{v['title'][:38]}'")
         if match == "longrip" and v: n.append("▶ only a >15-min full rip on the page — not added to the playlist")
         if match == "none": n.append("▶ no usable page video")
     notes = " · ".join(n)
@@ -130,7 +133,7 @@ for row in rows:
                       "video_title": v["title"], "match": match, "rating": rating,
                       "duration_seconds": v.get("dur"), "fill": fill})
 
-TABLE = ("| Rank | Released | Artist | Track | Discogs | YouTube | Notes | Status |\n"
+TABLE = ("| Rank | Released | Artist | Track | Discogs | YouTube | Notes | Confidence |\n"
          "|---|---|---|---|---|---|---|---|\n" + "\n".join(mdrows))
 if queue:
     TABLE += ("\n\n## Research queue — unverified slots\n\n"

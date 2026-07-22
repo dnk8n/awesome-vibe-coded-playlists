@@ -29,6 +29,7 @@ MC_F = HERE/"master_cache.json"
 MC = json.load(open(MC_F)) if MC_F.exists() else {}
 CURATOR = json.load(open(HERE/"curator.json")) if (HERE/"curator.json").exists() else {}
 CUR_TRACK = CURATOR.get("track_pick", {})  # {rank: exact tracklist title to force}
+CUR_ROWNOTE = CURATOR.get("row_note", {})  # {rank: free-form markdown note appended to Notes}
 
 def norm(s): return re.sub(r"[.']","",unicodedata.normalize("NFKD",s or "").encode("ascii","ignore").decode().lower())
 def ntok(s): return [w for w in re.findall(r"[a-z0-9]+", norm(s)) if w]
@@ -99,6 +100,36 @@ def track_tier(title, requested):
        or "beats" in tt or "bonus" in tt: return 2
     if "radio" in tt or "edit" in tt: return 3
     return 4  # plain / vocal / original / main A-side cut
+
+_JOIN = {"the", "a", "and", "featuring", "feat", "ft", "presents", "pres", "vs", "x"}
+_MIXW = {"mix", "version", "edit", "remix", "dub", "club", "radio", "vocal", "instrumental",
+         "acapella", "accapella", "original", "extended", "long", "main", "bonus", "beats", "12", "7", "inch"}
+def dev_notes(src_artist, src_track, disc_artist, disc_track, existing, is_fill):
+    """Notes for how the playlist row deviates from the SOURCE list: a differently
+    spelled/credited artist, a title with a word the source used but Discogs doesn't
+    (misspelling/different title), or — only when the source itself named a version —
+    a different version than the one selected. Fills aren't in the source, so skip them."""
+    if is_fill:
+        return []
+    devs = []
+    def anorm(s): return set(ntok(re.sub(r"\(\d+\)", "", s or ""))) - _JOIN
+    if anorm(src_artist) and anorm(disc_artist) and anorm(src_artist) != anorm(disc_artist):
+        devs.append(f'source credits the artist as "{(src_artist or "").strip()}"')
+    # title: flag only when the SOURCE has a word the Discogs title lacks (a real
+    # misspelling/different word) — not when Discogs merely has a fuller title/subtitle
+    src_base = set(ntok(re.sub(r"\s*\([^)]*\)\s*", " ", src_track or ""))) - {"the", "a"}
+    disc_all = set(ntok(disc_track or "")) - {"the", "a"}
+    if src_base and not src_base.issubset(disc_all):
+        srcbase = re.sub(r"\s*\([^)]*\)\s*", " ", src_track).strip()
+        devs.append(f'source titles it "{srcbase}"')
+    parens = re.findall(r"\(([^)]*)\)", src_track or "")
+    covered = "not on the" in " ".join(existing) or "not catalogued" in " ".join(existing)
+    if parens and not covered:                              # source named a version...
+        sv = parens[-1].strip()
+        distinct = set(ntok(sv)) - _MIXW - {"the", "a"}
+        if distinct and not (distinct & set(ntok(disc_track))):   # ...and we picked a different one
+            devs.append(f'source specifies "{sv}"')
+    return devs
 
 out = []
 for row in V:
@@ -172,8 +203,13 @@ for row in V:
     honored = cur_applied or (bool(ver) and chosen is not None and ver_in(ver, chosen_title))
     ttier = track_tier(chosen_title, honored)
     if ttier <= 3 and not any("curator" in n for n in note_bits):  # ★★★★☆ (tier 4) is self-explanatory
-        note_bits.append({3: "no club/extended cut — radio/edit is the best the release offers",
+        note_bits.append({3: "no club/extended cut — radio/edit is the safest choice",
                           2: "only a dub/instrumental-type cut available"}.get(ttier, ""))
+    for d in dev_notes(row["artist_listed"], row["track_listed"], chosen_artist, chosen_title,
+                       note_bits, row.get("fill", False)):
+        if d not in note_bits: note_bits.append(d)
+    if CUR_ROWNOTE.get(str(row["rank"])):
+        note_bits.append(CUR_ROWNOTE[str(row["rank"])])
 
     out.append({**row,
                 "chosen_page": page, "chosen_url": chosen_url, "chosen_track": chosen_title,
