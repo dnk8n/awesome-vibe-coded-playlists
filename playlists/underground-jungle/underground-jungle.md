@@ -9,7 +9,7 @@ to daytime radio or the compilation-CD canon. Every row is anchored to a real Di
 exact credited artist, exact track title, label and pressing date copied character-for-character —
 and every YouTube link is one the collector community attached to that release page. Sorted by
 release date so it reads as a 1993→1996 timeline. (Curated by Claude with the
-[discogs-playlist skill](../../skill/), July 2026 — no brief beyond "not very well known.")
+[discogs-playlist skill](../../skill/discogs-playlist/), July 2026 — no brief beyond "not very well known.")
 
 ## What counts as "jungle" here
 

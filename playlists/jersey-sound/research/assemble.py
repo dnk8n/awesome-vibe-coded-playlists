@@ -182,7 +182,7 @@ brief locked **Kerri Chandler – Climax 1** (Atmosphere E.P. Vol. 1, Shelter, 1
 anchor, with **Hardrive – Deep Inside** as podium silver. Jersey Club (the 2000s Newark
 genre — same city, different music) is excluded. Every row was verified against the
 Discogs API; YouTube links come from each release page's own community-added videos.
-Built with the [discogs-playlist skill](../../skill/discogs-playlist/) — and built
+Built with the [discogs-playlist skill](../../../skill/discogs-playlist/) — and built
 **twice, independently**: see [Provenance](#provenance--this-canon-was-built-twice) at
 the end of this document for how the two builds converged, and
 [the full accounting](#the-original-lineup--a-full-accounting) of every original pick.

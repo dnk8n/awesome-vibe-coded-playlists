@@ -8,7 +8,7 @@ has been verified against the Discogs API for its exact credited artist, track t
 pressing date; YouTube links are drawn from each release page's own community-added videos. The
 table below is sorted by **release date** to read as a timeline, but each row keeps its original
 **Rank** (1 = the scene's #1). Built with the
-[discogs-playlist skill](../../skill/discogs-playlist/). (Curator: Dean Kayton, July 2026.)
+[discogs-playlist skill](../../../skill/discogs-playlist/). (Curator: Dean Kayton, July 2026.)
 
 **On the two blank slots.** The source list skips from 57 to 60 — slots **58 and 59 were left
 empty**, and Flowers explicitly invited readers to nominate "any true 'Jersey Sound' House tunes
