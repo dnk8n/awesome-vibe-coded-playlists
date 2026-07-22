@@ -84,7 +84,7 @@ An API key cannot create playlists — `playlists.insert` requires OAuth user co
 
 The script is **idempotent**: it diffs the items file against the live playlist and only inserts/removes deltas, so re-runs are cheap (~5 units when nothing changed) and interrupted runs just re-run. It creates the playlist **private** by default — let the user opt into public. If the user can't/won't do OAuth, offer anonymous playlist URLs: `https://www.youtube.com/watch_videos?video_ids=ID1,ID2,...` (≤50 ids each) — instant, no login.
 
-**Adoption and the durable record:** users sometimes build the playlist by hand on YouTube from the items file — adopt it with `--playlist-id <ID>` instead of creating a duplicate; a `--dry-run` reporting `add: 0 | stale: 0` is the proof that live and file are identical. Once a live playlist exists (created or adopted), record `playlist_id` and `url` in the items file's `playlist` block: the script uses it as the sync target on later runs (resolution: `--playlist-id` > items-file metadata > local progress file), and it's the record that survives machines — the `*_progress.json` the script writes is local resume state and belongs in `.gitignore`. On the next `assemble.py`, that `url` also surfaces a **▶ Listen on YouTube** link just under the document's title, so the finished doc points readers straight at the playlist.
+**Adoption and the durable record:** users sometimes build the playlist by hand on YouTube from the items file — adopt it with `--playlist-id <ID>` instead of creating a duplicate; a `--dry-run` reporting `add: 0 | stale: 0` is the proof that live and file are identical. Once a live playlist exists (created or adopted), record `playlist_id` and `url` in **`config.json`'s `playlist` block** — that's the durable, committed source of truth. `assemble.py` copies them into the regenerated (gitignored) items file, which is the sync target on later runs (resolution: `--playlist-id` > items-file metadata > local progress file); the `*_progress.json` the script writes is local resume state and belongs in `.gitignore`. On the next `assemble.py`, that `url` also surfaces a **▶ Listen on YouTube** link just under the document's title, so the finished doc points readers straight at the playlist.
 
 ## Phase 4 — Maintenance & the community-contribution loop
 
@@ -113,9 +113,19 @@ Per-playlist `research/` holds only:
   tracklist title), `video_pick` (force a YouTube id), `video_note`, `row_note` (free-form markdown,
   links ok), `rating_override` (hand-set ★ after listening).
 - `article.md` — the intro prose + references, with a `<!-- INSERT_TABLE_HERE -->` marker.
-- `config.json` — `output_md` filename, `playlist` metadata (title/description/privacy), optional
-  `reuse_from` (a sibling's `verified_final.json` to seed release ids).
-- plus generated (`verified.json`, `enriched.json`, `video_fixes.json`) and caches (`*_cache.json`).
+- `config.json` — `output_md` filename, `playlist` metadata (title/description/privacy **and the
+  durable `playlist_id`/`url`** once the YouTube playlist exists), optional `reuse_from`.
+
+Everything else the scripts write is a **regenerated build artifact, not source of truth** —
+`verified.json`, `enriched.json`, `video_fixes.json`, the `*_cache.json` Discogs caches, and
+`../playlist_items.json` + `*_progress.json`. **Gitignore all of these** (see the playlist's
+`.gitignore`); commit only the source above plus the deliverable `.md`. Discogs and YouTube are the
+live source of truth, fetched just-in-time; the caches are only a local speedup — **delete one to
+force a fresh fetch**. Because the same datum (a video id, a credit) otherwise lands in five files,
+**never hand-edit the generated `.md` / items / `enriched.json`** — a stray edit there goes stale the
+moment anything regenerates. Change the *source* instead: a video → `curator.json` `video_pick`; a
+cut → `track_pick`; a rating → `rating_override`; a pressing → `overrides.json` — then rebuild. The
+durable YouTube `playlist_id`/`url` live in `config.json`, so the items file stays disposable.
 
 Flow (run from `research/`): `verify.py` (picks→`verified.json`, resolving ids via overrides/seed/
 reuse/search) → `enrich.py` (master preference + tracklist pick + artist + rating + deviation notes

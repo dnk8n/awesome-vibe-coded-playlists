@@ -37,7 +37,7 @@
     {"rank": 34, "artist_listed": "Charvoni", "track_listed": "Always There", "label_hint": "Capitol", "year_hint": "1989"},
     {"rank": 35, "artist_listed": "Blaze", "track_listed": "Can't Win For Losin'", "label_hint": "Quark", "year_hint": "1987"},
     {"rank": 36, "artist_listed": "Redd", "track_listed": "Mr. Right", "label_hint": "111 East", "year_hint": "1992"},
-    {"rank": 37, "artist_listed": "Jomanda", "track_listed": "Don't You Want My Love", "label_hint": "Big Beat", "year_hint": "1988", "annotation": "Duplicate title with #20; #37 is the earlier 1988 mix, #20 the 1989."},
+    {"rank": 37, "artist_listed": "The Joubert Singers", "track_listed": "Stand On The Word", "label_hint": "", "year_hint": "1985", "annotation": "Curator substitution (creative license): the source's #37 duplicated #20 (Jomanda – Don't You Want My Love), so this rank goes to The Joubert Singers – Stand On The Word — the gospel record that became a garage/Jersey anthem (Tony Humphries mix)."},
     {"rank": 38, "artist_listed": "Sybil", "track_listed": "Falling In Love", "label_hint": "Next Plateau", "year_hint": "1986"},
     {"rank": 39, "artist_listed": "Intense", "track_listed": "I See You", "label_hint": "AceBeat", "year_hint": "1991"},
     {"rank": 40, "artist_listed": "Flightt", "track_listed": "Let's Get Jazzy (Dope Dub Mix)", "label_hint": "TMT", "year_hint": "1987"},

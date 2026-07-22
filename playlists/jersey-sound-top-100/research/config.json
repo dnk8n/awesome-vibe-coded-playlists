@@ -1,10 +1,12 @@
 {
-  "_about": "Playlist-specific config read by the skill scripts (run from this research/ dir). The scripts themselves live in the skill (skill/discogs-playlist/scripts/); everything playlist-specific is data here (picks.json, overrides.json, curator.json, article.md) plus this config.",
+  "_about": "The DURABLE source of truth for this playlist, read by the skill scripts (run from this research/ dir). Committed alongside picks.json / overrides.json / curator.json / article.md. Everything else in this dir (verified.json, enriched.json, *_cache.json, ../playlist_items.json) is a regenerated build artifact and is gitignored — Discogs and YouTube are the live source of truth, fetched just-in-time.",
   "output_md": "jersey-sound-top-100.md",
   "reuse_from": "../../jersey-sound/research/verified_final.json",
   "playlist": {
     "title": "The Jersey Sound — FIDA/ThinkSoul Top 100 (30 Years Later)",
     "description": "The community's own canon: the FIDA/ThinkSoul Committee 'Jersey Sound Top 100' (Christopher Flowers, 2019), Discogs-verified (master releases always linked) and rebuilt with the discogs-playlist skill. Newark/Essex County soulful-gospel vocal house, Club Zanzibar / Tony Humphries era. Ranked list, played in chronological order; blank slots 58 & 59 filled by the curator (Blaze - Whatcha Gonna Do; Kerri Chandler - Hallelujah). Source: https://flowerzindattic.blogspot.com/2019/12/the-jersey-sound-top-100-30-years-later.html",
-    "privacy": "public"
+    "privacy": "public",
+    "playlist_id": "PLVkmY-N1Myts",
+    "url": "https://www.youtube.com/playlist?list=PLVkmY-N1Myts"
   }
 }

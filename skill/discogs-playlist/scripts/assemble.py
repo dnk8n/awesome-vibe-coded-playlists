@@ -140,22 +140,24 @@ if queue:
               "only as acetates/demos). Kept visible above as open rows; leads for a manual pass:\n\n"
               + "\n".join(queue))
 
-prev = {}   # carry the created YouTube playlist's id/url forward from the last items file
-if (REPO / "playlist_items.json").exists():
-    prev = (json.load(open(REPO / "playlist_items.json")).get("playlist") or {})
+# The YouTube playlist id/url are DURABLE source-of-truth in config.json's playlist block.
+# (Migration) if config lacks them but an older items file has them, adopt them.
+plmeta = dict(CFG["playlist"])
+if not plmeta.get("playlist_id") and (REPO / "playlist_items.json").exists():
+    _old = (json.load(open(REPO / "playlist_items.json")).get("playlist") or {})
+    plmeta.setdefault("playlist_id", _old.get("playlist_id"))
+    plmeta.setdefault("url", _old.get("url"))
 
 art = (HERE / "article.md").read_text()
 doc = art.replace("<!-- INSERT_TABLE_HERE -->", TABLE)
-if prev.get("url"):   # once the YouTube playlist exists, link it just under the H1 title
+if plmeta.get("url"):   # once the YouTube playlist exists, link it just under the H1 title
     doc = re.sub(r"^(#[^\n]*\n)",
-                 lambda m: m.group(1) + f"\n**[▶ Listen — the full playlist on YouTube]({prev['url']})**\n",
+                 lambda m: m.group(1) + f"\n**[▶ Listen — the full playlist on YouTube]({plmeta['url']})**\n",
                  doc, count=1)
 (REPO / CFG["output_md"]).write_text(doc)
 
 out = {"schema": "discogs-playlist/v1",
-       "playlist": {**CFG["playlist"],
-                    "playlist_id": prev.get("playlist_id"),
-                    "url": prev.get("url")},
+       "playlist": plmeta,
        "source_of_truth": "The Discogs master release is always linked when one exists; Artist and Track are both taken character-for-character from the master's tracklist. Track = the version the source named, else an extended/long cut, else a club cut, else the first A-side (radio/edit last). Artist = the item's Discogs credit (per-track on comps, else the master credit). A per-item ★ rating (1-5) flags sub-ideal cuts/videos to revisit.",
        "order": "chronological by the chosen Discogs master/release year; each item keeps its Top-100 rank",
        "generated_at": "2026-07-22",
