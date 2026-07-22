@@ -1,0 +1,16 @@
+{
+  "_about": "Curator hand-overrides applied on top of the automatic selection. track_pick forces an exact Discogs tracklist title (token-matched; enrich.py); video_pick forces a specific YouTube id (assemble.py, highest precedence); video_note adds a factual note.",
+  "track_pick": {
+    "17": "Deeper (Kaoz 6:23 House Mix)",
+    "50": "Problem #13 (Baseball Bat)",
+    "61": "Pump Up The Music (Girly Girly Mix)",
+    "62": "You're No Good For Me (Classy Club Dub Mix)"
+  },
+  "video_pick": {
+    "23": "AiwVpphzAmA",
+    "35": "a5RowdXRQyw",
+    "43": "TkfKXiRnOGY",
+    "64": "a5szMcarP9Y"
+  },
+  "video_note": {}
+}

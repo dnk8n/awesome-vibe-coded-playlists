@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/Users/dean/dj/vibes/awesome-vibe-coded-playlists/playlists/jersey-sound-top-100/research/enrich.py", line 103, in <module>
+    note_bits.append(f"requested '{ver}' not catalogued on Discogs; using the {chosen['title']}")
+TypeError: 'NoneType' object is not subscriptable

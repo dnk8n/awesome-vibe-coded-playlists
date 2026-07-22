@@ -19,6 +19,12 @@ Commands:
                                scan style="Acid House" year=1990
   batch   <file>               One search per line: "label :: artist :: track
                                [:: year]" — quick lead pass over many picks.
+  find    artist= track=       Fuzzy lead-generation: runs several angles at once
+          [year= label=]       (artist+track, title-ONLY to catch a different/featured
+                               lead, artist discography, punctuation/text-speak-normalised
+                               q) and ranks by token overlap, so the release surfaces
+                               under spelling/spacing drift. Use when a plain search says
+                               NO RESULTS before ever calling a slot "not on Discogs".
 
 Search results are LEADS ONLY: they flatten artist join phrases and omit
 per-track credits. Always `release`-fetch every final pick.
@@ -200,6 +206,65 @@ def cmd_batch(args):
             print("  NO RESULTS")
 
 
+def cmd_find(args):
+    """Fuzzy lead-generation across several angles at once, ranked by token overlap.
+    Handles the mechanical misses automatically — spacing (JoAnn/Jo Ann), punctuation
+    (D'Bonneau), text-speak (4 Da/4 Tha, U/You, &/And), and a *title-only* pass that
+    surfaces records credited to a different or featured lead (Ann Robinson demo ->
+    Cookie Watkins release; Charvoni -> Nu Phonic Featuring Charvoni). Pure spelling
+    variants (Grandpa/Grampa) still need a human retry — see the stderr hint."""
+    params, _ = parse_kv(args)
+    artist, track = params.get("artist", ""), params.get("track", "")
+    year, label = params.get("year", ""), params.get("label", "")
+
+    def toks(s):
+        return set(re.findall(r"[a-z0-9]+", (s or "").lower()))
+    loose = f"{artist} {track}".lower()
+    for pat, rep in ((r"\bda\b", "the"), (r"\btha\b", "the"), (r"\bu\b", "you"),
+                     (r"\bn\b", "and"), (r"&", "and"), (r"\b4\b", "for"), (r"\b2\b", "to")):
+        loose = re.sub(pat, rep, loose)
+    loose = re.sub(r"[^\w\s]", " ", loose)
+
+    tries = []
+    if artist and track:
+        tries += [{"artist": artist, "track": track}, {"artist": artist, "release_title": track}]
+    if track:
+        tries += [{"track": track}]          # title-only: catches a different/featured lead
+    if artist:
+        tries += [{"artist": artist}]        # discography
+    tries += [{"q": f"{artist} {track}".strip()}, {"q": loose.strip()}]
+
+    seen, out = set(), []
+    for pr in tries:
+        for r in (call("/database/search", {**pr, "type": "release", "per_page": "20"}) or {}).get("results", []):
+            if r["id"] in seen:
+                continue
+            seen.add(r["id"])
+            out.append(r)
+    want = toks(artist) | toks(track)
+    yr = int(year) if year.isdigit() else None
+    lt = [w for w in toks(label) if len(w) > 3 and w not in ("records", "record")]
+    for r in out:
+        s = 3 * len(want & toks(r.get("title")))
+        try:
+            ry = int(r.get("year"))
+        except (TypeError, ValueError):
+            ry = None
+        if yr and ry:
+            s += 4 if ry == yr else (2 if abs(ry - yr) <= 2 else -1)
+        if lt and any(w in " ".join(r.get("label", [])).lower() for w in lt):
+            s += 3
+        r["_s"] = s
+    out.sort(key=lambda r: -r["_s"])
+    for r in out[:12]:
+        print(f"{r['_s']:>3} | {fmt_result(r)}")
+    if not out:
+        print("NO RESULTS")
+    print("# still missing? retry by hand: spelling/phonetic variants (doubled letters, homophones "
+          "— Grandpa/Grampa, Saybrynaah/Sabrynaah), the track title alone, a distinctive substring, "
+          "or a Various-artists compilation/EP (read its per-track credits).", file=sys.stderr)
+
+
 def main():
     args = sys.argv[1:]
     tok = None
@@ -213,7 +278,8 @@ def main():
         print(__doc__)
         return
     cmd, rest = args[0], args[1:]
-    {"search": cmd_search, "release": cmd_release, "scan": cmd_scan, "batch": cmd_batch}[cmd](rest)
+    {"search": cmd_search, "release": cmd_release, "scan": cmd_scan,
+     "batch": cmd_batch, "find": cmd_find}[cmd](rest)
 
 
 if __name__ == "__main__":
