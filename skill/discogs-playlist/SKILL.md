@@ -98,6 +98,34 @@ The playlist is a living object; `scripts/maintain_playlist.py` (copy it next to
 
 Header: the brief restated, your working definition of scope/genre boundaries, a legend for any bonus-markers, and one line on method ("every row verified against the Discogs API"). Then the table. Then: **Alternates bench** (verified swaps), **Research queue** (open slots, ear-checks, leads that lack Discogs pages), and any planned next phase. Keep Notes cells short but load-bearing: why the track is notable, plus any YouTube-matching caveat (▶-prefixed).
 
+## The build pipeline — data lives in the playlist, scripts live here
+
+The generation scripts are **generic and live in this skill** (`scripts/`); each playlist keeps
+only its **data + config** in its own `research/` dir. Run the scripts *from* that dir (they read
+CWD, import their skill siblings). This means improving a script here — a new selection rule, a new
+curator override — upgrades **every** playlist and every skill user at once; never fork a script
+into a playlist folder.
+
+Per-playlist `research/` holds only:
+- `picks.json` — the source list transcribed (rank, artist/track as listed, label/year hints).
+- `overrides.json` — `{rank: release_id}` hand-resolutions (`0` = force the slot open).
+- `curator.json` — hand overrides applied over the automatic pick: `track_pick` (force an exact
+  tracklist title), `video_pick` (force a YouTube id), `video_note`, `row_note` (free-form markdown,
+  links ok), `rating_override` (hand-set ★ after listening).
+- `article.md` — the intro prose + references, with a `<!-- INSERT_TABLE_HERE -->` marker.
+- `config.json` — `output_md` filename, `playlist` metadata (title/description/privacy), optional
+  `reuse_from` (a sibling's `verified_final.json` to seed release ids).
+- plus generated (`verified.json`, `enriched.json`, `video_fixes.json`) and caches (`*_cache.json`).
+
+Flow (run from `research/`): `verify.py` (picks→`verified.json`, resolving ids via overrides/seed/
+reuse/search) → `enrich.py` (master preference + tracklist pick + artist + rating + deviation notes
+→ `enriched.json`) → `audit.py` (an **independent** self-check — master-link invariant, wrong-song,
+missed club/extended cuts, dead videos; prints a summary and exits non-zero on any issue) →
+`assemble.py` (splices `article.md` + table → the public `.md` and `playlist_items.json`) →
+`fix_dead.py <yt-token>` (swaps dead embeds) → `create_playlist.py`. When picks resist resolution,
+`leads.py` batch-fuzzy-searches every still-open slot (and `discogs.py find artist= track=` does a
+single one) — use these before ever calling a slot "not on Discogs".
+
 ## Ground rules
 
 - Never fabricate a row. If Discogs doesn't have it, it goes in the research queue (Bandcamp-only releases are real but un-anchorable — note them; a mix/compilation page sometimes carries the video and can serve as the anchor if you say so explicitly).

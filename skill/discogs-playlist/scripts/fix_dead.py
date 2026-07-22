@@ -8,7 +8,7 @@ re-run assemble.py, then create_playlist.py.
 Usage: python3 fix_dead.py <ya29-token-or-api-key>
 """
 import json, pathlib, re, sys, unicodedata, urllib.parse, urllib.request
-HERE = pathlib.Path(__file__).parent
+HERE = pathlib.Path.cwd()                    # run from the playlist's research/ dir (data lives here)
 KEY = sys.argv[1] if len(sys.argv) > 1 else (pathlib.Path.home()/".yt_key").read_text().strip()
 OAUTH = KEY.startswith("ya29.")
 ITEMS = json.load(open(HERE.parent/"playlist_items.json"))["items"]

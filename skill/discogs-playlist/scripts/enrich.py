@@ -1,22 +1,20 @@
 #!/usr/bin/env python3
-"""Enrich verified picks with Discogs MASTER preference + exact tracklist item.
+"""Enrich verified picks with Discogs MASTER preference + exact tracklist item + rating.
 
-For each verified pick (release_id resolved by verify.py):
-  * fetch the release's master (if any); the chosen Discogs page = the MASTER when
-    one exists, else the specific release.
-  * choose ONE track from the chosen page's Tracklist, char-for-char:
-      - if the source prompt named a specific version/mix, pick that item
-        (from the master; if the version isn't on the master, drop to the
-        sub-release that carries it and link that instead);
-      - if no version was requested, prefer the 'Radio' item, else the main cut.
-  * carry the exact tracklist title, the chosen page url, the page's credit, and
-    any extra track info (per-track credit) for the markdown Notes.
-
-Writes enriched.json (consumed by assemble.py). Masters cached in master_cache.json.
+Run from a playlist's research/ dir (reads verified.json, curator.json, and the caches
+there; writes enriched.json for assemble.py). For each verified pick:
+  * fetch the release's master; the chosen Discogs page = the MASTER when one exists
+    (users can 'See all versions' to reach a specific pressing), else the release itself.
+  * choose ONE track from that page's Tracklist, char-for-char: the version the source
+    named; else an extended/long cut, else a club cut, else the first A-side (radio last).
+  * take the Artist from that item's Discogs credit (per-track on comps, else the page
+    credit); rate 1-5 by how well the cut matches; note any deviation from the source.
+Curator overrides live in curator.json: track_pick, row_note (video_pick / video_note /
+rating_override are applied later in assemble.py). Masters cached in master_cache.json.
 """
 import json, math, pathlib, re, sys, unicodedata
-HERE = pathlib.Path(__file__).parent
-sys.path.insert(0, str((pathlib.Path.home()/".claude/skills/discogs-playlist/scripts").resolve()))
+HERE = pathlib.Path.cwd()                               # run from the playlist's research/ dir (data lives here)
+sys.path.insert(0, str(pathlib.Path(__file__).parent))  # discogs.py is a skill sibling
 import discogs, os
 try:
     discogs.TOKEN = os.environ.get("DISCOGS_TOKEN") or discogs.find_token()

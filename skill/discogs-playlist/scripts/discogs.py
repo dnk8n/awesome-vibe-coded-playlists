@@ -206,19 +206,14 @@ def cmd_batch(args):
             print("  NO RESULTS")
 
 
-def cmd_find(args):
-    """Fuzzy lead-generation. `artist=`+`track=` is brittle on Discogs (it misses even
-    correct spellings), so this leans on what actually works: free-text `q=` with an
-    auto **spacing variant** (JoAnn -> Jo Ann) and a text-speak variant (4 Da -> 4 Tha),
-    plus a **`release_title=` title-only** pass that surfaces a record credited to a
-    different or featured lead (Ann Robinson demo -> Cookie Watkins; Charvoni -> Nu Phonic
-    Featuring Charvoni). Results are ranked by token overlap + year/label hints. Pure
-    spelling variants (Grandpa/Grampa) and comp-only tracks still need a human retry —
-    see the stderr hint."""
-    params, _ = parse_kv(args)
-    artist, track = params.get("artist", ""), params.get("track", "")
-    year, label = params.get("year", ""), params.get("label", "")
-
+def find(artist, track, year="", label=""):
+    """Fuzzy lead-generation -> ranked candidate list (each result dict gets an '_s' score).
+    `artist=`+`track=` is brittle on Discogs (it misses even correct spellings), so this leans
+    on what works: free-text `q=` with an auto **spacing variant** (JoAnn -> Jo Ann) and a
+    text-speak variant (4 Da -> 4 Tha), plus a **`release_title=` title-only** pass that surfaces
+    a record credited to a different or featured lead (Ann Robinson demo -> Cookie Watkins;
+    Charvoni -> Nu Phonic Featuring Charvoni). Ranked by token overlap + year/label hints.
+    Importable by other skill scripts (e.g. leads.py); cmd_find is the CLI wrapper."""
     def toks(s):
         return set(re.findall(r"[a-z0-9]+", (s or "").lower()))
     def base(t):
@@ -243,7 +238,7 @@ def cmd_find(args):
             seen.add(r["id"])
             out.append(r)
     want = toks(artist) | toks(base(track))
-    yr = int(year) if year.isdigit() else None
+    yr = int(year) if str(year).isdigit() else None
     lt = [w for w in toks(label) if len(w) > 3 and w not in ("records", "record")]
     for r in out:
         s = 3 * len(want & toks(r.get("title")))
@@ -257,6 +252,15 @@ def cmd_find(args):
             s += 3
         r["_s"] = s
     out.sort(key=lambda r: -r["_s"])
+    return out
+
+
+def cmd_find(args):
+    """Fuzzy lead-generation across several angles at once (see find()). Use when a plain
+    `search` says NO RESULTS, before ever calling a slot 'not on Discogs'."""
+    params, _ = parse_kv(args)
+    out = find(params.get("artist", ""), params.get("track", ""),
+               params.get("year", ""), params.get("label", ""))
     for r in out[:12]:
         print(f"{r['_s']:>3} | {fmt_result(r)}")
     if not out:

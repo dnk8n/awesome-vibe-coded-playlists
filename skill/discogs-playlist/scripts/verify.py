@@ -1,27 +1,26 @@
 #!/usr/bin/env python3
-"""Verify the Jersey Sound Top 100 picks against the Discogs API.
+"""Verify a playlist's picks against the Discogs API.
 
-For each pick in picks.json, resolve a Discogs release_id via:
-  1. overrides.json[rank]            (hand-set corrections; highest priority)
-  2. pick['known_release_id']         (seeded in picks.json, e.g. the fills)
-  3. reuse from the sibling playlist's verified_final.json (artist+track match)
+Run from a playlist's research/ dir. For each pick in picks.json, resolve a Discogs
+release_id via:
+  1. overrides.json[rank]            (hand-set corrections; highest priority; 0 = force-open)
+  2. pick['known_release_id']         (seeded in picks.json)
+  3. reuse from another playlist's verified_final.json (config.reuse_from; artist+track)
   4. Discogs /database/search auto-pick, scored by year_hint + label_hint
 
 Then release-fetch the chosen id (cached in release_cache.json) as source of
 truth, and write verified.json (one row per pick, in rank order) plus a
 human-auditable report to stdout. Search results are LEADS ONLY; the top
 candidates are stored per row so mis-picks can be corrected via overrides.json.
+When a plain search comes up empty, use `discogs.py find` before calling a slot open.
 
 Usage:  python3 verify.py            # verify all
         python3 verify.py 17 42 96   # only these ranks (still writes full file)
 """
 import json, pathlib, re, sys, unicodedata
 
-HERE = pathlib.Path(__file__).parent
-for _p in (HERE / "../../../skill/discogs-playlist/scripts",
-           pathlib.Path.home() / ".claude/skills/discogs-playlist/scripts"):
-    if _p.exists():
-        sys.path.insert(0, str(_p.resolve())); break
+HERE = pathlib.Path.cwd()                               # run from the playlist's research/ dir (data lives here)
+sys.path.insert(0, str(pathlib.Path(__file__).parent))  # discogs.py is a skill sibling
 import discogs
 try:
     discogs.TOKEN = discogs.find_token()
@@ -37,10 +36,11 @@ CACHE_F = HERE / "release_cache.json"
 CACHE = json.load(open(CACHE_F)) if CACHE_F.exists() else {}
 only = set(int(a) for a in sys.argv[1:] if a.isdigit())
 
-# ---- reuse map from the sibling 67-year lineage (already Discogs-verified) ----
-SIB = HERE / "../../jersey-sound/research/verified_final.json"
+# ---- optional reuse map from a sibling playlist's verified_final.json (config.reuse_from) ----
+_cfg = json.load(open(HERE / "config.json")) if (HERE / "config.json").exists() else {}
+SIB = (HERE / _cfg["reuse_from"]) if _cfg.get("reuse_from") else None
 REUSE = {}
-if SIB.exists():
+if SIB and SIB.exists():
     for r in json.load(open(SIB)):
         if r.get("release_id"):
             REUSE[(r.get("artist_q","").lower().strip(), r.get("track_q","").lower().strip())] = r["release_id"]

@@ -1,22 +1,21 @@
 #!/usr/bin/env python3
-"""Assemble the Jersey Sound Top 100 doc + items file from enriched.json.
+"""Assemble the playlist markdown doc + items file from enriched.json.
 
-Composes ../jersey-sound-top-100.md by splicing the generated table + research
-queue into research/article.md at the <!-- INSERT_TABLE_HERE --> marker (prose and
-References preserved verbatim). Also writes ../playlist_items.json (discogs-playlist/v1).
+Run from a playlist's research/ dir. Reads config.json (output_md filename + playlist
+title/description/privacy), article.md (prose, spliced at <!-- INSERT_TABLE_HERE -->),
+enriched.json, and curator.json (video_pick / video_note / rating_override). Writes the
+composed markdown to ../<output_md> and ../playlist_items.json (discogs-playlist/v1).
 
-Per the curator's spec:
-  * the Discogs link prefers the MASTER release (enrich.py resolves this);
-  * the Track column is a single tracklist item copied CHARACTER-FOR-CHARACTER from
-    the chosen Discogs page (Radio Version when the prompt named no version);
-  * the Artist column keeps the source list's attribution; any differing Discogs
-    credit and extra track info go in Notes.
-Table sorts by the chosen release's year, each row keeping its original Top-100 Rank.
+Renders the date-sorted table — Artist/Track taken char-for-char from Discogs, master
+link, YouTube from the page-video ladder, deviation + curator Notes, and a ★ Confidence
+rating — plus a research queue for any unresolved rows. Rating precedence: curator
+rating_override, else min(video-match tier, track-cut tier); <5 flags a slot to revisit.
 """
 import json, pathlib, re, unicodedata
 
-HERE = pathlib.Path(__file__).parent
-REPO = HERE.parent
+HERE = pathlib.Path.cwd()          # run from the playlist's research/ dir (data lives here)
+REPO = HERE.parent                 # the playlist dir (public .md + items.json go here)
+CFG = json.load(open(HERE / "config.json"))
 V = json.load(open(HERE / "enriched.json"))
 
 STOP = {"mix","remix","original","version","edit","extended","the","a","feat","featuring","vocal","dub"}
@@ -143,15 +142,13 @@ if queue:
 
 art = (HERE / "article.md").read_text()
 doc = art.replace("<!-- INSERT_TABLE_HERE -->", TABLE)
-(REPO / "jersey-sound-top-100.md").write_text(doc)
+(REPO / CFG["output_md"]).write_text(doc)
 
 prev = {}
 if (REPO / "playlist_items.json").exists():
     prev = (json.load(open(REPO / "playlist_items.json")).get("playlist") or {})
 out = {"schema": "discogs-playlist/v1",
-       "playlist": {"title": "The Jersey Sound — FIDA/ThinkSoul Top 100 (30 Years Later)",
-                    "description": "The community's own canon: the FIDA/ThinkSoul Committee 'Jersey Sound Top 100' (Christopher Flowers, 2019), Discogs-verified (master releases always linked) and rebuilt with the discogs-playlist skill. Newark/Essex County soulful-gospel vocal house, Club Zanzibar / Tony Humphries era. Ranked list, played in chronological order; blank slots 58 & 59 filled by the curator (Blaze - Whatcha Gonna Do; Kerri Chandler - Hallelujah). Source: https://flowerzindattic.blogspot.com/2019/12/the-jersey-sound-top-100-30-years-later.html",
-                    "privacy": "public",
+       "playlist": {**CFG["playlist"],
                     "playlist_id": prev.get("playlist_id"),
                     "url": prev.get("url")},
        "source_of_truth": "The Discogs master release is always linked when one exists; Artist and Track are both taken character-for-character from the master's tracklist. Track = the version the source named, else an extended/long cut, else a club cut, else the first A-side (radio/edit last). Artist = the item's Discogs credit (per-track on comps, else the master credit). A per-item ★ rating (1-5) flags sub-ideal cuts/videos to revisit.",
