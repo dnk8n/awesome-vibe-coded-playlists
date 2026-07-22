@@ -1,0 +1,22 @@
+{
+  "_about": "Curator hand-overrides applied on top of the automatic selection. track_pick forces an exact Discogs tracklist title (token-matched; enrich.py); video_pick forces a specific YouTube id (assemble.py, highest precedence); video_note adds a factual note; row_note appends a free-form markdown note; rating_override hand-sets the star rating after listening. Ranks are chronological (play) order.",
+  "track_pick": {
+    "1": "Jungle Warriors",
+    "28": "Horns Of Jericho"
+  },
+  "video_pick": {
+    "6": "bPX6hNtsGHk",
+    "7": "8y43dQuokHY"
+  },
+  "video_note": {
+    "6": "listen is the sought-after **'94 Droppin' Science Remix** (Roni Size / DJ Die); the master links the canonical 1993 *Johnny*, which the '94 remix EP is catalogued under",
+    "7": "the page's exact *We .R. 'E' (94 Mix)* upload (its title runs the letters together as 'We.R.'E'', which is why the auto-matcher first reached for the flip)"
+  },
+  "row_note": {
+    "1": "Discogs credits this **master** under the name-variant *Baby B Kane*; the pressing (White House WYHS 018) and the producer's usual spelling are **Bay B Kane** — same artist. Cut chosen from the 8-track EP for the set: the jungle roller *Jungle Warriors*.",
+    "7": "A cornerstone of the sound: the *We Are E* riff (first cut 1991, before 'jungle' had the name) is one of the records the genre was built on; this is the 1994 Music House pressing of the '94 Mix.",
+    "14": "Discogs credits this **master** under the spelling *Marvelous Caine*; the IQ Records pressing credits **Marvellous Cain** — same artist. Video is the original 1994 *Hitman* (the release also holds Dream Team, DJ Hype and Ascend & Dead Dred remixes).",
+    "28": "Source pick was *Kool Skool* (its flip on Kickin' Underground KUS 16); the linked master is the sister pressing, whose shared cut **Horns Of Jericho** is the one carrying a page video."
+  },
+  "rating_override": {}
+}

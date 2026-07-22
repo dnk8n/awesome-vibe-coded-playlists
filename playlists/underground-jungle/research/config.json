@@ -1,0 +1,11 @@
+{
+  "_about": "The DURABLE source of truth for this playlist, read by the skill scripts (run from this research/ dir). Committed alongside picks.json / overrides.json / curator.json / article.md. Everything else in this dir (verified.json, enriched.json, *_cache.json, ../playlist_items.json) is a regenerated build artifact and is gitignored.",
+  "output_md": "underground-jungle.md",
+  "playlist": {
+    "title": "Underground Jungle — 30 Deep Cuts (1993–1996)",
+    "description": "Thirty lesser-known jungle rollers, ragga cuts and darkside choppers from the 1993-1996 golden era — the deep cuts that filled dubplate boxes but never crossed over. Deliberately no crossover anthems (no Original Nuttah / Incredible / Renegade Snares / Inner City Life). Every track Discogs-verified (master release linked where one exists); YouTube links drawn from each release page's own community-added videos. Sorted chronologically; built for live DJing. Made with the discogs-playlist skill, see https://github.com/dnk8n/awesome-vibe-coded-playlists/blob/main/playlists/underground-jungle/underground-jungle.md",
+    "privacy": "public",
+    "playlist_id": "PLUp3bmcY-TEQ",
+    "url": "https://www.youtube.com/playlist?list=PLUp3bmcY-TEQ"
+  }
+}
