@@ -84,7 +84,7 @@ An API key cannot create playlists — `playlists.insert` requires OAuth user co
 
 The script is **idempotent**: it diffs the items file against the live playlist and only inserts/removes deltas, so re-runs are cheap (~5 units when nothing changed) and interrupted runs just re-run. It creates the playlist **private** by default — let the user opt into public. If the user can't/won't do OAuth, offer anonymous playlist URLs: `https://www.youtube.com/watch_videos?video_ids=ID1,ID2,...` (≤50 ids each) — instant, no login.
 
-**Adoption and the durable record:** users sometimes build the playlist by hand on YouTube from the items file — adopt it with `--playlist-id <ID>` instead of creating a duplicate; a `--dry-run` reporting `add: 0 | stale: 0` is the proof that live and file are identical. Once a live playlist exists (created or adopted), record `playlist_id` and `url` in the items file's `playlist` block: the script uses it as the sync target on later runs (resolution: `--playlist-id` > items-file metadata > local progress file), and it's the record that survives machines — the `*_progress.json` the script writes is local resume state and belongs in `.gitignore`.
+**Adoption and the durable record:** users sometimes build the playlist by hand on YouTube from the items file — adopt it with `--playlist-id <ID>` instead of creating a duplicate; a `--dry-run` reporting `add: 0 | stale: 0` is the proof that live and file are identical. Once a live playlist exists (created or adopted), record `playlist_id` and `url` in the items file's `playlist` block: the script uses it as the sync target on later runs (resolution: `--playlist-id` > items-file metadata > local progress file), and it's the record that survives machines — the `*_progress.json` the script writes is local resume state and belongs in `.gitignore`. On the next `assemble.py`, that `url` also surfaces a **▶ Listen on YouTube** link just under the document's title, so the finished doc points readers straight at the playlist.
 
 ## Phase 4 — Maintenance & the community-contribution loop
 
@@ -121,7 +121,8 @@ Flow (run from `research/`): `verify.py` (picks→`verified.json`, resolving ids
 reuse/search) → `enrich.py` (master preference + tracklist pick + artist + rating + deviation notes
 → `enriched.json`) → `audit.py` (an **independent** self-check — master-link invariant, wrong-song,
 missed club/extended cuts, dead videos; prints a summary and exits non-zero on any issue) →
-`assemble.py` (splices `article.md` + table → the public `.md` and `playlist_items.json`) →
+`assemble.py` (splices `article.md` + table → the public `.md` and `playlist_items.json`, and once
+a YouTube playlist URL is on file, links it as **▶ Listen on YouTube** just under the doc's title) →
 `fix_dead.py <yt-token>` (swaps dead embeds) → `create_playlist.py`. When picks resist resolution,
 `leads.py` batch-fuzzy-searches every still-open slot (and `discogs.py find artist= track=` does a
 single one) — use these before ever calling a slot "not on Discogs".

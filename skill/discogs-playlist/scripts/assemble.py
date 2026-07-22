@@ -140,13 +140,18 @@ if queue:
               "only as acetates/demos). Kept visible above as open rows; leads for a manual pass:\n\n"
               + "\n".join(queue))
 
-art = (HERE / "article.md").read_text()
-doc = art.replace("<!-- INSERT_TABLE_HERE -->", TABLE)
-(REPO / CFG["output_md"]).write_text(doc)
-
-prev = {}
+prev = {}   # carry the created YouTube playlist's id/url forward from the last items file
 if (REPO / "playlist_items.json").exists():
     prev = (json.load(open(REPO / "playlist_items.json")).get("playlist") or {})
+
+art = (HERE / "article.md").read_text()
+doc = art.replace("<!-- INSERT_TABLE_HERE -->", TABLE)
+if prev.get("url"):   # once the YouTube playlist exists, link it just under the H1 title
+    doc = re.sub(r"^(#[^\n]*\n)",
+                 lambda m: m.group(1) + f"\n**[▶ Listen — the full playlist on YouTube]({prev['url']})**\n",
+                 doc, count=1)
+(REPO / CFG["output_md"]).write_text(doc)
+
 out = {"schema": "discogs-playlist/v1",
        "playlist": {**CFG["playlist"],
                     "playlist_id": prev.get("playlist_id"),

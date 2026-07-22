@@ -1,5 +1,7 @@
 # The Jersey Sound — The FIDA/ThinkSoul Top 100 (30 Years Later)
 
+**[▶ Listen — the full playlist on YouTube](https://www.youtube.com/playlist?list=PLVkmY-N1Myts)**
+
 A faithful, Discogs-verified rebuild of the community's own canon: **"The 'Jersey Sound' — Top
 100 Tunes (30 Years Later and the Music Lives On!)"**, compiled by the FIDA/ThinkSoul Committee
 and published by Christopher Flowers in December 2019 (Flowers, 2019a; 2019b). The list is
