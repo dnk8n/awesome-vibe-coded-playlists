@@ -1,0 +1,9 @@
+{
+  "_about": "Durable source of truth for THE ORIGINALS playlist (the pre-2000 sources paired to the 2026 reworks in ../remix-rave). Read by the skill scripts run from this research/ dir. Committed with picks/overrides/curator.json + article.md; build artifacts + ../playlist_items.json are gitignored.",
+  "output_md": "remix-rave-originals.md",
+  "playlist": {
+    "title": "Remix Rave — The Originals (Pre-'00 Sources)",
+    "description": "The pre-2000 club, rave and soul records that 2026 producers went back to — New Order (1983) through Fatboy Slim (1999). The source half of the Remix Rave pair; each track matches the same-numbered 2026 rework in the sibling playlist. Discogs-verified, master links, built with the discogs-playlist skill.",
+    "privacy": "private"
+  }
+}

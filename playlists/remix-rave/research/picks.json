@@ -1,0 +1,19 @@
+{
+  "_about": "The 2026 REWORKS playlist: rave / electronic-dance tracks RELEASED IN 2026 that sample, cover, or remix a track from the 90s or earlier. artist_listed/track_listed mirror the Discogs credit of the chosen 2026 release (release ids pinned in overrides.json). Each rank is paired 1:1 with the same rank in the sibling 'remix-rave-originals' playlist (the pre-2000 source). Ordered by the era of the ORIGINAL (1983 -> 1999); the built table re-sorts by 2026 release date. Every row verified against the Discogs API; videos are the official 2026 uploads, oembed-validated.",
+  "picks": [
+    {"rank": 1,  "artist_listed": "New Order",                         "track_listed": "Blue Monday (Hawtin Mix - Alternate Version 2)",              "year_hint": "2026", "label_hint": "Rhino Records"},
+    {"rank": 2,  "artist_listed": "Beta Rox",                          "track_listed": "Ain't Nobody (Flyin' Thru The Stars)",                     "year_hint": "2026", "label_hint": "Sonic Boom Records"},
+    {"rank": 3,  "artist_listed": "Age Of Love & Hysta",              "track_listed": "The Age Of Love (Hard Remix)",                            "year_hint": "2026", "label_hint": "Defqon.1 Records"},
+    {"rank": 4,  "artist_listed": "Technikal",                         "track_listed": "Cubik",                                                   "year_hint": "2026", "label_hint": "Tidy Two"},
+    {"rank": 5,  "artist_listed": "Dajae",                             "track_listed": "Brighter Days (Harry Romero House Me Up Extended Remix)",   "year_hint": "2026", "label_hint": "Big Love"},
+    {"rank": 6,  "artist_listed": "Kyle Starkey + Dart",              "track_listed": "Set You Free",                                            "year_hint": "2026", "label_hint": "Warehouse Project Records"},
+    {"rank": 7,  "artist_listed": "Janice Robinson",                   "track_listed": "Dreamer",                                                 "year_hint": "2026", "label_hint": "Armada Music"},
+    {"rank": 8,  "artist_listed": "Steve Hill & Technikal",           "track_listed": "Children",                                                "year_hint": "2026", "label_hint": "Tidy Two"},
+    {"rank": 9,  "artist_listed": "Chicane & Larse",                  "track_listed": "Offshore (Extended Mix)",                                 "year_hint": "2026", "label_hint": "Armada"},
+    {"rank": 10, "artist_listed": "Basswar & Caox X Bitshakerz",      "track_listed": "Freed From Desire",                                       "year_hint": "2026", "label_hint": "Activated Records"},
+    {"rank": 11, "artist_listed": "Hardt Antoine",                     "track_listed": "Sing It Back (Extended Mix)",                             "year_hint": "2026", "label_hint": "Nervous Records"},
+    {"rank": 12, "artist_listed": "Rave Republic & Fragma",          "track_listed": "Toca's Miracle (Extended Mix)",                           "year_hint": "2026", "label_hint": "Rave Culture"},
+    {"rank": 13, "artist_listed": "Bezerk",                            "track_listed": "Better Off Alone",                                        "year_hint": "2026", "label_hint": "Bonkers"},
+    {"rank": 14, "artist_listed": "Fatboy Slim, Topic, Marco Generani","track_listed": "Right Here, Right Now (Extended Rework)",                 "year_hint": "2026", "label_hint": "Cr2 Records"}
+  ]
+}

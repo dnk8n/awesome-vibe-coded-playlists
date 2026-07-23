@@ -1,0 +1,54 @@
+{
+  "_about": "Hand overrides for the 2026 reworks. track_pick forces the exact 2026 tracklist item AND forces the row to link the specific 2026 release (not the pre-2000 master it shares) for rows whose Discogs release carries the original's master_id (#1,#5,#9,#14) or is a multi-track split (#4 Cubik). video_pick pins the official 2026 upload (oembed-validated) for every row, because most of these pages carry only vintage videos of the ORIGINAL. row_note names the pre-2000 source and links it.",
+  "track_pick": {
+    "1": "Blue Monday (Hawtin Mix - Alternate Version 2)",
+    "4": "Cubik",
+    "5": "Brighter Days (Harry Romero House Me Up Extended Remix)",
+    "9": "Offshore (Extended Mix)",
+    "14": "Right Here, Right Now (Extended Rework)"
+  },
+  "video_pick": {
+    "1": "zGNMqNa8KLw",
+    "2": "Hqhu3o6Jqqo",
+    "3": "3qfDe3FEi0g",
+    "4": "0OsDlIMqfCA",
+    "5": "lUVLZHfO6qk",
+    "6": "FWk4986ZInU",
+    "7": "Tmvein0LyrI",
+    "8": "9IzdTyBE4a4",
+    "9": "gl87KyWeFVQ",
+    "10": "WCopusu31eE",
+    "11": "WH1xLlACFeU",
+    "12": "GGStOweqNJ0",
+    "13": "NZMuDS0A724",
+    "14": "-3MySCnoxB0"
+  },
+  "video_note": {
+    "4": "Technikal's hard-trance remake (B-side of the 'Fusion / Cubik' 12\"); official 'Cubik (Extended Mix)' upload",
+    "7": "Janice Robinson — the original Livin' Joy voice — re-records it herself; official Armada visualiser",
+    "12": "'Toca's Miracle' fuses Fragma's 'Toca Me' (1999) with Coco's 'I Need A Miracle' (1997) hook"
+  },
+  "rating_override": {
+    "2": 5,
+    "6": 5,
+    "8": 5,
+    "10": 5,
+    "13": 5
+  },
+  "row_note": {
+    "1": "Richie Hawtin reimagines the definitive synth-pop 12\" as stripped minimal techno. **Reworks** [New Order – Blue Monday](https://www.discogs.com/release/20755) (Factory, 1983).",
+    "2": "Filtered house flip built on the Chaka Khan hook. **Reworks** [Rufus & Chaka Khan – Ain't Nobody](https://www.discogs.com/release/191075) (Warner Bros., 1983).",
+    "3": "Rave-hardstyle remake, built for the Defqon.1 mainstage. **Reworks** [Age Of Love – The Age Of Love](https://www.discogs.com/release/41526) (DiKi, 1990).",
+    "4": "Hard-trance remake of the bleep-techno monster. **Reworks** [808 State – Cubik](https://www.discogs.com/release/14270) (ZTT / Tommy Boy, 1990).",
+    "5": "Harry Romero re-rubs the Cajual vocal-house anthem. **Reworks** [Cajmere Featuring Dajae – Brighter Days](https://www.discogs.com/release/15192) (Cajual, 1992).",
+    "6": "Hard-house cover of the AATW rave anthem. **Reworks** [N-Trance – Set You Free](https://www.discogs.com/release/376112) (All Around The World, 1992).",
+    "7": "**Reworks** [Livin' Joy – Dreamer](https://www.discogs.com/release/93964) (MCA / Undiscovered, 1994).",
+    "8": "Hard-trance cover of the piano-trance classic. **Reworks** [Robert Miles – Children](https://www.discogs.com/release/12221) (DBX / Deconstruction, 1995).",
+    "9": "Chicane revisits his own Balearic landmark with Larse. **Reworks** [Chicane – Offshore](https://www.discogs.com/release/17074) (Xtravaganza / Modena, 1996).",
+    "10": "Rawstyle cover keeping Gala's vocal. **Reworks** [Gala – Freed From Desire](https://www.discogs.com/release/149619) (Do It Yourself, 1996).",
+    "11": "Tech-house rework of the Moloko favourite, on Nervous. **Reworks** [Moloko – Sing It Back](https://www.discogs.com/release/29603266) (Echo, 1998).",
+    "12": "**Reworks** [Fragma – Toca Me](https://www.discogs.com/release/27655) (Positiva, 1999).",
+    "13": "UK hardcore cover of the Eurotrance monster. **Reworks** [DJ Jurgen Presents Alice Deejay – Better Off Alone](https://www.discogs.com/release/22692) (Positiva, 1999).",
+    "14": "Topic & Marco Generani rework Fatboy Slim's big-beat anthem. **Reworks** [Fatboy Slim – Right Here, Right Now](https://www.discogs.com/release/19213) (Skint, 1999)."
+  }
+}

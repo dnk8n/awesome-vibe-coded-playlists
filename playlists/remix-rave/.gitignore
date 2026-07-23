@@ -1,0 +1,12 @@
+# Regenerated build artifacts / caches — NOT source of truth, so not committed.
+# Durable source lives in research/{config,picks,overrides,curator}.json + research/article.md.
+# Discogs/YouTube are fetched just-in-time. Delete a cache to force a fresh fetch.
+# (The public deliverable, remix-rave.md, IS committed.)
+research/.discogs_token
+research/release_cache.json
+research/master_cache.json
+research/verified.json
+research/enriched.json
+research/video_fixes.json
+playlist_items.json
+playlist_items_progress.json

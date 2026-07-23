@@ -184,13 +184,13 @@ for row in V:
         chosen_url = master["uri"]; chosen_credit = master["credit"]
         chosen_year = master.get("year") or rel.get("rel_year")
         released = str(chosen_year) if chosen_year else rel.get("released")
-        link_text = re.sub(r"\s*\(\d+\)","", "; ".join(rel.get("labels", [])[:1])) or "Discogs"
+        link_text = re.sub(r"\s+none$","", re.sub(r"\s*\(\d+\)","", "; ".join(rel.get("labels", [])[:1])), flags=re.I) or "Discogs"
         link_text = f"{link_text} · master"
     else:
         chosen_url = rel.get("url"); chosen_credit = rel.get("credit")
         chosen_year = rel.get("rel_year")
         released = rel.get("released") or (str(chosen_year) if chosen_year else "")
-        link_text = re.sub(r"\s*\(\d+\)","", "; ".join(rel.get("labels", [])[:1])) or "Discogs"
+        link_text = re.sub(r"\s+none$","", re.sub(r"\s*\(\d+\)","", "; ".join(rel.get("labels", [])[:1])), flags=re.I) or "Discogs"
 
     chosen_title = chosen["title"] if chosen else row["track_listed"]
     ptart = chosen.get("artists","") if chosen else ""

@@ -1,0 +1,9 @@
+{
+  "_about": "Durable source of truth for the 2026-REWORKS playlist, read by the skill scripts (run from this research/ dir). Committed with picks.json / overrides.json / curator.json / article.md. Everything else here (verified.json, enriched.json, *_cache.json, ../playlist_items.json) is a regenerated build artifact and is gitignored.",
+  "output_md": "remix-rave.md",
+  "playlist": {
+    "title": "Remix Rave — 2026 Reworks of Pre-'00 Club Classics",
+    "description": "Rave / electronic-dance tracks released in 2026 that sample, cover, or remix a track from the 90s or earlier — from New Order and Chaka Khan to Fatboy Slim. Every row Discogs-verified; each pairs 1:1 with the sibling 'Remix Rave — The Originals' playlist. Built with the discogs-playlist skill.",
+    "privacy": "private"
+  }
+}

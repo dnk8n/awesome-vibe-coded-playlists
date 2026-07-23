@@ -1,0 +1,19 @@
+{
+  "_about": "THE ORIGINALS: the pre-2000 source records behind the sibling 'remix-rave' 2026 reworks. Each rank pairs 1:1 with the same rank there. release ids pinned in overrides.json point at an original pressing; the built table links the Discogs MASTER. Ordered 1983 -> 1999. Every row verified against the Discogs API.",
+  "picks": [
+    {"rank": 1,  "artist_listed": "New Order",                             "track_listed": "Blue Monday",       "year_hint": "1983", "label_hint": "Factory"},
+    {"rank": 2,  "artist_listed": "Rufus & Chaka Khan",                    "track_listed": "Ain't Nobody",      "year_hint": "1983", "label_hint": "Warner Bros. Records"},
+    {"rank": 3,  "artist_listed": "Age Of Love",                           "track_listed": "The Age Of Love",   "year_hint": "1990", "label_hint": "DiKi Records"},
+    {"rank": 4,  "artist_listed": "808 State",                             "track_listed": "Cubik",             "year_hint": "1990", "label_hint": "ZTT / Tommy Boy"},
+    {"rank": 5,  "artist_listed": "Cajmere Featuring Dajae",               "track_listed": "Brighter Days",     "year_hint": "1992", "label_hint": "Cajual Records"},
+    {"rank": 6,  "artist_listed": "N-Trance",                              "track_listed": "Set You Free",      "year_hint": "1993", "label_hint": "All Around The World"},
+    {"rank": 7,  "artist_listed": "Livin' Joy",                            "track_listed": "Dreamer",           "year_hint": "1994", "label_hint": "MCA / Undiscovered"},
+    {"rank": 8,  "artist_listed": "Robert Miles",                          "track_listed": "Children",          "year_hint": "1996", "label_hint": "Deconstruction"},
+    {"rank": 9,  "artist_listed": "Chicane",                               "track_listed": "Offshore",          "year_hint": "1996", "label_hint": "Xtravaganza / Modena"},
+    {"rank": 10, "artist_listed": "Gala",                                  "track_listed": "Freed From Desire", "year_hint": "1996", "label_hint": "Do It Yourself"},
+    {"rank": 11, "artist_listed": "Moloko",                                "track_listed": "Sing It Back",      "year_hint": "1998", "label_hint": "Echo"},
+    {"rank": 12, "artist_listed": "Fragma",                                "track_listed": "Toca Me",           "year_hint": "1999", "label_hint": "Positiva"},
+    {"rank": 13, "artist_listed": "DJ Jurgen Presents Alice Deejay",       "track_listed": "Better Off Alone",  "year_hint": "1999", "label_hint": "Positiva"},
+    {"rank": 14, "artist_listed": "Fatboy Slim",                           "track_listed": "Right Here, Right Now", "year_hint": "1999", "label_hint": "Skint"}
+  ]
+}
