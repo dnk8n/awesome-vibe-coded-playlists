@@ -1,8 +1,8 @@
 # 🎶 awesome-vibe-coded-playlists
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
-![Playlists](https://img.shields.io/badge/playlists-6-8A2BE2)
-![Tracks](https://img.shields.io/badge/tracks-497-brightgreen)
+![Playlists](https://img.shields.io/badge/playlists-7-8A2BE2)
+![Tracks](https://img.shields.io/badge/tracks-523-brightgreen)
 ![Source of truth](https://img.shields.io/badge/source%20of%20truth-Discogs-333)
 ![Contributions](https://img.shields.io/badge/contributions-welcome-ff69b4)
 
@@ -39,7 +39,7 @@ When the underlying records change on Discogs or YouTube, a re-run picks it up.
 
 ## 🎧 The playlists
 
-Six canons so far, **497 tracks**, every one anchored to a Discogs release page and playable on YouTube:
+Seven canons so far, **523 tracks**, every one anchored to a Discogs release page and playable on YouTube:
 
 | | Playlist | Era | Tracks | Listen | Table |
 |---|---|---|--:|---|---|
@@ -47,6 +47,7 @@ Six canons so far, **497 tracks**, every one anchored to a Discogs release page 
 | 🏙️ | **Jersey Sound** | 1960–2026 | 199 | [▶ YouTube](https://www.youtube.com/playlist?list=PLWrSMxL0SS2E) | [📄 Doc](playlists/jersey-sound/jersey-sound.md) |
 | 💯 | **Jersey Sound — FIDA/ThinkSoul Top 100** | ranked canon | 100 | [▶ YouTube](https://www.youtube.com/playlist?list=PLVkmY-N1Myts) | [📄 Doc](playlists/jersey-sound-top-100/jersey-sound-top-100.md) |
 | 🌴 | **Underground Jungle — Deep Cuts** | 1993–1996 | 30 | [▶ YouTube](https://www.youtube.com/playlist?list=PLUp3bmcY-TEQ) | [📄 Doc](playlists/underground-jungle/underground-jungle.md) |
+| 🕺 | **From Paradise Garage to UK Garage** | 1980–2000 | 26 | [▶ YouTube](https://www.youtube.com/watch_videos?video_ids=q9atx7Okl5Q,cg5ufaiZh_w,zNg-vgcgWIQ,0q28J5KRKJQ,H7qtDE0gTq8,rITl_xUFeBo,yy0XLxHXB8s,-1kWaWC45gg,1Gobukd4y5s,AuNOChVMsTQ,UySisZriEnU,gVkVwxJsuA4,lV5to7pyN-w,r8uKbprFjIE,W1Y4Tc0Lb3U,XXE6nG7W9zs,EkNsEAvy-Ys,6kwedLqIImk,iWKJtKk81Qc,ki0HxyOHOD8,MffaHK6852s,Ay-BAD_95hM,76U3NzuhGYQ,2mCv7TAod5M,Izfnvyvo0rs,NqQHhJLcuhU) | [📄 Doc](playlists/garage-to-uk-garage/README.md) |
 | ⏪ | **Remix Rave — The Originals** | 1983–1999 | 14 | [▶ YouTube](https://www.youtube.com/playlist?list=PLPiwGxvXa6To) | [📄 Doc](playlists/remix-rave-originals/remix-rave-originals.md) |
 | 🔄 | **Remix Rave — House, Garage & Acid Reworks** | 2017–2026 | 32 | [▶ YouTube](https://www.youtube.com/playlist?list=PLLBKBwzTyT9Q) | [📄 Doc](playlists/remix-rave/remix-rave.md) |
 
@@ -87,6 +88,17 @@ not a re-curation: every entry re-verified for its exact credit, title, label an
 Thirty **lesser-known jungle** records from the golden era, sequenced for a **live DJ set** — rollers,
 ragga cuts and darkside choppers that ran on Kool FM but never crossed over. The greatest-hits anthems
 are excluded *on purpose*; this is the deep box.
+
+### 🕺 From Paradise Garage to UK Garage — The Evolution (1980–2000)
+
+> *"Demonstrate the evolution from Garage (from Paradise Garage to Club Zanzibar) to UK Garage."*
+
+26 records tracing one unbroken lineage in five movements: Larry Levan's **Paradise Garage** →
+**Tony Humphries' Club Zanzibar** and the New Jersey sound → the US garage-house the UK imported
+(with **Todd Edwards** as the Jersey hinge) → **speed garage** → **2-step**. Play it top to bottom and
+the genealogy plays itself — soul-disco (1980) at one end, skippy 2-step (2000) at the other, and no clean
+seam between. The saved YouTube playlist is pending an API-quota reset; the doc's **▶ instant-queue link**
+plays all 26 right now.
 
 ### 🔄 Remix Rave — a matched pair
 

@@ -1,0 +1,34 @@
+{
+  "track_pick": {
+    "13": "Push The Feeling On (MK's Nocturnal Dub)",
+    "16": "Ripgroove (Original Mix)",
+    "25": "Flowers (Sunship Mix)"
+  },
+  "video_pick": {
+    "5": "H7qtDE0gTq8",
+    "13": "gVkVwxJsuA4",
+    "16": "EkNsEAvy-Ys",
+    "18": "W1Y4Tc0Lb3U",
+    "23": "76U3NzuhGYQ",
+    "24": "Izfnvyvo0rs",
+    "25": "NqQHhJLcuhU"
+  },
+  "video_note": {
+    "13": "featured cut = MK's Nocturnal Dub — the chopped-vocal, sub-bass dub UK speed garage was built on",
+    "16": "featured cut = the full Original Mix, not the radio edit",
+    "18": "featured cut = Kelly G's Bump-N-Go Mix (1997) — the speed-garage remix that turned this 1995 US R&B single into the UKG crossover anthem; the master links the '95 original",
+    "24": "playlist plays the full vocal mix (feat. Lain), not the master's radio edit",
+    "25": "featured cut = the Sunship Mix — the 2-step remix that made *Flowers* a UKG classic (the master's default is the C&J pop mix)"
+  },
+  "row_note": {
+    "5": "Larry Levan mixed the whole 1983 Sleeping Bag 12″ — a Paradise Garage cornerstone.",
+    "11": "Lead cut of Kerri Chandler's 1993 *Atmosphere E.P.* (Shelter) — New Jersey's deep-garage lineage carried into the '90s.",
+    "14": "New Jersey's Todd Edwards, whose cut-up 'sample garage' is the DNA of UK 2-step — the hinge of this whole story.",
+    "15": "Armand Van Helden's *Dark Garage Mix* of Sneaker Pimps — widely credited with igniting UK speed garage.",
+    "23": "UK garage's mainstream breakthrough — UK #2, Christmas 1999."
+  },
+  "rating_override": {
+    "23": 5,
+    "24": 4
+  }
+}
