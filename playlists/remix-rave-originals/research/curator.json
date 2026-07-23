@@ -1,5 +1,5 @@
 {
-  "_about": "Hand overrides for THE ORIGINALS. track_pick forces the definitive cut where the automatic club/extended preference would miss it; video_pick pins an oembed-validated official upload where the pinned original pressing carries no page video; row_note names the 2026 rework and links back to the sibling playlist.",
+  "_about": "Hand overrides for THE ORIGINALS. track_pick forces the definitive cut where the automatic club/extended preference would miss it; video_pick pins an oembed-validated official upload where the pinned original pressing carries no page video; row_note points to the same-numbered reworks in the sibling playlist.",
   "track_pick": {
     "3": "The Age Of Love (Flying Mix)",
     "6": "Set You Free (Original Mix)",
@@ -22,19 +22,19 @@
     "14": 5
   },
   "row_note": {
-    "1": "The synth-pop cornerstone that taught dance music the 12\". **Reworked in 2026** by Richie Hawtin → [Remix Rave #1](../remix-rave/remix-rave.md).",
-    "2": "Rufus & Chaka Khan's 1983 hook, endlessly sampled by house. **Reworked in 2026** by Beta Rox → [Remix Rave #2](../remix-rave/remix-rave.md).",
-    "3": "Belgian new-beat/proto-trance touchstone. **Reworked in 2026** by Age Of Love & Hysta → [Remix Rave #3](../remix-rave/remix-rave.md).",
-    "4": "Bleep-techno monster off '808:90'. **Reworked in 2026** by Technikal → [Remix Rave #4](../remix-rave/remix-rave.md).",
-    "5": "Cajual vocal-house anthem with Dajae. **Reworked in 2026** by Harry Romero → [Remix Rave #5](../remix-rave/remix-rave.md).",
-    "6": "AATW rave-euphoria staple. **Reworked in 2026** by Kyle Starkey + Dart → [Remix Rave #6](../remix-rave/remix-rave.md).",
-    "7": "Janice Robinson's voice on the '94 house smash. **Re-recorded in 2026** by Janice Robinson herself → [Remix Rave #7](../remix-rave/remix-rave.md).",
-    "8": "Piano-trance that crossed to the pop charts. **Reworked in 2026** by Steve Hill & Technikal → [Remix Rave #8](../remix-rave/remix-rave.md).",
-    "9": "Balearic guitar-trance landmark. **Reworked in 2026** by Chicane & Larse → [Remix Rave #9](../remix-rave/remix-rave.md).",
-    "10": "Italo-house diva anthem (and eternal football chant). **Reworked in 2026** by Basswar & Caox X Bitshakerz → [Remix Rave #10](../remix-rave/remix-rave.md).",
-    "11": "Sheffield trip-house turned floor-filler. **Reworked in 2026** by Hardt Antoine → [Remix Rave #11](../remix-rave/remix-rave.md).",
-    "12": "Its riff + Coco's 'I Need A Miracle' hook became 'Toca's Miracle'. **Reworked in 2026** by Rave Republic & Fragma → [Remix Rave #12](../remix-rave/remix-rave.md).",
-    "13": "The Eurotrance robot-vocal monster. **Reworked in 2026** by Bezerk → [Remix Rave #13](../remix-rave/remix-rave.md).",
-    "14": "Big-beat call to the dancefloor. **Reworked in 2026** by Fatboy Slim, Topic & Marco Generani → [Remix Rave #14](../remix-rave/remix-rave.md)."
+    "1": "The synth-pop cornerstone that taught dance music the 12\". **Reworked 2017+** — see [Remix Rave #1](../remix-rave/remix-rave.md).",
+    "2": "Rufus & Chaka Khan's 1983 hook, endlessly sampled by house. **Reworked 2017+** — see [Remix Rave #2](../remix-rave/remix-rave.md).",
+    "3": "Belgian new-beat/proto-trance touchstone. **Reworked 2017+** — see [Remix Rave #3](../remix-rave/remix-rave.md).",
+    "4": "Bleep-techno monster off '808:90'. Its house/garage reworks live off-Discogs for now — see [Remix Rave #4](../remix-rave/remix-rave.md).",
+    "5": "Cajual vocal-house anthem with Dajae. **Reworked 2017+** — see [Remix Rave #5](../remix-rave/remix-rave.md).",
+    "6": "AATW rave-euphoria staple. **Reworked 2017+** — see [Remix Rave #6](../remix-rave/remix-rave.md).",
+    "7": "Janice Robinson's voice on the '94 house smash. **Reworked 2017+** — see [Remix Rave #7](../remix-rave/remix-rave.md).",
+    "8": "Piano-trance that crossed to the pop charts. **Reworked 2017+** — see [Remix Rave #8](../remix-rave/remix-rave.md).",
+    "9": "Balearic guitar-trance landmark. **Reworked 2017+** — see [Remix Rave #9](../remix-rave/remix-rave.md).",
+    "10": "Italo-house diva anthem (and eternal football chant). **Reworked 2017+** — see [Remix Rave #10](../remix-rave/remix-rave.md).",
+    "11": "Sheffield trip-house turned floor-filler. **Reworked 2017+** — see [Remix Rave #11](../remix-rave/remix-rave.md).",
+    "12": "Its riff + Coco's 'I Need A Miracle' hook became 'Toca's Miracle'. **Reworked 2017+** — see [Remix Rave #12](../remix-rave/remix-rave.md).",
+    "13": "The Eurotrance robot-vocal monster. **Reworked 2017+** — see [Remix Rave #13](../remix-rave/remix-rave.md).",
+    "14": "Big-beat call to the dancefloor. **Reworked 2017+** — see [Remix Rave #14](../remix-rave/remix-rave.md)."
   }
 }

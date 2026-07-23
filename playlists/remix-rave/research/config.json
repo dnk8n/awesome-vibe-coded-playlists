@@ -1,9 +1,11 @@
 {
-  "_about": "Durable source of truth for the 2026-REWORKS playlist, read by the skill scripts (run from this research/ dir). Committed with picks.json / overrides.json / curator.json / article.md. Everything else here (verified.json, enriched.json, *_cache.json, ../playlist_items.json) is a regenerated build artifact and is gitignored.",
+  "_about": "Durable source of truth for the REWORKS playlist (v2: 2017+ house/garage/acid-family reworks of the 14 pre-2000 originals). Read by the skill scripts run from this research/ dir. Committed with picks/overrides/curator.json + article.md; build artifacts + ../playlist_items.json are gitignored.",
   "output_md": "remix-rave.md",
   "playlist": {
-    "title": "Remix Rave — 2026 Reworks of Pre-'00 Club Classics",
-    "description": "Rave / electronic-dance tracks released in 2026 that sample, cover, or remix a track from the 90s or earlier — from New Order and Chaka Khan to Fatboy Slim. Every row Discogs-verified; each pairs 1:1 with the sibling 'Remix Rave — The Originals' playlist. Built with the discogs-playlist skill.",
-    "privacy": "private"
+    "title": "Remix Rave — House, Garage & Acid Reworks (2017+)",
+    "description": "For each pre-2000 original in the sibling 'Remix Rave — The Originals' playlist, the modern reworks that dragged it into house, UK garage, acid house, deep house and the wider bass family — everything released 2017 or later. Discogs-verified, videos validated. Built with the discogs-playlist skill. Full annotated table (Discogs links + notes) on GitHub: https://github.com/dnk8n/awesome-vibe-coded-playlists/blob/main/playlists/remix-rave/remix-rave.md",
+    "privacy": "public",
+    "playlist_id": "PLLBKBwzTyT9Q",
+    "url": "https://www.youtube.com/playlist?list=PLLBKBwzTyT9Q"
   }
 }

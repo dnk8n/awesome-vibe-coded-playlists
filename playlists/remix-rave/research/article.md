@@ -1,21 +1,23 @@
-# Remix Rave — 2026 Reworks of Pre-'00 Club Classics
+# Remix Rave — House, Garage & Acid Reworks (2017+)
 
-Fourteen rave and electronic-dance tracks **released in 2026** that don't just nod to the past — they are built on it. Every one samples, covers, or remixes a record from the 1990s or earlier, dragging a bleep-techno riff, a diva vocal, or a big-beat anthem onto a 2026 dancefloor.
+The modern companion to **[Remix Rave — The Originals](../remix-rave-originals/remix-rave-originals.md)**. Take those fourteen pre-2000 records and ask: how has house culture kept re-touching them since 2017? This is the answer — up to three reworks of each original, every one **released in 2017 or later** and living in the **house / UK-garage / acid-house / deep-house family** (the brief's genre list, broadened to the wider house-and-bass net so the net actually catches something).
 
-Play it next to its twin, **[Remix Rave — The Originals](../remix-rave-originals/remix-rave-originals.md)**: the two playlists share the same numbering, so rework **#6** and original **#6** are the same song thirty-three years apart. Here the picks run in the order the 2026 versions dropped; the originals list runs chronologically, 1983 → 1999, so you can hear where each one came from.
+Every entry is a genuine rework of its named source — an official remix, a cover, or a sample flip — not a coincidental same-title track (dance music is full of unrelated songs called "Dreamer" or "Set You Free"; those were checked and dropped). Follow the number in the Notes to hear the original it came from: rework **#7** (Solomun's tech-house rework) sits under original **#3** (Age Of Love, 1990).
 
-The span of the source material is the fun of it: New Order's *Blue Monday* (1983) reborn as Richie Hawtin minimal techno; 808 State's *Cubik* (1990) as festival hard-trance; Cajmere & Dajae's *Brighter Days* (1992) re-rubbed by Harry Romero; Fatboy Slim's *Right Here, Right Now* (1999) reworked with Topic. Genres collide — house, hardstyle, hard trance, tech house, big beat — but every track is a 2026 release wearing an older soul.
+Played top to bottom the table runs chronologically, **2017 → 2026** — Solomun and Joe T. Vannelli open it; Livin' Joy's own 2026 remix EP and Chicane's 2026 re-cut close it.
 
-**Method.** Every row is anchored to a real Discogs release page: the Artist and Track are copied exactly as credited there, the Discogs link is a hard link, and the pre-2000 source is named and linked in the Notes. Because most of these pages carry only vintage videos of the *original*, the YouTube link on each row is the official 2026 upload of the **rework**, found and confirmed live (HTTP-validated) so nothing here is a mislabelled oldie. The one documented 2026 rework we couldn't anchor to Discogs is listed honestly in the research queue below.
+**Method.** Each row is anchored to a real Discogs release (Artist and Track copied as credited); the pre-2000 source is named and linked in the Notes. Because these pages usually carry only the vintage clip of the *original*, the YouTube link on each row is the official or "- Topic" upload of the **rework**, confirmed live (HTTP-validated).
 
 <!-- INSERT_TABLE_HERE -->
 
-## Research queue — real, but not on Discogs
+## Coverage — where the genre limit bites
 
-- **Panjabi MC – Mundian To Bach Ke (Dario Nunez & Juany Bravo Extended Remix)** (Altra Moda Music, 26 Jun 2026) — a genuine 2026 Afro-House remake of the 1998 bhangra-dance landmark, but as of this build it is a Beatport/Traxsource digital with no catalogued Discogs release (only the 1998–2024 originals are on Discogs: [master](https://www.discogs.com/master/17356)). Held out of the table because it can't be hard-linked; a candidate to fold in once it's catalogued.
+**32 tracks in total.** Holding to Discogs-verifiable, 2017-or-later, house/garage/acid-family reworks, five of the fourteen originals can't fill all three slots — their modern reworks live mostly in trance/techno/hardstyle (outside the net) or only on SoundCloud (un-anchorable):
 
-## Notes on scope
+- **#3 Age Of Love – The Age Of Love (1990) — 2 of 3.** Solomun's Renaissance tech-house rework and DiKi's 2023 deep-house remix qualify; the rest of its 2017+ reworks are techno (Charlotte de Witte) or trance/psy. (A third, Framewerk's 2021 "Rewerk", is real but has no clean official video; Scooter's "Age Of Love" is a 1997 cover, not a 2017+ rework.)
+- **#4 808 State – Cubik (1990) — 0 of 3.** No in-genre 2017+ rework is catalogued on Discogs; its recent reworks are techno/breaks reissues of the original's own mixes. Open.
+- **#5 Cajmere ft. Dajae – Brighter Days (1992) — 1 of 3.** Only Kai Alce's 2018 garage-house edit of the Masters At Work mix (BBE) qualifies; the many other house tracks titled "Brighter Days" are different songs.
+- **#6 N-Trance – Set You Free (1992) — 1 of 3.** Only the official Spencer & Hill house remix; the other in-genre "Set You Free"s (Aiobahn, Fritz Kalkbrenner, Friend Within…) are unrelated originals.
+- **#14 Fatboy Slim – Right Here, Right Now (1999) — 1 of 3.** Only CamelPhat's tech-house remix is in-genre; the other official reworks are drum & bass / big beat.
 
-- **"90s or earlier"** is read as an original first released in or before 1999. The newest sources here are from 1999 (Fatboy Slim, Alice Deejay, Fragma's *Toca Me*); the oldest is New Order's *Blue Monday*, 1983.
-- *Toca's Miracle* (#12) is itself a 2000 record, so it is paired with its 1990s DNA — Fragma's *Toca Me* (1999), whose instrumental it rides, with the "I need a miracle" hook coming from Coco's *I Need A Miracle* (1997).
-- A reworked title alone was never enough: Madonna's 2026 *Love Sensation*, for instance, was checked and **excluded** — it shares a title with Loleatta Holloway's 1980 classic but is an original Madonna/Stuart Price song, not a cover or sample.
+The other nine originals each get their full three. Say the word and I'll close the gaps either by widening the genres again (into trance/techno/hardstyle, where Cubik / RHRN / Age Of Love have plenty) or by sourcing the SoundCloud/Bandcamp bootlegs that Discogs doesn't catalogue.

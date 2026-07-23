@@ -167,6 +167,7 @@ for row in V:
         page = "master" if master else "release"
 
     # curator override: force an exact tracklist item (from master, else the release)
+    cur_applied = False
     cur_title = CUR_TRACK.get(str(row["rank"]))
     if cur_title:
         want = ntok(cur_title)  # token match ignores spacing/punctuation (e.g. "Problem  #13")
@@ -176,9 +177,9 @@ for row in V:
         else:
             hit = next((t for t in rel_tracks if ntok(t["title"]) == want), None)
             if hit: page, chosen = "release", hit
-        if hit:  # the curator cut supersedes any earlier "not on the master" fallback note
+        if hit:  # a hand-pinned cut is intentional; supersede any "not on the master" fallback note
             note_bits[:] = [n for n in note_bits if "not on the" not in n and "not catalogued" not in n]
-            note_bits.append("curator-selected cut")
+            cur_applied = True
 
     if page == "master":
         chosen_url = master["uri"]; chosen_credit = master["credit"]
@@ -197,10 +198,9 @@ for row in V:
     # Discogs is source of truth for the artist too: the track's own credit if the
     # tracklist item carries one (splits/comps), else the master/release credit.
     chosen_artist = ptart or chosen_credit or row["artist_listed"]
-    cur_applied = "curator-selected cut" in note_bits           # a hand-pinned cut is intentional
     honored = cur_applied or (bool(ver) and chosen is not None and ver_in(ver, chosen_title))
     ttier = track_tier(chosen_title, honored)
-    if ttier <= 3 and not any("curator" in n for n in note_bits):  # ★★★★☆ (tier 4) is self-explanatory
+    if ttier <= 3 and not cur_applied:  # ★★★★☆ (tier 4) is self-explanatory
         note_bits.append({3: "no club/extended cut — radio/edit is the safest choice",
                           2: "only a dub/instrumental-type cut available"}.get(ttier, ""))
     for d in dev_notes(row["artist_listed"], row["track_listed"], chosen_artist, chosen_title,
