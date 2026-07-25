@@ -85,6 +85,8 @@ else the first A-side cut. The Confidence column carries a **★ rating**: ★�
 (a club/extended or the prompt's named mix) paired with an exact video; anything lower flags a slot
 worth revisiting for a better cut or upload (e.g. releases that only offered a radio edit).
 
+**[▶ Click — for playlist table with filter/sort (click column arrows)](https://markdown-table.nullvoxpopuli.com/?cv=%5B%5B%22Released%22%2C%22%23ff2600%22%2C%22%23008e00%22%5D%2C%5B%22Rank%22%2C%22%23008e00%22%2C%22%23ff2600%22%5D%5D&file=https%3A%2F%2Fraw.githubusercontent.com%2Fdnk8n%2Fawesome-vibe-coded-playlists%2Frefs%2Fheads%2Fmain%2Fplaylists%2Fjersey-sound-top-100%2Fjersey-sound-top-100.md&key=&prefs=%7B%22plugins%22%3A%7B%22e%22%3A%7B%22table%22%3A%7B%7D%2C%22columns%22%3A%7B%22Track%22%3A%7B%22isVisible%22%3Atrue%7D%7D%7D%7D%7D)**
+
 | Rank | Released | Artist | Track | Discogs | YouTube | Notes | Confidence |
 |---|---|---|---|---|---|---|---|
 | 37 | 1985 | The Joubert Singers | Stand On The Word | [Next Plateau Records Inc. NP 50028 · master](https://www.discogs.com/master/81464-The-Joubert-Singers-Stand-On-The-Word) | [▶ Watch](https://youtu.be/jJk6957RTE4) | Curator substitution (creative license): the source's #37 duplicated #20 (Jomanda – Don't You Want My Love), so this rank goes to The Joubert Singers – Stand On The Word — the gospel record that became a garage/Jersey anthem (Tony Humphries mix). · curator-selected cut | ✅ ★★★★★ |
