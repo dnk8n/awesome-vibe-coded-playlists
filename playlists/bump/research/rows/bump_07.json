@@ -62,16 +62,15 @@
    "track": "Desire (Thunderpuss 2000 Remix)",
    "genre": "Electronic",
    "style": "House, Deep House, Garage House, Tribal House",
-   "released": "",
+   "released": "2000",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/74638-Ultra-Naté-Desire",
+   "dg_year": 2000,
    "yt_id": "Y5oeu7Z1MhQ",
    "yt_title": "Ultra Nate - Desire",
    "yt_match": "fallback",
    "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Desire (Thunderpuss 2000 Radio)” on [Master · 2000](https://www.discogs.com/master/74638)",
     "▶ quoted mix not found; video is “Ultra Nate - Desire”"
    ]
   },
@@ -91,10 +90,12 @@
    "dg_kind": "Master",
    "dg_url": "https://www.discogs.com/master/138438-Madison-Avenue-Who-The-Hell-Are-You",
    "dg_year": 2000,
-   "yt_id": "JDEyTz9yWAc",
-   "yt_title": "Madison Avenue - Who The Hell Are You (Original Mix HQ)",
-   "yt_match": "exact",
-   "notes": []
+   "yt_id": "uQLkBZ6bTx8",
+   "yt_title": "Madison Avenue 'Who The Hell Are You' (illicit Remix)",
+   "yt_match": "fallback",
+   "notes": [
+    "▶ quoted mix not found; video is “Madison Avenue 'Who The Hell Are You' (illicit Remix)”"
+   ]
   },
   {
    "id": "07.01.05",
@@ -129,8 +130,8 @@
    "pos": "6",
    "artist": "Eclipse",
    "track": "Dance To The House (Original Mix)",
-   "genre": "",
-   "style": "",
+   "genre": "Electronic",
+   "style": "House, UK Garage",
    "released": "",
    "sa": false,
    "dg_kind": null,
@@ -140,7 +141,7 @@
    "yt_title": "Lodato & Anthony Acid   Dance To The House Original Mix",
    "yt_match": "exact",
    "notes": [
-    "Quoted mix not on any single/EP/album on Discogs",
+    "Quoted mix not on any single/EP/album. Closest pressed mix: “Dance 2 Da House (Untitled Mix 1)” on [Master · 2000](https://www.discogs.com/master/209883)",
     "▶ upload title omits the artist — verify by ear: “Lodato & Anthony Acid   Dance To The House Original Mix”"
    ]
   },
@@ -283,8 +284,8 @@
    "style": "Trance",
    "released": "2000",
    "sa": false,
-   "dg_kind": "12\"",
-   "dg_url": "https://www.discogs.com/release/3372684-Fable-When-Hes-Gone",
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/234485-Fable-When-Hes-Gone-Aint-No-Sunshine",
    "dg_year": 2000,
    "yt_id": "5nz1zp7HBgU",
    "yt_title": "Fable - When he's gone (Sun mix)",
@@ -307,8 +308,8 @@
    "dg_kind": "Master",
    "dg_url": "https://www.discogs.com/master/70151-Angelic-Its-My-Turn",
    "dg_year": 2000,
-   "yt_id": "bklJSus20po",
-   "yt_title": "Angelic - It's My Turn (Original Mix)",
+   "yt_id": "fBeyJHJnXCU",
+   "yt_title": "Angelic - It's My Turn (Original Mix) (2000)",
    "yt_match": "exact",
    "notes": []
   },
@@ -322,11 +323,11 @@
    "artist": "Chakra",
    "track": "Home (Above & Beyond Mix)",
    "genre": "Electronic",
-   "style": "Trance, Progressive House",
-   "released": "2000",
+   "style": "Trance",
+   "released": "1997",
    "sa": false,
-   "dg_kind": "Single",
-   "dg_url": "https://www.discogs.com/release/1866101-Chakra-Home",
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/110296-Chakra-Home",
    "dg_year": 2000,
    "yt_id": "cTuAGoP2tbM",
    "yt_title": "Home (Above & Beyond Mix)",
@@ -407,17 +408,15 @@
    "track": "Treshold (Original Mix)",
    "genre": "Electronic",
    "style": "Trance",
-   "released": "",
+   "released": "2000",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/4291233-The-Fusion-Treshold",
+   "dg_year": 2000,
    "yt_id": "hutm3hKOc_w",
    "yt_title": "The Fusion - Treshold (Original Mix)-2000",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Treshold” on [Master · 2000](https://www.discogs.com/master/4291233)"
-   ]
+   "notes": []
   },
   {
    "id": "07.01.20",
@@ -460,7 +459,7 @@
    "yt_title": "Darude - Sandstorm (Talla's Super Club Mix)",
    "yt_match": "exact",
    "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Sandstorm (Ariel S Remix)” on [Master · 2000](https://www.discogs.com/master/132128)"
+    "Quoted mix not on any single/EP/album. Closest pressed mix: “Sandstorm (Original Club Mix)” on [Master · 2000](https://www.discogs.com/master/132128)"
    ]
   },
   {

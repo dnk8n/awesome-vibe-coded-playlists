@@ -50,7 +50,7 @@
    "yt_title": "Goldtrix presents Andrea Brown - It's Love (Trippin') (Original EPTN Mix)",
    "yt_match": "exact",
    "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “It's Love (Trippin') (Original Radio Edit)” on [Master · 2002](https://www.discogs.com/master/447216)"
+    "Quoted mix not on any single/EP/album. Closest pressed mix: “It's Love (Trippin') (JDS Mix)” on [Master · 2002](https://www.discogs.com/master/447216)"
    ]
   },
   {
@@ -176,12 +176,12 @@
    "dg_kind": null,
    "dg_url": null,
    "dg_year": null,
-   "yt_id": "4n4ZHBup_Jk",
-   "yt_title": "Azzido Da Bass Feat. Roland Clark - Speed (Can You Feel It?) (Oliver Klein Deep Dub Mix)",
-   "yt_match": "fallback",
+   "yt_id": "1hl6F6EgWkE",
+   "yt_title": "Speed (Can You Feel It) - Jan Driver Remix",
+   "yt_match": "exact",
    "notes": [
     "Quoted mix not on any single/EP/album. Closest pressed mix: “Speed (Can You Feel It?) (Jan Driver Remix)” on [Master · 2002](https://www.discogs.com/master/150307)",
-    "▶ quoted mix not found; video is “Azzido Da Bass Feat. Roland Clark - Speed (Can You Feel It?) (Oliver Klein Deep Dub Mix)”"
+    "▶ upload title omits the artist — verify by ear: “Speed (Can You Feel It) - Jan Driver Remix”"
    ]
   },
   {
@@ -194,12 +194,12 @@
    "artist": "iiO",
    "track": "Rapture (Riva Remix)",
    "genre": "Electronic",
-   "style": "Trance, Euro House",
+   "style": "Progressive House, Progressive Trance",
    "released": "2001",
    "sa": false,
-   "dg_kind": "Single",
-   "dg_url": "https://www.discogs.com/release/35970-iiO-Rapture",
-   "dg_year": 2001,
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/59264-Vaiio-Rapture",
+   "dg_year": 2002,
    "yt_id": "LEbwZkPz8-E",
    "yt_title": "Rapture (Riva Remix) (feat. Nadia Ali)",
    "yt_match": "exact",
@@ -242,8 +242,8 @@
    "dg_kind": null,
    "dg_url": null,
    "dg_year": null,
-   "yt_id": "Y6IrIhFCZdA",
-   "yt_title": "Bump Vol 10 - Nelly Furtado - Turn Off The Lights Dataluxe Remix",
+   "yt_id": "xbjmJcj0TpA",
+   "yt_title": "Nelly Furtado - Turn off the light (Dataluxe Remix) 2001",
    "yt_match": "exact",
    "notes": [
     "Quoted mix not on any single/EP/album. Closest pressed mix: “Turn Off The Lights” on [Master · 2007](https://www.discogs.com/master/77156)"
@@ -281,10 +281,10 @@
    "track": "Something (Extended Mix)",
    "genre": "Electronic",
    "style": "Trance",
-   "released": "2002",
+   "released": "2002-02-25",
    "sa": false,
    "dg_kind": "Single",
-   "dg_url": "https://www.discogs.com/release/129685-Lasgo-Something",
+   "dg_url": "https://www.discogs.com/release/5248788-Lasgo-Something",
    "dg_year": 2002,
    "yt_id": "MOCSCdbjkos",
    "yt_title": "Lasgo – Something (Extended Mix)  -  Vinyl Rip  (2001)",
@@ -323,17 +323,15 @@
    "track": "You Leave (Original Extended)",
    "genre": "Electronic",
    "style": "Trance",
-   "released": "",
+   "released": "2001",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/124545-British-Plastic-You-Leave",
+   "dg_year": 2001,
    "yt_id": "5Pb4S44mjY0",
    "yt_title": "Bump Vol 10 - British Plastic - You Leave Original Extended",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “You Leave (Original Clubmix)” on [Master · 2001](https://www.discogs.com/master/124545)"
-   ]
+   "notes": []
   },
   {
    "id": "10.01.16",
@@ -411,18 +409,15 @@
    "track": "On The Run (Ocean 2 Shore Club Mix)",
    "genre": "Electronic",
    "style": "Trance, Progressive Trance",
-   "released": "",
+   "released": "2001",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
-   "yt_id": "umreHW8FthE",
-   "yt_title": "Tillmann , On The Run",
-   "yt_match": "fallback",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “On The Run (Ocean To Shore Club Extended)” on [Master · 2002](https://www.discogs.com/master/91675)",
-    "▶ quoted mix not found; video is “Tillmann , On The Run”"
-   ]
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/91675-Tillmann-Uhrmacher-On-The-Run",
+   "dg_year": 2002,
+   "yt_id": "812GisEbMzY",
+   "yt_title": "On The Run (Ocean To Shore Club Extended Mix)",
+   "yt_match": "exact",
+   "notes": []
   },
   {
    "id": "10.01.20",
@@ -456,13 +451,13 @@
    "track": "Mindblower (Original Mix)",
    "genre": "Electronic",
    "style": "Hard House",
-   "released": "",
+   "released": "2001",
    "sa": false,
-   "dg_kind": "12\"",
-   "dg_url": "https://www.discogs.com/release/30352478-Mass-Medium-Mindblower",
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/111739-Mass-Medium-Mindblower",
    "dg_year": 2001,
-   "yt_id": "nVp1IzwujQA",
-   "yt_title": "Bump Vol 10 - Mass Medium - Mindblower Original Mix",
+   "yt_id": "kQiOwuhE1Tc",
+   "yt_title": "Mindblower (Extended Mix)",
    "yt_match": "exact",
    "notes": []
   },
@@ -479,11 +474,11 @@
    "style": "Hard Trance, Trance",
    "released": "2001",
    "sa": false,
-   "dg_kind": "Single",
-   "dg_url": "https://www.discogs.com/release/4264692-Brooklyn-Bounce-Club-Bizarre",
-   "dg_year": 2001,
-   "yt_id": "6nlE_sWO-qE",
-   "yt_title": "BROOKLYN BOUNCE Club Bizarre (DJ's @ Work Remix) Carátula",
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/35821-Brooklyn-Bounce-Club-Bizarre",
+   "dg_year": 2002,
+   "yt_id": "ly7rQTSvYvM",
+   "yt_title": "Brooklyn Bounce - Club bizarre (2001 DJS@Work remix)",
    "yt_match": "exact",
    "notes": []
   },
@@ -503,12 +498,12 @@
    "dg_kind": null,
    "dg_url": null,
    "dg_year": null,
-   "yt_id": "hLFPGA0kHpg",
-   "yt_title": "Goldtrix presents Andrea Brown - It's Love (Trippin') (Original EPTN Mix)",
-   "yt_match": "fallback",
+   "yt_id": "rzEPkbPgdn0",
+   "yt_title": "King's X - It's Love (Official Music Video)",
+   "yt_match": "exact",
    "notes": [
     "Quoted mix not on any single/EP/album. Closest pressed mix: “It's Love (Trippin') (JDS Mix)” on [Master · 2002](https://www.discogs.com/master/447216)",
-    "▶ quoted mix not found; video is “Goldtrix presents Andrea Brown - It's Love (Trippin') (Original EPTN Mix)”"
+    "▶ upload title omits the artist — verify by ear: “King's X - It's Love (Official Music Video)”"
    ]
   },
   {

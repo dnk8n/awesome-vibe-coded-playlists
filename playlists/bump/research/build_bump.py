@@ -57,7 +57,8 @@ CANON = {"u": "you", "ur": "your", "luv": "love", "nite": "night",
          "da": "the", "tha": "the", "n": "and",
          "bros": "brothers", "bro": "brother", "rmx": "remix",
          "ext": "extended", "2": "to", "4": "for",
-         "extented": "extended", "long": "extended", "tonite": "tonight"}
+         "extented": "extended", "long": "extended", "tonite": "tonight",
+         "rework": "remix"}
 # Compound mix words split before tokenising: 'Clubmix' -> 'club mix'
 COMPOUND = re.compile(r"\b(club|radio|extended|vocal|dub|original|power"
                       r"|super|hyper|dance|party|trance|house)"
@@ -336,7 +337,7 @@ def _mix_equal1(qb, qm, pb, pm, artist, relax, drop_names):
         # single/extended (+vocal/club under relax) or the song's own words.
         # NOT remixer credits — an unnamed quote must never pick a remix.
         named = qm if qm is not None else pm
-        soft = (GENERIC_MIX_TOKENS | {"single", "extended"} | toks(qb))
+        soft = (GENERIC_MIX_TOKENS | {"single", "extended", "main"} | toks(qb))
         if relax:
             soft |= RELAX_MIX_TOKENS
         return not (toks(named) - soft)

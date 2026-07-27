@@ -17,17 +17,15 @@
    "track": "Memories (David Guetta's F**k Me I'm Famous Remix)",
    "genre": "Electronic",
    "style": "Electro, Tech House",
-   "released": "",
+   "released": "2010",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/234318-David-Guetta-Feat-Kid-Cudi-Memories",
+   "dg_year": 2010,
    "yt_id": "4LIwAdmMKY0",
    "yt_title": "David Guetta - Memories (David Guetta's F**k Me I'm Famous Remix)",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Memories (F*** Me I'm Famous Remix)” on [Master · 2010](https://www.discogs.com/master/234318)"
-   ]
+   "notes": []
   },
   {
    "id": "26.01.02",
@@ -45,8 +43,8 @@
    "dg_kind": null,
    "dg_url": null,
    "dg_year": null,
-   "yt_id": "y4XIHfXglZ4",
-   "yt_title": "Edward Maya %26 Vika Jigulina - Stereo Love (Gabri Ponte Dance And Love Remix) www.club-sound.pl.wmv",
+   "yt_id": "6VG0JPdPl38",
+   "yt_title": "Edward Maya & Vika Jigulina - Stereo Love (Gabry Ponte Remix Extended Remix)",
    "yt_match": "exact",
    "notes": [
     "Quoted mix not on any single/EP/album. Closest pressed mix: “Stereo Love (Chucky Baby's \"Tear Me Apart V3\" Remix)” on [12\"* · 2020](https://www.discogs.com/release/16062102-Chucky-Baby-Chuck-B-Presents-LoveBox-2-Too-Hot-For-Soundcloud)"
@@ -107,18 +105,15 @@
    "track": "We No Speak Americano (Original Mix)",
    "genre": "Electronic",
    "style": "House, Electro Swing",
-   "released": "",
+   "released": "2010",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/255482-Yolanda-Be-Cool-DCup-We-No-Speak-Americano",
+   "dg_year": 2010,
    "yt_id": "lygg5Ju0nNU",
    "yt_title": "We No Speak Americano (Original Mix)",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “We No Speak Americano” on [Album · 2011](https://www.discogs.com/release/10627334-Massivedrum-My-World)",
-    "▶ upload title omits the artist — verify by ear: “We No Speak Americano (Original Mix)”"
-   ]
+   "notes": []
   },
   {
    "id": "26.01.06",
@@ -153,19 +148,16 @@
    "artist": "Get Far Ft H-Boogie",
    "track": "The Radio (Paolo Ortelli Vs. Degree Rmx)",
    "genre": "Electronic",
-   "style": "Electro House, Italodance",
+   "style": "House, Electro",
    "released": "",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
-   "yt_id": "Yb3VT1OGsrI",
-   "yt_title": "Get Far - The Radio (Radio Edit)",
-   "yt_match": "fallback",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “The Radio (Paolo Ortelli Vs. Degree Remix)” on [Master · 0](https://www.discogs.com/master/250981)",
-    "▶ quoted mix not found; video is “Get Far - The Radio (Radio Edit)”"
-   ]
+   "dg_kind": "Single",
+   "dg_url": "https://www.discogs.com/release/3039658-Get-Far-Ft-H-Boogie-The-Radio",
+   "dg_year": 2009,
+   "yt_id": "AAMa4nv3CgY",
+   "yt_title": "The radio (Paolo Ortelli vs Degree remix) (feat. H Boogie)",
+   "yt_match": "exact",
+   "notes": []
   },
   {
    "id": "26.01.08",
@@ -308,18 +300,15 @@
    "track": "Get Busy (Bernasconi & Farenthide Club Rmx)",
    "genre": "Electronic, Reggae",
    "style": "House, Electro, Dancehall",
-   "released": "",
+   "released": "2010",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
+   "dg_kind": "Single",
+   "dg_url": "https://www.discogs.com/release/3411528-Luke-Payton-Get-Busy",
+   "dg_year": 2010,
    "yt_id": "UmG2W54KnDY",
    "yt_title": "Get Busy (Bernasconi & Farenthide club rmx)",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Get Busy (Bernasconi & Farenthide Club Remix)” on [Single · 2010](https://www.discogs.com/release/3411528-Luke-Payton-Get-Busy)",
-    "▶ upload title omits the artist — verify by ear: “Get Busy (Bernasconi & Farenthide club rmx)”"
-   ]
+   "notes": []
   },
   {
    "id": "26.01.15",
@@ -410,10 +399,9 @@
    "dg_year": null,
    "yt_id": "ljBbZRUscUc",
    "yt_title": "Tuklan vs. Beenie Man ft. Firetime - One Time (DJs From Mars Club Remix)",
-   "yt_match": "fallback",
+   "yt_match": "exact",
    "notes": [
-    "No single/EP/album under this artist; the song originates as [Tom Paxton - One Time And One Time Only](https://www.discogs.com/master/736650-Tom-Paxton-One-Time-And-One-Time-Only)",
-    "▶ may be the original act, not this soundalike: “Tuklan vs. Beenie Man ft. Firetime - One Time (DJs From Mars Club Remix)”"
+    "No single/EP/album under this artist; the song originates as [Tom Paxton - One Time And One Time Only](https://www.discogs.com/master/736650-Tom-Paxton-One-Time-And-One-Time-Only)"
    ]
   },
   {
@@ -447,18 +435,16 @@
    "artist": "Chris Kaeser",
    "track": "Who's In The House (DJ Chuckie Remix)",
    "genre": "Electronic",
-   "style": "House",
-   "released": "",
+   "style": "Progressive House, House, Electro",
+   "released": "2010",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/1339493-Cathy-David-Guetta-F-Me-Im-Famous-Ibiza-Mix-2010",
+   "dg_year": 2010,
    "yt_id": "JJTFggOdQC4",
    "yt_title": "Chris Kaeser - Who's In The House (DJ Chuckie Remix) (HQ)",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Who's In The House (Chuckie Remix)” on [Master · 2010](https://www.discogs.com/master/1339493)"
-   ]
+   "notes": []
   },
   {
    "id": "26.02.03",
@@ -580,17 +566,15 @@
    "track": "Whoomp! (Eric Chase Remix)",
    "genre": "Electronic",
    "style": "House, Electro, Hip Hop, Tech House",
-   "released": "",
+   "released": "2010",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/246799-Doodge-Viper-Feat-Tag-Team-Whoomp-There-It-Is",
+   "dg_year": 2010,
    "yt_id": "mIDDAXxNZwE",
    "yt_title": "DOODGE & VIPER feat. TAG TEAM- Whoomp! (There It Is) (ERIC CHASE remix)",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Whoomp! (There It Is) (Eric Chase Remix)” on [Master · 2010](https://www.discogs.com/master/246799)"
-   ]
+   "notes": []
   },
   {
    "id": "26.02.09",
@@ -667,11 +651,11 @@
    "artist": "John Revox",
    "track": "Olé (Ludoloza Remix)",
    "genre": "Electronic",
-   "style": "Electro House",
-   "released": "2008-07-14",
+   "style": "House",
+   "released": "2008",
    "sa": false,
-   "dg_kind": "EP",
-   "dg_url": "https://www.discogs.com/release/12782574-John-Revox-Olé",
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/173488-John-Revox-Olé",
    "dg_year": 2008,
    "yt_id": "n5hElQfxkOE",
    "yt_title": "Olé (Ludoloza Remix)",
@@ -712,17 +696,15 @@
    "track": "Let's Make Nasty (Afrojack Remix)",
    "genre": "Electronic",
    "style": "House, Electro",
-   "released": "",
+   "released": "2010",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/847835-Larry-Tee-Ft-Roxy-Cottontail-Lets-Make-Nasty-Bounce-Little-Kitty",
+   "dg_year": 2010,
    "yt_id": "DPUTZfA8UNg",
    "yt_title": "\"BOUNCE LITTLE KITTY (Let's Make Nasty)\" Roxy Cottontail & Larry Tee - Afrojack Remix - OFFICIAL!!",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album; [master](https://www.discogs.com/master/847835-Larry-Tee-Ft-Roxy-Cottontail-Lets-Make-Nasty-Bounce-Little-Kitty) defines the track"
-   ]
+   "notes": []
   },
   {
    "id": "26.02.15",
@@ -780,18 +762,16 @@
    "artist": "System F",
    "track": "Out Of The Blue 2010 (Hi_tack Remix)",
    "genre": "Electronic",
-   "style": "Trance, Breakbeat",
-   "released": "",
+   "style": "Progressive House, Trance, Hardstyle, Electro House",
+   "released": "2010-02-01",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
+   "dg_kind": "Single",
+   "dg_url": "https://www.discogs.com/release/2110791-System-F-Out-Of-The-Blue-2010",
+   "dg_year": 2010,
    "yt_id": "c2gWIqq3MuE",
    "yt_title": "System F - Out Of The Blue 2010 (Hi_Tack Extended Mix) [HQ]",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Out Of The Blue 2010 (Hi_Tack Radio Mix)” on [Master · 2010](https://www.discogs.com/master/7699)"
-   ]
+   "notes": []
   },
   {
    "id": "26.02.18",
@@ -804,17 +784,15 @@
    "track": "Just Bleep Me (Satisfaction) (Club Mix)",
    "genre": "Electronic",
    "style": "Electro House",
-   "released": "",
+   "released": "2010",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/1091818-Dada-Life-Just-Bleep-Me-Satisfaction",
+   "dg_year": 2010,
    "yt_id": "2YpoVZOkoog",
    "yt_title": "Bump Vol 26 (Cd 2) - Dada Life – Just Bleep Me Satisfaction Club Mix",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Just Bleep Me (Satisfaction) (Original Mix)” on [Master · 2010](https://www.discogs.com/master/1091818)"
-   ]
+   "notes": []
   },
   {
    "id": "26.03.01",
@@ -827,18 +805,15 @@
    "track": "Forever (Club Mix)",
    "genre": "Electronic",
    "style": "Progressive House, House",
-   "released": "",
+   "released": "2010",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/2538187-James-Talk-Ridney-Forever",
+   "dg_year": 2010,
    "yt_id": "eo_oeaUCzoE",
    "yt_title": "Forever (Club Mix)",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Forever ” on [Master · 2010](https://www.discogs.com/master/2538187)",
-    "▶ upload title omits the artist — verify by ear: “Forever (Club Mix)”"
-   ]
+   "notes": []
   },
   {
    "id": "26.03.02",
@@ -856,12 +831,11 @@
    "dg_kind": null,
    "dg_url": null,
    "dg_year": null,
-   "yt_id": null,
-   "yt_title": null,
-   "yt_match": "none",
+   "yt_id": "G2KZ5h1ia_w",
+   "yt_title": "Di-rect - Times are Changing (East & Young remix)",
+   "yt_match": "exact",
    "notes": [
-    "Quoted mix not on any single/EP/album on Discogs",
-    "▶ no usable YouTube upload found"
+    "Quoted mix not on any single/EP/album on Discogs"
    ]
   },
   {
@@ -942,16 +916,15 @@
    "track": "Back It Up (B&C Pacha Remix)",
    "genre": "Electronic",
    "style": "Progressive House, House",
-   "released": "",
+   "released": "2010",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/308649-Santito-vs-BlockCrown-Back-It-Up",
+   "dg_year": 2010,
    "yt_id": "mVNwL96QGKQ",
    "yt_title": "Santito Vs. Block + Crown- Back It Up (Radio Edit)",
    "yt_match": "fallback",
    "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Back It Up (Pacha Mix)” on [Master · 2010](https://www.discogs.com/master/308649)",
     "▶ quoted mix not found; video is “Santito Vs. Block + Crown- Back It Up (Radio Edit)”"
    ]
   },
@@ -1035,18 +1008,15 @@
    "track": "Freak It (Bernasconi & Farenthide Club Rmx)",
    "genre": "Electronic",
    "style": "House, Electro, Minimal",
-   "released": "",
+   "released": "2010-02-19",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
+   "dg_kind": "12\"",
+   "dg_url": "https://www.discogs.com/release/2149232-Kit-Da-Funk-Freak-It",
+   "dg_year": 2010,
    "yt_id": "-Uj2AtKO0ho",
    "yt_title": "Kit Da Funk - Freak It (Bernasconi & Farenthide Remix)",
-   "yt_match": "fallback",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Freak It! (Bernasconi & Farenthide Remix)” on [12\" · 2010](https://www.discogs.com/release/2149232-Kit-Da-Funk-Freak-It)",
-    "▶ quoted mix not found; video is “Kit Da Funk - Freak It (Bernasconi & Farenthide Remix)”"
-   ]
+   "yt_match": "exact",
+   "notes": []
   },
   {
    "id": "26.03.11",
@@ -1112,12 +1082,11 @@
    "dg_kind": null,
    "dg_url": null,
    "dg_year": null,
-   "yt_id": "WvHci9yq_Kk",
-   "yt_title": "Tiësto Feat. Nelly Furtado - Who Wants To Be Alone (Robbie Rivera Remix)",
-   "yt_match": "fallback",
+   "yt_id": "2ojAxRreUXg",
+   "yt_title": "Tiesto Ft. Nelly Furtado - Who Wants To Be Alone (Robbie Riviera Juicy Remix)",
+   "yt_match": "exact",
    "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Who Wants To Be Alone” on [12\" · 2009](https://www.discogs.com/release/2051562-Tiësto-Kaleidoscope-Sampler)",
-    "▶ quoted mix not found; video is “Tiësto Feat. Nelly Furtado - Who Wants To Be Alone (Robbie Rivera Remix)”"
+    "Quoted mix not on any single/EP/album. Closest pressed mix: “Who Wants To Be Alone” on [12\" · 2009](https://www.discogs.com/release/2051562-Tiësto-Kaleidoscope-Sampler)"
    ]
   },
   {

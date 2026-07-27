@@ -22,12 +22,12 @@
    "dg_kind": null,
    "dg_url": null,
    "dg_year": null,
-   "yt_id": "OOlo1j2VpIQ",
-   "yt_title": "Porno DJ - The Judgement(U.K)",
-   "yt_match": "fallback",
+   "yt_id": "m3374naY_sY",
+   "yt_title": "Judgment B-Sides - The Research Wing",
+   "yt_match": "exact",
    "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “The Judgement (Cocky Mix)” on [Master · 0](https://www.discogs.com/master/103815)",
-    "▶ quoted mix not found; video is “Porno DJ - The Judgement(U.K)”"
+    "Quoted mix not on any single/EP/album. Closest pressed mix: “The Judgement (Cocky Mix)” on [Master](https://www.discogs.com/master/103815)",
+    "▶ upload title omits the artist — verify by ear: “Judgment B-Sides - The Research Wing”"
    ]
   },
   {
@@ -67,8 +67,8 @@
    "dg_kind": "Single",
    "dg_url": "https://www.discogs.com/release/11219-Alena-Turn-It-Around",
    "dg_year": 1999,
-   "yt_id": "MOQUbD2VNx0",
-   "yt_title": "Alena - Turn It Around Original Mix",
+   "yt_id": "vo1ezP5kzKY",
+   "yt_title": "Turn It Around (Another Mix)",
    "yt_match": "exact",
    "notes": []
   },
@@ -130,8 +130,8 @@
    "dg_kind": "Master",
    "dg_url": "https://www.discogs.com/master/118591-Madison-Avenue-Dont-Call-Me-Baby",
    "dg_year": 2000,
-   "yt_id": "oQtEH-hPtjU",
-   "yt_title": "Madison Avenue - Don't Call Me Baby [Original Mix 7'']",
+   "yt_id": "MQvtYY7eE9g",
+   "yt_title": "Madison Avenue - Don't Call Me Baby [12'' Mix]",
    "yt_match": "exact",
    "notes": []
   },
@@ -169,17 +169,15 @@
    "track": "Get Wicked (Original Mix)",
    "genre": "Electronic",
    "style": "Hard House, Euro House",
-   "released": "",
+   "released": "2000",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
-   "yt_id": "6_o9T9_qpC0",
-   "yt_title": "Perfect Phase pres. Those 2 - Get Wicked (Original Mix) (2000)",
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/94313-Those-2-Get-Wicked",
+   "dg_year": 2000,
+   "yt_id": "t035AxoFAUk",
+   "yt_title": "Perfect Phase Present Those 2 - Get Wicked (Clubmix)",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Get Wicked” on [Master · 2000](https://www.discogs.com/master/94313)"
-   ]
+   "notes": []
   },
   {
    "id": "06.01.09",
@@ -216,10 +214,10 @@
    "track": "Blow Ya Mind (SM-Trax Remix)",
    "genre": "Electronic",
    "style": "Hard House",
-   "released": "2000-06-12",
+   "released": "1999",
    "sa": false,
-   "dg_kind": "Single",
-   "dg_url": "https://www.discogs.com/release/253416-Lock-N-Load-Blow-Ya-Mind",
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/76383-Lock-N-Load-Blow-Ya-Mind-",
    "dg_year": 2000,
    "yt_id": "cLNKhBZYNOo",
    "yt_title": "Blow Ya Mind - Lock n Load (SM Trax Remix)",
@@ -263,8 +261,8 @@
    "dg_kind": "Master",
    "dg_url": "https://www.discogs.com/master/206695-Killer-K-Turn-It-Up",
    "dg_year": 2000,
-   "yt_id": "Bf5bPIdk4Mg",
-   "yt_title": "Killer K - Turn It Up (Klubb Re Mix)",
+   "yt_id": "_psa9FSJov8",
+   "yt_title": "Killer K 'Turn It Up' (Club Mix)",
    "yt_match": "exact",
    "notes": []
   },
@@ -328,8 +326,8 @@
    "dg_kind": "Master",
    "dg_url": "https://www.discogs.com/master/16060-Rank-1-Airwave",
    "dg_year": 2000,
-   "yt_id": "gTPSxbQ9sbo",
-   "yt_title": "Rank 1 - Airwave (Original Mix)",
+   "yt_id": "xaK-Aa3MqOA",
+   "yt_title": "Airwave (ATB Mix)",
    "yt_match": "exact",
    "notes": []
   },
@@ -351,10 +349,9 @@
    "dg_year": null,
    "yt_id": "u6MUHx56LBE",
    "yt_title": "William Orbit - Barber's Adagio For Strings (Ferry Corsten Remix) (HD)",
-   "yt_match": "fallback",
+   "yt_match": "exact",
    "notes": [
-    "Quoted mix not on any single/EP/album on Discogs",
-    "▶ quoted mix not found; video is “William Orbit - Barber's Adagio For Strings (Ferry Corsten Remix) (HD)”"
+    "Quoted mix not on any single/EP/album on Discogs"
    ]
   },
   {
@@ -433,19 +430,16 @@
    "artist": "Alice Deejay",
    "track": "Back In My Life (Original Long Mix)",
    "genre": "Electronic",
-   "style": "Trance, Euro House, Hard Trance",
-   "released": "",
+   "style": "Trance, Euro House",
+   "released": "2000-01-10",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
-   "yt_id": "8nyJ6Ncz510",
-   "yt_title": "Alice Deejay - Back In My Life (Thrillseekers Remix) (1999)",
-   "yt_match": "fallback",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Back In My Life (Instrumental)” on [Master · 2000](https://www.discogs.com/master/30545)",
-    "▶ quoted mix not found; video is “Alice Deejay - Back In My Life (Thrillseekers Remix) (1999)”"
-   ]
+   "dg_kind": "Single",
+   "dg_url": "https://www.discogs.com/release/409551-Alice-Deejay-Back-In-My-Life",
+   "dg_year": 2000,
+   "yt_id": "2yLEnoCWTYk",
+   "yt_title": "Alice Deejay – Back In My Life (Extended Hitradio Full Vocal)",
+   "yt_match": "exact",
+   "notes": []
   },
   {
    "id": "06.01.21",
@@ -463,8 +457,8 @@
    "dg_kind": "Master",
    "dg_url": "https://www.discogs.com/master/79891-Gigi-DAgostino-The-Riddle",
    "dg_year": 2000,
-   "yt_id": "rLNV3pEdU4w",
-   "yt_title": "Gigi D' Agostino - The Riddle (Original Mix)",
+   "yt_id": "vwjSITabKJQ",
+   "yt_title": "Gigi D'Agostino – The Riddle Club Longer Mix",
    "yt_match": "exact",
    "notes": []
   },
@@ -477,20 +471,17 @@
    "pos": "22",
    "artist": "S.O.O.N.",
    "track": "Sonata (Fatal Remix)",
-   "genre": "Classical",
-   "style": "Romantic",
-   "released": "",
+   "genre": "Electronic",
+   "style": "Trance",
+   "released": "1998",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
-   "yt_id": "S0RAklGVGog",
-   "yt_title": "S O O N - Sonata",
-   "yt_match": "fallback",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Sonata (Fatal Rmx)” on [EP · 1998](https://www.discogs.com/release/541979-SOON-Recycled-Classixx-EP)",
-    "▶ may be the original act, not this soundalike: “S O O N - Sonata”"
-   ]
+   "dg_kind": "EP",
+   "dg_url": "https://www.discogs.com/release/541979-SOON-Recycled-Classixx-EP",
+   "dg_year": 1998,
+   "yt_id": "wSXWq2UmNlw",
+   "yt_title": "FATAL FURY: CotW｜STAGE MUSIC｜MOONTALK - SONATA",
+   "yt_match": "exact",
+   "notes": []
   },
   {
    "id": "06.01.23",
@@ -501,19 +492,17 @@
    "pos": "23",
    "artist": "BT",
    "track": "Dreaming (Eric Kupper's Hysteria Club Mix)",
-   "genre": "Rock",
-   "style": "Art Rock, Pop Rock",
-   "released": "",
+   "genre": "Electronic",
+   "style": "Progressive Trance, Progressive House, Trance, Breaks",
+   "released": "2000",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
-   "yt_id": "FuP8Na_8qvo",
-   "yt_title": "BT - Dreaming (Eric Kupper's Hysteria Club Mix)",
+   "dg_kind": "Single",
+   "dg_url": "https://www.discogs.com/release/25095166-BT-Featuring-Kirsty-Hawkshaw-Dreaming",
+   "dg_year": 2000,
+   "yt_id": "s3hSUf5cY9c",
+   "yt_title": "Dreaming (Eric Kupper’s Hysteria Club Mix)",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Dreaming (Hysteria Club Mix)” on [Master · 2000](https://www.discogs.com/master/38893)"
-   ]
+   "notes": []
   },
   {
    "id": "06.01.24",
@@ -526,18 +515,15 @@
    "track": "You're The Reason (Roy Malone Mix)",
    "genre": "Electronic",
    "style": "House",
-   "released": "",
+   "released": "2000-04-10",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
+   "dg_kind": "Single",
+   "dg_url": "https://www.discogs.com/release/404305-Wamdue-Project-Youre-The-Reason",
+   "dg_year": 2000,
    "yt_id": "OTf_DfMSs3c",
    "yt_title": "You're The Reason (Roy Malone Bon Mix)",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “You're The Reason (Roy Malone Queen Mix)” on [Master · 2000](https://www.discogs.com/master/72104)",
-    "▶ upload title omits the artist — verify by ear: “You're The Reason (Roy Malone Bon Mix)”"
-   ]
+   "notes": []
   }
  ]
 }

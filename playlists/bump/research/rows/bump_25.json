@@ -107,12 +107,12 @@
    "pos": "1-5",
    "artist": "Agnes",
    "track": "Release Me (DJ Rebel Mix)",
-   "genre": "Electronic",
-   "style": "House",
+   "genre": "Electronic, Rock, Pop",
+   "style": "Acoustic, Electro, Euro House, Europop",
    "released": "2009",
    "sa": false,
-   "dg_kind": "Single",
-   "dg_url": "https://www.discogs.com/release/1868110-Agnes-5-Release-Me",
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/171530-Agnes-5-Release-Me",
    "dg_year": 2009,
    "yt_id": "oxj2n2fhsqI",
    "yt_title": "Release Me (DJ Rebel Remix)",
@@ -177,17 +177,15 @@
    "track": "Flash 2.9 (Dave Darrel Mix)",
    "genre": "Electronic",
    "style": "House, Electro",
-   "released": "",
+   "released": "2009",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/175008-HIFI-vs-Dave-Darell-Flash-29",
+   "dg_year": 2009,
    "yt_id": "3Cuqy0JIkeM",
    "yt_title": "HI:FI Vs Dave Darell - Flash 2.9(Dave Darell Mix)",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Flash 2.9 (Dave Darell Mix)” on [Master · 2009](https://www.discogs.com/master/175008)"
-   ]
+   "notes": []
   },
   {
    "id": "25.01.09",
@@ -391,11 +389,11 @@
    "artist": "Chromeo",
    "track": "Fancy Footwork (Crookers Remix)",
    "genre": "Electronic",
-   "style": "House, Electro, Synth-pop",
+   "style": "Electro",
    "released": "2007",
    "sa": false,
-   "dg_kind": "EP",
-   "dg_url": "https://www.discogs.com/release/1604569-Chromeo-Fancy-Footwork",
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/96978-Chromeo-Fancy-Footwork-Remixes",
    "dg_year": 2007,
    "yt_id": "WFi5b3cQGPk",
    "yt_title": "Chromeo - Fancy Footwork (Crookers Remix)",
@@ -457,11 +455,11 @@
    "artist": "Cidinho & Doca",
    "track": "Rap Das Armas (Noferini Mix)",
    "genre": "Electronic",
-   "style": "Electro, House, Tribal House, Progressive House",
-   "released": "2008",
+   "style": "Electro, Tribal House",
+   "released": "2009",
    "sa": false,
-   "dg_kind": "Single",
-   "dg_url": "https://www.discogs.com/release/9943606-Cidinho-Doca-Rap-Das-Armas",
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/157565-Cidinho-E-Doca-Rap-Das-Armas",
    "dg_year": 2008,
    "yt_id": "jBPKe5vMqrk",
    "yt_title": "Rap Das Armas (Noferini Remix)",
@@ -500,18 +498,15 @@
    "track": "$pend My Money (Bass Kleph's Remix)",
    "genre": "Electronic, Pop, Folk, World, & Country",
    "style": "House, Breaks, Vocal, Tech House, Progressive House, Electro House",
-   "released": "",
+   "released": "2009",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/218113-Bass-Kleph-Stellar-MC-pend-My-Money",
+   "dg_year": 2009,
    "yt_id": "anTXvQtNZ2E",
    "yt_title": "\"$pend My Money\" by Bass Kleph & Stellar MC",
-   "yt_match": "fallback",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “$pend My Money (Bass Kleph Remix)” on [Master · 2009](https://www.discogs.com/master/218113)",
-    "▶ quoted mix not found; video is “\"$pend My Money\" by Bass Kleph & Stellar MC”"
-   ]
+   "yt_match": "exact",
+   "notes": []
   },
   {
    "id": "25.02.07",
@@ -522,12 +517,12 @@
    "pos": "2-7",
    "artist": "Bad Boy Bill",
    "track": "Falling Anthem (Bad Boy Bill Extended Mix)",
-   "genre": "Electronic, Pop",
-   "style": "Progressive House, House, Euro House, Progressive Trance",
-   "released": "2009-02-11",
+   "genre": "Electronic",
+   "style": "House, Electro House, Progressive House",
+   "released": "2009",
    "sa": false,
-   "dg_kind": "12\"",
-   "dg_url": "https://www.discogs.com/release/1691251-Bad-Boy-Bill-Feat-Alyssa-Palmer-Falling-Anthem",
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/210561-Bad-Boy-Bill-Feat-Alyssa-Palmer-Falling-Anthem",
    "dg_year": 2009,
    "yt_id": "ri1sLPVf8b0",
    "yt_title": "Bump Vol 25 (Cd 2) - Bump Vol 2 (Cd 2) - Falling Anthem Bad Boy Bill Extended Mix",
@@ -545,10 +540,10 @@
    "track": "Behind (EDX Mix)",
    "genre": "Electronic",
    "style": "Trance, House",
-   "released": "2009-10-23",
+   "released": "2009",
    "sa": false,
-   "dg_kind": "Single",
-   "dg_url": "https://www.discogs.com/release/2025551-ATB-Pres-Flanders-Behind",
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/202010-ATB-Pres-Flanders-Behind",
    "dg_year": 2009,
    "yt_id": "TZCdWQftSt8",
    "yt_title": "ATB pres. Flanders- Behind (EDX Remix)",
@@ -571,12 +566,12 @@
    "dg_kind": null,
    "dg_url": null,
    "dg_year": null,
-   "yt_id": "PbmIvaWwtX8",
-   "yt_title": "2-4 Grooves feat. Reki D. - Relax (Finger & Kadel Radio Edit)",
+   "yt_id": "L-YKK0T3k4Q",
+   "yt_title": "Frankie Goes To Hollywood - Relax (Jam & Spoon Hi N-R-G Mix)",
    "yt_match": "fallback",
    "notes": [
-    "No single/EP/album under this artist; the song originates as [John Francis (6) And The Relax - Relax With \"The Relax\"](https://www.discogs.com/master/449370-John-Francis-6-And-The-Relax-Orchestra-Relax)",
-    "▶ may be the original act, not this soundalike: “2-4 Grooves feat. Reki D. - Relax (Finger & Kadel Radio Edit)”"
+    "Quoted mix not on any single/EP/album. Closest pressed mix: “Relax” on [Master · 1993](https://www.discogs.com/master/74500)",
+    "▶ may be the original act, not this soundalike: “Frankie Goes To Hollywood - Relax (Jam & Spoon Hi N-R-G Mix)”"
    ]
   },
   {
@@ -660,8 +655,8 @@
    "dg_kind": "Master",
    "dg_url": "https://www.discogs.com/master/168440-Rustler-Around-The-World",
    "dg_year": 2009,
-   "yt_id": "7RHPLQDegtU",
-   "yt_title": "Roald Velden - Around The World (Original Mix)",
+   "yt_id": "kt8zRJLRlmw",
+   "yt_title": "Rustler - Around The World (Mark Simmons Remix)",
    "yt_match": "exact",
    "notes": []
   },
@@ -738,19 +733,16 @@
    "artist": "Fragma",
    "track": "Toca's Miracle 2008 (Inpetto Mix)",
    "genre": "Electronic",
-   "style": "Trance",
-   "released": "",
+   "style": "House, Hardstyle, Electro",
+   "released": "2008-04-07",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
+   "dg_kind": "Single",
+   "dg_url": "https://www.discogs.com/release/1298850-Fragma-Tocas-Miracle-2008",
+   "dg_year": 2008,
    "yt_id": "BopRl0_DqpQ",
    "yt_title": "Toca's Miracle (2008 Inpetto Extended Mix)",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Toca's Miracle 2008 (Inpetto 2008 Remix)” on [Master · 2008](https://www.discogs.com/master/51863)",
-    "▶ upload title omits the artist — verify by ear: “Toca's Miracle (2008 Inpetto Extended Mix)”"
-   ]
+   "notes": []
   },
   {
    "id": "25.03.02",
@@ -806,12 +798,12 @@
    "artist": "iiO",
    "track": "Rapture (Riva Mix)",
    "genre": "Electronic",
-   "style": "Trance, Euro House",
+   "style": "Progressive House, Progressive Trance",
    "released": "2001",
    "sa": false,
-   "dg_kind": "Single",
-   "dg_url": "https://www.discogs.com/release/35970-iiO-Rapture",
-   "dg_year": 2001,
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/59264-Vaiio-Rapture",
+   "dg_year": 2002,
    "yt_id": "LEbwZkPz8-E",
    "yt_title": "Rapture (Riva Remix) (feat. Nadia Ali)",
    "yt_match": "exact",
@@ -879,7 +871,7 @@
    "yt_title": "Cafe Del Mar [Mix Cut] (Three N One 2002 Update Remix)",
    "yt_match": "exact",
    "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Cafe Del Mar (Three'n One Remix)” on [Master · 1997](https://www.discogs.com/master/2233)",
+    "Quoted mix not on any single/EP/album. Closest pressed mix: “Cafe Del Mar (Original Three 'N One Mix)” on [Master · 1998](https://www.discogs.com/master/2233)",
     "▶ upload title omits the artist — verify by ear: “Cafe Del Mar [Mix Cut] (Three N One 2002 Update Remix)”"
    ]
   },
@@ -941,8 +933,8 @@
    "dg_kind": "Master",
    "dg_url": "https://www.discogs.com/master/16060-Rank-1-Airwave",
    "dg_year": 2000,
-   "yt_id": "gTPSxbQ9sbo",
-   "yt_title": "Rank 1 - Airwave (Original Mix)",
+   "yt_id": "xaK-Aa3MqOA",
+   "yt_title": "Airwave (ATB Mix)",
    "yt_match": "exact",
    "notes": []
   },
@@ -957,17 +949,15 @@
    "track": "Another World (Club Mix)",
    "genre": "Electronic",
    "style": "Trance",
-   "released": "",
+   "released": "2003",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/76917-DJ-Shog-Another-World",
+   "dg_year": 2004,
    "yt_id": "gPwW5nJuMNk",
    "yt_title": "Dj Shog - Another world ( club mix )",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Another World (Instr. Club Mix)” on [Master · 2004](https://www.discogs.com/master/76917)"
-   ]
+   "notes": []
   },
   {
    "id": "25.03.12",
@@ -980,17 +970,15 @@
    "track": "Protect Your Mind (Lange Mix)",
    "genre": "Electronic",
    "style": "Trance",
-   "released": "",
+   "released": "2012-04-02",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
+   "dg_kind": "Single",
+   "dg_url": "https://www.discogs.com/release/15127571-DJ-Sakin-Friends-Protect-Your-Mind-Braveheart",
+   "dg_year": 2012,
    "yt_id": "MXH8Az9kjBU",
    "yt_title": "DJ Sakin & Friends – Protect Your Mind (Braveheart) (Lange Remix)",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Protect Your Mind (Braveheart) (Lange Remix)” on [Master · 2012](https://www.discogs.com/master/105444)"
-   ]
+   "notes": []
   },
   {
    "id": "25.03.13",
@@ -1054,7 +1042,7 @@
    "yt_title": "La Vache (Vibro-Dwarfs 12\" Mix)",
    "yt_match": "exact",
    "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “La Vache (Madcow Mix)” on [Master · 1997](https://www.discogs.com/master/72033)",
+    "Quoted mix not on any single/EP/album. Closest pressed mix: “La Vache (Vibrodworf's Remix)” on [Master · 1997](https://www.discogs.com/master/72033)",
     "▶ upload title omits the artist — verify by ear: “La Vache (Vibro-Dwarfs 12\" Mix)”"
    ]
   }

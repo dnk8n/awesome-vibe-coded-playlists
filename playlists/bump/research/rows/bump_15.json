@@ -66,10 +66,9 @@
    "dg_year": null,
    "yt_id": "eiCS7aiSghI",
    "yt_title": "Kool & The Gang - Fresh (Bimbo Jones Remix) (feat. Liberty X)",
-   "yt_match": "fallback",
+   "yt_match": "exact",
    "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Fresh” on [Master · 2004](https://www.discogs.com/master/183314)",
-    "▶ quoted mix not found; video is “Kool & The Gang - Fresh (Bimbo Jones Remix) (feat. Liberty X)”"
+    "Quoted mix not on any single/EP/album. Closest pressed mix: “Fresh” on [Master · 2004](https://www.discogs.com/master/183314)"
    ]
   },
   {
@@ -83,18 +82,15 @@
    "track": "Pushin' Me Out (Bimbo Jones Club Mix)",
    "genre": "Electronic, Pop",
    "style": "Europop, Euro House, Synth-pop",
-   "released": "",
+   "released": "2004",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
+   "dg_kind": "Single",
+   "dg_url": "https://www.discogs.com/release/1587902-D-Side-Pushin-Me-Out",
+   "dg_year": 2004,
    "yt_id": "AY6Sz6HCryo",
    "yt_title": "Bump Vol 15 (Cd 1) - Pushin Me Out Bimbo Jones club mix",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Pushin' Me Out (Bimbo Jones Mix)” on [Master · 2004](https://www.discogs.com/master/98470)",
-    "▶ upload title omits the artist — verify by ear: “Bump Vol 15 (Cd 1) - Pushin Me Out Bimbo Jones club mix”"
-   ]
+   "notes": []
   },
   {
    "id": "15.01.05",
@@ -109,8 +105,8 @@
    "style": "Trance, House",
    "released": "2004",
    "sa": false,
-   "dg_kind": "Single",
-   "dg_url": "https://www.discogs.com/release/3079087-Angel-City-Featuring-Lara-McAllen-Touch-Me",
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/94457-Angel-City-Touch-Me",
    "dg_year": 2004,
    "yt_id": "b4Uun_Ac5IQ",
    "yt_title": "angel city feat lara mcallen - touch me (club mix)",
@@ -128,17 +124,15 @@
    "track": "Shake That! (Club Mix)",
    "genre": "Electronic",
    "style": "House, Trance, Disco",
-   "released": "",
+   "released": "2004",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
-   "yt_id": "seSMhSDZg28",
-   "yt_title": "Scooter - Shake that (Club mix)",
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/25323-Scooter-Shake-That",
+   "dg_year": 2004,
+   "yt_id": "ll3_sUVryLY",
+   "yt_title": "Scooter - Shake That! (Klubbheads Klubb Dubb)",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Shake That ! (Extended)” on [Master · 2004](https://www.discogs.com/master/25323)"
-   ]
+   "notes": []
   },
   {
    "id": "15.01.07",
@@ -179,10 +173,9 @@
    "dg_year": null,
    "yt_id": "AMTzqXtpagU",
    "yt_title": "Loverboy - Night Explode (Orginal Club Mix) [TrezOR Szczecin Hits]",
-   "yt_match": "fallback",
+   "yt_match": "exact",
    "notes": [
-    "No single/EP/album under this artist; the song originates as [King Adora - Friday Night Explodes](https://www.discogs.com/master/447534-King-Adora-Friday-Night-Explodes)",
-    "▶ may be the original act, not this soundalike: “Loverboy - Night Explode (Orginal Club Mix) [TrezOR Szczecin Hits]”"
+    "No single/EP/album under this artist; the song originates as [King Adora - Friday Night Explodes](https://www.discogs.com/master/447534-King-Adora-Friday-Night-Explodes)"
    ]
   },
   {
@@ -201,12 +194,12 @@
    "dg_kind": null,
    "dg_url": null,
    "dg_year": null,
-   "yt_id": null,
-   "yt_title": null,
-   "yt_match": "none",
+   "yt_id": "-GgaQZkqFRk",
+   "yt_title": "Dragostea din tei (DJ Ross Extended Remix)",
+   "yt_match": "exact",
    "notes": [
     "Quoted mix not on any single/EP/album on Discogs",
-    "▶ no usable YouTube upload found"
+    "▶ upload title omits the artist — verify by ear: “Dragostea din tei (DJ Ross Extended Remix)”"
    ]
   },
   {
@@ -219,14 +212,14 @@
    "artist": "Tooga Feat. Pit Bailay",
    "track": "Behind Blue Eyes (Alex Megane vs. S.A.D. Rmx)",
    "genre": "Electronic",
-   "style": "Trance, Euro House",
-   "released": "2004-08-30",
+   "style": "Hands Up, Trance",
+   "released": "2004",
    "sa": false,
-   "dg_kind": "Single",
-   "dg_url": "https://www.discogs.com/release/14608706-Tooga-Feat-Pit-Bailay-Behind-Blue-Eyes",
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/14824-Tooga-Feat-Pit-Bailay-Behind-Blue-Eyes",
    "dg_year": 2004,
-   "yt_id": "wq0LIwugv8g",
-   "yt_title": "Bump Vol 15 (Cd 1) - Behind Blue Eyes Alex Megane vs S A D RMX",
+   "yt_id": "r17bebgzio0",
+   "yt_title": "Behind Blue Eyes (Alex Megane vs. S.A.D. Remix)",
    "yt_match": "exact",
    "notes": []
   },
@@ -262,18 +255,15 @@
    "track": "Smells Like Teen Spirit (Extended Voc 2 The Floor Mix)",
    "genre": "Electronic",
    "style": "Trance, Hard Trance",
-   "released": "",
+   "released": "2004",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/124301-Warp-Brothers-Smells-Like-Teen-Spirit",
+   "dg_year": 2005,
    "yt_id": "qy7VlTelJr4",
    "yt_title": "WARP BROTHERS / SMELLS LIKE TEEN SPIRIT (VOC 2 THE FLOOR REMIX)",
-   "yt_match": "fallback",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Smells Like Teen Spirit (Voc 2 The Floor Mix)” on [Master · 2004](https://www.discogs.com/master/124301)",
-    "▶ quoted mix not found; video is “WARP BROTHERS / SMELLS LIKE TEEN SPIRIT (VOC 2 THE FLOOR REMIX)”"
-   ]
+   "yt_match": "exact",
+   "notes": []
   },
   {
    "id": "15.01.13",
@@ -370,18 +360,15 @@
    "track": "My Boy Lollipop (Extended Mix)",
    "genre": "Electronic",
    "style": "Trance",
-   "released": "",
+   "released": "2004",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/123845-Kosmonova-My-Boy-Lollipop",
+   "dg_year": 2004,
    "yt_id": "SnjabduCh50",
    "yt_title": "My Boy Lollipop (Extended Mix)",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “My Boy Lollipop” on [Master · 2004](https://www.discogs.com/master/123845)",
-    "▶ upload title omits the artist — verify by ear: “My Boy Lollipop (Extended Mix)”"
-   ]
+   "notes": []
   },
   {
    "id": "15.01.18",
@@ -464,8 +451,8 @@
    "dg_kind": "Master",
    "dg_url": "https://www.discogs.com/master/268193-2-Worlds-2-Feat-Lizzy-Pattinson-Wherever-You-Go",
    "dg_year": 2004,
-   "yt_id": "nBZvEK-IJRU",
-   "yt_title": "Wherever You Go (Club Mix)",
+   "yt_id": "rJinO3ZGSJw",
+   "yt_title": "2 Worlds feat. Lizzy Pattinson - Wherever You go (Clubby`s Mix)",
    "yt_match": "exact",
    "notes": []
   },
@@ -506,8 +493,8 @@
    "dg_kind": "Master",
    "dg_url": "https://www.discogs.com/master/520577-DJ-Dean-Its-A-Dream",
    "dg_year": 2004,
-   "yt_id": "DJ9KRwvFPFg",
-   "yt_title": "Dj Dean - It's A Dream (Dj Manian Vs. Yanou RMX)",
+   "yt_id": "BzcQE8Jrry0",
+   "yt_title": "Dj Dean - It's A Dream (Dj Manian vs. Yanou Remix)",
    "yt_match": "exact",
    "notes": []
   },
@@ -609,18 +596,15 @@
    "track": "Invisible (DJs @ Work Mix)",
    "genre": "Electronic",
    "style": "Trance",
-   "released": "",
+   "released": "2004",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/3496599-Mike-MH-4-Invisible",
+   "dg_year": 2004,
    "yt_id": "GuvA42_GjSs",
    "yt_title": "Invisible (DJs@WORK RMX)",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Invisible (Djs@Work Extended Remix)” on [Master · 2024](https://www.discogs.com/master/3496599)",
-    "▶ upload title omits the artist — verify by ear: “Invisible (DJs@WORK RMX)”"
-   ]
+   "notes": []
   },
   {
    "id": "15.01.11",
@@ -633,16 +617,15 @@
    "track": "Pump & Pipe (Scann & David Con G Rmx)",
    "genre": "Electronic",
    "style": "Hard House, Euro House",
-   "released": "",
+   "released": "2004",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/214823-DJ-Bomba-2-Pump-Pipe",
+   "dg_year": 2004,
    "yt_id": "3LaSYT_Mhfw",
    "yt_title": "Pump & Pipe (Scann & DavidConG Remix)",
    "yt_match": "fallback",
    "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Pump & Pipe (Scann & David Con G Remix)” on [Master · 2004](https://www.discogs.com/master/214823)",
     "▶ quoted mix not found; video is “Pump & Pipe (Scann & DavidConG Remix)”"
    ]
   },
@@ -723,18 +706,15 @@
    "track": "Crazy (DJ Lawless Remix)",
    "genre": "Electronic",
    "style": "Hard Trance",
-   "released": "",
+   "released": "2004",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/36028-Brooklyn-Bounce-Crazy",
+   "dg_year": 2004,
    "yt_id": "X1E2lv1Go1A",
    "yt_title": "Bump Vol 15 (Cd 2) - Crazy DJ Lawless remix",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Crazy (DJ Lawless Remix Edit)” on [Master · 2004](https://www.discogs.com/master/36028)",
-    "▶ upload title omits the artist — verify by ear: “Bump Vol 15 (Cd 2) - Crazy DJ Lawless remix”"
-   ]
+   "notes": []
   },
   {
    "id": "15.01.16",

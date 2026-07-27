@@ -37,11 +37,11 @@
    "artist": "Roger Sanchez Ft. GTO",
    "track": "Turn On The Music (Axwell Remix)",
    "genre": "Electronic",
-   "style": "Deep House, Euro House",
-   "released": "2006",
+   "style": "House, Deep House",
+   "released": "2005",
    "sa": false,
-   "dg_kind": "Single",
-   "dg_url": "https://www.discogs.com/release/3285585-Roger-Sanchez-Ft-GTO-2-Turn-On-The-Music",
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/73983-Roger-Sanchez-Ft-GTO-2-Turn-On-The-Music",
    "dg_year": 2006,
    "yt_id": "KhrkW_4rISI",
    "yt_title": "Roger Sanchez ft. GTO - Turn on the Music (Axwell Remix) (2005)",
@@ -64,8 +64,8 @@
    "dg_kind": "Single",
    "dg_url": "https://www.discogs.com/release/687310-Eddie-Thoneick-Kurd-Maverick-Love-Sensation-2006",
    "dg_year": 2006,
-   "yt_id": "blo9WaEWcYw",
-   "yt_title": "Love Sensation 2006 (Eddie Thoneick's Sensation Mix)",
+   "yt_id": "p5crtfPKncI",
+   "yt_title": "Eddie Thoneick & Kurd Maverick - Love sensation (2006)",
    "yt_match": "exact",
    "notes": []
   },
@@ -106,8 +106,8 @@
    "dg_kind": "Master",
    "dg_url": "https://www.discogs.com/master/63067-Filterfunk-SOS-Message-In-A-Bottle",
    "dg_year": 2006,
-   "yt_id": "6mtT0bNOHvk",
-   "yt_title": "Filterfunk - S.O.S. (Message In A Bottle) (Delano & Crockett Remix)",
+   "yt_id": "H5POjOqRAzY",
+   "yt_title": "Filterfunk - S.O.S Message in the bottle (Delano & Crockett Remix)",
    "yt_match": "exact",
    "notes": []
   },
@@ -175,8 +175,8 @@
    "dg_kind": "Master",
    "dg_url": "https://www.discogs.com/master/532829-Most-Wanted-Deejays-Bad-Boyz",
    "dg_year": 2006,
-   "yt_id": "tvII3K1DkdM",
-   "yt_title": "Essential DJ-Team - Bad Boyz (Club Mix) [2002]",
+   "yt_id": "jXAatr_3TRo",
+   "yt_title": "Most Wanted Deejays - Bad Boys (Club Mix)",
    "yt_match": "exact",
    "notes": []
   },
@@ -191,18 +191,15 @@
    "track": "Jazz In Your Face (Richard Grey Club Mix)",
    "genre": "Electronic",
    "style": "House",
-   "released": "",
+   "released": "2006",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/123952-Erick-Morillo-Jazz-In-Your-Face",
+   "dg_year": 2006,
    "yt_id": "H-plwT6NBho",
    "yt_title": "Erick Morillo -- Jazz In Your Face [Richard Grey Mix]",
-   "yt_match": "fallback",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Jazz In Your Face (Richard Grey Remix)” on [Master · 2006](https://www.discogs.com/master/123952)",
-    "▶ quoted mix not found; video is “Erick Morillo -- Jazz In Your Face [Richard Grey Mix]”"
-   ]
+   "yt_match": "exact",
+   "notes": []
   },
   {
    "id": "18.01.10",
@@ -259,8 +256,8 @@
    "style": "House, Disco",
    "released": "2005",
    "sa": false,
-   "dg_kind": "Single",
-   "dg_url": "https://www.discogs.com/release/1849252-Snap-Beauty-Queen",
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/100658-Snap-Beauty-Queen",
    "dg_year": 2005,
    "yt_id": "fhHSTQ2IaY8",
    "yt_title": "Snap! - Beauty Queen (Spoon Club Remix)",
@@ -307,12 +304,11 @@
    "dg_kind": null,
    "dg_url": null,
    "dg_year": null,
-   "yt_id": "JgKgyDU4UdI",
-   "yt_title": "IL FOLKLORISTA (rmx gigi d'agostino & luca noise) - THOSE WHERE THE DAYS",
-   "yt_match": "fallback",
+   "yt_id": "BWTGazZ3DsE",
+   "yt_title": "Il Folklorista - Those Were The Days (Gigi Dag & Luca Noise)",
+   "yt_match": "exact",
    "notes": [
-    "No single/EP/album under this artist; the song originates as [Mary Hopkin - En Aquellos Dias  = Those Where The Days / Gira = Turn., Turn, Turn](https://www.discogs.com/master/123135-Mary-Hopkin-Those-Were-The-Days)",
-    "▶ may be the original act, not this soundalike: “IL FOLKLORISTA (rmx gigi d'agostino & luca noise) - THOSE WHERE THE DAYS”"
+    "No single/EP/album under this artist; the song originates as [Mary Hopkin - En Aquellos Dias  = Those Where The Days / Gira = Turn., Turn, Turn](https://www.discogs.com/master/123135-Mary-Hopkin-Those-Were-The-Days)"
    ]
   },
   {
@@ -346,11 +342,11 @@
    "artist": "Groove Coverage",
    "track": "On The Radio (Age Pee Remix)",
    "genre": "Electronic",
-   "style": "Trance, Donk",
-   "released": "2006-02-02",
+   "style": "Hands Up, Donk",
+   "released": "2006",
    "sa": false,
-   "dg_kind": "Single",
-   "dg_url": "https://www.discogs.com/release/642220-Groove-Coverage-On-The-Radio-Part-2",
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/35186-Groove-Coverage-On-The-Radio",
    "dg_year": 2006,
    "yt_id": "SdOBhlS6UAo",
    "yt_title": "On The Radio (Age Pee RMX)",
@@ -377,7 +373,7 @@
    "yt_title": "Bob Sinclar - Rock This Party (Official Music Video)",
    "yt_match": "fallback",
    "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Rock This Party (London 909 Club Mix)” on [Master · 0](https://www.discogs.com/master/95587)",
+    "Quoted mix not on any single/EP/album. Closest pressed mix: “Rock This Party (London 909 Club Mix)” on [Master](https://www.discogs.com/master/95587)",
     "▶ quoted mix not found; video is “Bob Sinclar - Rock This Party (Official Music Video)”"
    ]
   },
@@ -418,12 +414,10 @@
    "dg_kind": "Master",
    "dg_url": "https://www.discogs.com/master/67270-Vandalism-2-Never-Say-Never",
    "dg_year": 2006,
-   "yt_id": "JHOEwdzZImc",
-   "yt_title": "Vandalism - Never Say Never [OFFICIAL MUSIC VIDEO] (2006)",
-   "yt_match": "fallback",
-   "notes": [
-    "▶ quoted mix not found; video is “Vandalism - Never Say Never [OFFICIAL MUSIC VIDEO] (2006)”"
-   ]
+   "yt_id": "-pS4u1qPaiM",
+   "yt_title": "Never Say Never (Extended Mix)",
+   "yt_match": "exact",
+   "notes": []
   },
   {
    "id": "18.02.03",
@@ -480,19 +474,16 @@
    "artist": "The B.O.M.B. Ft. Sean Finn",
    "track": "Skynight (Danny Wild & Pit Bailey Remix)",
    "genre": "Electronic",
-   "style": "Electro House",
-   "released": "",
+   "style": "House",
+   "released": "2006",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
-   "yt_id": "Dzvb9AAUvxM",
-   "yt_title": "B.o.m.b. Feat. Sean Finn - Skynight",
-   "yt_match": "fallback",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Skynight (Danny Wild & Pit Bailay Remix)” on [Master · 2006](https://www.discogs.com/master/154380)",
-    "▶ quoted mix not found; video is “B.o.m.b. Feat. Sean Finn - Skynight”"
-   ]
+   "dg_kind": "Single",
+   "dg_url": "https://www.discogs.com/release/10684646-The-BOMB-Feat-Sean-Finn-Skynight",
+   "dg_year": 2006,
+   "yt_id": "J3_XLyrgm3U",
+   "yt_title": "The B.O.M.B feat. Sean Finn - Skynight (Danny Wild & Pit Bailay Remix)",
+   "yt_match": "exact",
+   "notes": []
   },
   {
    "id": "18.02.06",
@@ -505,16 +496,15 @@
    "track": "I Can't Sleep (Flipside Remix)",
    "genre": "Electronic",
    "style": "House, Electro",
-   "released": "",
+   "released": "2006",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/53539-Commander-Tom-vs-Oliver-Cats-I-Cant-Sleep",
+   "dg_year": 2006,
    "yt_id": "26d4ttIHu7o",
    "yt_title": "I Can't Sleep! (Original Club Mix)",
    "yt_match": "fallback",
    "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “I Can't Sleep (Flipside Rmx)” on [Master · 2006](https://www.discogs.com/master/53539)",
     "▶ quoted mix not found; video is “I Can't Sleep! (Original Club Mix)”"
    ]
   },
@@ -528,14 +518,14 @@
    "artist": "Ferry Corsten",
    "track": "Fire (Ferry's Flashover Mix)",
    "genre": "Electronic",
-   "style": "Trance, Electro, House",
-   "released": "2006-01-21",
+   "style": "Trance, House",
+   "released": "2005",
    "sa": false,
-   "dg_kind": "Single",
-   "dg_url": "https://www.discogs.com/release/607197-Ferry-Corsten-Fire",
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/57289-Ferry-Corsten-Fire",
    "dg_year": 2006,
-   "yt_id": "Wa2QylHCMkM",
-   "yt_title": "Fire (Ferry's Flashover Mix)",
+   "yt_id": "Iud8QRFaVFo",
+   "yt_title": "Ferry Corsten ‎- Fire (Flashover Remix) [2005]",
    "yt_match": "exact",
    "notes": []
   },
@@ -550,18 +540,15 @@
    "track": "Prison Break Theme (Ferry Corsten Breakout Remix)",
    "genre": "Stage & Screen",
    "style": "Soundtrack, Theme",
-   "released": "",
+   "released": "2006-03-10",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
+   "dg_kind": "12\"",
+   "dg_url": "https://www.discogs.com/release/33293403-Ramin-Djawadi-Prison-Break-Theme-Breakout-Mix",
+   "dg_year": 2006,
    "yt_id": "DmavK0aX-lk",
    "yt_title": "Prison Break Theme (From \"Prison Break\"/Ferry Corsten Breakout Mix (Extended Version))",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Prison Break Theme (Breakout Mix) (Extended Version)” on [12\" · 2006](https://www.discogs.com/release/33293403-Ramin-Djawadi-Prison-Break-Theme-Breakout-Mix)",
-    "▶ upload title omits the artist — verify by ear: “Prison Break Theme (From \"Prison Break\"/Ferry Corsten Breakout Mix (Extended Version))”"
-   ]
+   "notes": []
   },
   {
    "id": "18.02.09",
@@ -594,19 +581,16 @@
    "artist": "Paffendorf",
    "track": "Vogue (Long Mix)",
    "genre": "Electronic",
-   "style": "Euro House",
-   "released": "",
+   "style": "House, Trance, Electro House, Euro House",
+   "released": "2006",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
-   "yt_id": "Wt9Z6xkl94w",
-   "yt_title": "Paffendorf - Vogue",
-   "yt_match": "fallback",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Vogue (Club Mix)” on [Master · 2006](https://www.discogs.com/master/86565)",
-    "▶ quoted mix not found; video is “Paffendorf - Vogue”"
-   ]
+   "dg_kind": "12\"",
+   "dg_url": "https://www.discogs.com/release/1895353-Paffendorf-Vogue",
+   "dg_year": 2006,
+   "yt_id": "mLm8EYiuz2U",
+   "yt_title": "Madonna - Vogue (Extended Mollem Studios Version)",
+   "yt_match": "exact",
+   "notes": []
   },
   {
    "id": "18.02.11",
@@ -734,12 +718,11 @@
    "dg_kind": null,
    "dg_url": null,
    "dg_year": null,
-   "yt_id": "_o6qi2a4mZQ",
-   "yt_title": "Disc-o-tek",
-   "yt_match": "fallback",
+   "yt_id": "U9HdIlh3vAY",
+   "yt_title": "Verano - Disc - O - Tec (Headrockin Club Mix)",
+   "yt_match": "exact",
    "notes": [
-    "No single/EP/album under this artist; the song originates as [Various - Disc O Tek](https://www.discogs.com/master/2996960-Various-Disc-O-Tek)",
-    "▶ may be the original act, not this soundalike: “Disc-o-tek”"
+    "No single/EP/album under this artist; the song originates as [Various - Disc O Tek](https://www.discogs.com/master/2996960-Various-Disc-O-Tek)"
    ]
   },
   {

@@ -40,8 +40,8 @@
    "style": "House",
    "released": "2007",
    "sa": false,
-   "dg_kind": "Single",
-   "dg_url": "https://www.discogs.com/release/1676685-Bob-Sinclar-Cutee-B-Feat-Dollarman-Gary-Pine-Sound-Of-Freedom",
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/95595-Bob-Sinclar-Cutee-B-Feat-Dollarman-Gary-Pine-Sound-Of-Freedom-Everybodys-Free",
    "dg_year": 2007,
    "yt_id": "vTFZQq14Yfw",
    "yt_title": "Sound of Freedom (Club Mix)",
@@ -126,9 +126,9 @@
    "style": "House",
    "released": "2006",
    "sa": false,
-   "dg_kind": "Single",
-   "dg_url": "https://www.discogs.com/release/3526284-Eddie-Thoneick-Feat-Berget-Lewis-Deeper-Love",
-   "dg_year": 2006,
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/135110-Eddie-Thoneick-Featuring-Berget-Lewis-Deeper-Love",
+   "dg_year": 2007,
    "yt_id": "CqaHC6Bda0E",
    "yt_title": "Deeper Love (Eddie Thoneick’s Ruff Mix)",
    "yt_match": "exact",
@@ -192,12 +192,11 @@
    "dg_kind": null,
    "dg_url": null,
    "dg_year": null,
-   "yt_id": "KxkixQRPSL8",
-   "yt_title": "Iio - Is it love (Poetica)",
-   "yt_match": "fallback",
+   "yt_id": "Gh6e1sNkVnw",
+   "yt_title": "Iio - Is it love (Chris Ortega remix)",
+   "yt_match": "exact",
    "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Is It Love” on [Master · 2006](https://www.discogs.com/master/60411)",
-    "▶ quoted mix not found; video is “Iio - Is it love (Poetica)”"
+    "Quoted mix not on any single/EP/album. Closest pressed mix: “Is It Love” on [Master · 2006](https://www.discogs.com/master/60411)"
    ]
   },
   {
@@ -211,17 +210,16 @@
    "track": "Freaks Come Out (Vocal Extended Mix)",
    "genre": "Electronic",
    "style": "House",
-   "released": "",
+   "released": "2007",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
-   "yt_id": "J7QKELwUHSk",
-   "yt_title": "Whodini - Freaks Come Out At Night (Extended Version)",
-   "yt_match": "exact",
+   "dg_kind": "12\"",
+   "dg_url": "https://www.discogs.com/release/1524674-Paul-Star-Freaks-Come-Out-Remixes",
+   "dg_year": 2007,
+   "yt_id": "a8hkevPU2tY",
+   "yt_title": "The Freaks Come Out (2000 Freaks Mix)",
+   "yt_match": "fallback",
    "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Freaks Come Out (Dynamic Rockers Remix)” on [12\" · 2007](https://www.discogs.com/release/1524674-Paul-Star-Freaks-Come-Out-Remixes)",
-    "▶ upload title omits the artist — verify by ear: “Whodini - Freaks Come Out At Night (Extended Version)”"
+    "▶ quoted mix not found; video is “The Freaks Come Out (2000 Freaks Mix)”"
    ]
   },
   {
@@ -255,11 +253,11 @@
    "artist": "Dada & Trax",
    "track": "Lollipop (The Drill Remix)",
    "genre": "Electronic",
-   "style": "House",
-   "released": "2007",
+   "style": "House, Electro",
+   "released": "2006",
    "sa": false,
-   "dg_kind": "Single",
-   "dg_url": "https://www.discogs.com/release/3035804-Dada-Ft-Sandy-Rivera-Trix-8-Lollipop",
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/139564-Dada-Feat-Sandy-Rivera-Trix-8-Lollipop",
    "dg_year": 2007,
    "yt_id": "8k-E3qOqZU0",
    "yt_title": "Dada Feat. Sandy Rivera & Trix - Lolipop (The Drill Remix)",
@@ -427,19 +425,16 @@
    "artist": "Unconditional",
    "track": "Magic Fett (Nari & Milani Club Mix)",
    "genre": "Electronic",
-   "style": "Italodance",
-   "released": "",
+   "style": "Progressive House, Italodance",
+   "released": "2000",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
-   "yt_id": "EonmcfXJAjg",
-   "yt_title": "Unconditional - Magic Feet (2000)",
-   "yt_match": "fallback",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Magic Fett (MPT Club Mix)” on [Master · 2000](https://www.discogs.com/master/111862)",
-    "▶ quoted mix not found; video is “Unconditional - Magic Feet (2000)”"
-   ]
+   "dg_kind": "Single",
+   "dg_url": "https://www.discogs.com/release/2004607-Unconditional-Magic-Fett",
+   "dg_year": 2000,
+   "yt_id": "ZfjT9YmyWBY",
+   "yt_title": "Magic Fett - Nari & Milani 2006 Rmx",
+   "yt_match": "exact",
+   "notes": []
   },
   {
    "id": "20.02.02",
@@ -624,18 +619,15 @@
    "track": "Silence (Original Mix)",
    "genre": "Electronic",
    "style": "Trance",
-   "released": "",
+   "released": "2006",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
-   "yt_id": "b_V-ffuWbZQ",
-   "yt_title": "Silence (Original Mix)",
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/3800007-DJ-Tatana-A-Tribute-To-Trance",
+   "dg_year": 2007,
+   "yt_id": "fEqAsHTd1BQ",
+   "yt_title": "Silence (Extended Mix)",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Silence ” on [Master · 2007](https://www.discogs.com/master/3800007)",
-    "▶ upload title omits the artist — verify by ear: “Silence (Original Mix)”"
-   ]
+   "notes": []
   },
   {
    "id": "20.02.11",
@@ -677,12 +669,11 @@
    "dg_kind": null,
    "dg_url": null,
    "dg_year": null,
-   "yt_id": null,
-   "yt_title": null,
-   "yt_match": "none",
+   "yt_id": "MjK2PCUhTZE",
+   "yt_title": "Scooter - Lass Uns Tanzen (Alternative Club Mix)",
+   "yt_match": "exact",
    "notes": [
-    "Quoted mix not on any single/EP/album on Discogs",
-    "▶ no usable YouTube upload found"
+    "Quoted mix not on any single/EP/album on Discogs"
    ]
   },
   {
@@ -781,19 +772,16 @@
    "artist": "4 Strings",
    "track": "Mainline (Album Mix)",
    "genre": "Electronic",
-   "style": "Trance, Hard Trance",
-   "released": "",
+   "style": "Trance",
+   "released": "2007",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
+   "dg_kind": "Album",
+   "dg_url": "https://www.discogs.com/release/967667-4-Strings-Mainline",
+   "dg_year": 2007,
    "yt_id": "BhUpcWn8_jg",
    "yt_title": "MAINLINE - \"Under dark skies\" (Full Album Stream)",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Mainline” on [Master · 2007](https://www.discogs.com/master/85038)",
-    "▶ upload title omits the artist — verify by ear: “MAINLINE - \"Under dark skies\" (Full Album Stream)”"
-   ]
+   "notes": []
   }
  ]
 }

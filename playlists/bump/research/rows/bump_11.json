@@ -22,12 +22,12 @@
    "dg_kind": null,
    "dg_url": null,
    "dg_year": null,
-   "yt_id": "DGIAaqMcLbg",
-   "yt_title": "CJ Ash - Machines (Ultrasonic Mix)",
-   "yt_match": "fallback",
+   "yt_id": "O7r0ALJzahc",
+   "yt_title": "The Emptiness Machine (A Cappella) - Linkin Park",
+   "yt_match": "exact",
    "notes": [
     "Quoted mix not on any single/EP/album. Closest pressed mix: “Machines” on [Master · 2002](https://www.discogs.com/master/1677930)",
-    "▶ quoted mix not found; video is “CJ Ash - Machines (Ultrasonic Mix)”"
+    "▶ upload title omits the artist — verify by ear: “The Emptiness Machine (A Cappella) - Linkin Park”"
    ]
   },
   {
@@ -39,19 +39,18 @@
    "pos": "1-2",
    "artist": "Bomfunk Mc's Feat. Jessica Folcker",
    "track": "(Crack It) Something Going On (Extended Club Mix)",
-   "genre": "",
-   "style": "",
-   "released": "",
+   "genre": "Electronic",
+   "style": "Electro",
+   "released": "2002",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
-   "yt_id": null,
-   "yt_title": null,
-   "yt_match": "none",
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/83382-Bomfunk-MCs-Featuring-Jessica-Folcker-Crack-It-Something-Going-On",
+   "dg_year": 2002,
+   "yt_id": "MSqDIWI__Ew",
+   "yt_title": "Bomfunk MC's - (Crack It) Something Going On",
+   "yt_match": "fallback",
    "notes": [
-    "Quoted mix not on any single/EP/album on Discogs",
-    "▶ no usable YouTube upload found"
+    "▶ quoted mix not found; video is “Bomfunk MC's - (Crack It) Something Going On”"
    ]
   },
   {
@@ -85,19 +84,16 @@
    "artist": "The Beginnerz",
    "track": "Reckless Girl (Original Extended)",
    "genre": "Electronic",
-   "style": "House, Progressive House",
-   "released": "",
+   "style": "House",
+   "released": "2002",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
-   "yt_id": "tKspy8_7Uhs",
-   "yt_title": "The Beginerz - Reckless Girl (Original Mix)",
-   "yt_match": "fallback",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Reckless Girl” on [Master · 2002](https://www.discogs.com/master/174576)",
-    "▶ quoted mix not found; video is “The Beginerz - Reckless Girl (Original Mix)”"
-   ]
+   "dg_kind": "12\"",
+   "dg_url": "https://www.discogs.com/release/13784698-The-Beginnerz-Reckless-Girl",
+   "dg_year": 2002,
+   "yt_id": "Rea-p_oUr_U",
+   "yt_title": "Reckless Girl (Extended Mix)",
+   "yt_match": "exact",
+   "notes": []
   },
   {
    "id": "11.01.05",
@@ -136,12 +132,11 @@
    "dg_kind": null,
    "dg_url": null,
    "dg_year": null,
-   "yt_id": "P5rqNyulfsQ",
-   "yt_title": "Tweet feat. Missy Elliott ‎– Oops (Oh My) (Official Video)",
-   "yt_match": "fallback",
+   "yt_id": "8SBYxeSlWno",
+   "yt_title": "Tweet - Oops, Oh My! (Thunderpuss Hard Mix)",
+   "yt_match": "exact",
    "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Oops (Oh My)” on [Master · 2002](https://www.discogs.com/master/81267)",
-    "▶ quoted mix not found; video is “Tweet feat. Missy Elliott ‎– Oops (Oh My) (Official Video)”"
+    "Quoted mix not on any single/EP/album. Closest pressed mix: “Oops (Oh My) (Original Version)” on [Master · 2002](https://www.discogs.com/master/81267)"
    ]
   },
   {
@@ -184,8 +179,8 @@
    "dg_kind": "Single",
    "dg_url": "https://www.discogs.com/release/1211375-In-Grid-Tu-Es-Foutu",
    "dg_year": 2002,
-   "yt_id": "lyRjaxqPfoU",
-   "yt_title": "Tu Es Foutu (Original Extended Instrumetal)",
+   "yt_id": "WeVY_xQWSUs",
+   "yt_title": "Tu Es Foutu (Extended)",
    "yt_match": "exact",
    "notes": []
   },
@@ -249,11 +244,11 @@
    "dg_kind": null,
    "dg_url": null,
    "dg_year": null,
-   "yt_id": "-lGRu_SSR4w",
-   "yt_title": "Robbie Rivera - Sex (Robbies Sexy Mix)",
+   "yt_id": "9zJanzUukVU",
+   "yt_title": "Robbie Rivera vs Billy Paul W. - Sex (Robbie's Sexy Mix)",
    "yt_match": "exact",
    "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Sex (Robbie Sexy Mix)” on [Master · 2002](https://www.discogs.com/master/107906)"
+    "Quoted mix not on any single/EP/album. Closest pressed mix: “Sex (Robbie's Sexy Mix)” on [Master · 2002](https://www.discogs.com/master/107906)"
    ]
   },
   {
@@ -286,19 +281,18 @@
    "pos": "1-13",
    "artist": "Dannii Minogue",
    "track": "Put The Needle On It (Nevin's Club Creation",
-   "genre": "",
-   "style": "",
+   "genre": "Electronic",
+   "style": "House",
    "released": "",
    "sa": false,
    "dg_kind": null,
    "dg_url": null,
    "dg_year": null,
-   "yt_id": null,
-   "yt_title": null,
-   "yt_match": "none",
+   "yt_id": "p9GTGsCGqUs",
+   "yt_title": "Dannii Minogue - Put The Needle On It (Nevins Club Creation)",
+   "yt_match": "exact",
    "notes": [
-    "Quoted mix not on any single/EP/album on Discogs",
-    "▶ no usable YouTube upload found"
+    "Quoted mix not on any single/EP/album. Closest pressed mix: “Put The Needle On It (Nevins Club Creation)” on [Master · 2002](https://www.discogs.com/master/80528)"
    ]
   },
   {
@@ -317,12 +311,12 @@
    "dg_kind": null,
    "dg_url": null,
    "dg_year": null,
-   "yt_id": "m1CuGpb_aW0",
-   "yt_title": "Bump Vol 11 (Cd 1)  - Benny Bee   Able 2 Love",
-   "yt_match": "fallback",
+   "yt_id": "OEJ9ElqM2D0",
+   "yt_title": "To Be Able To Love (Jonathan Peters Club Mix)",
+   "yt_match": "exact",
    "notes": [
     "Quoted mix not on any single/EP/album on Discogs",
-    "▶ quoted mix not found; video is “Bump Vol 11 (Cd 1)  - Benny Bee   Able 2 Love”"
+    "▶ upload title omits the artist — verify by ear: “To Be Able To Love (Jonathan Peters Club Mix)”"
    ]
   },
   {
@@ -341,12 +335,11 @@
    "dg_kind": null,
    "dg_url": null,
    "dg_year": null,
-   "yt_id": "p1WLBqlnBg4",
-   "yt_title": "Colonel Abrams - Trapped Dub Version",
-   "yt_match": "fallback",
+   "yt_id": "Qfm7aXBmGyw",
+   "yt_title": "Colonel Abrams – Trapped (Zombie Nation Remix)",
+   "yt_match": "exact",
    "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Trapped (Next Level) (Zombie Nation Remix)” on [Master · 2002](https://www.discogs.com/master/87983)",
-    "▶ quoted mix not found; video is “Colonel Abrams - Trapped Dub Version”"
+    "Quoted mix not on any single/EP/album. Closest pressed mix: “Trapped (Next Level) (Zombie Nation Remix)” on [Master · 2002](https://www.discogs.com/master/87983)"
    ]
   },
   {
@@ -380,11 +373,11 @@
    "artist": "Riva",
    "track": "Time Is The Healer (Armin Van Buuren Vocal Mix)",
    "genre": "Electronic",
-   "style": "Trance",
+   "style": "Trance, Ambient",
    "released": "2002",
    "sa": false,
-   "dg_kind": "12\"",
-   "dg_url": "https://www.discogs.com/release/308185-Riva-Time-Is-The-Healer",
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/109329-Riva-Time-Is-The-Healer",
    "dg_year": 2002,
    "yt_id": "M0erSApWoLY",
    "yt_title": "RIVA - Time Is the Healer (Armin Van Buuren Vocal Mix) 2002 #mainstage #turnproject",
@@ -444,18 +437,15 @@
    "track": "Heaven (Extended Club Mix)",
    "genre": "Electronic, Pop",
    "style": "Eurodance, Hard Trance, Trance, Ballad",
-   "released": "",
+   "released": "2001",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/40753-DJ-Sammy-Yanou-Feat-Do-Heaven",
+   "dg_year": 2002,
    "yt_id": "psGiuErs9io",
    "yt_title": "Heaven (Extended Club Mix)",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Heaven (S'n'Y Mix Extended)” on [Master · 2002](https://www.discogs.com/master/40753)",
-    "▶ upload title omits the artist — verify by ear: “Heaven (Extended Club Mix)”"
-   ]
+   "notes": []
   },
   {
    "id": "11.01.21",
@@ -561,11 +551,11 @@
    "artist": "Scooter",
    "track": "Nessaja (The Ultimate Club Mix)",
    "genre": "Electronic",
-   "style": "Hard House, Hard Trance",
-   "released": "2002-04-08",
+   "style": "Hands Up, Trance",
+   "released": "2002",
    "sa": false,
-   "dg_kind": "Single",
-   "dg_url": "https://www.discogs.com/release/390887-Scooter-Nessaja",
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/13028-Scooter-Nessaja",
    "dg_year": 2002,
    "yt_id": "6f3OtGEc4dg",
    "yt_title": "Nessaja (The Ultimate Club Mix)",
@@ -634,10 +624,9 @@
    "dg_year": null,
    "yt_id": "avwB-GHnnCA",
    "yt_title": "Matt Cassar Pres. Most Wanted – Seven Days And One Week (Dirt Devils Remix)",
-   "yt_match": "fallback",
+   "yt_match": "exact",
    "notes": [
-    "Quoted mix not on any single/EP/album on Discogs",
-    "▶ quoted mix not found; video is “Matt Cassar Pres. Most Wanted – Seven Days And One Week (Dirt Devils Remix)”"
+    "Quoted mix not on any single/EP/album on Discogs"
    ]
   },
   {
@@ -671,19 +660,16 @@
    "artist": "4 Strings",
    "track": "Take Me Away (Into The Night) (Extended Club Mix)",
    "genre": "Electronic",
-   "style": "Trance",
-   "released": "",
+   "style": "Trance, Progressive Trance",
+   "released": "2002-07-01",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
-   "yt_id": "gYL1DcoI6b4",
-   "yt_title": "4 Strings , Take Me Away , Vocal Club Mix ",
-   "yt_match": "fallback",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Take Me Away (Into The Night) (Vocal Club)” on [Master · 2002](https://www.discogs.com/master/84982)",
-    "▶ quoted mix not found; video is “4 Strings , Take Me Away , Vocal Club Mix ”"
-   ]
+   "dg_kind": "Single",
+   "dg_url": "https://www.discogs.com/release/80895-4-Strings-Take-Me-Away-Into-The-Night",
+   "dg_year": 2002,
+   "yt_id": "23RdIvakv1Y",
+   "yt_title": "Take Me Away (Extended Club Mix)",
+   "yt_match": "exact",
+   "notes": []
   },
   {
    "id": "11.02.09",
@@ -696,16 +682,15 @@
    "track": "Time And Time Again (Extended Club Mix)",
    "genre": "Electronic",
    "style": "Trance",
-   "released": "",
+   "released": "2002",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/51880-Fragma-Time-And-Time-Again",
+   "dg_year": 2002,
    "yt_id": "TJlueJHWzac",
    "yt_title": "Fragma – Time And Time Again (Extended Mix) (A1) (2002)",
    "yt_match": "fallback",
    "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Time And Time Again (Extended Mix)” on [Master · 2002](https://www.discogs.com/master/51880)",
     "▶ quoted mix not found; video is “Fragma – Time And Time Again (Extended Mix) (A1) (2002)”"
    ]
   },

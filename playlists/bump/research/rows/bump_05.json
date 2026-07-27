@@ -37,18 +37,16 @@
    "artist": "ATB",
    "track": "Killer 2000 (Killer Mix)",
    "genre": "Electronic",
-   "style": "Trance",
-   "released": "",
+   "style": "Progressive House, Trance",
+   "released": "2000-09-19",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
+   "dg_kind": "Single",
+   "dg_url": "https://www.discogs.com/release/101404-ATB-Killer",
+   "dg_year": 2000,
    "yt_id": "_hiYMjdKcPI",
    "yt_title": "ATB - Killer (Killer 2000)",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Killer 2000” on [Master · 2000](https://www.discogs.com/master/22904)"
-   ]
+   "notes": []
   },
   {
    "id": "05.01.03",
@@ -82,18 +80,15 @@
    "track": "Blue (Ba Da Bee) (Tinka Extended Club Mix)",
    "genre": "Pop",
    "style": "",
-   "released": "",
+   "released": "1999",
    "sa": true,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
-   "yt_id": "68ugkg9RePc",
-   "yt_title": "Eiffel 65 - Blue (Da Ba Dee) [Gabry Ponte Ice Pop Mix] (Original Video with subtitles)",
-   "yt_match": "fallback",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Blue (Da Ba Dee) ( Tinka Extended Club Mix)” on [Single · 1999](https://www.discogs.com/release/15846946-Maxxim-Blue-Da-Ba-Dee)",
-    "▶ quoted mix not found; video is “Eiffel 65 - Blue (Da Ba Dee) [Gabry Ponte Ice Pop Mix] (Original Video with subtitles)”"
-   ]
+   "dg_kind": "Single",
+   "dg_url": "https://www.discogs.com/release/15846946-Maxxim-Blue-Da-Ba-Dee",
+   "dg_year": 1999,
+   "yt_id": "t866ZCJmdBo",
+   "yt_title": "Bump Vol 5 - Blue Da Ba Dee Tinka Extended Club Mix",
+   "yt_match": "exact",
+   "notes": []
   },
   {
    "id": "05.01.05",
@@ -125,20 +120,17 @@
    "pos": "6",
    "artist": "Ann Lee",
    "track": "2 Times (Original Mix)",
-   "genre": "Electronic",
-   "style": "Euro House, Disco",
-   "released": "",
+   "genre": "Electronic, Pop",
+   "style": "Europop, Euro House",
+   "released": "1999",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
-   "yt_id": "smqCRYbLLNM",
-   "yt_title": "2 Times (Original Extended)",
+   "dg_kind": "Single",
+   "dg_url": "https://www.discogs.com/release/162139-Ann-Lee-2-Times",
+   "dg_year": 1999,
+   "yt_id": "HWw6f48KXUM",
+   "yt_title": "2 Times (Bulletproof Euro Mix)",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “2 Times (Original Edit Mix)” on [Master · 1999](https://www.discogs.com/master/85393)",
-    "▶ upload title omits the artist — verify by ear: “2 Times (Original Extended)”"
-   ]
+   "notes": []
   },
   {
    "id": "05.01.07",
@@ -149,20 +141,17 @@
    "pos": "7",
    "artist": "Brother Brown Feat Frank'ee",
    "track": "Under The Water (Deep Dish Club Mix)",
-   "genre": "Rock",
-   "style": "New Wave",
-   "released": "",
+   "genre": "Electronic",
+   "style": "Progressive House, Deep House, Tech House",
+   "released": "1999",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
-   "yt_id": "EyalUUfhS58",
-   "yt_title": "Brother Brown Featuring Frank'ee - Under The Water (Deep Dish Underpressure Remix)",
-   "yt_match": "fallback",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Under The Water (Deep Dish Remix)” on [Master · 1999](https://www.discogs.com/master/105041)",
-    "▶ may be the original act, not this soundalike: “Brother Brown Featuring Frank'ee - Under The Water (Deep Dish Underpressure Remix)”"
-   ]
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/105041-Brother-Brown-Featuring-Frankee-Under-The-Water",
+   "dg_year": 1999,
+   "yt_id": "bPQceFt8zvk",
+   "yt_title": "Bump Vol 5 - Under The Water Deep Dish Club Mix",
+   "yt_match": "exact",
+   "notes": []
   },
   {
    "id": "05.01.08",
@@ -334,7 +323,7 @@
    "yt_title": "Southside Spinners - Luvstruck (Quintessential Remix)",
    "yt_match": "exact",
    "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Luvstruck” on [Master · 2000](https://www.discogs.com/master/103606)"
+    "Quoted mix not on any single/EP/album. Closest pressed mix: “Luvstruck (Original Version)” on [Master · 1999](https://www.discogs.com/master/103606)"
    ]
   },
   {
@@ -355,10 +344,9 @@
    "dg_year": null,
    "yt_id": "WiO4mY9whuQ",
    "yt_title": "Space Penguins ‎– The Elektrofunk (Atlantis Remix) [Playola ‎– 0091780PLA]",
-   "yt_match": "fallback",
+   "yt_match": "exact",
    "notes": [
-    "Quoted mix not on any single/EP/album; [master](https://www.discogs.com/master/159437-Space-Penguins-The-Elektrofunk) defines the track",
-    "▶ quoted mix not found; video is “Space Penguins ‎– The Elektrofunk (Atlantis Remix) [Playola ‎– 0091780PLA]”"
+    "Quoted mix not on any single/EP/album; [master](https://www.discogs.com/master/159437-Space-Penguins-The-Elektrofunk) defines the track"
    ]
   },
   {
@@ -371,14 +359,14 @@
    "artist": "Hani",
    "track": "Baby Wants To Ride (DJ Isaac Remix)",
    "genre": "Electronic",
-   "style": "House",
-   "released": "1999",
+   "style": "House, Tech House",
+   "released": "1999-10-29",
    "sa": false,
-   "dg_kind": "12\"",
-   "dg_url": "https://www.discogs.com/release/54373-Hani-Baby-Wants-To-Ride",
+   "dg_kind": "Single",
+   "dg_url": "https://www.discogs.com/release/12995-Hani-Baby-Wants-To-Ride",
    "dg_year": 1999,
-   "yt_id": "dTsc_CwpL3U",
-   "yt_title": "Hani - Baby Wants To Ride (Dj Isaac Extended Vocal Mix) 1999",
+   "yt_id": "MZHEmOVKMc8",
+   "yt_title": "Hani - Baby Wants To Ride (Quarck & DJ San Remix) [Neo Records – NEO12025]",
    "yt_match": "exact",
    "notes": []
   },
@@ -461,11 +449,11 @@
    "artist": "Signum Feat Scott Mac",
    "track": "Coming On Strong (Original Mix)",
    "genre": "Electronic",
-   "style": "Trance",
+   "style": "Trance, Progressive Trance, Hard House",
    "released": "1999",
    "sa": false,
-   "dg_kind": "Single",
-   "dg_url": "https://www.discogs.com/release/263383-Signum-Feat-Scott-Mac-Coming-On-Strong",
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/30980-Signum-Feat-Scott-Mac-Coming-On-Strong",
    "dg_year": 1999,
    "yt_id": "MV9ML3MZAOg",
    "yt_title": "Signum Feat Scott Mac - Coming On Strong (Original Mix)",
@@ -483,18 +471,15 @@
    "track": "You Ask For The Moon (Extended Club Mix)",
    "genre": "Electronic",
    "style": "Euro House",
-   "released": "",
+   "released": "1999",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/88913-Afrika-Bambaataa-Pres-Khayan-The-New-World-Power-You-Ask-For-The-Moon",
+   "dg_year": 1999,
    "yt_id": "wRe6RCY60zE",
    "yt_title": "Bump Vol 5 - You Ask For The Moon Extended Club Mix",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “You Ask For The Moon (Extended)” on [Master · 2000](https://www.discogs.com/master/88913)",
-    "▶ upload title omits the artist — verify by ear: “Bump Vol 5 - You Ask For The Moon Extended Club Mix”"
-   ]
+   "notes": []
   },
   {
    "id": "05.01.23",

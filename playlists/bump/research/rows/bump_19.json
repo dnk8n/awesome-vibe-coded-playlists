@@ -22,12 +22,12 @@
    "dg_kind": null,
    "dg_url": null,
    "dg_year": null,
-   "yt_id": "DQOa2UdLk14",
-   "yt_title": "Adonis - We' re Rockin Down the House",
-   "yt_match": "fallback",
+   "yt_id": "dIKQlucdRy0",
+   "yt_title": "We're Rocking Down the House (Full Vox Radio Mix)",
+   "yt_match": "exact",
    "notes": [
     "Quoted mix not on any single/EP/album on Discogs",
-    "▶ quoted mix not found; video is “Adonis - We' re Rockin Down the House”"
+    "▶ upload title omits the artist — verify by ear: “We're Rocking Down the House (Full Vox Radio Mix)”"
    ]
   },
   {
@@ -39,15 +39,15 @@
    "pos": "1.2",
    "artist": "Bob Sinclar feat. Steve Edwards",
    "track": "World, Hold On (Children of The Sky) (Club Mix)",
-   "genre": "Electronic, Pop",
+   "genre": "Electronic",
    "style": "House",
-   "released": "2006-04-20",
+   "released": "2006",
    "sa": false,
-   "dg_kind": "Single",
-   "dg_url": "https://www.discogs.com/release/668605-Bob-Sinclar-Feat-Steve-Edwards-World-Hold-On-Children-Of-The-Sky",
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/95593-Bob-Sinclar-Feat-Steve-Edwards-World-Hold-On-Children-Of-The-Sky",
    "dg_year": 2006,
-   "yt_id": "nwypFsy2We8",
-   "yt_title": "Bob Sinclar feat. Steve Edwards - World Hold On (Children of the Sky) [Club Mix]",
+   "yt_id": "E5hDfLXRBf4",
+   "yt_title": "Bob Sinclar Feat. Steve Edwards - World, Hold On (Extended Club Mix) (2006)",
    "yt_match": "exact",
    "notes": []
   },
@@ -88,8 +88,8 @@
    "style": "House, Electro",
    "released": "2007",
    "sa": false,
-   "dg_kind": "12\"",
-   "dg_url": "https://www.discogs.com/release/4896386-Starzoom-2-Billie-Jean-People-Always-Told-Me",
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/90286-Starzoom-2-Billie-Jean-People-Always-Told-Me",
    "dg_year": 2007,
    "yt_id": "hDAIhvMYd8M",
    "yt_title": "Starzoom - Billie Jean (People Always Told Me) (Hi Tack Club Mix)",
@@ -178,8 +178,8 @@
    "dg_kind": "Master",
    "dg_url": "https://www.discogs.com/master/156714-Fonzerelli-Moonlight-Party",
    "dg_year": 2007,
-   "yt_id": "eMy3N4EMgvY",
-   "yt_title": "Fonzerelli - Moonlight Party (Original Mix) (2005)",
+   "yt_id": "oRaB60KWpuo",
+   "yt_title": "Fonzerelli Moonlight Party Aaron McClelland Remix",
    "yt_match": "exact",
    "notes": []
   },
@@ -196,8 +196,8 @@
    "style": "House, Electro",
    "released": "2007",
    "sa": false,
-   "dg_kind": "Single",
-   "dg_url": "https://www.discogs.com/release/1247851-Alibi-vs-Rockefeller-Sexual-Healing",
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/75977-Alibi-Vs-Rockefeller-Sexual-Healing",
    "dg_year": 2007,
    "yt_id": "nUOQsqDlsos",
    "yt_title": "Rockefeller vs Alibi feat. Marvin Gaye - Sexual Healing (Freemasons Extended Club Mix) HD Full Mix",
@@ -215,16 +215,16 @@
    "track": "So Urgent (Vocal Club Mix)",
    "genre": "Electronic",
    "style": "Progressive House, House, Tech House",
-   "released": "",
+   "released": "2006-06",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
-   "yt_id": "DURlTsEtwlQ",
-   "yt_title": "Mario Ochoa - So Urgent (Club Mix)",
-   "yt_match": "exact",
+   "dg_kind": "12\"",
+   "dg_url": "https://www.discogs.com/release/714886-Mario-Ochoa-So-Urgent",
+   "dg_year": 2006,
+   "yt_id": "uH-AZYxT49I",
+   "yt_title": "Mario Ochoa - So Urgent",
+   "yt_match": "fallback",
    "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “So Urgent (Original Mix)” on [12\" · 2006](https://www.discogs.com/release/714886-Mario-Ochoa-So-Urgent)"
+    "▶ quoted mix not found; video is “Mario Ochoa - So Urgent”"
    ]
   },
   {
@@ -288,11 +288,11 @@
    "dg_kind": "Master",
    "dg_url": "https://www.discogs.com/master/219116-Euphonix-My-Girl-Wants-2-Party",
    "dg_year": 2006,
-   "yt_id": null,
-   "yt_title": null,
-   "yt_match": "none",
+   "yt_id": "MlC0vN-1UH8",
+   "yt_title": "My Girls Want 2 Party..",
+   "yt_match": "fallback",
    "notes": [
-    "▶ no usable YouTube upload found"
+    "▶ quoted mix not found; video is “My Girls Want 2 Party..”"
    ]
   },
   {
@@ -369,17 +369,15 @@
    "track": "Dolly Song (Nockout Remix)",
    "genre": "Electronic, Pop",
    "style": "House, Electro, Hands Up",
-   "released": "",
+   "released": "2006",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/213169-Holly-Dolly-Dolly-Song-Ievas-Polka",
+   "dg_year": 2007,
    "yt_id": "IYpICU2Wp-4",
    "yt_title": "holly dolly-dolly song (nockout remix)",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Dolly Song (Ieva's Polka) (Nockout Remix)” on [Master · 2007](https://www.discogs.com/master/213169)"
-   ]
+   "notes": []
   },
   {
    "id": "19.02.01",
@@ -397,12 +395,10 @@
    "dg_kind": "Single",
    "dg_url": "https://www.discogs.com/release/809142-David-Guetta-vs-The-Egg-Love-Dont-Let-Me-Go-Walking-Away",
    "dg_year": 2006,
-   "yt_id": "L0VmaJsPWbY",
-   "yt_title": "David Guetta vs The Egg -  Love don't let me go / Walking away (Official Video)",
-   "yt_match": "fallback",
-   "notes": [
-    "▶ quoted mix not found; video is “David Guetta vs The Egg -  Love don't let me go / Walking away (Official Video)”"
-   ]
+   "yt_id": "8ZNo3tJqw2c",
+   "yt_title": "David Guetta - Love don't let me go (Club Mix)",
+   "yt_match": "exact",
+   "notes": []
   },
   {
    "id": "19.02.02",
@@ -524,11 +520,11 @@
    "artist": "Above & Beyond",
    "track": "Can't Sleep (Signum Remix)",
    "genre": "Electronic",
-   "style": "Progressive House, Progressive Trance, Trance, Tech Trance",
-   "released": "2006-07-03",
+   "style": "Trance, Tech Trance",
+   "released": "2006",
    "sa": false,
-   "dg_kind": "Single",
-   "dg_url": "https://www.discogs.com/release/741828-Above-Beyond-Cant-Sleep",
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/18676-Above-Beyond-Cant-Sleep",
    "dg_year": 2006,
    "yt_id": "yV5u1sw--H0",
    "yt_title": "Above & Beyond - Can't Sleep (Signum Remix) (2006)",
@@ -568,19 +564,16 @@
    "artist": "Love Assassins",
    "track": "Teardrops (Kenzie & Cobain Blue Vocal Extended Mix)",
    "genre": "Electronic",
-   "style": "House, UK Garage, Hardstyle, Electro, Bassline",
-   "released": "",
+   "style": "Hard Trance",
+   "released": "2006",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/1265496-BK-Love-Assassins-Trance-Sessions-Volume-3-Sampler",
+   "dg_year": 2006,
    "yt_id": "rYa_pSzqS-Y",
    "yt_title": "Love Assassins - Teardrops (Kenzie & Cobaine Blue mix)",
-   "yt_match": "fallback",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Teardrops (Kenzie & Cobain Blue Vocal Remix)” on [Master · 2006](https://www.discogs.com/master/1265496)",
-    "▶ quoted mix not found; video is “Love Assassins - Teardrops (Kenzie & Cobaine Blue mix)”"
-   ]
+   "yt_match": "exact",
+   "notes": []
   },
   {
    "id": "19.02.10",
@@ -623,7 +616,7 @@
    "yt_title": "Everytime We Touch (Styles & Breeze Hardcore Remix)",
    "yt_match": "exact",
    "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Everytime We Touch” on [Master · 2006](https://www.discogs.com/master/24091)",
+    "Quoted mix not on any single/EP/album. Closest pressed mix: “Everytime We Touch (Original Mix)” on [Master · 2007](https://www.discogs.com/master/24091)",
     "▶ upload title omits the artist — verify by ear: “Everytime We Touch (Styles & Breeze Hardcore Remix)”"
    ]
   },
@@ -680,17 +673,15 @@
    "track": "Ride On A White Train (Axel Coon Remix)",
    "genre": "Electronic",
    "style": "Hands Up, Hard Trance, Trance",
-   "released": "",
+   "released": "2006",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/77026-Klubbingman-Feat-Beatrix-Delgado-Ride-On-A-White-Train-Like-A-Hurricane",
+   "dg_year": 2006,
    "yt_id": "3VsmwYv5cLs",
    "yt_title": "Klubbingman - Ride On A White Train (Like A Hurricane) (Axel Coon Remix)",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Ride On A White Train (Like A Hurricane) (Axel Coon Remix)” on [Master · 2006](https://www.discogs.com/master/77026)"
-   ]
+   "notes": []
   },
   {
    "id": "19.02.15",
@@ -724,18 +715,15 @@
    "track": "Push Up (Original Remix)",
    "genre": "Electronic",
    "style": "Trance, Progressive Trance, Hard House",
-   "released": "",
+   "released": "2006-10",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
-   "yt_id": "NJPyQF9rMF4",
-   "yt_title": "Push Up (Original Mix)",
+   "dg_kind": "12\"",
+   "dg_url": "https://www.discogs.com/release/810851-Warp-Brothers-Push",
+   "dg_year": 2006,
+   "yt_id": "ETxUpOIPiIc",
+   "yt_title": "Creeds - Push Up (TikTok Remix) / The Matrix (Fight Scene)",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Push Up” on [12\" · 2006](https://www.discogs.com/release/810851-Warp-Brothers-Push)",
-    "▶ upload title omits the artist — verify by ear: “Push Up (Original Mix)”"
-   ]
+   "notes": []
   },
   {
    "id": "19.02.17",

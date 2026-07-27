@@ -22,12 +22,10 @@
    "dg_kind": "Master",
    "dg_url": "https://www.discogs.com/master/201727-A-Gift-of-Love-Feat-Demi-Moore-Do-You-Love-Me",
    "dg_year": 1999,
-   "yt_id": "Fke0iVKAc7s",
-   "yt_title": "a gift of love feat. demi moore - Do You Love Me (Eddie Baez's Tunnel Vocal Mix)",
-   "yt_match": "fallback",
-   "notes": [
-    "▶ quoted mix not found; video is “a gift of love feat. demi moore - Do You Love Me (Eddie Baez's Tunnel Vocal Mix)”"
-   ]
+   "yt_id": "j-Dy7G8jd6I",
+   "yt_title": "Do You Love Me (Padapella)",
+   "yt_match": "exact",
+   "notes": []
   },
   {
    "id": "04.01.02",
@@ -40,17 +38,15 @@
    "track": "Virtual Zone (Radio Mix)",
    "genre": "Electronic",
    "style": "Trance",
-   "released": "",
+   "released": "1999-06-07",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
+   "dg_kind": "Single",
+   "dg_url": "https://www.discogs.com/release/2930564-Virtual-Zone-Virtual-Zone",
+   "dg_year": 1999,
    "yt_id": "ZPR367VcYYM",
    "yt_title": "Virtual Zone (Radio Mix)",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Virtual Zone (Radio Edit)” on [Master · 1999](https://www.discogs.com/master/332318)"
-   ]
+   "notes": []
   },
   {
    "id": "04.01.03",
@@ -62,14 +58,14 @@
    "artist": "ATB",
    "track": "Don't Stop (ATB Mix)",
    "genre": "Electronic",
-   "style": "Trance, House, Eurodance, Euro House",
+   "style": "Trance",
    "released": "1999",
    "sa": false,
-   "dg_kind": "Single",
-   "dg_url": "https://www.discogs.com/release/97161-ATB-Dont-Stop",
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/22868-ATB-Dont-Stop",
    "dg_year": 1999,
-   "yt_id": "NU7AvfqQok4",
-   "yt_title": "Don't Stop! Remixes (ATB Remix)",
+   "yt_id": "h_Ux1P6x17E",
+   "yt_title": "ATB - Don't Stop  (Sequential One Remix)",
    "yt_match": "exact",
    "notes": []
   },
@@ -83,11 +79,11 @@
    "artist": "Miss Jane",
    "track": "It's A Fine Day (ATB Club Mix)",
    "genre": "Electronic",
-   "style": "House, Euro House",
-   "released": "1999",
+   "style": "Trance",
+   "released": "1998",
    "sa": false,
-   "dg_kind": "Single",
-   "dg_url": "https://www.discogs.com/release/1229502-Miss-Jane-Its-A-Fine-Day",
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/68474-Carmine-Sorrentino-Dave-Carlotti-Present-Miss-Jane-Its-A-Fine-Day",
    "dg_year": 1999,
    "yt_id": "E6MQvTbXKTg",
    "yt_title": "Carmine Sorrentino & Dave Carlotti Present: Miss Jane – It's A Fine Day (ATB Club Rmx)",
@@ -103,19 +99,17 @@
    "pos": "5",
    "artist": "Love Inc",
    "track": "Broken Bones (Extended Mix)",
-   "genre": "Rock",
-   "style": "Alternative Rock, Hard Rock",
-   "released": "",
+   "genre": "Electronic",
+   "style": "Trance, House, Speed Garage",
+   "released": "2003-05-19",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
+   "dg_kind": "Single",
+   "dg_url": "https://www.discogs.com/release/8407957-Love-Inc-Broken-Bones",
+   "dg_year": 2003,
    "yt_id": "0u-GurAqv6o",
    "yt_title": "Love Inc. - Broken Bones (City Of Love Mix Extended)",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Broken Bones (Pez Tellett Extended Mix)” on [Master · 2003](https://www.discogs.com/master/131116)"
-   ]
+   "notes": []
   },
   {
    "id": "04.01.06",
@@ -149,17 +143,15 @@
    "track": "If You Could Read My Mind (Original Mix)",
    "genre": "Electronic",
    "style": "Nu-Disco, House, Tribal House",
-   "released": "",
+   "released": "1998",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
-   "yt_id": "zcO1kp6dwP0",
-   "yt_title": "Stars On 54 -  If You Could Read My Mind (Original Version)",
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/132822-Stars-On-54-Ultra-Naté-Amber-Jocelyn-Enriquez-If-You-Could-Read-My-Mind",
+   "dg_year": 1998,
+   "yt_id": "jXv_ci-_RRY",
+   "yt_title": "Stars On 54 - If You Could Read My Mind (Hex Hector Club Mix)",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “If You Could Read My Mind (Original Club Mix)” on [Master · 1998](https://www.discogs.com/master/132822)"
-   ]
+   "notes": []
   },
   {
    "id": "04.01.08",
@@ -196,17 +188,15 @@
    "track": "Believe (Club 69 Mix)",
    "genre": "Electronic, Pop",
    "style": "Trance, Electro, Eurodance",
-   "released": "",
+   "released": "1998",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/69286-Cher-Believe",
+   "dg_year": 1998,
    "yt_id": "9jUkTeYI6fk",
    "yt_title": "Cher - Believe (Club 69 Phunk Club Mix) [12'' maxi single]",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Believe (Club 69 Future Mix)” on [Master · 1998](https://www.discogs.com/master/69286)"
-   ]
+   "notes": []
   },
   {
    "id": "04.01.10",
@@ -240,18 +230,15 @@
    "track": "Dance To The Beat (Original Mix)",
    "genre": "Electronic",
    "style": "Hard House, Hard Trance",
-   "released": "",
+   "released": "1998-07",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
-   "yt_id": "j-JJwAWuDn0",
-   "yt_title": "DJ Pacifer - Dance To The Beat [original remix]",
+   "dg_kind": "Single",
+   "dg_url": "https://www.discogs.com/release/466069-DJ-Modelle-Yuro-Stomp-Dance-To-The-Beat",
+   "dg_year": 1998,
+   "yt_id": "e2dqjGiqdS8",
+   "yt_title": "Moonwalk - Dance To The Beat(Original Mix)",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Dance To The Beat” on [Single · 1998](https://www.discogs.com/release/466069-DJ-Modelle-Yuro-Stomp-Dance-To-The-Beat)",
-    "▶ upload title omits the artist — verify by ear: “DJ Pacifer - Dance To The Beat [original remix]”"
-   ]
+   "notes": []
   },
   {
    "id": "04.01.12",
@@ -263,11 +250,11 @@
    "artist": "Vengaboys",
    "track": "We Like To Party (Klubbheads Mix)",
    "genre": "Electronic",
-   "style": "House, Hard House, Euro House, Trance",
+   "style": "Hard House, Euro House",
    "released": "1999",
    "sa": false,
    "dg_kind": "Single",
-   "dg_url": "https://www.discogs.com/release/2138273-Vengaboys-We-Like-To-Party",
+   "dg_url": "https://www.discogs.com/release/5666528-Vengaboys-We-Like-To-Party-The-Vengabus",
    "dg_year": 1999,
    "yt_id": "zQyzTMnKSo8",
    "yt_title": "Vengaboys - We like to Party (Klubbheads mix) 1998",
@@ -305,18 +292,16 @@
    "artist": "DJ Sakin & Friends",
    "track": "Protect Your Mind (Lange Mix)",
    "genre": "Electronic",
-   "style": "Trance",
-   "released": "",
+   "style": "Progressive Trance, Trance",
+   "released": "1999",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
+   "dg_kind": "Single",
+   "dg_url": "https://www.discogs.com/release/10973-DJ-Sakin-Friends-Protect-Your-Mind-Braveheart",
+   "dg_year": 1999,
    "yt_id": "MXH8Az9kjBU",
    "yt_title": "DJ Sakin & Friends – Protect Your Mind (Braveheart) (Lange Remix)",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Protect Your Mind (Braveheart) (Lange Remix)” on [Master · 1999](https://www.discogs.com/master/105444)"
-   ]
+   "notes": []
   },
   {
    "id": "04.01.15",
@@ -350,17 +335,15 @@
    "track": "O' Fortuna (Original Mix)",
    "genre": "Electronic",
    "style": "Trance, Techno",
-   "released": "",
+   "released": "1999",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
+   "dg_kind": "Single",
+   "dg_url": "https://www.discogs.com/release/1780724-Spiritual-Project-O-Fortuna",
+   "dg_year": 1999,
    "yt_id": "lVqTzP3eFfE",
    "yt_title": "Spiritual Project - O'Fortuna (Original Mix) 1998",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “O' Fortuna (Original Re-Edit)” on [Master · 2021](https://www.discogs.com/master/217007)"
-   ]
+   "notes": []
   },
   {
    "id": "04.01.17",

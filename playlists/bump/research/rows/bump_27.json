@@ -22,12 +22,11 @@
    "dg_kind": null,
    "dg_url": null,
    "dg_year": null,
-   "yt_id": null,
-   "yt_title": null,
-   "yt_match": "none",
+   "yt_id": "RvhvTAy8ZH4",
+   "yt_title": "David Guetta & Chris Willis Feat. Fergie & LMFAO - Gettin' Over You (Ai HD)",
+   "yt_match": "exact",
    "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Getting Over You (Sidney Samson Remix)” on [12\" · 2010](https://www.discogs.com/release/15904374-Vato-Gonzalez-Dirty-House-Mixtape-5)",
-    "▶ no usable YouTube upload found"
+    "Quoted mix not on any single/EP/album. Closest pressed mix: “Getting Over You (Sidney Samson Remix)” on [12\" · 2010](https://www.discogs.com/release/15904374-Vato-Gonzalez-Dirty-House-Mixtape-5)"
    ]
   },
   {
@@ -159,12 +158,12 @@
    "dg_kind": null,
    "dg_url": null,
    "dg_year": null,
-   "yt_id": "CQivujbtm6Q",
-   "yt_title": "[Gina Star] I Want It Now (Original Club Mix).wmv",
-   "yt_match": "fallback",
+   "yt_id": "XaL8L9pab-M",
+   "yt_title": "Dance Moms - I Want It Now (Full Song)",
+   "yt_match": "exact",
    "notes": [
     "Quoted mix not on any single/EP/album. Closest pressed mix: “I Want It Now (Original Mix)” on [Master · 2010](https://www.discogs.com/master/444422)",
-    "▶ quoted mix not found; video is “[Gina Star] I Want It Now (Original Club Mix).wmv”"
+    "▶ upload title omits the artist — verify by ear: “Dance Moms - I Want It Now (Full Song)”"
    ]
   },
   {
@@ -178,10 +177,10 @@
    "track": "My Feelings For You (Original Mix)",
    "genre": "Electronic",
    "style": "Electro House, French House, Progressive House",
-   "released": "2010-08-16",
+   "released": "2010",
    "sa": false,
-   "dg_kind": "Single",
-   "dg_url": "https://www.discogs.com/release/2410015-Avicii-Sebastien-Drums-My-Feelings-For-You",
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/273073-Avicii-And-Sebastien-Drums-My-Feelings-For-You",
    "dg_year": 2010,
    "yt_id": "OPdV7yjk0o4",
    "yt_title": "My Feelings For You (Original Mix)",
@@ -265,18 +264,15 @@
    "track": "One Night In Bangkok (Marco Van Bassken Rmx)",
    "genre": "Electronic",
    "style": "Electro, Tech House",
-   "released": "",
+   "released": "2005",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/31469-Vinylshakerz-One-Night-In-Bangkok",
+   "dg_year": 2010,
    "yt_id": "yRowKGp9U1I",
    "yt_title": "One Night In Bangkok (Marco van Bassken.rmx)",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “One Night In Bangkok (Marco Van Bassken Remix)” on [Master · 2010](https://www.discogs.com/master/31469)",
-    "▶ upload title omits the artist — verify by ear: “One Night In Bangkok (Marco van Bassken.rmx)”"
-   ]
+   "notes": []
   },
   {
    "id": "27.01.13",
@@ -376,18 +372,15 @@
    "track": "Wouldn't It Be Good (Extended Mix)",
    "genre": "Rock, Pop",
    "style": "Pop Rock",
-   "released": "",
+   "released": "1984",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/86863-Nik-Kershaw-Wouldnt-It-Be-Good",
+   "dg_year": 1991,
    "yt_id": "-PZPtOgkGFg",
    "yt_title": "Wouldn't It Be Good (Extended 12\" Remix)",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Wouldn't It Be Good” on [Master · 1991](https://www.discogs.com/master/86863)",
-    "▶ upload title omits the artist — verify by ear: “Wouldn't It Be Good (Extended 12\" Remix)”"
-   ]
+   "notes": []
   },
   {
    "id": "27.01.18",
@@ -834,11 +827,11 @@
    "artist": "Zoë Badwi",
    "track": "Freefallin' (Denzal Park Remix)",
    "genre": "Electronic",
-   "style": "Euro House",
-   "released": "2010-10-05",
+   "style": "Progressive House, Electro House",
+   "released": "2010",
    "sa": false,
-   "dg_kind": "Single",
-   "dg_url": "https://www.discogs.com/release/3477975-Zoë-Badwi-Freefallin",
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/417309-Zoë-Badwi-Freefallin",
    "dg_year": 2010,
    "yt_id": "lSyD1wXMX4w",
    "yt_title": "Freefallin' (Denzal Park Remix)",
@@ -942,15 +935,15 @@
    "pos": "3-7",
    "artist": "Tomcraft",
    "track": "Room 414 (Can't Get Away) (Original)",
-   "genre": "Electronic",
-   "style": "Tech House, Progressive House, Electro House",
-   "released": "2010-08-23",
+   "genre": "Electronic, Latin",
+   "style": "House, Tech House, Latin, Tribal House",
+   "released": "2010",
    "sa": false,
-   "dg_kind": "12\"",
-   "dg_url": "https://www.discogs.com/release/4747024-Tomcraft-Room-414-Cant-Get-Away",
+   "dg_kind": "Single",
+   "dg_url": "https://www.discogs.com/release/21992830-Tomcraft-Tom-Pulse-Room-414-Cant-Get-Away-Taka-Taka",
    "dg_year": 2010,
-   "yt_id": "Xc35J6mFM5o",
-   "yt_title": "Room 414 (can't get away) (Original)",
+   "yt_id": "sQalwveA658",
+   "yt_title": "Tomcraft - Room 414 (Can't Get Away) (Tube & Berger Remix)",
    "yt_match": "exact",
    "notes": []
   },
@@ -1009,18 +1002,15 @@
    "track": "Rollin' Deep (Original Mix)",
    "genre": "Electronic",
    "style": "House",
-   "released": "",
+   "released": "2010",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
+   "dg_kind": "Album",
+   "dg_url": "https://www.discogs.com/release/2398107-DONS-Design-On-Sound",
+   "dg_year": 2010,
    "yt_id": "y3wPy-DBKAg",
    "yt_title": "Rollin' Deep (Original Mix)",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Rollin Deep” on [Album · 2010](https://www.discogs.com/release/2398107-DONS-Design-On-Sound)",
-    "▶ upload title omits the artist — verify by ear: “Rollin' Deep (Original Mix)”"
-   ]
+   "notes": []
   },
   {
    "id": "27.03.11",
@@ -1035,8 +1025,8 @@
    "style": "House, Tech House",
    "released": "2010",
    "sa": false,
-   "dg_kind": "Single",
-   "dg_url": "https://www.discogs.com/release/3658087-Guru-Josh-Feat-Lauren-Rose-Frozen-Teardrops",
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/443932-Guru-Josh-Feat-Lauren-Rose-Frozen-Teardrops",
    "dg_year": 2010,
    "yt_id": "thrTPXHbnAw",
    "yt_title": "Frozen Teardrops (Sidelmann Mix)",

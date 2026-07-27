@@ -16,19 +16,16 @@
    "artist": "The Chemical Brothers",
    "track": "Galvanize (Original Mix)",
    "genre": "Electronic, Hip Hop",
-   "style": "Acid House, Pop Rap, Big Beat",
-   "released": "",
+   "style": "Acid House, Pop Rap, Big Beat, Electro",
+   "released": "2005-01-17",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
+   "dg_kind": "Single",
+   "dg_url": "https://www.discogs.com/release/379091-The-Chemical-Brothers-Galvanize",
+   "dg_year": 2005,
    "yt_id": "0Jh4LCnoNlA",
    "yt_title": "Galvanize - Underground (Original Mix)",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Galvanize” on [Master · 2005](https://www.discogs.com/master/39318)",
-    "▶ upload title omits the artist — verify by ear: “Galvanize - Underground (Original Mix)”"
-   ]
+   "notes": []
   },
   {
    "id": "16.01.02",
@@ -114,12 +111,11 @@
    "dg_kind": null,
    "dg_url": null,
    "dg_year": null,
-   "yt_id": "Z7TMuMStyRo",
-   "yt_title": "Richard Grey Presents Gate 54 - What A Feeling (Make It Happen Mix)",
-   "yt_match": "fallback",
+   "yt_id": "AurjgwNvTFs",
+   "yt_title": "Richard Grey Presents Gate 54 - What A Feeling (Make It Happe)(Antoine Clamaran Remix)",
+   "yt_match": "exact",
    "notes": [
-    "Quoted mix not on any single/EP/album on Discogs",
-    "▶ quoted mix not found; video is “Richard Grey Presents Gate 54 - What A Feeling (Make It Happen Mix)”"
+    "Quoted mix not on any single/EP/album on Discogs"
    ]
   },
   {
@@ -159,12 +155,12 @@
    "dg_kind": null,
    "dg_url": null,
    "dg_year": null,
-   "yt_id": "OMhniPaiTuo",
-   "yt_title": "The Creeps (That Kid Chris Remix)",
-   "yt_match": "fallback",
+   "yt_id": "7UlCkSRY_m4",
+   "yt_title": "The Creeps (Asle's Full Blown Club)",
+   "yt_match": "exact",
    "notes": [
     "Quoted mix not on any single/EP/album; [master](https://www.discogs.com/master/93487-Camille-Jones-The-Creeps) defines the track",
-    "▶ quoted mix not found; video is “The Creeps (That Kid Chris Remix)”"
+    "▶ upload title omits the artist — verify by ear: “The Creeps (Asle's Full Blown Club)”"
    ]
   },
   {
@@ -206,12 +202,11 @@
    "dg_kind": null,
    "dg_url": null,
    "dg_year": null,
-   "yt_id": null,
-   "yt_title": null,
-   "yt_match": "none",
+   "yt_id": "WZ8bLUSSYec",
+   "yt_title": "One Night in Bangkok (Vinylshakerz XXL Mix Remastered)",
+   "yt_match": "exact",
    "notes": [
-    "Quoted mix not on any single/EP/album on Discogs",
-    "▶ no usable YouTube upload found"
+    "Quoted mix not on any single/EP/album on Discogs"
    ]
   },
   {
@@ -256,10 +251,10 @@
    "dg_year": null,
    "yt_id": "osM8ChseKj4",
    "yt_title": "Pump Up The Jam 2005 (Kingdom Kome Club)",
-   "yt_match": "fallback",
+   "yt_match": "exact",
    "notes": [
     "Quoted mix not on any single/EP/album. Closest pressed mix: “Pump Up The Jam 2005” on [Album · 2010](https://www.discogs.com/release/2398107-DONS-Design-On-Sound)",
-    "▶ quoted mix not found; video is “Pump Up The Jam 2005 (Kingdom Kome Club)”"
+    "▶ upload title omits the artist — verify by ear: “Pump Up The Jam 2005 (Kingdom Kome Club)”"
    ]
   },
   {
@@ -357,11 +352,11 @@
    "track": "Narcotic (Club Mix)",
    "genre": "Electronic",
    "style": "Euro House",
-   "released": "2004-11-15",
+   "released": "2005-03",
    "sa": false,
    "dg_kind": "12\"",
-   "dg_url": "https://www.discogs.com/release/380337-Potatoheadz-Narcotic",
-   "dg_year": 2004,
+   "dg_url": "https://www.discogs.com/release/413956-Potatoheadz-Narcotic",
+   "dg_year": 2005,
    "yt_id": "f8oBH1xP-CA",
    "yt_title": "Potatoheadz - Narcotic (Club Mix)",
    "yt_match": "exact",
@@ -455,7 +450,7 @@
    "yt_title": "Three Drives – Greece 2000 (DJ Shog Remix) Trance 2005",
    "yt_match": "exact",
    "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Greece 2000 (DJ Ton TB & DJ Enrico A 20 Overdub)” on [Master · 1999](https://www.discogs.com/master/22816)"
+    "Quoted mix not on any single/EP/album. Closest pressed mix: “Greece 2000 (Original Mix)” on [Master · 2004](https://www.discogs.com/master/22816)"
    ]
   },
   {
@@ -467,20 +462,17 @@
    "pos": "2-3",
    "artist": "Gadjo Ft. Alexandra Prince",
    "track": "So Many Times (Heller & Enkie's Widespread Club Mix)",
-   "genre": "Folk, World, & Country",
-   "style": "Country",
-   "released": "",
+   "genre": "Electronic",
+   "style": "House, Tech House, Trance",
+   "released": "2005",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
-   "yt_id": "ofweCoHTNto",
-   "yt_title": "Gadjo | So Many Times (Nielson Remix)",
-   "yt_match": "fallback",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “So Many Times (Heller & Enkie Widespread Mix)” on [Master · 2005](https://www.discogs.com/master/142385)",
-    "▶ may be the original act, not this soundalike: “Gadjo | So Many Times (Nielson Remix)”"
-   ]
+   "dg_kind": "Single",
+   "dg_url": "https://www.discogs.com/release/678478-Gadjo-Feat-Alexandra-Prince-So-Many-Times",
+   "dg_year": 2005,
+   "yt_id": "CrHJAn5k5DM",
+   "yt_title": "So Many Times (Heller & Enkie's Widespread Club Mix)",
+   "yt_match": "exact",
+   "notes": []
   },
   {
    "id": "16.02.04",
@@ -517,10 +509,10 @@
    "track": "The Sun Is Out (Starfighter 2 RMX)",
    "genre": "Electronic",
    "style": "Trance",
-   "released": "2004-11-08",
+   "released": "2004",
    "sa": false,
-   "dg_kind": "12\"",
-   "dg_url": "https://www.discogs.com/release/2138698-Oscar-De-La-Fuente-The-Sun-Is-Out",
+   "dg_kind": "Single",
+   "dg_url": "https://www.discogs.com/release/1566666-Oscar-De-La-Fuente-The-Sun-Is-Out",
    "dg_year": 2004,
    "yt_id": "0_FMxpTmP50",
    "yt_title": "The Sun Is Out (Starfighter 2 Remix)",
@@ -538,17 +530,15 @@
    "track": "Runaway (Ford's Club Mix)",
    "genre": "Electronic",
    "style": "Progressive House",
-   "released": "",
+   "released": "2004",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
-   "yt_id": "_OWDW9oJxEg",
-   "yt_title": "Bump Vol 16 (Cd 2) - iiO–Runaway Ford's Club Mix",
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/59551-iiO-Runaway",
+   "dg_year": 2005,
+   "yt_id": "OsFuPTvmjyM",
+   "yt_title": "Iio - Runaway (Ford Club Remix)",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Runaway (Ford Remix)” on [Master · 2004](https://www.discogs.com/master/59551)"
-   ]
+   "notes": []
   },
   {
    "id": "16.02.07",
@@ -561,17 +551,15 @@
    "track": "Clubbin' Bodyrock (Tory Kay Club Mix)",
    "genre": "Electronic",
    "style": "Trance, Electro",
-   "released": "",
+   "released": "2005",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
-   "yt_id": "Z4lzgUmcVgQ",
-   "yt_title": "Bump Vol 16 (Cd 2) - Cut & Paste–Clubbin' Bodyrock Tory Kay Club Mix",
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/1908489-Cut-Paste-Clubbin-Bodyrock",
+   "dg_year": 2005,
+   "yt_id": "SPNB-KfkkKE",
+   "yt_title": "Clubbin´ Bodyrock - Tory Kay Clubmix",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Clubbin' Bodyrock (Tory Kay Clubmix)” on [Master · 2005](https://www.discogs.com/master/1908489)"
-   ]
+   "notes": []
   },
   {
    "id": "16.02.08",
@@ -605,17 +593,15 @@
    "track": "On & On (Club Mix)",
    "genre": "Electronic",
    "style": "Trance",
-   "released": "",
+   "released": "2005",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/86566-Paffendorf-On-On",
+   "dg_year": 2005,
    "yt_id": "gE-MmVER7cA",
    "yt_title": "Paffendorf Vs The Real Booty Babes - On And On (Club Mix)",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “On & On” on [Master · 2006](https://www.discogs.com/master/86562)"
-   ]
+   "notes": []
   },
   {
    "id": "16.02.10",
@@ -696,16 +682,15 @@
    "track": "Numb / Encore (Tuyo's Powermix)",
    "genre": "Electronic",
    "style": "House, Euro House",
-   "released": "",
+   "released": "2005",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/711472-The-New-West-Project-Numb-Encore",
+   "dg_year": 2005,
    "yt_id": "DsdiMA8ii5M",
    "yt_title": "Linkin Park - Numb-Encore (The New West Project rmx)",
    "yt_match": "fallback",
    "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Numb / Encore (Tuyo's Power Mix)” on [Master · 2005](https://www.discogs.com/master/711472)",
     "▶ quoted mix not found; video is “Linkin Park - Numb-Encore (The New West Project rmx)”"
    ]
   },

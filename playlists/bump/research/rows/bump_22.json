@@ -15,18 +15,18 @@
    "pos": "1-1",
    "artist": "Britney Spears",
    "track": "Piece Of Me [Boz O Lo Remix]",
-   "genre": "",
-   "style": "",
+   "genre": "Electronic, Pop",
+   "style": "Synth-pop, House, Dance-pop",
    "released": "",
    "sa": false,
    "dg_kind": null,
    "dg_url": null,
    "dg_year": null,
-   "yt_id": "HwVzk5_OoSo",
-   "yt_title": "Britney Spears - Piece of Me (Boz O Lo Remix)",
+   "yt_id": "kNmOw8BDdB8",
+   "yt_title": "Britney Spears - Piece Of Me (Boz o lo Remix)",
    "yt_match": "exact",
    "notes": [
-    "Quoted mix not on any single/EP/album on Discogs"
+    "Quoted mix not on any single/EP/album. Closest pressed mix: “Piece Of Me (Böz O Lö Remix)” on [Master · 2008](https://www.discogs.com/master/30190)"
    ]
   },
   {
@@ -38,20 +38,17 @@
    "pos": "1-2",
    "artist": "David Guetta Feat. Cozi",
    "track": "Baby When The Lights [Original Extended]",
-   "genre": "",
-   "style": "",
-   "released": "",
+   "genre": "Electronic, Pop",
+   "style": "House, Electro, Dance-pop",
+   "released": "2007",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
-   "yt_id": null,
-   "yt_title": null,
-   "yt_match": "none",
-   "notes": [
-    "Quoted mix not on any single/EP/album on Discogs",
-    "▶ no usable YouTube upload found"
-   ]
+   "dg_kind": "Album",
+   "dg_url": "https://www.discogs.com/release/5179709-David-Guetta-Pop-Life",
+   "dg_year": 2007,
+   "yt_id": "RfULaGCVgV0",
+   "yt_title": "Baby When the Light (feat. Cozi) (Extended)",
+   "yt_match": "exact",
+   "notes": []
   },
   {
    "id": "22.01.03",
@@ -62,20 +59,17 @@
    "pos": "1-3",
    "artist": "Booty Luv",
    "track": "Some Kinda Rush [Club Mix]",
-   "genre": "",
-   "style": "",
-   "released": "",
+   "genre": "Electronic",
+   "style": "Electro House",
+   "released": "2008",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
-   "yt_id": null,
-   "yt_title": null,
-   "yt_match": "none",
-   "notes": [
-    "Quoted mix not on any single/EP/album on Discogs",
-    "▶ no usable YouTube upload found"
-   ]
+   "dg_kind": "Single",
+   "dg_url": "https://www.discogs.com/release/12849663-Booty-Luv-Some-Kinda-Rush",
+   "dg_year": 2008,
+   "yt_id": "uswERVjZ4GI",
+   "yt_title": "Some Kinda Rush (Club Mix)",
+   "yt_match": "exact",
+   "notes": []
   },
   {
    "id": "22.01.04",
@@ -86,19 +80,17 @@
    "pos": "1-4",
    "artist": "Sharam Feat. Daniel Bedingfield",
    "track": "The One [Original Vocal Mix]",
-   "genre": "",
-   "style": "",
-   "released": "",
+   "genre": "Electronic",
+   "style": "House, Electro",
+   "released": "2008",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/76170-Sharam-2-Feat-Daniel-Bedingfield-The-One",
+   "dg_year": 2008,
    "yt_id": "XfRKKGtuAYM",
    "yt_title": "Sharam Feat Daniel Bedingfield - The One (Original Vocal Mix)",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album on Discogs"
-   ]
+   "notes": []
   },
   {
    "id": "22.01.05",
@@ -109,19 +101,17 @@
    "pos": "1-5",
    "artist": "Freemasons Feat. Bailey Tzuke",
    "track": "Uninvited [Club Mix]",
-   "genre": "",
-   "style": "",
-   "released": "",
+   "genre": "Electronic, Pop",
+   "style": "House, Disco, Electro, Downtempo, Trance",
+   "released": "2008-05-24",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
-   "yt_id": "tLRXa9Pd8ZI",
-   "yt_title": "Uninvited (feat. Bailey Tzuke) (Club Mix)",
+   "dg_kind": "Single",
+   "dg_url": "https://www.discogs.com/release/1389699-Freemasons-Feat-Bailey-Tzuke-Uninvited",
+   "dg_year": 2008,
+   "yt_id": "_wHmwBv5rvo",
+   "yt_title": "Freemasons feat. Bailey Tzuke - Uninvited (Club Mix)",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album on Discogs"
-   ]
+   "notes": []
   },
   {
    "id": "22.01.06",
@@ -132,7 +122,7 @@
    "pos": "1-6",
    "artist": "Dennis The Menace & Big World",
    "track": "Fired Up [Original Mix]",
-   "genre": "",
+   "genre": "Hip Hop, Funk / Soul",
    "style": "",
    "released": "",
    "sa": false,
@@ -143,7 +133,7 @@
    "yt_title": "Denis The Menace & Big World - Fired Up (Original mix)",
    "yt_match": "exact",
    "notes": [
-    "Quoted mix not on any single/EP/album on Discogs"
+    "No single/EP/album under this artist; the song originates as [Club Affair - Fired Up](https://www.discogs.com/master/2315305-Club-Affair-Fired-Up)"
    ]
   },
   {
@@ -155,19 +145,19 @@
    "pos": "1-7",
    "artist": "Sebastian Ledger & Chris Lake",
    "track": "Word [Club Mix]",
-   "genre": "Rock, Pop",
-   "style": "Pop Rock",
+   "genre": "Electronic, Funk / Soul",
+   "style": "Electro, Funk",
    "released": "",
    "sa": false,
    "dg_kind": null,
    "dg_url": null,
    "dg_year": null,
-   "yt_id": null,
-   "yt_title": null,
-   "yt_match": "none",
+   "yt_id": "eZ83nO1fIqI",
+   "yt_title": "Cameo - Word up (1986 Instrumental)",
+   "yt_match": "fallback",
    "notes": [
-    "No single/EP/album under this artist; the song originates as [Emmanuel Carella - Don't Say A Word - Club Mixes](https://www.discogs.com/master/1586542-Emmanuel-Carella-Dont-Say-A-Word)",
-    "▶ no usable YouTube upload found"
+    "No single/EP/album under this artist; the song originates as [Cameo - Word-Up](https://www.discogs.com/master/6985-Cameo-Word-Up)",
+    "▶ may be the original act, not this soundalike: “Cameo - Word up (1986 Instrumental)”"
    ]
   },
   {
@@ -179,19 +169,17 @@
    "pos": "1-8",
    "artist": "D.O.N.S. & DBN Feat. Kadoc",
    "track": "The Nighttrain [Vocal Club Mix]",
-   "genre": "",
-   "style": "",
-   "released": "",
+   "genre": "Electronic",
+   "style": "House, Electro",
+   "released": "2008-06",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
+   "dg_kind": "12\"",
+   "dg_url": "https://www.discogs.com/release/1391789-DONS-DBN-Feat-Kadoc-The-Nighttrain",
+   "dg_year": 2008,
    "yt_id": "gFstgfb6cMA",
    "yt_title": "D.O.N.S. & DBN feat Kadoc-The Nighttrain (Vocal Club Mix)",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album on Discogs"
-   ]
+   "notes": []
   },
   {
    "id": "22.01.09",
@@ -226,19 +214,17 @@
    "pos": "1-10",
    "artist": "Eddie Thoneick",
    "track": "I Wanna Freak You [Eddie Thoneick Classic Mix]",
-   "genre": "",
-   "style": "",
-   "released": "",
+   "genre": "Electronic",
+   "style": "House",
+   "released": "2008",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/144452-Eddie-Thoneick-I-Wanna-Freak-U",
+   "dg_year": 2008,
    "yt_id": "FI3l3-02tgk",
    "yt_title": "I Wanna Freak U (Eddie Thoneick Classic Mix)",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album on Discogs"
-   ]
+   "notes": []
   },
   {
    "id": "22.01.11",
@@ -273,19 +259,19 @@
    "pos": "1-12",
    "artist": "Daagard & Morane",
    "track": "Just A Freak [Steve 'N King Remix]",
-   "genre": "",
+   "genre": "Hip Hop",
    "style": "",
    "released": "",
    "sa": false,
    "dg_kind": null,
    "dg_url": null,
    "dg_year": null,
-   "yt_id": null,
-   "yt_title": null,
-   "yt_match": "none",
+   "yt_id": "P4RgXyrB9NE",
+   "yt_title": "Mondo Project - Just a Freak (Steve'n King Rmx)",
+   "yt_match": "fallback",
    "notes": [
-    "Quoted mix not on any single/EP/album on Discogs",
-    "▶ no usable YouTube upload found"
+    "No single/EP/album under this artist; the song originates as [M•Doc* Wit Stevio* - Like Em Like That (Guess I'm Just A Freak) ](https://www.discogs.com/master/1071457-M-Doc-Wit-Stevio-Like-Em-Like-That-Guess-Im-Just-A-Freak-This-World-Is-Crazy)",
+    "▶ may be the original act, not this soundalike: “Mondo Project - Just a Freak (Steve'n King Rmx)”"
    ]
   },
   {
@@ -297,20 +283,17 @@
    "pos": "1-13",
    "artist": "Lowrider",
    "track": "Cool [Club Mix]",
-   "genre": "",
-   "style": "",
-   "released": "",
+   "genre": "Electronic",
+   "style": "Electro House, Hard Trance",
+   "released": "2008",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/478806-Lowrider-5-Cool",
+   "dg_year": 2008,
    "yt_id": "nu-v_H3382w",
    "yt_title": "Cool (Club Mix)",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album on Discogs",
-    "▶ upload title omits the artist — verify by ear: “Cool (Club Mix)”"
-   ]
+   "notes": []
   },
   {
    "id": "22.01.14",
@@ -321,20 +304,17 @@
    "pos": "1-14",
    "artist": "Yanou Feat. Mark Daviz",
    "track": "A Girl Like You [S&H Project Remix]",
-   "genre": "",
-   "style": "",
-   "released": "",
+   "genre": "Electronic",
+   "style": "House, Electro, Trance, Hands Up",
+   "released": "2008",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
-   "yt_id": "7I6ClvOwkPA",
-   "yt_title": "A Girl Like You (S & H Project Remix)",
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/181548-Yanou-Ft-Mark-Daviz-A-Girl-Like-You",
+   "dg_year": 2007,
+   "yt_id": "n1eybrvnPHQ",
+   "yt_title": "Yanou feat Mark Daviz - A Girl Like You (S&H Project)",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album on Discogs",
-    "▶ upload title omits the artist — verify by ear: “A Girl Like You (S & H Project Remix)”"
-   ]
+   "notes": []
   },
   {
    "id": "22.01.15",
@@ -345,19 +325,18 @@
    "pos": "1-15",
    "artist": "Seany B",
    "track": "B Good 2 Me [Orkestrated Mix]",
-   "genre": "",
-   "style": "",
+   "genre": "Electronic",
+   "style": "House, Electro",
    "released": "",
    "sa": false,
    "dg_kind": null,
    "dg_url": null,
    "dg_year": null,
-   "yt_id": null,
-   "yt_title": null,
-   "yt_match": "none",
+   "yt_id": "lN4DOuJ3F9s",
+   "yt_title": "B Good 2 Me (Orkestrated Remix)",
+   "yt_match": "exact",
    "notes": [
-    "Quoted mix not on any single/EP/album on Discogs",
-    "▶ no usable YouTube upload found"
+    "Quoted mix not on any single/EP/album. Closest pressed mix: “B Good 2 Me” on [Single · 2008](https://www.discogs.com/release/5727001-Seany-B-B-Good-2-Me)"
    ]
   },
   {
@@ -369,20 +348,17 @@
    "pos": "1-16",
    "artist": "1Plus1",
    "track": "Off The Wall [Extended Mix]",
-   "genre": "",
-   "style": "",
-   "released": "",
+   "genre": "Electronic",
+   "style": "House, Electro",
+   "released": "2008",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/1287756-1Plus1-Off-The-Wall-Enjoy-Yourself",
+   "dg_year": 2008,
    "yt_id": "v9rAmyUHkOs",
    "yt_title": "OFF THE WALL (SWG Extended Diamond Mix) MICHAEL JACKSON",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album on Discogs",
-    "▶ upload title omits the artist — verify by ear: “OFF THE WALL (SWG Extended Diamond Mix) MICHAEL JACKSON”"
-   ]
+   "notes": []
   },
   {
    "id": "22.01.17",
@@ -393,20 +369,17 @@
    "pos": "1-17",
    "artist": "Royal Gigolos",
    "track": "Girls Just Wanna Dance [Extended Remix]",
-   "genre": "",
-   "style": "",
-   "released": "",
+   "genre": "Electronic",
+   "style": "Progressive House",
+   "released": "2008",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
-   "yt_id": "pBB-kYIXDa0",
-   "yt_title": "Girls Just Wanna Dance (2-4 Grooves Extended Vocal Remix)",
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/204387-Royal-Gigolos-Girls-Just-Wanna-Dance",
+   "dg_year": 2008,
+   "yt_id": "VGM4V4BKQo0",
+   "yt_title": "Girls Just Wanna Dance (Extended Version)",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album on Discogs",
-    "▶ upload title omits the artist — verify by ear: “Girls Just Wanna Dance (2-4 Grooves Extended Vocal Remix)”"
-   ]
+   "notes": []
   },
   {
    "id": "22.02.01",
@@ -417,20 +390,17 @@
    "pos": "2-1",
    "artist": "Fragma",
    "track": "Toca's Miracle 2008 [Inpetto 2008 Mix]",
-   "genre": "",
-   "style": "",
-   "released": "",
+   "genre": "Electronic",
+   "style": "House, Hardstyle, Electro",
+   "released": "2008-04-07",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
+   "dg_kind": "Single",
+   "dg_url": "https://www.discogs.com/release/1298850-Fragma-Tocas-Miracle-2008",
+   "dg_year": 2008,
    "yt_id": "BopRl0_DqpQ",
    "yt_title": "Toca's Miracle (2008 Inpetto Extended Mix)",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album on Discogs",
-    "▶ upload title omits the artist — verify by ear: “Toca's Miracle (2008 Inpetto Extended Mix)”"
-   ]
+   "notes": []
   },
   {
    "id": "22.02.02",
@@ -441,19 +411,17 @@
    "pos": "2-2",
    "artist": "Hi_Tack",
    "track": "Silence [Hi_Tack Remix]",
-   "genre": "",
-   "style": "",
-   "released": "",
+   "genre": "Electronic",
+   "style": "Trance, Electro House",
+   "released": "2008",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
-   "yt_id": "f7MMMNpVPAY",
-   "yt_title": "Silence (Hi_Tack Remix)",
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/93888-Hi_Tack-Silence",
+   "dg_year": 2008,
+   "yt_id": "FQgjCXnBNC8",
+   "yt_title": "Hi_Tack - Silence",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album on Discogs"
-   ]
+   "notes": []
   },
   {
    "id": "22.02.03",
@@ -471,12 +439,12 @@
    "dg_kind": null,
    "dg_url": null,
    "dg_year": null,
-   "yt_id": null,
-   "yt_title": null,
-   "yt_match": "none",
+   "yt_id": "qVaT02vqRas",
+   "yt_title": "Bump Vol 22 (Cd 2) - Fine Day 2007 Fahrenheit Remix",
+   "yt_match": "exact",
    "notes": [
     "Quoted mix not on any single/EP/album on Discogs",
-    "▶ no usable YouTube upload found"
+    "▶ upload title omits the artist — verify by ear: “Bump Vol 22 (Cd 2) - Fine Day 2007 Fahrenheit Remix”"
    ]
   },
   {
@@ -488,20 +456,17 @@
    "pos": "2-4",
    "artist": "Gianluca Motta Feat. Molly",
    "track": "Not Alone [Gianlucca Motta 2K8 Mix]",
-   "genre": "",
-   "style": "",
-   "released": "",
+   "genre": "Electronic",
+   "style": "Progressive House, Electro",
+   "released": "2008",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
-   "yt_id": null,
-   "yt_title": null,
-   "yt_match": "none",
-   "notes": [
-    "Quoted mix not on any single/EP/album on Discogs",
-    "▶ no usable YouTube upload found"
-   ]
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/162179-Gianluca-Motta-Feat-Molly-Not-Alone",
+   "dg_year": 2008,
+   "yt_id": "jdM41UTGklE",
+   "yt_title": "gianluca motta feat. molly - not alone (gianluca motta 2k8 remix)",
+   "yt_match": "exact",
+   "notes": []
   },
   {
    "id": "22.02.05",
@@ -512,20 +477,17 @@
    "pos": "2-5",
    "artist": "AnnaGrace",
    "track": "You Make Me Feel [Extended Remix]",
-   "genre": "",
-   "style": "",
-   "released": "",
+   "genre": "Electronic",
+   "style": "House, Euro House",
+   "released": "2008",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
-   "yt_id": null,
-   "yt_title": null,
-   "yt_match": "none",
-   "notes": [
-    "Quoted mix not on any single/EP/album on Discogs",
-    "▶ no usable YouTube upload found"
-   ]
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/126775-AnnaGrace-You-Make-Me-Feel",
+   "dg_year": 2008,
+   "yt_id": "tJdDvfCSrH0",
+   "yt_title": "You Make Me Feel (UK Extended Mix)",
+   "yt_match": "exact",
+   "notes": []
   },
   {
    "id": "22.02.06",
@@ -536,18 +498,18 @@
    "pos": "2-6",
    "artist": "Paul Oakenfold Feat. Ryan Tedder",
    "track": "Not Over [Robert Vadney's 3am Goodbye Remix]",
-   "genre": "",
-   "style": "",
+   "genre": "Electronic",
+   "style": "Trance",
    "released": "",
    "sa": false,
    "dg_kind": null,
    "dg_url": null,
    "dg_year": null,
-   "yt_id": "X9HBJfk2IUA",
-   "yt_title": "Oakenfold feat. Ryan Tedder - Not Over (Robert Vadney's 3AM Goodbye Remix)",
+   "yt_id": "GEHzNscqO5M",
+   "yt_title": "Paul Oakenfold ft. Ryan Tedder - Not over (robert vadneys 3am goodbye remix)",
    "yt_match": "exact",
    "notes": [
-    "Quoted mix not on any single/EP/album on Discogs"
+    "Quoted mix not on any single/EP/album. Closest pressed mix: “Not Over” on [Master · 2007](https://www.discogs.com/master/1788904)"
    ]
   },
   {
@@ -582,20 +544,17 @@
    "pos": "2-8",
    "artist": "Kate Ryan",
    "track": "Voyage Voyage [Fugitives Borderline Remix]",
-   "genre": "",
-   "style": "",
-   "released": "",
+   "genre": "Electronic",
+   "style": "Trance, Euro House",
+   "released": "2007",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
-   "yt_id": null,
-   "yt_title": null,
-   "yt_match": "none",
-   "notes": [
-    "Quoted mix not on any single/EP/album on Discogs",
-    "▶ no usable YouTube upload found"
-   ]
+   "dg_kind": "Single",
+   "dg_url": "https://www.discogs.com/release/5929506-Kate-Ryan-Voyage-Voyage",
+   "dg_year": 2007,
+   "yt_id": "7cBm6IRXIxw",
+   "yt_title": "Bump Vol 22 (Cd 2) - Voyage Voyage Fugitives Borderline Remix",
+   "yt_match": "exact",
+   "notes": []
   },
   {
    "id": "22.02.09",
@@ -606,20 +565,17 @@
    "pos": "2-9",
    "artist": "Sunburst",
    "track": "Beautiful Day [Riffs And Rays Remix]",
-   "genre": "",
-   "style": "",
-   "released": "",
+   "genre": "Electronic",
+   "style": "Trance, Electro",
+   "released": "2007",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/263470-Sunburst-Beautiful-Day",
+   "dg_year": 2007,
    "yt_id": "pD7p7W20EjI",
    "yt_title": "Bump Vol 22 (Cd 2) - Beautiful Day Riffs And Rays Remix",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album on Discogs",
-    "▶ upload title omits the artist — verify by ear: “Bump Vol 22 (Cd 2) - Beautiful Day Riffs And Rays Remix”"
-   ]
+   "notes": []
   },
   {
    "id": "22.02.10",
@@ -630,20 +586,17 @@
    "pos": "2-10",
    "artist": "De-Grees Vs. The Real Booty Babes",
    "track": "Apologize [Ti-Mo Vs Stefan Rio Remix]",
-   "genre": "",
-   "style": "",
-   "released": "",
+   "genre": "Electronic",
+   "style": "Trance, Hard Trance, Hands Up",
+   "released": "2008",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
-   "yt_id": "mMD3kK1ejdU",
-   "yt_title": "[Nightcore]The Real Booty Babes - Apologize(Ti-Mo Vs. Stefan Rio Remix)[Hands Up]",
-   "yt_match": "fallback",
-   "notes": [
-    "Quoted mix not on any single/EP/album on Discogs",
-    "▶ quoted mix not found; video is “[Nightcore]The Real Booty Babes - Apologize(Ti-Mo Vs. Stefan Rio Remix)[Hands Up]”"
-   ]
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/166909-De-Grees-Vs-The-Real-Booty-Babes-Apologize",
+   "dg_year": 2008,
+   "yt_id": "OqMutHVsNy4",
+   "yt_title": "Apologize (Ti-Mo vs. Stefan Rio Club Mix)",
+   "yt_match": "exact",
+   "notes": []
   },
   {
    "id": "22.02.11",
@@ -654,19 +607,19 @@
    "pos": "2-11",
    "artist": "Baracuda",
    "track": "I Will Love You Again [Extended Remix]",
-   "genre": "",
-   "style": "",
+   "genre": "Electronic",
+   "style": "Eurobeat",
    "released": "",
    "sa": false,
    "dg_kind": null,
    "dg_url": null,
    "dg_year": null,
-   "yt_id": null,
-   "yt_title": null,
-   "yt_match": "none",
+   "yt_id": "3iB1pZiEjWI",
+   "yt_title": "Lady Gaga, Whitney Houston - I'll Never Love Again / I Will Always Love You ft. Mariah Carey",
+   "yt_match": "fallback",
    "notes": [
-    "Quoted mix not on any single/EP/album on Discogs",
-    "▶ no usable YouTube upload found"
+    "No single/EP/album under this artist; the song originates as [Lara (6) - I Will Love You Again](https://www.discogs.com/master/2558462-Lara-6-I-Will-Love-You-Again)",
+    "▶ may be the original act, not this soundalike: “Lady Gaga, Whitney Houston - I'll Never Love Again / I Will Always Love You ft. Mariah Carey”"
    ]
   },
   {
@@ -678,20 +631,17 @@
    "pos": "2-12",
    "artist": "The Real Booty Babes",
    "track": "Played-A-Live [Instrumental Club]",
-   "genre": "",
-   "style": "",
-   "released": "",
+   "genre": "Electronic",
+   "style": "Electro, Hard Trance",
+   "released": "2008",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/166910-The-Real-Booty-Babes-Played-A-Live",
+   "dg_year": 2008,
    "yt_id": "567fleXPwLo",
    "yt_title": "Played-A-Live (Instrumental Club Mix)",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album on Discogs",
-    "▶ upload title omits the artist — verify by ear: “Played-A-Live (Instrumental Club Mix)”"
-   ]
+   "notes": []
   },
   {
    "id": "22.02.13",
@@ -702,19 +652,18 @@
    "pos": "2-13",
    "artist": "The Real Booty Babes",
    "track": "Derb 2008 [Club Mix]",
-   "genre": "",
-   "style": "",
-   "released": "",
+   "genre": "Electronic",
+   "style": "Hands Up, Hard Trance",
+   "released": "2008-03-21",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
+   "dg_kind": "12\"",
+   "dg_url": "https://www.discogs.com/release/7856003-The-Real-Booty-Babes-Played-A-Live-Derb",
+   "dg_year": 2008,
    "yt_id": "OP6stNuTI-s",
    "yt_title": "Derb (08 Club Mix)",
    "yt_match": "exact",
    "notes": [
-    "Quoted mix not on any single/EP/album on Discogs",
-    "▶ upload title omits the artist — verify by ear: “Derb (08 Club Mix)”"
+    "Pressed as “Derb (08 Club Mix)”"
    ]
   },
   {
@@ -726,19 +675,19 @@
    "pos": "2-14",
    "artist": "Brooklyn Bounce",
    "track": "The Theme (Progressive Attack 2008) [Rain Dropz! Remix]",
-   "genre": "",
-   "style": "",
+   "genre": "Electronic",
+   "style": "Trance, House, Progressive House",
    "released": "",
    "sa": false,
    "dg_kind": null,
    "dg_url": null,
    "dg_year": null,
-   "yt_id": null,
-   "yt_title": null,
-   "yt_match": "none",
+   "yt_id": "nXX42IBIOVc",
+   "yt_title": "Brooklyn Bounce - The Theme Of Progressive Attack (1997)",
+   "yt_match": "fallback",
    "notes": [
-    "Quoted mix not on any single/EP/album on Discogs",
-    "▶ no usable YouTube upload found"
+    "Quoted mix not on any single/EP/album. Closest pressed mix: “The Theme (Of Progressive Attack) (Original Mix)” on [Master · 1996](https://www.discogs.com/master/35542)",
+    "▶ quoted mix not found; video is “Brooklyn Bounce - The Theme Of Progressive Attack (1997)”"
    ]
   },
   {
@@ -757,12 +706,12 @@
    "dg_kind": null,
    "dg_url": null,
    "dg_year": null,
-   "yt_id": null,
-   "yt_title": null,
-   "yt_match": "none",
+   "yt_id": "7JmXfocvDIQ",
+   "yt_title": "Bump Vol 22 (Cd 2) - More More 2008 Scotty VS Full Gainer Mix",
+   "yt_match": "exact",
    "notes": [
     "Quoted mix not on any single/EP/album on Discogs",
-    "▶ no usable YouTube upload found"
+    "▶ upload title omits the artist — verify by ear: “Bump Vol 22 (Cd 2) - More More 2008 Scotty VS Full Gainer Mix”"
    ]
   },
   {
@@ -774,19 +723,17 @@
    "pos": "2-16",
    "artist": "Kindervater Feat. Nadja",
    "track": "Everytime You Need Me [Rocco & Bass-T Remix]",
-   "genre": "",
-   "style": "",
-   "released": "",
+   "genre": "Electronic",
+   "style": "Trance, Hands Up",
+   "released": "2008",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/1522219-Kindervater-Feat-Nadja-Jens-O-Everytime-You-Need-Me-Reason",
+   "dg_year": 2008,
    "yt_id": "-0MdFqZX2vg",
    "yt_title": "Kindervater-Feat-Nadja-Everytime-You-Need-Me-Rocco-vs-Bass-T-Remix",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album on Discogs"
-   ]
+   "notes": []
   },
   {
    "id": "22.02.17",
@@ -797,20 +744,17 @@
    "pos": "2-17",
    "artist": "Basshunter Feat. DJ Mental Theo's Bazzheadz",
    "track": "Now You're Gone [DJ Alex Extended Remix]",
-   "genre": "",
-   "style": "",
-   "released": "",
+   "genre": "Electronic",
+   "style": "House, Eurodance",
+   "released": "2008",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
-   "yt_id": null,
-   "yt_title": null,
-   "yt_match": "none",
-   "notes": [
-    "Quoted mix not on any single/EP/album on Discogs",
-    "▶ no usable YouTube upload found"
-   ]
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/140669-Basshunter-Now-Youre-Gone",
+   "dg_year": 2008,
+   "yt_id": "_fLT3ForKCI",
+   "yt_title": "Basshunter - Now You're Gone (DJ Alex Extended Mix) (2007)",
+   "yt_match": "exact",
+   "notes": []
   }
  ]
 }

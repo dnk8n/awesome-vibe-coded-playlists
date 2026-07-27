@@ -87,10 +87,9 @@
    "dg_year": null,
    "yt_id": "4R7og2sXem0",
    "yt_title": "One of My Kind (Rogue Traders Club Adventure)",
-   "yt_match": "fallback",
+   "yt_match": "exact",
    "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “One Of My Kind (Rogue Traders Club Adventure)” on [Master · 2003](https://www.discogs.com/master/67209)",
-    "▶ quoted mix not found; video is “One of My Kind (Rogue Traders Club Adventure)”"
+    "Quoted mix not on any single/EP/album. Closest pressed mix: “One Of My Kind (Rogue Traders Club Adventure)” on [Master · 2003](https://www.discogs.com/master/67209)"
    ]
   },
   {
@@ -104,18 +103,15 @@
    "track": "Love On The Run (Rob Searle Club Mix)",
    "genre": "Electronic",
    "style": "Trance, House",
-   "released": "",
+   "released": "2003",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
-   "yt_id": "cCD5HBKRpCs",
-   "yt_title": "Love On the Run - CHICANE featuring PETER CUNNAH (2003)(Official Music Video) HQ HD Easy to Assemble",
-   "yt_match": "fallback",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Love On The Run” on [Master · 2003](https://www.discogs.com/master/3435)",
-    "▶ quoted mix not found; video is “Love On the Run - CHICANE featuring PETER CUNNAH (2003)(Official Music Video) HQ HD Easy to Assemble”"
-   ]
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/3435-Chicane-Featuring-Peter-Cunnah-Love-On-The-Run",
+   "dg_year": 2003,
+   "yt_id": "02LnsqKUKtk",
+   "yt_title": "Chicane feat Pete Cunnah -   Love On The Run (Rob Searle Remix)",
+   "yt_match": "exact",
+   "notes": []
   },
   {
    "id": "12.01.06",
@@ -129,7 +125,7 @@
    "genre": "Electronic",
    "style": "Progressive Trance",
    "released": "",
-   "sa": true,
+   "sa": false,
    "dg_kind": null,
    "dg_url": null,
    "dg_year": null,
@@ -193,19 +189,16 @@
    "artist": "Oxygen",
    "track": "Am I On Your Mind (Lustral Club Mix)",
    "genre": "Electronic",
-   "style": "Progressive House, House, Trance",
-   "released": "",
+   "style": "House, Trance",
+   "released": "2003",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
+   "dg_kind": "12\"",
+   "dg_url": "https://www.discogs.com/release/298367-Oxygen-Feat-Andrea-Britton-Am-I-On-Your-Mind",
+   "dg_year": 2003,
    "yt_id": "9LqFGWIho2E",
    "yt_title": "Oxygen Feat. Andrea Britton - Am I On Your Mind (Lustral Mix) (2002)",
-   "yt_match": "fallback",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Am I On Your Mind (Lustral Mix)” on [Master · 2002](https://www.discogs.com/master/65153)",
-    "▶ quoted mix not found; video is “Oxygen Feat. Andrea Britton - Am I On Your Mind (Lustral Mix) (2002)”"
-   ]
+   "yt_match": "exact",
+   "notes": []
   },
   {
    "id": "12.01.10",
@@ -220,8 +213,8 @@
    "style": "Trance",
    "released": "2003",
    "sa": false,
-   "dg_kind": "Single",
-   "dg_url": "https://www.discogs.com/release/147381-56K-Feat-Bejay-Save-A-Prayer",
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/154609-56k-Feat-Bejay-Save-A-Prayer",
    "dg_year": 2003,
    "yt_id": "Et9IH_1EtO4",
    "yt_title": "56K Feat. Bejay - Save A Prayer (LMC Mix) [HD]",
@@ -239,18 +232,15 @@
    "track": "Wouldn't It Be Good (Revil O' Club Mix)",
    "genre": "Electronic",
    "style": "Hard Trance",
-   "released": "",
+   "released": "2002",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
-   "yt_id": "w2idlWGYLJQ",
-   "yt_title": "Pure Pressure - Wouldn't It Be Good (Revil O. Short Mix)",
-   "yt_match": "fallback",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Wouldn't It Be Good (Revil O. Remix)” on [Master · 2002](https://www.discogs.com/master/192881)",
-    "▶ quoted mix not found; video is “Pure Pressure - Wouldn't It Be Good (Revil O. Short Mix)”"
-   ]
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/192881-Pure-Pressure-Wouldnt-It-Be-Good",
+   "dg_year": 2003,
+   "yt_id": "S1_1bDTm2vQ",
+   "yt_title": "Wouldn't It Be Good (Revil O. Remix)",
+   "yt_match": "exact",
+   "notes": []
   },
   {
    "id": "12.01.12",
@@ -268,12 +258,11 @@
    "dg_kind": null,
    "dg_url": null,
    "dg_year": null,
-   "yt_id": "rPWGjsLQDeo",
-   "yt_title": "DJ Sammy - Boys Of Summer (Humate UK Remix)",
-   "yt_match": "fallback",
+   "yt_id": "9mx-KlL0pZY",
+   "yt_title": "DJ Sammy - The Boys of Summer (Jessy remix)",
+   "yt_match": "exact",
    "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Boys Of Summer (Single Version)” on [Master · 2003](https://www.discogs.com/master/40759)",
-    "▶ quoted mix not found; video is “DJ Sammy - Boys Of Summer (Humate UK Remix)”"
+    "Quoted mix not on any single/EP/album. Closest pressed mix: “Boys Of Summer (Single Version)” on [Master · 2003](https://www.discogs.com/master/40759)"
    ]
   },
   {
@@ -308,10 +297,10 @@
    "track": "The One (Ian Van Dahl Mix)",
    "genre": "Electronic",
    "style": "Trance",
-   "released": "2003",
+   "released": "2002",
    "sa": false,
-   "dg_kind": "Single",
-   "dg_url": "https://www.discogs.com/release/366366-Dee-Dee-The-One",
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/61229-Dee-Dee-The-One-Part-1",
    "dg_year": 2003,
    "yt_id": "GbAiYoGeOKg",
    "yt_title": "Dee Dee - The One (Ian van Dahl remix)",
@@ -435,18 +424,16 @@
    "artist": "Beetle Juice Presents Rick Maniac & Dr. Loop",
    "track": "Day-O (Banana Boat Song)",
    "genre": "Electronic",
-   "style": "Hard Trance, Hands Up",
-   "released": "",
+   "style": "Trance, Euro House, Hard Trance",
+   "released": "2002",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
+   "dg_kind": "Single",
+   "dg_url": "https://www.discogs.com/release/843786-Beetle-Juice-Presents-Rick-Maniac-Dr-Loop-Day-O-Banana-Boat-Song",
+   "dg_year": 2002,
    "yt_id": "wLP2U2VP6g8",
    "yt_title": "Rick Maniac & Dr. Loop - Banana Boat Song [Day-O] (Pulsedriver Remix)",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Day-O (Banana Boat Song) (Pulsedriver Remix)” on [Master · 2002](https://www.discogs.com/master/209591)"
-   ]
+   "notes": []
   },
   {
    "id": "12.02.03",
@@ -485,8 +472,8 @@
    "dg_kind": "Master",
    "dg_url": "https://www.discogs.com/master/202811-Nightwatchers-Eternal-DJ",
    "dg_year": 2002,
-   "yt_id": "_2wSE35UL0g",
-   "yt_title": "Nightwatchers - Eternal Dj (Armagedon Extended Mix)",
+   "yt_id": "nnKUbo4CU58",
+   "yt_title": "Nightwatchers - Eternal Dj (long version)",
    "yt_match": "exact",
    "notes": []
   },
@@ -499,19 +486,17 @@
    "pos": "2.5",
    "artist": "Nova",
    "track": "Memories (Extended Mix)",
-   "genre": "Folk, World, & Country",
-   "style": "",
-   "released": "",
+   "genre": "Rock",
+   "style": "Prog Rock, Heavy Metal",
+   "released": "2005",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
-   "yt_id": "zoMvsiDQqEg",
-   "yt_title": "Nova - Memories (Extended Version)",
+   "dg_kind": "EP",
+   "dg_url": "https://www.discogs.com/release/4695519-Nova-Art-The-Art-Of-Nova",
+   "dg_year": 2005,
+   "yt_id": "bnAk0hjXFpk",
+   "yt_title": "Memories (Extended Version)",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Memories” on [EP · 2005](https://www.discogs.com/release/4695519-Nova-Art-The-Art-Of-Nova)"
-   ]
+   "notes": []
   },
   {
    "id": "12.02.06",
@@ -549,7 +534,7 @@
    "sa": false,
    "dg_kind": "Master",
    "dg_url": "https://www.discogs.com/master/26542-Hiver-Hammer-Feat-Javah-5-Million-Miles",
-   "dg_year": 2007,
+   "dg_year": 2003,
    "yt_id": "4i4gRSWEoIQ",
    "yt_title": "Hiver & Hammer Feat. Javah - 5 Million Miles (Vocalized Club Mix)",
    "yt_match": "exact",
@@ -586,11 +571,11 @@
    "artist": "Master Blaster",
    "track": "Hypnotic Tango (Klubbingman Club Mix)",
    "genre": "Electronic",
-   "style": "Euro House, Trance, Hands Up",
-   "released": "2003-06-17",
+   "style": "House, Euro House, Trance, Hands Up",
+   "released": "2002",
    "sa": false,
-   "dg_kind": "Single",
-   "dg_url": "https://www.discogs.com/release/188329-Master-Blaster-Hypnotic-Tango",
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/86536-Master-Blaster-Hypnotic-Tango",
    "dg_year": 2003,
    "yt_id": "GkxxF0pzEEw",
    "yt_title": "Master Blaster - Hypnotic Tango ( Klubbingman Club Mix ) - EKWADOR MANIECZKI",
@@ -613,8 +598,8 @@
    "dg_kind": "Single",
    "dg_url": "https://www.discogs.com/release/6273602-Baracuda-Damn-Remember-The-Time",
    "dg_year": 2003,
-   "yt_id": "ZkxLRYCxKuA",
-   "yt_title": "Bump Vol 12 (Cd 2) - Damn   Remember The Time Original Extended",
+   "yt_id": "Y0HOsBhRZEo",
+   "yt_title": "Baracuda – Damn! ( original extended ) 2002 - Klasyk z vinyla #41",
    "yt_match": "exact",
    "notes": []
   },
@@ -628,11 +613,11 @@
    "artist": "Groove Coverage",
    "track": "God Is A Girl (Axel Konrad Remix)",
    "genre": "Electronic",
-   "style": "Eurodance, Hands Up",
-   "released": "2003",
+   "style": "Hard Trance, Hands Up",
+   "released": "2002",
    "sa": false,
-   "dg_kind": "Single",
-   "dg_url": "https://www.discogs.com/release/1317737-Groove-Coverage-God-Is-A-Girl",
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/35054-Groove-Coverage-God-Is-A-Girl",
    "dg_year": 2003,
    "yt_id": "jyoay-aVXX4",
    "yt_title": "GROOVE COVERAGE - GOD IS A GIRL (AXEL KONRAD REMIX)",
@@ -692,19 +677,17 @@
    "pos": "2.14",
    "artist": "Snap!",
    "track": "Rhythm Is A Dancer 2003 (CJ Stone Remix)",
-   "genre": "Electronic, Pop",
-   "style": "Eurodance, Euro House, Trance",
-   "released": "",
+   "genre": "Electronic",
+   "style": "Trance, Euro House",
+   "released": "2003",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
-   "yt_id": "ZyOvNIoUn5E",
-   "yt_title": "Snap! - Rhythm is a Dancer (CJ Stone Remix) [Vinyl 2003] - EKWADOR MANIECZKI",
+   "dg_kind": "Single",
+   "dg_url": "https://www.discogs.com/release/317614-Snap-Rhythm-Is-A-Dancer-2003",
+   "dg_year": 2003,
+   "yt_id": "Aehiew7rsIw",
+   "yt_title": "Snap Vs. CJ Stone - Rythm is a Dancer 2003",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Rhythm Is A Dancer 2003 (CJ Stone Radio Mix)” on [Master · 2003](https://www.discogs.com/master/67913)"
-   ]
+   "notes": []
   },
   {
    "id": "12.02.15",
@@ -762,17 +745,15 @@
    "track": "Get Down (Original Mix)",
    "genre": "Electronic",
    "style": "Hard Trance",
-   "released": "",
+   "released": "2002",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/25546-Hennes-Cold-Get-Down-Ssshh",
+   "dg_year": 2002,
    "yt_id": "i6g-X16ECl8",
    "yt_title": "Hennes & Cold - Get Down (Original Mix)",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “Get Down” on [Master · 2002](https://www.discogs.com/master/25546)"
-   ]
+   "notes": []
   },
   {
    "id": "12.02.18",
@@ -785,18 +766,15 @@
    "track": "High Volume (Original Mix)",
    "genre": "Electronic",
    "style": "Trance, Hard Trance",
-   "released": "",
+   "released": "2002",
    "sa": false,
-   "dg_kind": null,
-   "dg_url": null,
-   "dg_year": null,
-   "yt_id": "eVmSBzQzEsE",
-   "yt_title": "High Volume (Original Mix)",
+   "dg_kind": "Master",
+   "dg_url": "https://www.discogs.com/master/42385-The-Moon-2-Feat-Nu-NRG-The-Moon-Loves-The-Sun-EP",
+   "dg_year": 2002,
+   "yt_id": "JC2jkaC7gOA",
+   "yt_title": "High Volume (Extended Mix)",
    "yt_match": "exact",
-   "notes": [
-    "Quoted mix not on any single/EP/album. Closest pressed mix: “High Volume” on [Master · 2002](https://www.discogs.com/master/42385)",
-    "▶ upload title omits the artist — verify by ear: “High Volume (Original Mix)”"
-   ]
+   "notes": []
   },
   {
    "id": "12.02.19",
