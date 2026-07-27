@@ -46,15 +46,22 @@ MAX_FETCHES_PER_TRACK = 12  # release fetches while hunting the exact mix
 LONG_RIP = 900              # >15 min = full-EP/album rip, never selected
 # Generic words sleeves add/drop freely — ignored when comparing mix names
 # ('Vibro Dwarfs Mix' == 'Vibro-Dwarfs 12" Mix': mix/remix/12" mean the same)
-GENERIC_MIX_TOKENS = {"mix", "remix", "version", "the", "12", "s"}
+GENERIC_MIX_TOKENS = {"mix", "remix", "version", "the", "12", "s", "original",
+                      "re", "and", "dj"}
 # Second-tier relaxation: only when NO strict hit exists anywhere is a match
 # that adds/drops 'vocal' acceptable ('Extended Mix' -> 'Extended Vocal Mix')
-RELAX_MIX_TOKENS = GENERIC_MIX_TOKENS | {"vocal"}
+RELAX_MIX_TOKENS = GENERIC_MIX_TOKENS | {"vocal", "club", "extended"}
 # Text-speak/abbreviation drift between sleeve quotes, pressings and upload
 # titles; applied to BOTH sides of a comparison (matching only, never displayed)
 CANON = {"u": "you", "ur": "your", "luv": "love", "nite": "night",
          "da": "the", "tha": "the", "n": "and",
-         "bros": "brothers", "bro": "brother"}
+         "bros": "brothers", "bro": "brother", "rmx": "remix",
+         "ext": "extended", "2": "to", "4": "for",
+         "extented": "extended", "long": "extended", "tonite": "tonight"}
+# Compound mix words split before tokenising: 'Clubmix' -> 'club mix'
+COMPOUND = re.compile(r"\b(club|radio|extended|vocal|dub|original|power"
+                      r"|super|hyper|dance|party|trance|house)"
+                      r"(mix|version|edit)\b")
 # Mix-designation words a video may NOT add beyond the quote — an upload
 # titled '… (Video Edit)' is not the quoted '… (Mix)' even when every quoted
 # token is present.
@@ -62,8 +69,14 @@ DANGER_MIX_TOKENS = {"edit", "radio", "video", "short", "dub", "instrumental",
                      "acapella", "accapella", "live", "cover", "remake",
                      "karaoke", "slowed", "reverb", "nightcore", "megamix",
                      "medley"}
+# Origin signals only: adjectival 'South African' or born/based/formed there,
+# or an SA city. A bare 'South Africa' is usually a market mention
+# ('successful in … South Africa') and must NOT count.
 SA_MARKERS = re.compile(
-    r"south\s*africa|johannesburg|cape\s*town|durban|pretoria|soweto|gauteng",
+    r"south\s*african"
+    r"|(?:born|based|raised|formed|founded|originat\w*|hail\w*)[^.]{0,40}"
+    r"south\s*africa"
+    r"|johannesburg|cape\s*town|durban|pretoria|soweto|gauteng",
     re.I)
 
 
@@ -165,8 +178,9 @@ def sa_confirmed(artist_ids):
 # ---------- text matching ----------
 
 def norm(s):
-    s = (s or "").lower().replace("’", "'").replace("‘", "'")
+    s = (s or "").lower().replace("’", "'").replace("‘", "'").replace("@", " at ")
     s = re.sub(r"[^a-z0-9]+", " ", s).strip()
+    s = COMPOUND.sub(r"\1 \2", s)
     out = []
     for t in s.split():
         t = CANON.get(t, t)
@@ -190,13 +204,49 @@ def base_eq(a, b):
     return na == nb or squash(na) == squash(nb)
 
 
+def _lev1(a, b):
+    """Damerau distance <= 1 for tokens >= 3 chars (sleeve typos:
+    jam/jan, rouge/rogue)."""
+    if a == b:
+        return True
+    if min(len(a), len(b)) < 3 or abs(len(a) - len(b)) > 1:
+        return False
+    if min(len(a), len(b)) == 3 and len(a) != len(b):
+        return False  # 3-letter words: substitution only ('you'!='your')
+    if len(a) == len(b):
+        if sum(x != y for x, y in zip(a, b)) <= 1:
+            return True
+        i = next(i for i, (x, y) in enumerate(zip(a, b)) if x != y)
+        return (i + 1 < len(a)
+                and a[i] == b[i + 1] and a[i + 1] == b[i]
+                and a[i + 2:] == b[i + 2:])
+    lo, hi = (a, b) if len(a) < len(b) else (b, a)
+    for i in range(len(hi)):
+        if hi[:i] + hi[i + 1:] == lo:
+            return True
+    return False
+
+
 def set_eq(a, b):
-    return a == b or {squash(t) for t in a} == {squash(t) for t in b}
+    if a == b or {squash(t) for t in a} == {squash(t) for t in b}:
+        return True
+    # last resort: pair off residual tokens under 1-typo tolerance
+    if len(a) != len(b):
+        return False
+    rest = list(b)
+    for t in a:
+        m = next((r for r in rest if _lev1(squash(t), squash(r))), None)
+        if m is None:
+            return False
+        rest.remove(m)
+    return True
 
 
 def toks_in(need, have):
     hs = {squash(t) for t in have}
-    return all(t in have or squash(t) in hs for t in need)
+    return all(t in have or squash(t) in hs
+               or any(_lev1(squash(t), h) for h in hs)  # Tel/Tei, Bangkon/kok
+               for t in need)
 
 
 def parse_mix(title):
@@ -206,6 +256,8 @@ def parse_mix(title):
     'Afflitto (Single Mix (Vocal))' -> ('Afflitto', 'Single Mix Vocal').
     Brackets count as parens ('Requiem [Of A Junkies Dream] (…)')."""
     t = title.strip().replace("[", "(").replace("]", ")")
+    if t.count("(") == t.count(")") + 1:
+        t += ")"  # sleeve-truncated title: '… (Nevin's Club Creation'
     if "(" not in t or not t.endswith(")"):
         return title.strip(), None
     depth, start, lead_end, groups = 0, None, None, []
@@ -222,26 +274,81 @@ def parse_mix(title):
                 groups.append(t[start + 1:i])
                 start = None
     base = t[:lead_end].strip() if lead_end else ""
-    if not base or not groups:
-        return title.strip(), None  # '(You Make Me Feel) Mighty Real'
+    if not groups:
+        return title.strip(), None
+    if not base:
+        if len(groups) < 2:
+            return title.strip(), None  # '(You Make Me Feel) Mighty Real'
+        # leading-paren subtitle + mix: '(Crack It) Something Going On (X Mix)'
+        last = t.rfind("(" + groups[-1] + ")")
+        base = re.sub(r"[()]+", " ", t[:last]).strip()
+        if not base:
+            return title.strip(), None
     mix = re.sub(r"[()]+", " ", groups[-1]).strip()
     return base, (mix or None)
 
 
-def mix_equal(quoted, pressed, artist="", relax=False):
+def mix_equal(quoted, pressed, artist="", relax=False, drop_names=frozenset()):
     """Same base + same DISTINCTIVE mix tokens. Generic mix words drop out;
-    the row's OWN artist name in a mix is self-credit and drops out too; a
-    FOREIGN remixer credit stays distinctive. relax=True additionally treats
-    'vocal' as generic (second-tier only — a strict hit always wins)."""
-    qb, qm = parse_mix(quoted)
-    pb, pm = parse_mix(pressed)
+    the row's OWN artist name in a mix is self-credit and drops out too, as
+    are remixer names actually CREDITED on the candidate pressing
+    (drop_names, from its extraartists) — '(Extended Mix)' matches
+    '(Pez Tellett Extended Mix)' only because Pez Tellett is credited there.
+    A '(Radio Mix)' equals a '(Radio Edit)'. A mix that reduces to
+    generic/'original'/the song's own words equals an unnamed cut
+    ('(Original Mix)' == plain title, 'Killer Mix' of 'Killer 2000' == plain),
+    but a distinctively named mix never does ('Refugee Mix' != 'Da Dip').
+    relax=True additionally treats vocal/club as generic (second tier only —
+    a strict hit always wins). Each side is tried both as (base, mix) and as
+    a flat mixless title, so a subtitle mistaken for a mix still matches:
+    'Day-O (Banana Boat Song)' == pressed 'Day-O (Banana Boat Song)'."""
+    for qb, qm in _parse_variants(quoted):
+        for pb, pm in _parse_variants(pressed):
+            if _mix_equal1(qb, qm, pb, pm, artist, relax, drop_names):
+                return True
+    return False
+
+
+def _parse_variants(title):
+    v = [parse_mix(title)]
+    flat = re.sub(r"[()\[\]]+", " ", title).strip()
+    if v[0][1] is not None:
+        v.append((flat, None))
+        # '(Breakout Mix) (Extended Version)': when the LAST group is purely
+        # generic, the group before it is the real mix name — promote it.
+        # A distinctive last group ('(Pulsedriver Remix)') blocks promotion,
+        # protecting true subtitles like '(Banana Boat Song)'.
+        t = title.strip().replace("[", "(").replace("]", ")")
+        groups = re.findall(r"\(([^()]*(?:\([^()]*\)[^()]*)*)\)", t)
+        if len(groups) >= 2:
+            last = {x for x in toks(groups[-1]) if len(x) > 1 or x.isdigit()}
+            if not last - RELAX_MIX_TOKENS:
+                mix = re.sub(r"[()]+", " ", " ".join(groups[-2:])).strip()
+                v.append((v[0][0], mix))
+    return v
+
+
+def _mix_equal1(qb, qm, pb, pm, artist, relax, drop_names):
     if not base_eq(qb, pb):
         return False
     if (qm is None) != (pm is None):
-        # a named mix never equals an unnamed cut ('Refugee Mix' != 'Da Dip')
-        return False
-    drop = (RELAX_MIX_TOKENS if relax else GENERIC_MIX_TOKENS) | toks(artist)
-    return set_eq(toks(qm or "") - drop, toks(pm or "") - drop)
+        # A default-presentation mix name equals an unnamed cut: original/
+        # single/extended (+vocal/club under relax) or the song's own words.
+        # NOT remixer credits — an unnamed quote must never pick a remix.
+        named = qm if qm is not None else pm
+        soft = (GENERIC_MIX_TOKENS | {"single", "extended"} | toks(qb))
+        if relax:
+            soft |= RELAX_MIX_TOKENS
+        return not (toks(named) - soft)
+    drop = ((RELAX_MIX_TOKENS if relax else GENERIC_MIX_TOKENS)
+            | toks(artist) | toks(qb) | drop_names)
+    qt, pt = toks(qm or "") - drop, toks(pm or "") - drop
+    # stray single letters: sleeve truncation ('…The Floor M') or initials
+    qt = {t for t in qt if len(t) > 1 or t.isdigit()}
+    pt = {t for t in pt if len(t) > 1 or t.isdigit()}
+    if "radio" in qt and "radio" in pt:
+        qt, pt = qt - {"edit"}, pt - {"edit"}
+    return set_eq(qt, pt)
 
 
 GENERIC_ARTIST_TOKENS = {"feat", "featuring", "ft", "the", "and", "dj", "mc",
@@ -273,9 +380,9 @@ def title_has_mix(video_title, base, mix, strict=True, relax_vocal=False):
         return False
     if mix is None:
         return True
-    drop = RELAX_MIX_TOKENS if relax_vocal else GENERIC_MIX_TOKENS
+    drop = (RELAX_MIX_TOKENS if relax_vocal else GENERIC_MIX_TOKENS) | {"original"}
     need = toks(mix) - drop
-    return toks_in(need, vt) if need else toks_in(toks(mix), vt)
+    return toks_in(need, vt) if need else toks_in(toks(mix) - {"original"}, vt)
 
 
 # ---------- Discogs candidate hunt ----------
@@ -307,6 +414,18 @@ def release_formats(rel):
         out.append(f.get("name", ""))
         out.extend(f.get("descriptions", []) or [])
     return out
+
+
+def credited_names(rel):
+    """Token set of every extra-artist credited on the release (remixers,
+    producers) — page-level and per-track. Evidence for mix-name drops."""
+    names = set()
+    for ea in rel.get("extraartists") or []:
+        names |= toks(ea.get("anv") or ea.get("name") or "")
+    for t in rel.get("tracklist") or []:
+        for ea in t.get("extraartists") or []:
+            names |= toks(ea.get("anv") or ea.get("name") or "")
+    return names - GENERIC_ARTIST_TOKENS
 
 
 def search_candidates(artist, base):
@@ -353,8 +472,9 @@ def _make_found(quoted_title, artist, rel, real_tier, hit, relax):
     url = rel.get("uri") or f"https://www.discogs.com/release/{rel['id']}"
     page = rel
     released = _released_of(rel)
+    names = credited_names(rel) | (credited_names(master) if master else set())
     if master and any(mix_equal(quoted_title, t.get("title", ""), artist,
-                                relax=relax)
+                                relax=relax, drop_names=names)
                       for t in master.get("tracklist", [])):
         kind, page = "Master", master
         url = master.get("uri") or f"https://www.discogs.com/master/{master['id']}"
@@ -380,13 +500,15 @@ def curated_source(artist, quoted_title, release_id):
     rel = dg(f"/releases/{release_id}")
     real_tier = fmt_tier(release_formats(rel))
     base, _ = parse_mix(quoted_title)
+    names = credited_names(rel)
     hit = next((t for t in rel.get("tracklist", [])
-                if mix_equal(quoted_title, t.get("title", ""), artist)), None)
+                if mix_equal(quoted_title, t.get("title", ""), artist,
+                             drop_names=names)), None)
     relax = False
     if not hit:
         hit = next((t for t in rel.get("tracklist", [])
                     if mix_equal(quoted_title, t.get("title", ""), artist,
-                                 relax=True)), None)
+                                 relax=True, drop_names=names)), None)
         relax = hit is not None
     if not hit:
         hit = next((t for t in rel.get("tracklist", [])
@@ -436,8 +558,13 @@ def hunt_exact_mix(artist, quoted_title, bump_year):
             continue
         if norm(discogs.credit(rel.get("artists"))) == "various":
             continue  # V/A = compilation even when the format tags omit it
+        names = credited_names(rel)
+        if real_tier == 2:
+            # on an actual Album, '(Album Mix)' equals the unnamed album cut
+            names = names | {"album"}
         hit = next((t for t in rel.get("tracklist", [])
-                    if mix_equal(quoted_title, t.get("title", ""), artist)
+                    if mix_equal(quoted_title, t.get("title", ""), artist,
+                                 drop_names=names)
                     and artist_match(artist, rel, t)), None)
         if hit:
             return _make_found(quoted_title, artist, rel, real_tier, hit,
@@ -445,7 +572,7 @@ def hunt_exact_mix(artist, quoted_title, bump_year):
         if relaxed is None:
             rhit = next((t for t in rel.get("tracklist", [])
                          if mix_equal(quoted_title, t.get("title", ""), artist,
-                                      relax=True)
+                                      relax=True, drop_names=names)
                          and artist_match(artist, rel, t)), None)
             if rhit:
                 relaxed = (rel, real_tier, rhit)
@@ -482,8 +609,9 @@ def hunt_exact_mix(artist, quoted_title, bump_year):
     videos = videos + ((master or {}).get("videos") or [])
     note = None
     if near:
+        label = near["kind"] + (f" · {near['year']}" if near["year"] else "")
         note = (f"Closest pressed mix: “{near['pressed']}” on "
-                f"[{near['kind']} · {near['year']}]({near['url']})")
+                f"[{label}]({near['url']})")
     return {"found": False, "kind": None, "url": None, "year": None,
             "released": "",
             "genre": ", ".join(gs.get("genres") or []),

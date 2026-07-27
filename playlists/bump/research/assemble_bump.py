@@ -42,7 +42,8 @@ def contents_line(doc):
 
 def row_line(r):
     if r["dg_url"]:
-        dg = f"[{r['dg_kind']} · {r['dg_year']}]({r['dg_url']})"
+        label = r["dg_kind"] + (f" · {r['dg_year']}" if r["dg_year"] else "")
+        dg = f"[{label}]({r['dg_url']})"
     else:
         dg = "—"
     yt = f"[▶ Watch](https://youtu.be/{r['yt_id']})" if r["yt_id"] else "—"
