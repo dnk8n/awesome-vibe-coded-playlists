@@ -1,0 +1,14 @@
+# Regenerated build artifacts / caches — NOT source of truth, so not committed.
+# Durable source lives in research/{picks,link_overrides,config,artists}.json.
+# Discogs / YouTube / SoundCloud / Bandcamp are fetched just-in-time.
+# (The public deliverable, the set-list .md, IS committed.)
+research/.discogs_token
+research/.yt_token
+research/cache/
+research/resolved.json
+research/dc_sweep.json
+research/sc_sweep.json
+research/tl_*.txt
+playlist_items.json
+playlist_items_progress.json
+create_playlist.py

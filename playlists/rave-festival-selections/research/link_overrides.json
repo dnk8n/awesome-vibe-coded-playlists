@@ -1,0 +1,20 @@
+{
+ "_doc": "Hand verdicts applied over the automatic platform matching. null = drop the auto-match (it was the wrong cut). Keyed by 'artist :: track'.",
+ "B.T. Express :: Peace Pipe (Theo Parrish Edit)": {
+   "sc": null,
+   "why": "only SoundCloud hit is from the older Ugly Edits series, not the 2024 Lovely Edits cut"
+ },
+ "Mr. Fingers :: Around The Sun": {
+   "bc": null,
+   "why": "Bandcamp match resolved to a different Alleviated track ('Invisible')"
+ },
+ "Hardfloor :: Acperience 6": {
+   "sc": null,
+   "why": "top SoundCloud hit is Acperience 1, not 6"
+ },
+ "Hardfloor :: Acperience 7": {
+   "sc": "https://soundcloud.com/hardfloor/hardfloor-acperience-7-snippet",
+   "sc_note": "label snippet only",
+   "why": "auto-match pointed at Acperience 1; the official upload is a snippet"
+ }
+}
