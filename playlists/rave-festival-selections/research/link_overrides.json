@@ -12,6 +12,15 @@
    "sc": null,
    "why": "top SoundCloud hit is Acperience 1, not 6"
  },
+ "CIZA :: Isaka (6am)": {
+   "bc": null,
+   "why": "only Bandcamp hit is a DJ-edit with an added intro, not the release"
+ },
+ "Jazzworx, Thukuthela & Babalwa M :: uValo (feat. Dlala Thukzin)": {
+   "sc": "https://soundcloud.com/jazzwrld-sc/uvalo-feat-dlala-thukzin",
+   "bc": null,
+   "why": "auto-match took a listener repost; swapped to the JAZZWRLD upload. Bandcamp hit was a DJ edit"
+ },
  "Hardfloor :: Acperience 7": {
    "sc": "https://soundcloud.com/hardfloor/hardfloor-acperience-7-snippet",
    "sc_note": "label snippet only",

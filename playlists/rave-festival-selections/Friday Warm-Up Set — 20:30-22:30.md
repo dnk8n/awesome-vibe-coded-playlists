@@ -134,3 +134,49 @@ Verified swaps — same allowed list, same era, same checks. Drop one in when a 
 
 **Two-for-one rows.** Records carrying two allowed-list names, if you like that as a talking point: Igobolo (Vega + Claussell), Seven Mile (Vega + Moodymann), Fake & Unholy (Floorplan + Honey Dijon), Black Magic Woman (Ron Trent + Claussell), Gypsy Woman (Karizma + a Crystal Waters writing credit), Let Us Shine (Josh Milan + Vega), C's Up (Honey Dijon + Mike Dunn).
 
+---
+
+# Bonus — the South African line
+
+**A separate pool, not part of the 40.** Same four categories as the set above, two records each, drawn from South Africa rather than from your document.
+
+**Why it belongs next to this canon.** South African house is not an offshoot of the Chicago/New York story — it is a direct continuation of it. Imported house and garage records reached Johannesburg clubs in the late 1980s; local DJs slowed them, put African percussion and township slang through them, and the result became kwaito, then SA deep house, then Afro house. The parallels to your arc are almost uncomfortably neat: **3-step** is South Africa's UK garage — producers take a 4/4 and pull the third or fourth kick out, which is the same swing trick 2-step plays — and **gqom** is its bass music, dark and broken and built for weight. One record here is a literal handshake between the two documents: Robert Owens, off your list, sung over a remix by Enoo Napa of Durban.
+
+**Tempo warning, and it matters.** 3-step and amapiano run **110–120 BPM** — slower than they feel, because the syncopation does the work the tempo usually does. Dropping one straight after a 130 BPM record will read as a handbrake unless you plan the transition. Gqom sits around 124–130 but is broken rather than four-to-the-floor. The DJ Lag cut at the bottom is the exception at roughly 158.
+
+**▶ [All 8 bonus tracks, no login](https://www.youtube.com/watch_videos?video_ids=z2IqStPcbhk,saEpF8CFkY8,vUwwLOvgucc,rGvLtFFgmyY,sel1mCYFJ8U,ejJom10dIFQ,CS4dyZylRUM,gZx9PRxY_4E)** — kept out of the main playlist so it stays a clean 40.
+
+## Disco, funky, soulful
+*pairs with Set one, phase I*
+
+| # | Artist | Track | Year | Label | ≈BPM | Find it | Why it is here |
+|:--|---|---|:--|---|:--|---|---|
+| B1 | Da Capo | **Bakone** | 2023 | Genesys Entity | ~120 | [YouTube](https://www.youtube.com/watch?v=z2IqStPcbhk) · [SoundCloud](https://soundcloud.com/da-capo/bakone-1) | Title track of the Afrotech-leaning Bakone EP — Sepedi for 'people from the north'. Rolling, percussive and patient: the SA equivalent of your loft-logic opener, and it sits at almost exactly the tempo you start on. |
+| B2 | Culoe De Song | **Lakeside Gods** | 2024 | Madorasindahouse | ~122 | [YouTube](https://www.youtube.com/watch?v=saEpF8CFkY8) · [SoundCloud](https://soundcloud.com/culoe-de-song-official/lakeside-gods) | Culoe cites Masters At Work and Osunlade as formative, and you can hear the lineage — this is Vega-school percussion and chords rebuilt in KwaZulu-Natal. Warm, melodic, no hard edges. |
+
+## Deep, introspective, acid
+*pairs with Set one, phase II*
+
+| # | Artist | Track | Year | Label | ≈BPM | Find it | Why it is here |
+|:--|---|---|:--|---|:--|---|---|
+| B3 | Thakzin | **The Magnificent Dance** | 2022 | Sondela Recordings | ~116 | [YouTube](https://www.youtube.com/watch?v=vUwwLOvgucc) · [SoundCloud](https://soundcloud.com/thakzin22583/the-magnificent-dance) · [Bandcamp](https://sondela-recordings.bandcamp.com/track/the-magnificent-dance) · [Discogs](https://www.discogs.com/release/33428375) | The record that started 3-step. Deep house and amapiano fused into hypnotic nature-loops — #1 on Beatport amapiano, top 3 Traxsource Afro House. Genuinely introspective at club volume, which is a rare thing. |
+| B4 | Oscar P, Robert Owens | **Thank You (Enoo Napa Remix)** | 2020 | Open Bar Music | ~122 | [YouTube](https://www.youtube.com/watch?v=rGvLtFFgmyY) · [SoundCloud](https://soundcloud.com/oscar-p-1/oscar-p-robert-owens-thank-you-enoo-napa-remix) · [Bandcamp](https://oscarp.bandcamp.com/track/oscar-p-robert-owens-thank-you-enoo-napa-remix) | The bridge record for this whole section: Robert Owens — deep house's defining vocal instrument, and on your list — remixed by Enoo Napa of Umlazi, Durban. Dark Afro-tech synths under that voice. If you play one track from this bonus, make it this one. |
+
+## Fast and funky — the 4x4 pivot
+*pairs with Set one, phase III*
+
+| # | Artist | Track | Year | Label | ≈BPM | Find it | Why it is here |
+|:--|---|---|:--|---|:--|---|---|
+| B5 | CIZA | **Isaka (6am)** | 2025 | — (digital, no label credit found) | ~114 | [YouTube](https://www.youtube.com/watch?v=sel1mCYFJ8U) · [SoundCloud](https://soundcloud.com/ciza-music/isaka-6am) | 3-step's breakout: 30M+ streams and the record that took the genre continental. The kick drops out of the 4/4 exactly where UK garage's does — same swing logic, different continent. **Flagging it honestly:** CIZA is a vocalist and this leans Afro-pop, so it is the most commercial thing in either document. It is here because it is the genre's defining record, not because it fits the no-pop rule. Play it knowingly or skip it for uValo. |
+| B6 | Jazzworx, Thukuthela & Babalwa M | **uValo (feat. Dlala Thukzin)** | 2025 | — (digital, no label credit found) | ~116 | [YouTube](https://www.youtube.com/watch?v=ejJom10dIFQ) · [SoundCloud](https://soundcloud.com/jazzwrld-sc/uvalo-feat-dlala-thukzin) | The darker end of 3-step — Dlala Thukzin's grit on the percussion gives it urgency without losing the bounce. Written up as the DJ's tool for lifting a room mid-set, which is exactly the job this slot needs. |
+
+## Faster, harder, rave
+*pairs with Set two, the b2b*
+
+| # | Artist | Track | Year | Label | ≈BPM | Find it | Why it is here |
+|:--|---|---|:--|---|:--|---|---|
+| B7 | DJ Lag | **Yeyeyeyeye (feat. Sane & Charlie Magandi)** | 2024 | Black Major | ~158 | [YouTube](https://www.youtube.com/watch?v=CS4dyZylRUM) · [SoundCloud](https://soundcloud.com/realdjlag/yeyeyeyeye-feat-sane-charlie) | From The Rebellion, and reportedly the fastest thing Lag has made. Metallic ping-pong percussion and droning vocals — gqom at Afro-tech speed. This is your hardest, fastest option in either document. |
+| B8 | Griffit Vigo | **Wave Frequency** | 2022 | Maloca | ~128 | [YouTube](https://www.youtube.com/watch?v=gZx9PRxY_4E) · [SoundCloud](https://soundcloud.com/griffitvigo/griffit-vigo-wave-frequency) · [Bandcamp](https://maloca.bandcamp.com/track/wave-frequency) · [Discogs](https://www.discogs.com/master/2628980) | One of gqom's earliest originators, on his own 'Electro Gqom Music' tip — dark, futuristic, percussive and spiritual, in his words. Broken and heavy rather than fast, so it works as the swerve before the tempo goes up. |
+
+**A note on what is missing.** There is no real South African *acid* tradition to draw on — the 303 never took root there the way it did in Chicago or Rotterdam. The deep and introspective slot is therefore filled on mood rather than on hardware, which is why Thakzin and the Enoo Napa remix sit in it instead of something squelching. **Six of these eight are not on Discogs at all**, and two carry no label credit I could verify — most modern South African dance music is released digital-first and never pressed, so Bandcamp, SoundCloud and the artists' own YouTube channels are the record. That is exactly the case your four-platform rule was written for.
+

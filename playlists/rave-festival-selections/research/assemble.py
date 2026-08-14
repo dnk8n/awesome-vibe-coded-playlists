@@ -195,6 +195,65 @@ A('**Two-for-one rows.** Records carrying two allowed-list names, if you like th
   '(Honey Dijon + Mike Dunn).')
 A('')
 
+# ---------------------------------------------------------------- SA bonus
+SA_PHASE = {
+    'A': ('Disco, funky, soulful', 'pairs with Set one, phase I'),
+    'B': ('Deep, introspective, acid', 'pairs with Set one, phase II'),
+    'C': ('Fast and funky — the 4x4 pivot', 'pairs with Set one, phase III'),
+    'D': ('Faster, harder, rave', 'pairs with Set two, the b2b'),
+}
+if os.path.exists('resolved_sa.json'):
+    sa = [apply_ov(r) for r in json.load(open('resolved_sa.json'))['bonus_sa']]
+    sa_ids = [r['yt'] for r in sa if r.get('yt')]
+    A('---')
+    A('')
+    A('# Bonus — the South African line')
+    A('')
+    A('**A separate pool, not part of the 40.** Same four categories as the set above, two '
+      'records each, drawn from South Africa rather than from your document.')
+    A('')
+    A('**Why it belongs next to this canon.** South African house is not an offshoot of the '
+      'Chicago/New York story — it is a direct continuation of it. Imported house and garage '
+      'records reached Johannesburg clubs in the late 1980s; local DJs slowed them, put African '
+      'percussion and township slang through them, and the result became kwaito, then SA deep '
+      'house, then Afro house. The parallels to your arc are almost uncomfortably neat: '
+      '**3-step** is South Africa\'s UK garage — producers take a 4/4 and pull the third or '
+      'fourth kick out, which is the same swing trick 2-step plays — and **gqom** is its bass '
+      'music, dark and broken and built for weight. One record here is a literal handshake '
+      'between the two documents: Robert Owens, off your list, sung over a remix by Enoo Napa '
+      'of Durban.')
+    A('')
+    A('**Tempo warning, and it matters.** 3-step and amapiano run **110–120 BPM** — slower than '
+      'they feel, because the syncopation does the work the tempo usually does. Dropping one '
+      'straight after a 130 BPM record will read as a handbrake unless you plan the transition. '
+      'Gqom sits around 124–130 but is broken rather than four-to-the-floor. The DJ Lag cut at '
+      'the bottom is the exception at roughly 158.')
+    A('')
+    A(f'**▶ [All {len(sa_ids)} bonus tracks, no login]({wv(sa_ids)})** — kept out of the main '
+      'playlist so it stays a clean 40.')
+    A('')
+    for ph in ('A', 'B', 'C', 'D'):
+        rows = [r for r in sa if r['phase'] == ph]
+        if not rows:
+            continue
+        title, pairs = SA_PHASE[ph]
+        A(f'## {title}')
+        A(f'*{pairs}*')
+        A('')
+        A(HEAD_N)
+        for r in rows:
+            A(row(r))
+        A('')
+    A('**A note on what is missing.** There is no real South African *acid* tradition to draw '
+      'on — the 303 never took root there the way it did in Chicago or Rotterdam. The deep and '
+      'introspective slot is therefore filled on mood rather than on hardware, which is why '
+      'Thakzin and the Enoo Napa remix sit in it instead of something squelching. **Six of these '
+      'eight are not on Discogs at all**, and two carry no label credit I could verify — most '
+      'modern South African dance music is released digital-first and never pressed, so '
+      'Bandcamp, SoundCloud and the artists\' own YouTube channels are the record. That is '
+      'exactly the case your four-platform rule was written for.')
+    A('')
+
 open(OUT, 'w').write('\n'.join(L) + '\n')
 
 items = {'schema': 'discogs-playlist/v1',

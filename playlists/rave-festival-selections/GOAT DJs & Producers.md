@@ -287,3 +287,119 @@ Belleville Three · Carl Craig · Kelli Hand · Mike Banks · Fabio & Grooveride
 4. **Acid is a Chicago story that Europe finished.** Pierre, Armando, Adonis and Bam Bam invented it; Hardfloor, Miss Djax and Josh Wink turned it into an architecture. Your close can pull from both ends.
 5. **The gender balance of the additions is worse than the original.** The source list was consciously balanced; the deep house, garage and acid canons as conventionally told are not. Ultra Naté, Barbara Tucker, Jocelyn Brown, Loleatta Holloway, Colette and Kim English are all obvious next additions if you want to correct that at the vocal end.
 6. **Labels are the better dig unit.** Prescription, Madhouse, Goldtone, Ghost, Nice 'N' Ripe, Dance Mania, Djax-Up-Beats, Sound Signature, Black Male, Phoenix G — each is a coherent aesthetic and most have 20+ releases worth hearing.
+
+---
+---
+
+# 🇿🇦 BONUS — The South African Line
+
+> **Separate from the canon above, and deliberately so.** Nobody here belongs to the Chicago–Detroit–New York–London story as a participant. But South Africa is the one place that took the same imported records and built a *complete parallel tradition* out of them — its own founders, its own residencies, its own genre mutations, and its own answer to almost every zone in the legend. Read this as a second map laid over the first.
+
+## How it happened, briefly
+
+House and garage records reached Johannesburg clubs in the **late 1980s**, arriving from Chicago and New York the same way they reached London. What happened next was different: local DJs **slowed them down**, ran African percussion, township slang and local song structures through them, and by the early 1990s that had become **kwaito** — house at roughly 110 BPM with the swagger of the post-apartheid townships. Kwaito then split. One branch went deep and soulful and became **SA house** and, later, **Afro house**, the export that made Black Coffee a Grammy winner. Another went hard, dark and broken in Durban and became **gqom**. A third slowed to a crawl with log-drum bass and became **amapiano**, and out of *that* came **3-step**, which is the closest thing on earth to a UK garage that evolved independently.
+
+**The zone tags are the same as above.** 🪩 disco/foundations · 🌊 deep & soulful · 🎹 classic backbone · 🔥 funky & faster · 🌀 acid & psychedelic · ⚡ rave/bass/hardcore
+
+---
+
+## 🏛️ The Architects — Kwaito & the First SA House
+
+*The Knuckles-and-Levan tier of this story: the people who ran the rooms and pressed the first records.*
+
+| Artist | Role | Zone | Contribution |
+|---|---|:---:|---|
+| **Oskido** (Oscar Mdlongwa) | DJ / Producer / Label | 🪩 🎹 | Kalawa Jazmee — the label that industrialised kwaito. Started selling records at taxi ranks and ended up owning the sound of the 1990s townships. The Oskido/Christos/Don Laka axis is SA's Trax Records moment, including the messy parts. |
+| **DJ Christos** | DJ / Producer | 🎹 🌊 | One of the first South Africans to play imported house properly, and a Kalawa founder. The residency that taught Johannesburg what a house set was. |
+| **Vinny Da Vinci** | DJ / Label | 🎹 🌊 | House Afrika — the label and compilation series that documented SA house while it was still forming. The archivist and the tastemaker in one person. |
+| **Glen Lewis** | DJ / Producer | 🌊 | The deep, soulful end of the first generation; the residencies that turned imported deep house into a local format. |
+| **DJ Fresh** | DJ / Broadcaster | 🎹 🔥 | Big Dawg. Radio as the distribution network — the SA equivalent of Tony Humphries on KISS, reaching people no club could. |
+| **DJ Ganyani** | Producer / DJ | 🔥 | Ganyani Entertainment. Took SA house percussive and hard, and mentored much of what came after. |
+| **DJ Mbuso** | DJ / Producer | 🌊 | Deep-house standard-bearer through the 2000s, and a consistent bridge between the kwaito and Afro house generations. |
+| **Don Laka** | Producer / Musician | 🪩 🎹 | Jazz pianist turned kwaito architect. The live-musicianship strain — the closest SA parallel to Marshall Jefferson putting real keys into house. |
+
+---
+
+## 🌍 Afro House Goes Global
+
+*The export generation. This is the tier your set can actually draw from — all still releasing.*
+
+| Artist | Role | Zone | Contribution |
+|---|---|:---:|---|
+| **Black Coffee** | Producer / DJ | 🌊 🎹 | Nkosinathi Maphumulo. Won the **2022 Grammy for Best Dance/Electronic Album** with *Subconsciously* — the moment SA house stopped being a regional story. Ibiza residency, global bookings, and a deep-house instinct underneath all of it. |
+| **Culoe De Song** | Producer / DJ | 🌊 🌀 | Culolethu Zulu, KwaZulu-Natal, born 1990. Cites **DJ Gregory, Masters At Work and Osunlade** as formative — a direct, stated line back to the document above. Cosmic, melodic, patient. |
+| **Da Capo** | Producer / DJ | 🌊 🔥 | Nicodimas Sithole. Afro-tech with genuine harmonic depth; the *Genesys* and *Bakone* records are where the deep and the driving meet. |
+| **Enoo Napa** | Producer | 🌀 🔥 | Siphiwe Mkhize, Umlazi, Durban. Self-taught from 2013; his Jackie Queen remix caught Black Coffee's ear in 2015 and he topped Traxsource's Afro House artist chart in 2017. Dark, cinematic, synth-forward — the closest this list gets to acid. |
+| **Jullian Gomes** | Producer | 🌊 | The songwriter's end of SA deep house. Long-form, melancholy, built for the introspective hour. |
+| **Fka Mash** | Producer / DJ | 🌊 | His "Re-Glitch" and "AfroGlitch" edits are a working toolkit in the way Danny Krivit's are — familiar records reassembled for a deeper floor. |
+| **Sun-EL Musician** | Producer / DJ | 🌊 | El World Music. Took Afro house to genuine mass popularity at home without thinning it out. |
+| **Caiiro** | Producer / DJ | 🌊 🔥 | Dark, tribal, emotionally heavy — the peak-time end of Afro house. |
+| **Black Motion** | Production Duo | 🔥 | Live percussion as the centre of the record rather than a garnish. The closest SA analogue to Joe Claussell's approach. |
+| **Shimza** | DJ / Producer | 🔥 | Tembisa. One Man Show — a self-built festival, which makes him a promoter in the Dr. Motte mould as much as a DJ. |
+| **Heavy K** | Producer | 🔥 | "The Drumboss" — durban-rooted, percussion-first, and a reliable source of the funk this brief wants. |
+| **Jazzuelle** | Producer / DJ | 🌊 🌀 | The moodiest, most melodic corner of SA deep house; frequently the darkest thing on an Afro house bill. |
+| **Ryan Murgatroyd** | Producer / Label | 🌊 🔥 | **Sondela Recordings** — the label that carried 3-step to London and put a UK-facing frame around SA dance music. A key hinge between the two documents. |
+| **Kid Fonque** | DJ / Label | 🌊 | **Stay True Sounds** — curator, radio host and A&R for the deep/broken end of the scene. The Terry Farley role in this story. |
+
+---
+
+## 🔊 Gqom — Durban's Bass Music
+
+*Dark, broken, sub-heavy and built for weight rather than speed. If your document's ⚡ column has a South African equivalent, this is it — and it maps onto UK bass music far more closely than onto techno.*
+
+| Artist | Role | Zone | Contribution |
+|---|---|:---:|---|
+| **DJ Lag** | Producer / DJ | ⚡ 🔥 | The genre's international face. *The Rebellion* (2024) pushed gqom into 3-step, drill, cumbia and Eurodance without losing the core; "Hade Boss" went multi-platinum at home. Glastonbury, Beyoncé credits, and still a Durban record at heart. |
+| **Griffit Vigo** | Producer / DJ | ⚡ 🌀 | Making gqom since **2004**, which makes him an originator rather than an inheritor. Calls his sound **"Electro Gqom Music" — "dark, futuristic, upbeat, esoteric, percussive and spiritual."** "Ree's Vibe" is the calling card. |
+| **Rudeboyz** | Production Duo | ⚡ | The Gqom Oh! releases that carried the sound out of Durban and into European clubs. |
+| **Citizen Boy** | Producer | ⚡ 🌀 | The eerier, more spacious end of gqom — closer to El-B's use of empty space than to anything four-to-the-floor. |
+| **Distruction Boyz** | Production Duo | 🔥 ⚡ | "Omunye" — the crossover moment that made gqom a national pop concern, for better and worse. |
+| **Babes Wodumo** | Vocalist / Performer | 🔥 | "Wololo". Gave gqom a voice and a face; the vocal record that took the genre to television. |
+
+---
+
+## 🪘 Amapiano & 3-Step — The Newest Mutation
+
+*Amapiano runs slow — roughly **110–115 BPM** — with log-drum bass doing the work a kick usually does. **3-step** is what happens when producers pull a kick out of a 4/4 amapiano groove, and the result swings almost exactly the way 2-step does. It is the most useful thing in this bonus for your set.*
+
+| Artist | Role | Zone | Contribution |
+|---|---|:---:|---|
+| **Thakzin** | Producer / DJ | 🌊 🔥 | **Invented 3-step**, around 2020, by removing the third or fourth kick from a 4/4 groove. "The Magnificent Dance" (2022) is the record that made it a movement — #1 on Beatport's amapiano chart and top 3 on Traxsource Afro House. |
+| **Dlala Thukzin** | Producer / DJ | 🔥 | Durban. The grittier, more urgent end of 3-step — the producer other producers call when a record needs teeth. |
+| **Jazzworx & Thukuthela** | Production Duo | 🔥 | The pair behind "Isaka (6am)", the 2025 record that took 3-step continental. |
+| **Kabza De Small** | Producer / DJ | 🌊 | The King of Amapiano. Prolific to a fault, and the reason the genre has a canon at all. |
+| **DJ Maphorisa** | Producer / DJ | 🔥 | The other half of amapiano's centre of gravity. Producer, A&R and career-maker in the Oskido tradition. |
+| **Kelvin Momo** | Producer | 🌊 | "Private school" amapiano — jazz chords, live-feeling keys, long unhurried arrangements. The Larry Heard of this generation, if you want a shorthand. |
+| **Major League DJz** | DJ Duo | 🔥 | The Amapiano Balcony Mix series — a broadcast format that did for amapiano what pirate radio did for UK garage. |
+| **Uncle Waffles** | DJ / Producer | 🔥 | Born in Eswatini, made in Johannesburg. The scene's biggest live draw and its most visible performer. |
+
+---
+
+## 🛸 The Outliers
+
+*Where the strange, fast and psychedelic material lives — the nearest South African neighbours to your 🌀 and ⚡ columns.*
+
+| Artist | Role | Zone | Contribution |
+|---|---|:---:|---|
+| **Nozinja** | Producer | ⚡ | **Shangaan electro** — Tsonga traditional music sped to roughly **180 BPM** with MIDI marimba. Signed to Warp. Genuinely unlike anything else on either document, and the fastest thing in both. |
+| **DJ Mujava** | Producer | 🔥 🌀 | "Township Funk" (2008) — a Pretoria bacardi-house record that crossed to European dancefloors on its own weirdness. Still gets rewound. |
+| **DJ Spoko** | Producer | ⚡ | Bacardi house's architect, out of Pretoria. Died in 2016. The Ron Hardy of this story: enormous local influence, thin recorded legacy. |
+| **Spoek Mathambo** | Producer / Vocalist | 🌀 | "Township tech" — post-punk, kwaito and electronics collided. The Weatherall instinct: psychedelia as texture, not speed. |
+| **Felix Laband** | Producer | 🌀 | Leftfield, sample-collage electronica out of Cape Town. Deeply strange and deeply South African at once. |
+| **Muzi** | Producer | 🌀 | Empangeni. Zulu music, electro and rave references folded together — the most rave-literate producer in this bonus. |
+| **Portable / Bodycode** (Alan Abrahams) | Producer / DJ | 🌀 🌊 | South African-born, Berlin-based. Minimal and deep techno with a live vocal streak — the one name here who sits comfortably inside the European canon above as well. |
+
+---
+
+## 🔗 Where the Two Documents Touch
+
+| In your canon | The South African parallel | Why the comparison holds |
+|---|---|---|
+| Chicago house → deep house | **SA house → Afro house** | Same imported records, slowed and re-percussed. Culoe De Song naming Masters At Work and Osunlade is the receipt. |
+| Hip house (Tyree, Fast Eddie) | **Kwaito** | Rap cadence over 4/4 at reduced tempo — arrived at independently, around the same time. |
+| UK garage & 2-step | **3-step** | Both take a 4/4 and remove kicks to create swing. Thakzin's method is literally the 2-step trick, discovered from the amapiano side. |
+| Jungle, dubstep, UK bass | **Gqom** | Dark, broken, sub-led, pirate-distributed, and initially dismissed as noise by the mainstream. Griffit Vigo and El-B would understand each other immediately. |
+| Shangaan electro | **hardcore & gabber** | Speed as an aesthetic in itself — Nozinja at 180 BPM is doing what Rotterdam did, from a completely unrelated starting point. |
+| Love Parade / Rave The Planet | **Shimza's One Man Show** | The DJ who builds their own mass event rather than waiting to be booked at one. |
+
+**The literal handshake.** If you want one record that joins the two documents rather than merely rhyming with them: **Oscar P feat. Robert Owens — "Thank You (Enoo Napa Remix)"**. Robert Owens is on page one of the canon above; Enoo Napa is from Umlazi, Durban. It is in the set list as **B4**.
