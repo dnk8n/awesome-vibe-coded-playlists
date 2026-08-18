@@ -1,0 +1,464 @@
+{
+ "picks": [
+  {
+   "rank": 1,
+   "phase": "I",
+   "deck": "loaf",
+   "bpm": "~118",
+   "artist_listed": "Rhythm & Sound",
+   "track_listed": "Mango Drive",
+   "label_hint": "Burial Mix",
+   "year_hint": "2001"
+  },
+  {
+   "rank": 2,
+   "phase": "I",
+   "deck": "spice",
+   "bpm": "~120",
+   "artist_listed": "Pépé Bradock",
+   "track_listed": "Deep Burnt",
+   "label_hint": "Atavisme",
+   "year_hint": "1999"
+  },
+  {
+   "rank": 3,
+   "phase": "I",
+   "deck": "loaf",
+   "bpm": "~121",
+   "artist_listed": "Theo Parrish",
+   "track_listed": "Falling Up (Carl Craig Remix)",
+   "label_hint": "Third Ear",
+   "year_hint": "2004"
+  },
+  {
+   "rank": 4,
+   "phase": "I",
+   "deck": "spice",
+   "bpm": "~123",
+   "artist_listed": "Osunlade",
+   "track_listed": "Envision (Âme Remix)",
+   "label_hint": "Innervisions",
+   "year_hint": "2011"
+  },
+  {
+   "rank": 5,
+   "phase": "I",
+   "deck": "loaf",
+   "bpm": "~122",
+   "artist_listed": "Larry Heard Presents Mr. White",
+   "track_listed": "The Sun Can't Compare",
+   "label_hint": "Alleviated",
+   "year_hint": "2005"
+  },
+  {
+   "rank": 6,
+   "phase": "I",
+   "deck": "spice",
+   "bpm": "~123",
+   "artist_listed": "Culoe De Song",
+   "track_listed": "Webaba",
+   "label_hint": "Innervisions",
+   "year_hint": "2009"
+  },
+  {
+   "rank": 7,
+   "phase": "II",
+   "deck": "loaf",
+   "bpm": "~124",
+   "artist_listed": "Kerri Chandler",
+   "track_listed": "Bar A Thym",
+   "label_hint": "Sfere",
+   "year_hint": "2005"
+  },
+  {
+   "rank": 8,
+   "phase": "II",
+   "deck": "spice",
+   "bpm": "~125",
+   "artist_listed": "Masters At Work",
+   "track_listed": "The Ha Dance",
+   "label_hint": "Cutting",
+   "year_hint": "1991"
+  },
+  {
+   "rank": 9,
+   "phase": "II",
+   "deck": "loaf",
+   "bpm": "~124",
+   "artist_listed": "Ron Trent",
+   "track_listed": "Altered States",
+   "label_hint": "Warehouse",
+   "year_hint": "1990"
+  },
+  {
+   "rank": 10,
+   "phase": "II",
+   "deck": "spice",
+   "bpm": "~126",
+   "artist_listed": "Innerzone Orchestra",
+   "track_listed": "Bug In The Bassbin",
+   "label_hint": "Planet E",
+   "year_hint": "1996"
+  },
+  {
+   "rank": 11,
+   "phase": "II",
+   "deck": "loaf",
+   "bpm": "~126",
+   "artist_listed": "Maurizio",
+   "track_listed": "Domina",
+   "label_hint": "Maurizio",
+   "year_hint": "1994"
+  },
+  {
+   "rank": 12,
+   "phase": "II",
+   "deck": "spice",
+   "bpm": "~126",
+   "artist_listed": "DJ Gregory",
+   "track_listed": "Elle",
+   "label_hint": "Defected",
+   "year_hint": "2003"
+  },
+  {
+   "rank": 13,
+   "phase": "II",
+   "deck": "spice",
+   "bpm": "~124",
+   "artist_listed": "DJ Lag",
+   "track_listed": "Ice Drop",
+   "label_hint": "Goon Club Allstars",
+   "year_hint": "2016"
+  },
+  {
+   "rank": 14,
+   "phase": "II",
+   "deck": "loaf",
+   "bpm": "~128",
+   "artist_listed": "KiNK",
+   "track_listed": "Existence",
+   "label_hint": "Running Back",
+   "year_hint": "2014"
+  },
+  {
+   "rank": 15,
+   "phase": "III",
+   "deck": "spice",
+   "bpm": "~128",
+   "artist_listed": "Bam Bam",
+   "track_listed": "Where's Your Child",
+   "label_hint": "Westbrook",
+   "year_hint": "1988"
+  },
+  {
+   "rank": 16,
+   "phase": "III",
+   "deck": "loaf",
+   "bpm": "~129",
+   "artist_listed": "Armando",
+   "track_listed": "Land Of Confusion",
+   "label_hint": "Warehouse",
+   "year_hint": "1988"
+  },
+  {
+   "rank": 17,
+   "phase": "III",
+   "deck": "spice",
+   "bpm": "~127",
+   "artist_listed": "Phuture",
+   "track_listed": "Acid Tracks",
+   "label_hint": "Trax",
+   "year_hint": "1987"
+  },
+  {
+   "rank": 18,
+   "phase": "III",
+   "deck": "loaf",
+   "bpm": "~130",
+   "artist_listed": "Hardfloor",
+   "track_listed": "Acperience 1",
+   "label_hint": "Harthouse",
+   "year_hint": "1992"
+  },
+  {
+   "rank": 19,
+   "phase": "III",
+   "deck": "spice",
+   "bpm": "~130",
+   "artist_listed": "Tin Man",
+   "track_listed": "Nonneo",
+   "label_hint": "Acid Test",
+   "year_hint": "2011"
+  },
+  {
+   "rank": 20,
+   "phase": "III",
+   "deck": "loaf",
+   "bpm": "~131",
+   "artist_listed": "Legowelt",
+   "track_listed": "Disco Rout",
+   "label_hint": "Bunker",
+   "year_hint": "2002"
+  },
+  {
+   "rank": 21,
+   "phase": "III",
+   "deck": "spice",
+   "bpm": "~132",
+   "artist_listed": "Drexciya",
+   "track_listed": "Wavejumper",
+   "label_hint": "Underground Resistance",
+   "year_hint": "1995"
+  },
+  {
+   "rank": 22,
+   "phase": "III",
+   "deck": "both",
+   "bpm": "~132",
+   "artist_listed": "Paperclip People",
+   "track_listed": "Throw",
+   "label_hint": "Planet E",
+   "year_hint": "1994"
+  },
+  {
+   "rank": 23,
+   "phase": "IV",
+   "deck": "spice",
+   "bpm": "~130",
+   "artist_listed": "Cajmere",
+   "track_listed": "Percolator",
+   "label_hint": "Cajual",
+   "year_hint": "1992"
+  },
+  {
+   "rank": 24,
+   "phase": "IV",
+   "deck": "loaf",
+   "bpm": "~132",
+   "artist_listed": "Basic Channel",
+   "track_listed": "Phylyps Trak",
+   "label_hint": "Basic Channel",
+   "year_hint": "1993"
+  },
+  {
+   "rank": 25,
+   "phase": "IV",
+   "deck": "spice",
+   "bpm": "~134",
+   "artist_listed": "Alter Ego",
+   "track_listed": "Rocker",
+   "label_hint": "Klang Elektronik",
+   "year_hint": "2004"
+  },
+  {
+   "rank": 26,
+   "phase": "IV",
+   "deck": "loaf",
+   "bpm": "~133",
+   "artist_listed": "Roman Flügel",
+   "track_listed": "Geht's Noch?",
+   "label_hint": "Playhouse",
+   "year_hint": "2004"
+  },
+  {
+   "rank": 27,
+   "phase": "IV",
+   "deck": "spice",
+   "bpm": "~133",
+   "artist_listed": "Green Velvet",
+   "track_listed": "Flash",
+   "label_hint": "Relief",
+   "year_hint": "1995"
+  },
+  {
+   "rank": 28,
+   "phase": "IV",
+   "deck": "loaf",
+   "bpm": "~133",
+   "artist_listed": "Blawan",
+   "track_listed": "Getting Me Down",
+   "label_hint": "Not On Label",
+   "year_hint": "2011"
+  },
+  {
+   "rank": 29,
+   "phase": "IV",
+   "deck": "spice",
+   "bpm": "~137",
+   "artist_listed": "Helena Hauff",
+   "track_listed": "Spur",
+   "label_hint": "Werkdiscs",
+   "year_hint": "2015"
+  },
+  {
+   "rank": 30,
+   "phase": "IV",
+   "deck": "loaf",
+   "bpm": "~138",
+   "artist_listed": "Jeff Mills",
+   "track_listed": "The Bells",
+   "label_hint": "Purpose Maker",
+   "year_hint": "1996"
+  },
+  {
+   "rank": 31,
+   "phase": "IV",
+   "deck": "spice",
+   "bpm": "~140",
+   "artist_listed": "Overmono",
+   "track_listed": "Good Lies",
+   "label_hint": "XL Recordings",
+   "year_hint": "2023"
+  },
+  {
+   "rank": 32,
+   "phase": "IV",
+   "deck": "loaf",
+   "bpm": "~140",
+   "artist_listed": "Underworld",
+   "track_listed": "Rez",
+   "label_hint": "Junior Boy's Own",
+   "year_hint": "1993"
+  },
+  {
+   "rank": 33,
+   "phase": "IV",
+   "deck": "loaf",
+   "bpm": "~134",
+   "artist_listed": "Levon Vincent",
+   "track_listed": "Man Or Mistress",
+   "label_hint": "Novel Sound",
+   "year_hint": "2009"
+  },
+  {
+   "rank": 34,
+   "phase": "IV",
+   "deck": "spice",
+   "bpm": "~135",
+   "artist_listed": "DJ Rolando",
+   "track_listed": "Knights Of The Jaguar",
+   "label_hint": "Underground Resistance",
+   "year_hint": "1999"
+  },
+  {
+   "rank": 35,
+   "phase": "V",
+   "deck": "both",
+   "bpm": "~122",
+   "artist_listed": "Sueño Latino",
+   "track_listed": "Sueño Latino (Illusion First Mix)",
+   "label_hint": "Creative Label",
+   "year_hint": "1992"
+  },
+  {
+   "rank": 36,
+   "phase": "V",
+   "deck": "loaf",
+   "bpm": "~125",
+   "artist_listed": "Carl Craig",
+   "track_listed": "At Les",
+   "label_hint": "SSR",
+   "year_hint": "1997"
+  },
+  {
+   "rank": 37,
+   "phase": "V",
+   "deck": "spice",
+   "bpm": "~124",
+   "artist_listed": "DJ Koze",
+   "track_listed": "Pick Up",
+   "label_hint": "Pampa",
+   "year_hint": "2018"
+  },
+  {
+   "rank": 38,
+   "phase": "V",
+   "deck": "loaf",
+   "bpm": "~122",
+   "artist_listed": "Moodymann",
+   "track_listed": "I Can't Kick This Feeling When It Hits",
+   "label_hint": "Planet E",
+   "year_hint": "1997"
+  },
+  {
+   "rank": 39,
+   "phase": "V",
+   "deck": "spice",
+   "bpm": "~123",
+   "artist_listed": "Mr. Fingers",
+   "track_listed": "Can You Feel It",
+   "label_hint": "Trax",
+   "year_hint": "1986"
+  },
+  {
+   "rank": 40,
+   "phase": "V",
+   "deck": "both",
+   "bpm": "~126",
+   "artist_listed": "Floorplan",
+   "track_listed": "Never Grow Old",
+   "label_hint": "M-Plant",
+   "year_hint": "2010"
+  },
+  {
+   "rank": 101,
+   "phase": "BENCH",
+   "deck": "loaf",
+   "bpm": "~124",
+   "artist_listed": "Vainqueur",
+   "track_listed": "Lyot",
+   "label_hint": "Chain Reaction",
+   "year_hint": "1994"
+  },
+  {
+   "rank": 102,
+   "phase": "BENCH",
+   "deck": "spice",
+   "bpm": "~124",
+   "artist_listed": "A Guy Called Gerald",
+   "track_listed": "Voodoo Ray",
+   "label_hint": "Rham!",
+   "year_hint": "1988"
+  },
+  {
+   "rank": 103,
+   "phase": "BENCH",
+   "deck": "loaf",
+   "bpm": "~130",
+   "artist_listed": "Model 500",
+   "track_listed": "No UFO's",
+   "label_hint": "Metroplex",
+   "year_hint": "1985"
+  },
+  {
+   "rank": 104,
+   "phase": "BENCH",
+   "deck": "spice",
+   "bpm": "~130",
+   "artist_listed": "Armando",
+   "track_listed": "100% Of Disin' You",
+   "label_hint": "Warehouse",
+   "year_hint": "1988"
+  },
+  {
+   "rank": 105,
+   "phase": "BENCH",
+   "deck": "loaf",
+   "bpm": "~135",
+   "artist_listed": "Robert Hood",
+   "track_listed": "Museum",
+   "label_hint": "Axis",
+   "year_hint": "1994"
+  },
+  {
+   "rank": 106,
+   "phase": "BENCH",
+   "deck": "spice",
+   "bpm": "~123",
+   "artist_listed": "Fatima Yamaha",
+   "track_listed": "What's A Girl To Do",
+   "label_hint": "Magnetron",
+   "year_hint": "2004"
+  }
+ ]
+}
